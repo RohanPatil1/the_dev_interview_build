@@ -17,34 +17,37 @@ const RESOURCES = {
 "splash/style.css": "c7a4cbc4f9b4c51264c57bdffbb83f48",
 "safari-pinned-tab.svg": "e89975102df75fe39bf3dea260df71a4",
 "favicon.ico": "0806bf57a00de1e99aaf6fb80757cb09",
-"index.html": "6f64dc3907121e0b3f70c1c518253ee4",
-"/": "6f64dc3907121e0b3f70c1c518253ee4",
+"index.html": "40774a3c9021da2a031c77b9b6de5254",
+"/": "40774a3c9021da2a031c77b9b6de5254",
 "android-chrome-192x192.png": "ac95c0fa34df4965c5bad07babad6a8a",
 "apple-touch-icon.png": "7995031b019f754ce59893f159d5f23e",
-"main.dart.js": "8938a4f136c54657666069b81d12a75f",
-"flutter.js": "1cfe996e845b3a8a33f57607e8b09ee4",
+"main.dart.js": "3a35bf952cff63ece8c44ac23657e30a",
+"flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
 "android-chrome-512x512.png": "1d886144dbb209b1f4b857805a9063aa",
 "site.webmanifest": "16ce9348ed8042c80163269502e90f4f",
 "manifest.json": "49d5eefb1057fa9486db806acc1b814a",
 "mstile-150x150.png": "a04e26fd246761580b81b92d7ed058a0",
-"assets/AssetManifest.json": "5943c48a57b787583f61a3d51c51e2b5",
-"assets/NOTICES": "2f19b01ea222e6b94488d7857511126d",
+"assets/AssetManifest.json": "4848bcc3435b2e6c7364bcd1136e9a3c",
+"assets/NOTICES": "ce6a79789259d1d5e39514ff18c161db",
 "assets/FontManifest.json": "dce67f094af9ed3a5b57546be0f01b4c",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d8e9b6203ce2657c991f0b339ccb3a6d",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "48ce1bb8a42776caa951cb782d277730",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "99f29024aee8f4672a47cc3a81b9b84a",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "57d849d738900cfd590e9adc7e208250",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "9713978c68bcf226d5b984ada43cb8a0",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "c2281cf0a22c29917ebf755ba9d11e50",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "45e1d3666d6e25e67f39fc1ae39837ce",
+"assets/shaders/ink_sparkle.frag": "57f2f020e63be0dd85efafc7b7b25d80",
+"assets/AssetManifest.bin": "ced4f91d256ed6223ecc389d886fe5e7",
 "assets/fonts/Poppins-ExtraLight.ttf": "6f8391bbdaeaa540388796c858dfd8ca",
 "assets/fonts/Poppins-Light.ttf": "fcc40ae9a542d001971e53eaed948410",
 "assets/fonts/Poppins-Medium.ttf": "bf59c687bc6d3a70204d3944082c5cc0",
 "assets/fonts/Poppins-ExtraBold.ttf": "d45bdbc2d4a98c1ecb17821a1dbbd3a4",
 "assets/fonts/Poppins-Regular.ttf": "093ee89be9ede30383f39a899c485a82",
-"assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
+"assets/fonts/MaterialIcons-Regular.otf": "bfe509af075b8dc76cb95ea25d84ec07",
 "assets/fonts/Poppins-Bold.ttf": "08c20a487911694291bd8c5de41315ad",
 "assets/fonts/Poppins-Black.ttf": "14d00dab1f6802e787183ecab5cce85e",
 "assets/fonts/Poppins-Thin.ttf": "9ec263601ee3fcd71763941207c9ad0d",
 "assets/fonts/Poppins-SemiBold.ttf": "6f1520d107205975713ba09df778f93f",
 "assets/assets/database.png": "eefc92872a64dcf256cd9299fec374a2",
+"assets/assets/java.png": "7a7a2d16cd7c8ebe9dadb35d2147938d",
 "assets/assets/android.png": "54a1b34c313cc1b568ffc0fb813c29b4",
 "assets/assets/splash.png": "f8e0b7ba001b09d3eb8d6cfeebfa241e",
 "assets/assets/ml.png": "36503e613925728612886c62a5949569",
@@ -53,10 +56,10 @@ const RESOURCES = {
 "assets/assets/frontend.png": "c960c79635f0bd160c06d9e3e0b4bebc",
 "browserconfig.xml": "ee4194d2187c8df1a2601077fa52ff5e",
 "favicon-32x32.png": "ce5c9064e97fe3b59e7bb13aa547cf84",
-"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
+"canvaskit/canvaskit.js": "1338eccfe817956d34753284f2b1cdf6",
 "canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
 "canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
-"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e"
+"canvaskit/canvaskit.wasm": "78daff025a185d11c6a08349e295f9eb"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -98,6 +101,8 @@ self.addEventListener("activate", function(event) {
         await caches.delete(TEMP);
         // Save the manifest to make future upgrades efficient.
         await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
+        // Claim client to enable caching on first launch
+        self.clients.claim();
         return;
       }
       var oldManifest = await manifest.json();
@@ -123,6 +128,8 @@ self.addEventListener("activate", function(event) {
       await caches.delete(TEMP);
       // Save the manifest to make future upgrades efficient.
       await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
+      // Claim client to enable caching on first launch
+      self.clients.claim();
       return;
     } catch (err) {
       // On an unhandled exception the state of the cache cannot be guaranteed.
