@@ -792,7 +792,7 @@ return s},
 b4r(a,b){var s,r,q,p="destalpha",o="flood",n="comp",m="SourceGraphic"
 switch(b.a){case 5:case 9:s=A.rt()
 A.I(s.c,"setAttribute",["color-interpolation-filters","sRGB"])
-s.Ck(B.HT,p)
+s.Ck(B.HU,p)
 r=A.eh(a)
 s.ow(r==null?"":r,"1",o)
 s.wk(o,p,1,0,0,0,6,n)
@@ -1900,7 +1900,7 @@ case B.c1:return"center"
 case B.ds:return"justify"
 case B.kn:switch(b.a){case 1:return"end"
 case 0:return"left"}break
-case B.ar:switch(b.a){case 1:return""
+case B.as:switch(b.a){case 1:return""
 case 0:return"right"}break
 case null:return""}},
 b0B(a){var s,r,q,p,o,n=A.a([],t.Pv),m=a.length
@@ -6248,7 +6248,7 @@ r.lK(s)
 return r},
 aE4(a,b,c){var s
 A.eg(a,"error",t.K)
-$.aj!==B.av
+$.aj!==B.aw
 if(b==null)b=A.z0(a)
 s=new A.ak($.aj,c.i("ak<0>"))
 s.wW(a,b)
@@ -6364,7 +6364,7 @@ s.b=q
 $.Jo=r.b=s
 if(q==null)$.Jn=s}},
 fY(a){var s,r=null,q=$.aj
-if(B.av===q){A.pb(r,r,B.av,a)
+if(B.aw===q){A.pb(r,r,B.aw,a)
 return}s=!1
 if(s){A.pb(r,r,q,a)
 return}A.pb(r,r,q,q.GK(a))},
@@ -6410,10 +6410,10 @@ if(s!==r)s.fz(new A.aA6(b,c))
 else b.l1(c)},
 aFP(a,b,c){a.mW(b,c)},
 ct(a,b){var s=$.aj
-if(s===B.av)return A.aFb(a,b)
+if(s===B.aw)return A.aFb(a,b)
 return A.aFb(a,s.GK(b))},
 aLU(a,b){var s=$.aj
-if(s===B.av)return A.aLV(a,b)
+if(s===B.aw)return A.aLV(a,b)
 return A.aLV(a,s.T9(b,t.qe))},
 yo(a,b){A.b1R(new A.aB1(a,b))},
 aNH(a,b,c,d){var s,r=$.aj
@@ -6434,7 +6434,7 @@ $.aj=c
 s=r
 try{r=d.$2(e,f)
 return r}finally{$.aj=s}},
-pb(a,b,c,d){if(B.av!==c)d=c.GK(d)
+pb(a,b,c,d){if(B.aw!==c)d=c.GK(d)
 A.aNN(d)},
 arZ:function arZ(a){this.a=a},
 arY:function arY(a,b,c){this.a=a
@@ -8002,7 +8002,7 @@ j=1}else j=3
 q.a=k+n
 s+=j
 r=s
-p=!0}else if(o<127&&(B.Ix[o>>>4]&1<<(o&15))!==0){if(p&&65<=o&&90>=o){if(q==null)q=new A.bI("")
+p=!0}else if(o<127&&(B.Iy[o>>>4]&1<<(o&15))!==0){if(p&&65<=o&&90>=o){if(q==null)q=new A.bI("")
 if(r<s){q.a+=B.c.N(a,r,s)
 r=s}p=!1}++s}else if(o<=93&&(B.ns[o>>>4]&1<<(o&15))!==0)A.yj(a,s,"Invalid character")
 else{if((o&64512)===55296&&s+1<c){i=B.c.Z(a,s+1)
@@ -8032,7 +8032,7 @@ if(a==="https")return"https"
 if(a==="package")return"package"
 return a},
 aMV(a,b,c){if(a==null)return""
-return A.IA(a,b,c,B.I9,!1,!1)},
+return A.IA(a,b,c,B.Ia,!1,!1)},
 aMS(a,b,c,d,e,f){var s,r=e==="file",q=r||f
 if(a==null){if(d==null)return r?"/":""
 s=new A.a7(d,new A.azz(),A.a_(d).i("a7<1,k>")).b8(0,"/")}else if(d!=null)throw A.c(A.b7("Both path and pathSegments specified",null))
@@ -8498,7 +8498,7 @@ s.toString
 if(a===s)return a
 else return new A.VA(a)},
 aNU(a,b){var s=$.aj
-if(s===B.av)return a
+if(s===B.aw)return a
 return s.T9(a,b)},
 aH:function aH(){},
 JY:function JY(){},
@@ -8972,7 +8972,7 @@ if(r==null)r=3
 s=b==null?null:b.a
 r=A.a3(r,s==null?3:s,c)
 r.toString
-return B.Ia[A.pc(B.d.bv(r),0,8)]},
+return B.Ib[A.pc(B.d.bv(r),0,8)]},
 aLP(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1){return $.ae().U8(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1)},
 aEA(a,b,c,d,e,f,g,h,i,j,k,l){return $.ae().U3(a,b,c,d,e,f,g,h,i,j,k,l)},
 aXG(a){throw A.c(A.ch(null))},
@@ -15107,7 +15107,7 @@ Jk:function Jk(){},
 aLK(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,a0,a1){var s,r=null,q=b.a.a
 if(e==null)s=!0
 else s=e
-return new A.EK(b,a1,new A.apD(d,k,r,g,r,r,p,r,B.ar,r,r,a0,!1,r,!1,r,"\u2022",!1,!0,r,r,!0,r,i,j,!1,r,m,r,r,r,h,e,2,r,r,c,B.fg,r,r,r,r,r,r,o,!0,r,A.b4z(),r),q,s,B.i7,r,r)},
+return new A.EK(b,a1,new A.apD(d,k,r,g,r,r,p,r,B.as,r,r,a0,!1,r,!1,r,"\u2022",!1,!0,r,r,!0,r,i,j,!1,r,m,r,r,r,h,e,2,r,r,c,B.fg,r,r,r,r,r,r,o,!0,r,A.b4z(),r),q,s,B.i7,r,r)},
 aZg(a,b){return A.aHW(b)},
 EK:function EK(a,b,c,d,e,f,g,h){var _=this
 _.z=a
@@ -15391,7 +15391,7 @@ _.c=null},
 arU:function arU(){},
 aF5(c4,c5,c6,c7,c8,c9,d0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1=null,c2=A.a([],t.FO),c3=A.bM()
 c3=c3
-switch(c3){case B.aJ:case B.bZ:case B.aq:s=B.PV
+switch(c3){case B.aJ:case B.bZ:case B.ar:s=B.PV
 break
 case B.c_:case B.bc:case B.c0:s=B.PW
 break
@@ -15709,7 +15709,7 @@ F3:function F3(a,b){this.a=a
 this.b=b},
 a0e:function a0e(){},
 aZB(a){return A.aZA(a,null,null,B.Y5,B.Y1,B.Y7)},
-aZA(a,b,c,d,e,f){switch(a){case B.aq:b=B.Yb
+aZA(a,b,c,d,e,f){switch(a){case B.ar:b=B.Yb
 c=B.Y8
 break
 case B.aJ:case B.bZ:b=B.Y2
@@ -15808,10 +15808,10 @@ b3d(a){switch(a.a){case 0:return B.am
 case 1:return B.a7}},
 bE(a){switch(a.a){case 0:case 2:return B.am
 case 3:case 1:return B.a7}},
-aGI(a){switch(a.a){case 0:return B.au
+aGI(a){switch(a.a){case 0:return B.av
 case 1:return B.aL}},
 b3e(a){switch(a.a){case 0:return B.B
-case 1:return B.au
+case 1:return B.av
 case 2:return B.D
 case 3:return B.aL}},
 a2q(a){switch(a.a){case 0:case 3:return!0
@@ -17014,19 +17014,19 @@ p.bs(B.Sx,s)
 q.giC(q)
 p.bs(B.xZ,q.giC(q))
 q.ganu(q)
-p.R8=new A.d9(q.ganu(q),B.ao)
+p.R8=new A.d9(q.ganu(q),B.ap)
 p.d=!0
 q.gn(q)
-p.RG=new A.d9(q.gn(q),B.ao)
+p.RG=new A.d9(q.gn(q),B.ap)
 p.d=!0
 q.gamM()
-p.rx=new A.d9(q.gamM(),B.ao)
+p.rx=new A.d9(q.gamM(),B.ap)
 p.d=!0
 q.gakh()
-p.ry=new A.d9(q.gakh(),B.ao)
+p.ry=new A.d9(q.gakh(),B.ap)
 p.d=!0
 q.gamA(q)
-p.to=new A.d9(q.gamA(q),B.ao)
+p.to=new A.d9(q.gamA(q),B.ap)
 p.d=!0
 q.gbC()
 p.y2=q.gbC()
@@ -17303,7 +17303,7 @@ case null:return null}break
 case 1:switch(c){case B.c2:return!0
 case B.kE:return!1
 case null:return null}break}},
-aYl(a,b,c,d,e,f,g,h){var s=null,r=new A.vR(c,d,e,b,g,h,f,a,A.aq(t.O5),A.aY(4,A.ER(s,s,s,s,s,B.ar,B.r,s,1,B.a9),!1,t.mi),!0,0,s,s,A.aq(t.T))
+aYl(a,b,c,d,e,f,g,h){var s=null,r=new A.vR(c,d,e,b,g,h,f,a,A.aq(t.O5),A.aY(4,A.ER(s,s,s,s,s,B.as,B.r,s,1,B.a9),!1,t.mi),!0,0,s,s,A.aq(t.T))
 r.aI()
 r.K(0,s)
 return r},
@@ -19524,13 +19524,13 @@ o.push(n)
 n=null}}B.b.iS(o)
 s=t.IX
 return A.ad(new A.fB(o,new A.aA7(),s),!0,s.i("q.E"))},
-oq(){return new A.kI(A.p(t._S,t.HT),A.p(t.I7,t.O),new A.d9("",B.ao),new A.d9("",B.ao),new A.d9("",B.ao),new A.d9("",B.ao),new A.d9("",B.ao))},
+oq(){return new A.kI(A.p(t._S,t.HT),A.p(t.I7,t.O),new A.d9("",B.ap),new A.d9("",B.ap),new A.d9("",B.ap),new A.d9("",B.ap),new A.d9("",B.ap))},
 aAc(a,b,c,d){if(a.a.length===0)return c
-if(d!=b&&b!=null)switch(b.a){case 0:a=new A.d9("\u202b",B.ao).S(0,a).S(0,new A.d9("\u202c",B.ao))
+if(d!=b&&b!=null)switch(b.a){case 0:a=new A.d9("\u202b",B.ap).S(0,a).S(0,new A.d9("\u202c",B.ap))
 break
-case 1:a=new A.d9("\u202a",B.ao).S(0,a).S(0,new A.d9("\u202c",B.ao))
+case 1:a=new A.d9("\u202a",B.ap).S(0,a).S(0,new A.d9("\u202c",B.ap))
 break}if(c.a.length===0)return a
-return c.S(0,new A.d9("\n",B.ao)).S(0,a)},
+return c.S(0,new A.d9("\n",B.ap)).S(0,a)},
 mb:function mb(a){this.a=a},
 zz:function zz(a,b){this.a=a
 this.b=b},
@@ -22521,7 +22521,7 @@ _.as=!0
 _.ax=_.at=!1
 _.$ti=d},
 adQ(a,b){var s
-if(a.j(0,b))return new A.KX(B.IM)
+if(a.j(0,b))return new A.KX(B.IN)
 s=A.a([],t.fJ)
 a.kG(new A.adR(b,A.bc("debugDidFindAncestor"),A.aO(t.n),s))
 return new A.KX(s)},
@@ -23779,7 +23779,7 @@ for(s=t.jF,r=null;m!=null;){q=m.d
 q.toString
 p=a.ga1()
 p.toString
-n.push(q.akQ(p,b,c,B.aw,B.x,r))
+n.push(q.akQ(p,b,c,B.ax,B.x,r))
 if(r==null)r=a.ga1()
 a=m.c
 o=a.ab(s)
@@ -25100,24 +25100,24 @@ p=r.TQ(q,"monospace",p*0.85)
 q=a6.gcQ().gcv()
 r=a6.gcQ().gcv().r
 r.toString
-r=q.tS(r+10,B.ax)
+r=q.tS(r+10,B.ao)
 q=a6.gcQ().gcv()
 o=a6.gcQ().gcv().r
 o.toString
-o=q.tS(o+8,B.ax)
+o=q.tS(o+8,B.ao)
 q=a6.gcQ().gcv()
 n=a6.gcQ().gcv().r
 n.toString
-n=q.tS(n+6,B.ax)
+n=q.tS(n+6,B.ao)
 q=a6.gcQ().gcv()
 m=a6.gcQ().gcv().r
 m.toString
-m=q.tS(m+4,B.ax)
+m=q.tS(m+4,B.ao)
 q=a6.gcQ().gcv()
 l=a6.gcQ().gcv().r
 l.toString
-l=q.tS(l+2,B.ax)
-q=a6.gcQ().gcv().H9(B.ax)
+l=q.tS(l+2,B.ao)
+q=a6.gcQ().gcv().H9(B.ao)
 k=a6.gcQ().gcv().ajC(B.mV)
 j=a6.gcQ().gcv().H9(B.bT)
 i=a6.gcQ().gcv().ajA(B.yQ)
@@ -27797,7 +27797,7 @@ i.z6([p,o,n,m,l,k,j,a.w])
 case 1:return A.P(q,r)}})
 return A.Q($async$aFf,r)},
 aUM(){return B.Fw},
-aCu(a,b,c){var s=null,r=t.w,q=A.jz(B.k,B.y,A.aP(a,s,r).w.a.a<768?16:20,b),p=A.aEV(s,s,B.ea,B.kl,B.J,s,A.aJV(s,!0,s,A.jz(B.k,B.mW,A.aP(a,s,r).w.a.a<768?12:16,c),q,s,s),B.iH,B.EH,12,s,B.F9,s,s,s,s,s)
+aCu(a,b,c){var s=null,r=t.w,q=A.jz(B.k,B.ao,A.aP(a,s,r).w.a.a<768?16:20,b),p=A.aEV(s,s,B.ea,B.kl,B.J,s,A.aJV(s,!0,s,A.jz(B.k,B.mW,A.aP(a,s,r).w.a.a<768?12:16,c),q,s,s),B.iH,B.EH,12,s,B.F9,s,s,s,s,s)
 q=a.ab(t.Pu)
 q.toString
 q.f.KW(p)},
@@ -29079,7 +29079,7 @@ n=A.ad(new A.bs(p,l),!0,l.i("q.E"))
 new A.aF(n,new A.ad7(q),A.a_(n).i("aF<1>")).a9(0,m.gaeS())
 new A.aF(q,new A.ad8(m),A.a_(q).i("aF<1>")).a9(0,r)}},
 YM(a){var s,r,q,p,o,n,m,l,k=A.i1().b-1
-if(k===0)return B.IB
+if(k===0)return B.IC
 s=A.a([],t.Zb)
 r=t.t
 q=A.a([],r)
@@ -30689,7 +30689,7 @@ w0(){var s=this.as
 s===$&&A.b()
 return s},
 oi(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.ID
+if(a<0||b<0)return B.IE
 s=this.d
 s.toString
 r=this.lO(s)
@@ -30706,7 +30706,7 @@ l.push(new A.eR(n[0],n[1],n[2],n[3],B.no[m]))}return l},
 eG(a){var s,r=this.d
 r.toString
 r=this.lO(r).getGlyphPositionAtCoordinate(a.a,a.b)
-s=B.Ik[B.d.ag(r.affinity.value)]
+s=B.Il[B.d.ag(r.affinity.value)]
 return new A.ba(B.d.ag(r.pos),s)},
 kK(a){var s,r,q=this.d
 q.toString
@@ -36630,7 +36630,7 @@ if(r.y!==B.n_){r.y=B.n_
 r.Px()}}return r.r.a.ZT(a)},
 Px(){var s,r
 for(s=this.Q,r=0;r<s.length;++r)s[r].$1(this.y)},
-ZS(a){if(B.b.u(B.It,a))return this.y===B.cX
+ZS(a){if(B.b.u(B.Iu,a))return this.y===B.cX
 return!1},
 aqE(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this
 if(!f.w){f.r.a.m()
@@ -39232,7 +39232,7 @@ n=A.iW(r.h(s,"fontWeightIndex"))
 m=n!=null?A.aOw(n):"normal"
 l=A.aN5(r.h(s,"fontSize"))
 if(l==null)l=null
-q=new A.apU(new A.a9n(l,m,A.bd(r.h(s,"fontFamily")),B.J1[p],B.no[o]))
+q=new A.apU(new A.a9n(l,m,A.bd(r.h(s,"fontFamily")),B.J2[p],B.no[o]))
 break
 case"TextInput.clearClient":q=B.BH
 break
@@ -41596,7 +41596,7 @@ return p}catch(s){if(t.ns.b(A.ab(s))){if((this.c&1)!==0)throw A.c(A.b7("The erro
 throw A.c(A.b7("The error handler of Future.catchError must return a value of the future's type","onError"))}else throw s}}}
 A.ak.prototype={
 hX(a,b,c,d){var s,r,q=$.aj
-if(q===B.av){if(c!=null&&!t.Hg.b(c)&&!t.C_.b(c))throw A.c(A.dg(c,"onError",u.w))}else if(c!=null)c=A.aNF(c,q)
+if(q===B.aw){if(c!=null&&!t.Hg.b(c)&&!t.C_.b(c))throw A.c(A.dg(c,"onError",u.w))}else if(c!=null)c=A.aNF(c,q)
 s=new A.ak(q,d.i("ak<0>"))
 r=c==null?1:3
 this.rG(new A.l3(s,r,b,c,this.$ti.i("@<1>").aa(d).i("l3<1,2>")))
@@ -41606,7 +41606,7 @@ Rt(a,b,c){var s=new A.ak($.aj,c.i("ak<0>"))
 this.rG(new A.l3(s,3,a,b,this.$ti.i("@<1>").aa(c).i("l3<1,2>")))
 return s},
 l7(a,b){var s=this.$ti,r=$.aj,q=new A.ak(r,s)
-if(r!==B.av)a=A.aNF(a,r)
+if(r!==B.aw)a=A.aNF(a,r)
 r=b==null?2:6
 this.rG(new A.l3(q,r,b,a,s.i("@<1>").aa(s.c).i("l3<1,2>")))
 return q},
@@ -42190,18 +42190,18 @@ $0(){A.ns(this.a,this.b)},
 $S:0}
 A.axC.prototype={
 qR(a){var s,r,q
-try{if(B.av===$.aj){a.$0()
+try{if(B.aw===$.aj){a.$0()
 return}A.aNH(null,null,this,a)}catch(q){s=A.ab(q)
 r=A.aL(q)
 A.yo(s,r)}},
 aq3(a,b){var s,r,q
-try{if(B.av===$.aj){a.$1(b)
+try{if(B.aw===$.aj){a.$1(b)
 return}A.aNJ(null,null,this,a,b)}catch(q){s=A.ab(q)
 r=A.aL(q)
 A.yo(s,r)}},
 vJ(a,b){return this.aq3(a,b,t.z)},
 aq_(a,b,c){var s,r,q
-try{if(B.av===$.aj){a.$2(b,c)
+try{if(B.aw===$.aj){a.$2(b,c)
 return}A.aNI(null,null,this,a,b,c)}catch(q){s=A.ab(q)
 r=A.aL(q)
 A.yo(s,r)}},
@@ -42210,13 +42210,13 @@ aix(a,b,c,d){return new A.axD(this,a,c,d,b)},
 GK(a){return new A.axE(this,a)},
 T9(a,b){return new A.axF(this,a,b)},
 h(a,b){return null},
-apX(a){if($.aj===B.av)return a.$0()
+apX(a){if($.aj===B.aw)return a.$0()
 return A.aNH(null,null,this,a)},
 h1(a){return this.apX(a,t.z)},
-aq2(a,b){if($.aj===B.av)return a.$1(b)
+aq2(a,b){if($.aj===B.aw)return a.$1(b)
 return A.aNJ(null,null,this,a,b)},
 JH(a,b){return this.aq2(a,b,t.z,t.z)},
-apZ(a,b,c){if($.aj===B.av)return a.$2(b,c)
+apZ(a,b,c){if($.aj===B.aw)return a.$2(b,c)
 return A.aNI(null,null,this,a,b,c)},
 XW(a,b,c){return this.apZ(a,b,c,t.z,t.z,t.z)},
 apr(a){return a},
@@ -45017,7 +45017,7 @@ $iwV:1,
 gdt(){return this.a},
 geC(a){return this.e}}
 A.azz.prototype={
-$1(a){return A.jU(B.Io,a,B.F,!1)},
+$1(a){return A.jU(B.Ip,a,B.F,!1)},
 $S:23}
 A.azB.prototype={
 $2(a,b){var s=this.b,r=this.a
@@ -47425,7 +47425,7 @@ j=q[4]
 i=q[5]
 h=q[6]
 g=q[7]
-for(f=n,r=0;r<64;++r,g=h,h=i,i=j,j=d,k=l,l=m,m=f,f=c){e=(g+(((j>>>6|j<<26)^(j>>>11|j<<21)^(j>>>25|j<<7))>>>0)>>>0)+(((j&i^~j&h)>>>0)+(B.HS[r]+s[r]>>>0)>>>0)>>>0
+for(f=n,r=0;r<64;++r,g=h,h=i,i=j,j=d,k=l,l=m,m=f,f=c){e=(g+(((j>>>6|j<<26)^(j>>>11|j<<21)^(j>>>25|j<<7))>>>0)>>>0)+(((j&i^~j&h)>>>0)+(B.HT[r]+s[r]>>>0)>>>0)>>>0
 d=k+e>>>0
 c=e+((((f>>>2|f<<30)^(f>>>13|f<<19)^(f>>>22|f<<10))>>>0)+((f&m^f&l^m&l)>>>0)>>>0)>>>0}q[0]=f+n>>>0
 q[1]=m+q[1]>>>0
@@ -47444,7 +47444,7 @@ s=this.d=s.Ui(this.e)}return s},
 v3(a,b){return this.anN(a,b)},
 anN(a,b){var s=0,r=A.R(t.H),q=this
 var $async$v3=A.S(function(c,d){if(c===1)return A.O(d,r)
-while(true)switch(s){case 0:if(B.b.u(B.In,a))A.N(A.dg(a,"name","Event name is reserved and cannot be used"))
+while(true)switch(s){case 0:if(B.b.u(B.Io,a))A.N(A.dg(a,"name","Event name is reserved and cannot be used"))
 if(B.c.bm(a,"firebase_"))A.N(A.dg(a,"name",'Prefix "firebase_" is reserved and cannot be used.'))
 b.a9(0,new A.aaC())
 s=2
@@ -49048,7 +49048,7 @@ r=A.o2(B.Qk,B.i,r==null?1:r)
 r.toString
 p=o.a4(0,p.gn(p))
 if(p==null)p=1
-p=A.aK4(p,B.Iu,new A.dd(B.zW,B.zZ))
+p=A.aK4(p,B.Iv,new A.dd(B.zW,B.zZ))
 return new A.mn(A.lT(r.a,r.b,0),q,!0,q,new A.Da(q,p,s,1,B.To,q),q)}}
 A.IZ.prototype={
 m(){var s=this,r=s.bT$
@@ -49836,7 +49836,7 @@ $0(){var s=self.window.navigator.platform,r=s==null?null:s.toLowerCase()
 if(r==null)r=""
 if(B.c.bm(r,"mac"))return B.bc
 if(B.c.bm(r,"win"))return B.c0
-if(B.c.u(r,"iphone")||B.c.u(r,"ipad")||B.c.u(r,"ipod"))return B.aq
+if(B.c.u(r,"iphone")||B.c.u(r,"ipad")||B.c.u(r,"ipod"))return B.ar
 if(B.c.u(r,"android"))return B.aJ
 if(self.window.matchMedia("only screen and (pointer: fine)").matches)return B.c_
 return B.aJ},
@@ -51964,7 +51964,7 @@ A.rX.prototype={
 I(){return"_CornerId."+this.b}}
 A.mA.prototype={}
 A.vh.prototype={
-l_(){var s,r,q=this,p=A.b1G(B.Il,new A.afK(q,q.b.gaW().a8(0,q.a.gaW()))),o=q.a
+l_(){var s,r,q=this,p=A.b1G(B.Im,new A.afK(q,q.b.gaW().a8(0,q.a.gaW()))),o=q.a
 o.toString
 s=p.a
 o=q.oW(o,s)
@@ -52227,7 +52227,7 @@ r=(o?B.C:p).a
 r=A.ah(0,r>>>16&255,r>>>8&255,r&255)
 if(o)p=B.C
 o=t.IC.i("eV<aC.T>")
-return A.aHX(!0,q.eQ,new A.aR(t.m.a(s),new A.eV(new A.h2(B.aw),new A.dD(r,p),o),o.i("aR<aC.T>")),!0,q.fT,q.d4)}else return A.agl(!0,q.eQ,null,!0,null,q.fT,q.d4)},
+return A.aHX(!0,q.eQ,new A.aR(t.m.a(s),new A.eV(new A.h2(B.ax),new A.dD(r,p),o),o.i("aR<aC.T>")),!0,q.fT,q.d4)}else return A.agl(!0,q.eQ,null,!0,null,q.fT,q.d4)},
 gze(){return this.fT}}
 A.agn.prototype={
 $1(a){var s,r,q,p=A.Z(a).x1
@@ -52285,7 +52285,7 @@ ga7p(){var s=this,r=s.mi$
 if(r.u(0,B.S))return s.a.ch
 if(r.u(0,B.aH))return s.a.ay
 if(r.u(0,B.aU))return s.a.at
-if(r.u(0,B.ap))return s.a.ax
+if(r.u(0,B.aq))return s.a.ax
 return s.a.as},
 H(a5){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null,a1=a.a.r,a2=a.mi$,a3=A.c0(a1.b,a2,t.MH),a4=A.c0(a.a.db,a2,t.Zi)
 a.a.toString
@@ -52304,7 +52304,7 @@ A.Z(a5)
 l=a.a
 k=l.go
 l=l.fx
-j=a.BS(B.ap)
+j=a.BS(B.aq)
 a.a.toString
 i=a.Yc(B.aH,a0)
 h=a.a
@@ -52855,7 +52855,7 @@ b2=A.qi(d6,a9,d5)}else b2=o.d
 d6=d4.gk6()&&d4.as?a1:a0
 o=d4.a
 o=o.dx
-n=d4.BS(B.ap)
+n=d4.BS(B.aq)
 l=d4.a
 k=l.dy
 l=l.ay
@@ -52870,7 +52870,7 @@ b7===$&&A.b()
 b7=A.a([b6,b7],t.Eo)
 b6=d4.a
 b8=b6.cx
-b6=A.ig(b6.e,d5,1,B.UE,!1,b1,B.ar,d5,B.a9)
+b6=A.ig(b6.e,d5,1,B.UE,!1,b1,B.as,d5,B.a9)
 b9=A.aI_(b2,B.bS,B.a_)
 c0=A.aI_(d4.a5c(d7,s,r,p),B.bS,B.a_)
 c1=a6.a2(c)
@@ -52989,7 +52989,7 @@ sbC(a){if(this.b5===a)return
 this.b5=a
 this.W()},
 gey(a){var s,r=A.a([],t.Ik),q=this.cu$
-if(q.h(0,B.as)!=null){s=q.h(0,B.as)
+if(q.h(0,B.at)!=null){s=q.h(0,B.at)
 s.toString
 r.push(s)}if(q.h(0,B.bf)!=null){s=q.h(0,B.bf)
 s.toString
@@ -53015,7 +53015,7 @@ q=n.aO.r.gca()
 p=r.b
 o=n.aO.r
 return new A.K(m+q,p+(o.gb6(o)+o.gba(o)))},
-acg(a,b,c){var s,r,q,p=Math.max(0,b),o=A.h0(p,p),n=this.cu$.h(0,B.as)
+acg(a,b,c){var s,r,q,p=Math.max(0,b),o=A.h0(p,p),n=this.cu$.h(0,B.at)
 n.toString
 s=c.$2(n,o)
 n=this.aO
@@ -53040,8 +53040,8 @@ p.toString
 o=A.b1j(q,p,r.e,b,l.b5)}else o=!1
 if(o){r=s.h(0,B.bN)
 if(r==null)r=s.h(0,B.bf)
-n=r==null?s.h(0,B.as):r}else{r=s.h(0,B.bf)
-n=r==null?s.h(0,B.as):r}if(n!=null){m=n.k3.ja(B.i)
+n=r==null?s.h(0,B.at):r}else{r=s.h(0,B.bf)
+n=r==null?s.h(0,B.at):r}if(n!=null){m=n.k3.ja(B.i)
 return a.tw(new A.ax5(m,n),b,A.afS(m))}return!1},
 cr(a){return this.N4(a,A.JA()).a},
 N4(a,b){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=new A.aD(0,a.b,0,a.d),f=h.aO.f,e=new A.j(0,new A.j(f.a,f.b).a7(0,4).b/2)
@@ -53087,7 +53087,7 @@ j.au=new A.y(o,0,o+(f-o+s),0+(g.b+(n.gb6(n)+n.gba(n))))}else j.au=B.v
 break
 case 1:s=h.d
 o=j.cu$
-n=o.h(0,B.as)
+n=o.h(0,B.at)
 if(n==null)n=B.o
 else{n=n.k3
 n.toString}l=s.a
@@ -53124,7 +53124,7 @@ l=n.h(0,B.bf)
 if(l==null)l=B.o
 else{l=l.k3
 l.toString}p=p.S(0,new A.j(0,(h.e.b-(o+s)-l.b)/2))
-l=n.h(0,B.as).e
+l=n.h(0,B.at).e
 l.toString
 s=t.q
 s.a(l)
@@ -53170,7 +53170,7 @@ f.toString
 s.saw(0,f)
 s.sbJ(0,B.a2)
 r=h.cu$
-s.sfc(2*(r.h(0,B.as)!=null?r.h(0,B.as).k3.b/24:1))
+s.sfc(2*(r.h(0,B.at)!=null?r.h(0,B.at).k3.b/24:1))
 r=h.al.a
 if(r.gaZ(r)===B.aa)q=1
 else{r=h.al
@@ -53204,7 +53204,7 @@ s===$&&A.b()
 if(s)a.mB(A.PT(q),l,b)
 else{s=q!==255
 if(s){p=a.gbN(a)
-o=A.aFB(m.cu$.h(0,B.as)).c2(b).cF(20)
+o=A.aFB(m.cu$.h(0,B.at)).c2(b).cF(20)
 n=$.ae().bc()
 n.saw(0,r)
 p.fF(o,n)}l.$2(a,b)
@@ -53251,15 +53251,15 @@ case 1:s=this.b
 return new A.j(b,(s.c-a.b+s.r.b)/2)}},
 $S:233}
 A.ax3.prototype={
-$2(a,b){var s,r,q,p,o,n,m=this.a,l=m.cu$,k=l.h(0,B.as)
+$2(a,b){var s,r,q,p,o,n,m=this.a,l=m.cu$,k=l.h(0,B.at)
 k.toString
-s=l.h(0,B.as).e
+s=l.h(0,B.at).e
 s.toString
 r=t.q
 a.cM(k,r.a(s).a.S(0,b))
 k=m.al
 k=k.gaZ(k)
-if(k!==B.w){if(m.aO.w){q=A.aFB(l.h(0,B.as)).c2(b)
+if(k!==B.w){if(m.aO.w){q=A.aFB(l.h(0,B.at)).c2(b)
 p=$.ae().bc()
 k=$.aR_()
 s=m.al
@@ -53268,10 +53268,10 @@ s.toString
 p.saw(0,s)
 p.szg(B.zU)
 o=m.aT.i0(q)
-a.gbN(a).cA(o,p)}k=l.h(0,B.as).k3.b
-s=l.h(0,B.as).e
+a.gbN(a).cA(o,p)}k=l.h(0,B.at).k3.b
+s=l.h(0,B.at).e
 s.toString
-n=r.a(s).a.S(0,new A.j(l.h(0,B.as).k3.b*0.125,l.h(0,B.as).k3.b*0.125))
+n=r.a(s).a.S(0,new A.j(l.h(0,B.at).k3.b*0.125,l.h(0,B.at).k3.b*0.125))
 m.adM(a.gbN(a),b.S(0,n),k*0.75)}},
 $S:7}
 A.ax4.prototype={
@@ -54366,7 +54366,7 @@ if(s==null){s=q.a
 s=s==null?p:A.ah(31,s.gn(s)>>>16&255,s.gn(s)>>>8&255,s.gn(s)&255)}return s}if(a.u(0,B.aU)){s=q.c
 r=q.a
 s=r==null?p:A.ah(20,r.gn(r)>>>16&255,r.gn(r)>>>8&255,r.gn(r)&255)
-return s}if(a.u(0,B.ap)){s=q.b
+return s}if(a.u(0,B.aq)){s=q.b
 r=q.a
 s=r==null?p:A.ah(31,r.gn(r)>>>16&255,r.gn(r)>>>8&255,r.gn(r)&255)
 return s}}if(a.u(0,B.aH)){s=q.d
@@ -54374,7 +54374,7 @@ if(s==null){s=q.a
 s=s==null?p:A.ah(31,s.gn(s)>>>16&255,s.gn(s)>>>8&255,s.gn(s)&255)}return s}if(a.u(0,B.aU)){s=q.c
 r=q.a
 s=r==null?p:A.ah(20,r.gn(r)>>>16&255,r.gn(r)>>>8&255,r.gn(r)&255)
-return s}if(a.u(0,B.ap)){s=q.b
+return s}if(a.u(0,B.aq)){s=q.b
 r=q.a
 s=r==null?p:A.ah(20,r.gn(r)>>>16&255,r.gn(r)>>>8&255,r.gn(r)&255)
 return s}return p},
@@ -54582,7 +54582,7 @@ o=m.ch
 o===$&&A.b()
 o=o.x
 o===$&&A.b()
-o=A.o2(m.y,s,B.aw.a4(0,o))
+o=A.o2(m.y,s,B.ax.a4(0,o))
 o.toString
 s=m.ay
 s===$&&A.b()
@@ -54868,7 +54868,7 @@ break
 default:s=null}this.qZ(B.zm,s)},
 alL(a){var s,r=this
 r.z=a
-r.ge2().fb(0,B.ap,a)
+r.ge2().fb(0,B.aq,a)
 r.K0()
 s=r.a.fy
 if(s!=null)s.$1(a)},
@@ -55365,7 +55365,7 @@ r.push(s)}if(q.h(0,B.a1)!=null){s=q.h(0,B.a1)
 s.toString
 r.push(s)}if(q.h(0,B.aK)!=null){s=q.h(0,B.aK)
 s.toString
-r.push(s)}if(q.h(0,B.at)!=null){s=q.h(0,B.at)
+r.push(s)}if(q.h(0,B.au)!=null){s=q.h(0,B.au)
 s.toString
 r.push(s)}if(q.h(0,B.ah)!=null){s=q.h(0,B.ah)
 s.toString
@@ -55409,7 +55409,7 @@ a.$1(s)}if(r.h(0,B.aD)!=null){s=r.h(0,B.aD)
 s.toString
 a.$1(s)}if(r.h(0,B.c4)!=null){s=r.h(0,B.c4)
 s.toString
-a.$1(s)}if(r.h(0,B.at)!=null){s=r.h(0,B.at)
+a.$1(s)}if(r.h(0,B.au)!=null){s=r.h(0,B.au)
 s.toString
 a.$1(s)}if(r.h(0,B.ah)!=null){r=r.h(0,B.ah)
 r.toString
@@ -55504,8 +55504,8 @@ j.toString}a=Math.max(0,f0.b-(n.a+k.a.a+j.a+b+e8.D.a.c))
 s.l(0,o.h(0,B.a1),e8.jU(o.h(0,B.a1),p.tR(a*e)))
 s.l(0,o.h(0,B.aK),e8.jU(o.h(0,B.aK),p.Hc(c,c)))
 s.l(0,o.h(0,B.ah),e8.jU(o.h(0,B.ah),l))
-e=o.h(0,B.at)
-j=o.h(0,B.at)
+e=o.h(0,B.au)
+j=o.h(0,B.au)
 k=o.h(0,B.ah)
 if(k==null)f0=B.o
 else{f0=k.k3
@@ -55517,11 +55517,11 @@ a1=Math.max(a0-f0,0)}else a1=a0
 if(o.h(0,B.ah)==null)a2=0
 else{f0=s.h(0,o.h(0,B.ah))
 f0.toString
-a2=f0+8}f0=o.h(0,B.at)
+a2=f0+8}f0=o.h(0,B.au)
 if(f0==null)f0=e9
 else{f0=f0.k3
-f0.toString}a3=f0!=null&&o.h(0,B.at).k3.b>0
-a4=!a3?0:o.h(0,B.at).k3.b+8
+f0.toString}a3=f0!=null&&o.h(0,B.au).k3.b>0
+a4=!a3?0:o.h(0,B.au).k3.b+8
 a5=Math.max(a2,a4)
 f0=e8.D.y
 a6=new A.j(f0.a,f0.b).a7(0,4)
@@ -55591,7 +55591,7 @@ if(o.h(0,B.ah)!=null){f0=s.h(0,o.h(0,B.ah))
 f0.toString
 d0=c1+8+f0
 d1=o.h(0,B.ah).k3.b+8}else{d0=0
-d1=0}if(a3){f0=s.h(0,o.h(0,B.at))
+d1=0}if(a3){f0=s.h(0,o.h(0,B.au))
 f0.toString
 d2=c1+8+f0
 d3=a4}else{d2=0
@@ -55670,18 +55670,18 @@ q.toString
 e5-=d9.$2(q,e5-o.h(0,B.aE).k3.a)}else e5=e3
 if(o.h(0,B.aD)!=null){q=o.h(0,B.aD)
 q.toString
-e1.$2(q,e5-o.h(0,B.aD).k3.a)}break}if(o.h(0,B.at)!=null||o.h(0,B.ah)!=null){d8.b=d5
+e1.$2(q,e5-o.h(0,B.aD).k3.a)}break}if(o.h(0,B.au)!=null||o.h(0,B.ah)!=null){d8.b=d5
 e0.b=d4
-switch(e8.O.a){case 0:if(o.h(0,B.at)!=null){q=o.h(0,B.at)
+switch(e8.O.a){case 0:if(o.h(0,B.au)!=null){q=o.h(0,B.au)
 q.toString
-n=o.h(0,B.at).k3.a
+n=o.h(0,B.au).k3.a
 k=o.h(0,B.ab)
 if(k==null)k=B.o
 else{k=k.k3
 k.toString}e1.$2(q,e3-n-k.a)}if(o.h(0,B.ah)!=null){q=o.h(0,B.ah)
 q.toString
 e1.$2(q,e2)}break
-case 1:if(o.h(0,B.at)!=null){q=o.h(0,B.at)
+case 1:if(o.h(0,B.au)!=null){q=o.h(0,B.au)
 q.toString
 n=o.h(0,B.ab)
 if(n==null)n=B.o
@@ -55779,7 +55779,7 @@ f.$1(e.h(0,B.ac))
 f.$1(e.h(0,B.aE))
 f.$1(e.h(0,B.aK))
 f.$1(e.h(0,B.aB))
-f.$1(e.h(0,B.at))
+f.$1(e.h(0,B.au))
 f.$1(e.h(0,B.ah))},
 iB(a){return!0},
 cE(a,b){var s,r,q,p,o,n,m
@@ -55825,7 +55825,7 @@ A.axg.prototype={
 $2(a,b){return this.c.bA(a,b)},
 $S:8}
 A.VI.prototype={
-gCw(){return B.Is},
+gCw(){return B.It},
 GW(a){var s=this
 switch(a.a){case 0:return s.c.z
 case 1:return s.c.Q
@@ -55958,7 +55958,7 @@ this.gaF()}return!1},
 O6(a,b){return A.c0(b.guF(),this.geB(),t.em).b1(A.c0(this.gaF().w,this.geB(),t.p8))},
 geB(){var s,r=this,q=A.aO(t.ui)
 r.gaF()
-if(r.a.r)q.C(0,B.ap)
+if(r.a.r)q.C(0,B.aq)
 if(r.a.w){r.gaF()
 s=!0}else s=!1
 if(s)q.C(0,B.aU)
@@ -56215,7 +56215,7 @@ A.avd.prototype={
 $1(a){var s=this,r=null
 if(a.u(0,B.S))return A.eS(r,r,A.Z(s.a.ok).ch,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)
 if(a.u(0,B.jN))return A.eS(r,r,A.Z(s.a.ok).ax.at,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)
-if(a.u(0,B.ap))return A.eS(r,r,A.Z(s.a.ok).ax.b,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)
+if(a.u(0,B.aq))return A.eS(r,r,A.Z(s.a.ok).ax.b,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)
 return A.eS(r,r,A.Z(s.a.ok).db,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)},
 $S:53}
 A.ave.prototype={
@@ -56234,20 +56234,20 @@ case 1:return B.DQ}switch(A.Z(this.a.ok).ax.a.a){case 0:return B.m7
 case 1:return B.Cg}},
 $S:42}
 A.avg.prototype={
-$1(a){if(a.u(0,B.S)&&!a.u(0,B.ap))return A.Z(this.a.ok).ch
-if(a.u(0,B.ap))return A.Z(this.a.ok).ax.b
+$1(a){if(a.u(0,B.S)&&!a.u(0,B.aq))return A.Z(this.a.ok).ch
+if(a.u(0,B.aq))return A.Z(this.a.ok).ax.b
 switch(A.Z(this.a.ok).ax.a.a){case 0:return B.G
 case 1:return B.f_}},
 $S:42}
 A.avi.prototype={
-$1(a){if(a.u(0,B.S)&&!a.u(0,B.ap))return A.Z(this.a.ok).ch
-if(a.u(0,B.ap))return A.Z(this.a.ok).ax.b
+$1(a){if(a.u(0,B.S)&&!a.u(0,B.aq))return A.Z(this.a.ok).ch
+if(a.u(0,B.aq))return A.Z(this.a.ok).ax.b
 switch(A.Z(this.a.ok).ax.a.a){case 0:return B.G
 case 1:return B.f_}},
 $S:42}
 A.avj.prototype={
-$1(a){if(a.u(0,B.S)&&!a.u(0,B.ap))return A.Z(this.a.ok).ch
-if(a.u(0,B.ap))return A.Z(this.a.ok).ax.b
+$1(a){if(a.u(0,B.S)&&!a.u(0,B.aq))return A.Z(this.a.ok).ch
+if(a.u(0,B.aq))return A.Z(this.a.ok).ax.b
 switch(A.Z(this.a.ok).ax.a.a){case 0:return B.G
 case 1:return B.f_}},
 $S:42}
@@ -56660,7 +56660,7 @@ r.e=s.a.a
 r.f=s.d},
 $S:0}
 A.OZ.prototype={
-H(a){return new A.Da(new A.tQ(B.Cc,null,null),A.aK4(1,B.IT,new A.dd(B.zV,B.p)),this.c.S(0,new A.j(0,40.95)),1.25,B.Tq,null)}}
+H(a){return new A.Da(new A.tQ(B.Cc,null,null),A.aK4(1,B.IU,new A.dd(B.zV,B.p)),this.c.S(0,new A.j(0,40.95)),1.25,B.Tq,null)}}
 A.lS.prototype={
 I(){return"MaterialType."+this.b}}
 A.BW.prototype={
@@ -56961,7 +56961,7 @@ return this.a}}
 A.Y9.prototype={
 a2(a){var s
 if(a.u(0,B.aU)){s=this.a
-return A.ah(10,s.gn(s)>>>16&255,s.gn(s)>>>8&255,s.gn(s)&255)}if(a.u(0,B.ap)||a.u(0,B.aH)){s=this.a
+return A.ah(10,s.gn(s)>>>16&255,s.gn(s)>>>8&255,s.gn(s)&255)}if(a.u(0,B.aq)||a.u(0,B.aH)){s=this.a
 return A.ah(31,s.gn(s)>>>16&255,s.gn(s)>>>8&255,s.gn(s)&255)}return null}}
 A.Y8.prototype={
 a2(a){if(a.u(0,B.S))return this.b
@@ -56992,7 +56992,7 @@ return A.bT(s,this.ej.$1(a),!1,s,s,!1,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,
 Te(a,b,c,d){var s,r
 A.Z(a)
 s=A.Z(a).r
-r=B.fR.h(0,this.a.CW.a?B.aq:s)
+r=B.fR.h(0,this.a.CW.a?B.ar:s)
 if(r==null)r=B.lG
 return r.Td(this,a,b,c,d,this.$ti.c)}}
 A.GT.prototype={}
@@ -57889,7 +57889,7 @@ s.av$=null
 s.aM()}}
 A.RR.prototype={
 H(a){var s=this,r=null
-if(A.Z(a).r===B.aq)return new A.tZ(8,B.cI,s.c,s.d,s.e===!0,B.RL,3,r,B.fe,B.Eu,B.aR,A.JE(),r,r,r)
+if(A.Z(a).r===B.ar)return new A.tZ(8,B.cI,s.c,s.d,s.e===!0,B.RL,3,r,B.fe,B.Eu,B.aR,A.JE(),r,r,r)
 return new A.xO(r,r,s.c,s.d,s.e,r,r,r,B.bi,B.dM,B.x,A.JE(),r,r,r)}}
 A.xO.prototype={
 ai(){return new A.Xu(new A.br(null,t.A),null,null,B.j)}}
@@ -58226,7 +58226,7 @@ b0=a.a.ax
 b0.toString
 A.co(B.DW,b0,B.hA)
 a.a.toString
-k=A.ER(a0,a0,1,a0,A.cE(a0,a0,a0,A.Z(b3).p3.as,""),B.ar,B.r,a0,1,B.a9)
+k=A.ER(a0,a0,1,a0,A.cE(a0,a0,a0,A.Z(b3).p3.as,""),B.as,B.r,a0,1,B.a9)
 k.Wt()
 b0=k.gbL(k)
 j=k.a
@@ -58374,7 +58374,7 @@ q.iZ(s,b,c).Yl(new A.ap6(r))}else{r.f=q
 r.a.sn(0,a);--r.f
 r.aQ()}},
 fM(a,b,c){this.a5E(a,b,c==null?this.b:c)},
-aij(a){return this.fM(a,B.aw,null)},
+aij(a){return this.fM(a,B.ax,null)},
 m(){var s=this.a
 if(s!=null)s.m()
 this.a=null
@@ -58441,7 +58441,7 @@ o.jl.$3(r,q,p)}}
 A.a_E.prototype={
 aJ(a){var s=this,r=null,q=s.C1(a)
 q.toString
-q=new A.a_F(s.ax,s.e,s.f,s.r,s.w,q,s.y,r,B.m,A.aq(t.O5),A.aY(4,A.ER(r,r,r,r,r,B.ar,B.r,r,1,B.a9),!1,t.mi),!0,0,r,r,A.aq(t.T))
+q=new A.a_F(s.ax,s.e,s.f,s.r,s.w,q,s.y,r,B.m,A.aq(t.O5),A.aY(4,A.ER(r,r,r,r,r,B.as,B.r,r,1,B.a9),!1,t.mi),!0,0,r,r,A.aq(t.T))
 q.aI()
 q.K(0,r)
 return q},
@@ -58689,7 +58689,7 @@ abm(){var s,r=this,q=r.e.d
 if(q!==r.r){r.r=q
 r.a.toString
 s=r.yp(q)
-r.d.fM(s,B.aw,B.bi)}r.ah(new A.ayG())},
+r.d.fM(s,B.ax,B.bi)}r.ah(new A.ayG())},
 afx(a,b,c){var s
 this.w=c
 s=this.f
@@ -58813,7 +58813,7 @@ k(a){return"{disabled: "+A.i(this.b)+", otherwise: "+A.i(this.a)+"}"}}
 A.a_Q.prototype={
 a2(a){var s
 if(a.u(0,B.aU)){s=this.a
-return A.ah(10,s.gn(s)>>>16&255,s.gn(s)>>>8&255,s.gn(s)&255)}if(a.u(0,B.ap)||a.u(0,B.aH)){s=this.a
+return A.ah(10,s.gn(s)>>>16&255,s.gn(s)>>>8&255,s.gn(s)&255)}if(a.u(0,B.aq)||a.u(0,B.aH)){s=this.a
 return A.ah(31,s.gn(s)>>>16&255,s.gn(s)>>>8&255,s.gn(s)&255)}return null},
 k(a){var s=this.a
 return"{hovered: "+A.ah(10,s.gn(s)>>>16&255,s.gn(s)>>>8&255,s.gn(s)&255).k(0)+", focused,pressed: "+A.ah(31,s.gn(s)>>>16&255,s.gn(s)>>>8&255,s.gn(s)&255).k(0)+", otherwise: null}"}}
@@ -59111,7 +59111,7 @@ c7.a.toString
 d1=A.aO(t.ui)
 c7.gn1()
 if(c7.f)d1.C(0,B.aU)
-if(p.gce())d1.C(0,B.ap)
+if(p.gce())d1.C(0,B.aq)
 s=c7.a.f
 if(s.at!=null||c7.gabD())d1.C(0,B.jN)
 c6=A.c0(B.a_M,d1,t.Pb)
@@ -60805,7 +60805,7 @@ s=q.r
 l.r=s==null?o:s
 s=q.w
 l.w=s==null?p:s
-l.x=B.ar
+l.x=B.as
 l.cx=B.x
 l.ch=B.Ey
 l.CW=B.aR
@@ -66034,10 +66034,10 @@ if(r.gaA(r) instanceof A.w){s=r.gaA(r)
 s.toString
 t.I9.a(s)
 s.er(a,b==null?r:b,c,d)}},
-rq(){return this.er(B.aw,null,B.x,null)},
-mO(a){return this.er(B.aw,null,B.x,a)},
+rq(){return this.er(B.ax,null,B.x,null)},
+mO(a){return this.er(B.ax,null,B.x,a)},
 oB(a,b,c){return this.er(a,null,b,c)},
-mP(a,b){return this.er(B.aw,a,B.x,b)},
+mP(a,b){return this.er(B.ax,a,B.x,b)},
 $iap:1}
 A.ajI.prototype={
 $0(){var s=A.a([],t.F),r=this.a
@@ -66608,7 +66608,7 @@ r=A.cE(h,h,h,s.d.a,"\u2026")
 q=s.r
 q.toString
 o=s.w
-l=A.ER(h,s.y,h,h,r,B.ar,q,h,o,B.a9)
+l=A.ER(h,s.y,h,h,r,B.as,q,h,o,B.a9)
 l.Wt()
 if(m){switch(s.r.a){case 0:k=l.gbL(l)
 j=0
@@ -67671,11 +67671,11 @@ this.bp=a
 this.b9()},
 RM(a){var s=this,r=a.fy
 r=a.fx
-r=r==null?null:new A.d9(r,B.ao)
+r=r==null?null:new A.d9(r,B.ap)
 s.cD=r
 r=a.id
 r=a.go
-r=r==null?null:new A.d9(r,B.ao)
+r=r==null?null:new A.d9(r,B.ap)
 s.d4=r
 s.eQ=null
 s.fT=null
@@ -68628,7 +68628,7 @@ q=B.bn
 p=B.d7
 o=!1
 break
-case B.au:r=a0.S(0,new A.j(c.id.c,0))
+case B.av:r=a0.S(0,new A.j(c.id.c,0))
 q=B.tW
 p=B.bn
 o=!0
@@ -68708,12 +68708,12 @@ gGI(){var s=this,r=t.r
 switch(A.lc(r.a(A.w.prototype.ga5.call(s)).a,r.a(A.w.prototype.ga5.call(s)).b)){case B.D:return s.am.d
 case B.aL:return s.am.a
 case B.B:return s.am.b
-case B.au:return s.am.c}},
+case B.av:return s.am.c}},
 gaif(){var s=this,r=t.r
 switch(A.lc(r.a(A.w.prototype.ga5.call(s)).a,r.a(A.w.prototype.ga5.call(s)).b)){case B.D:return s.am.b
 case B.aL:return s.am.c
 case B.B:return s.am.d
-case B.au:return s.am.a}},
+case B.av:return s.am.a}},
 gak6(){switch(A.bE(t.r.a(A.w.prototype.ga5.call(this)).a).a){case 0:var s=this.am
 return s.gb6(s)+s.gba(s)
 case 1:return this.am.gca()}},
@@ -68773,7 +68773,7 @@ break
 case B.B:a2=a0.am
 m.a=new A.j(a2.a,a0.j9(a3,0,a2.b))
 break
-case B.au:a2=a0.am
+case B.av:a2=a0.am
 s=a2.c+s
 m.a=new A.j(a0.j9(a3,s,s+a2.a),a0.am.b)
 break}},
@@ -68793,7 +68793,7 @@ q.$3$crossAxisPosition$mainAxisPosition(a,b-r,c-s)
 if(p)a.Bp()}return!1},
 pE(a){var s=this,r=t.r
 switch(A.lc(r.a(A.w.prototype.ga5.call(s)).a,r.a(A.w.prototype.ga5.call(s)).b)){case B.D:case B.B:return s.am.a
-case B.au:case B.aL:return s.am.b}},
+case B.av:case B.aL:return s.am.b}},
 GX(a){return this.gGI()},
 dM(a,b){var s=a.e
 s.toString
@@ -69458,7 +69458,7 @@ break
 case B.aL:n=0+p
 o=0
 break
-case B.au:r-=p
+case B.av:r-=p
 n=0
 o=0
 break
@@ -69539,7 +69539,7 @@ case B.B:s=k.b
 p+=s
 j=k.d-s
 break
-case B.au:s=k.c
+case B.av:s=k.c
 p+=l-s
 j=s-k.a
 break
@@ -69572,14 +69572,14 @@ break}return new A.om(f,i)},
 Tv(a,b,c){switch(A.lc(this.D,c)){case B.D:return new A.j(0,this.k3.b-(b+a.id.c))
 case B.aL:return new A.j(b,0)
 case B.B:return new A.j(0,b)
-case B.au:return new A.j(this.k3.a-(b+a.id.c),0)}},
+case B.av:return new A.j(this.k3.a-(b+a.id.c),0)}},
 er(a,b,c,d){var s=this
 if(!s.Y.r.gne())return s.wG(a,b,c,d)
 s.wG(a,null,c,A.aL8(a,b,c,s.Y,d,s))},
-rq(){return this.er(B.aw,null,B.x,null)},
-mO(a){return this.er(B.aw,null,B.x,a)},
+rq(){return this.er(B.ax,null,B.x,null)},
+mO(a){return this.er(B.ax,null,B.x,a)},
 oB(a,b,c){return this.er(a,null,b,c)},
-mP(a,b){return this.er(B.aw,a,B.x,b)},
+mP(a,b){return this.er(B.ax,a,B.x,b)},
 $iDg:1}
 A.ak7.prototype={
 $1(a){var s=a.id
@@ -69715,7 +69715,7 @@ s=t.r
 switch(A.lc(s.a(A.w.prototype.ga5.call(a)).a,s.a(A.w.prototype.ga5.call(a)).b)){case B.B:return b-r.a.b
 case B.aL:return b-r.a.a
 case B.D:return a.id.c-(b-r.a.b)
-case B.au:return a.id.c-(b-r.a.a)}},
+case B.av:return a.id.c-(b-r.a.a)}},
 gGY(){var s,r,q=this,p=A.a([],t.Ry),o=q.a6$
 if(o==null)return p
 for(s=A.n(q).i("am.1");o!=q.d5;){o.toString
@@ -69829,7 +69829,7 @@ case B.D:s=this.k3.b
 r=r.a
 r.toString
 return s-b-r
-case B.au:s=this.k3.a
+case B.av:s=this.k3.a
 r=r.a
 r.toString
 return s-b-r}},
@@ -72785,7 +72785,7 @@ A.r3.prototype={}
 A.QG.prototype={
 iE(a,b){var s,r,q,p,o,n=$.av.R$.f.c
 if(n==null||n.e==null)return!1
-for(s=t.vz,r=0;r<2;++r){q=B.Im[r]
+for(s=t.vz,r=0;r<2;++r){q=B.In[r]
 p=n.e
 p.toString
 o=A.aDi(p,q,s)
@@ -74675,7 +74675,7 @@ r=A.aF7(s)
 if(p.dy!==r){p.dy=r
 if(r&&p.p4)p.tg()
 else if(!r&&p.d!=null){p.d.aY(0)
-p.d=null}}if(A.bM()!==B.aq&&A.bM()!==B.aJ)return
+p.d=null}}if(A.bM()!==B.ar&&A.bM()!==B.aJ)return
 s=p.c
 s.toString
 s=A.aP(s,B.zn,t.w).w
@@ -74683,7 +74683,7 @@ q=s.gqC(s)
 s=p.dx
 if(s==null){p.dx=q
 return}if(q!==s){p.dx=q
-if(A.bM()===B.aq)p.nM(!1)
+if(A.bM()===B.ar)p.nM(!1)
 if(A.bM()===B.aJ)p.hl()}},
 aN(a){var s,r,q,p,o=this
 o.b4(a)
@@ -74932,7 +74932,7 @@ r=i.ga8R()
 q=q.a6
 h=A.eI(B.KZ,t.wf)
 i.e!==$&&A.dA()
-i.e=new A.RU(f,h,new A.qz(),p,B.eE,0,k,i.gaaV(),i.gaaX(),r,B.eE,0,j,i.gaaP(),i.gaaR(),r,l,B.IL,s,g.at,g.ax,g.ay,o,g,n,m,g.x,q,new A.a5O())
+i.e=new A.RU(f,h,new A.qz(),p,B.eE,0,k,i.gaaV(),i.gaaX(),r,B.eE,0,j,i.gaaP(),i.gaaR(),r,l,B.IM,s,g.at,g.ax,g.ay,o,g,n,m,g.x,q,new A.a5O())
 return i},
 rX(a,b){var s,r,q,p,o,n=this
 if(!n.a.c.Wc(a))return
@@ -75131,7 +75131,7 @@ Qz(){return this.QA(null)},
 Sf(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null
 a.a.toString
 s=A.bM()
-if(s!==B.aq)return
+if(s!==B.ar)return
 if(B.b.gbI(a.gf0().d).k4!==B.ep)return
 s=a.gX().am.d
 s.toString
@@ -78231,7 +78231,7 @@ if(p!=null)i.push(new A.ny("FILL",p))
 if(o!=null)i.push(new A.ny("wght",o))
 if(n!=null)i.push(new A.ny("GRAD",n))
 if(m!=null)i.push(new A.ny("opsz",m))
-h=A.Rv(f,f,f,B.yV,f,f,!0,f,A.cE(f,f,f,A.eS(f,f,j,f,f,f,f,f,e.b,f,f,q,f,i,f,f,f,!1,f,f,f,f,e.c,r.w,f,f),l),B.ar,s,f,1,B.a9)
+h=A.Rv(f,f,f,B.yV,f,f,!0,f,A.cE(f,f,f,A.eS(f,f,j,f,f,f,f,f,e.b,f,f,q,f,i,f,f,f,!1,f,f,f,f,e.c,r.w,f,f),l),B.as,s,f,1,B.a9)
 if(e.d)switch(s.a){case 0:e=new A.bh(new Float64Array(16))
 e.du()
 e.iQ(0,-1,1,1)
@@ -79292,7 +79292,7 @@ b=s?d:b.ax
 if(b==null)b=B.d5
 c.gof()
 c.gof()
-f=new A.C3(a0,a,r,q,m,p,o,n,g===!0,l,k,h,j,i,b,new A.Mu(d),B.Iz)
+f=new A.C3(a0,a,r,q,m,p,o,n,g===!0,l,k,h,j,i,b,new A.Mu(d),B.IA)
 if(!f.j(0,e.e))e.ah(new A.awa(e,f))},
 Hu(){this.tn()},
 Up(){if(this.d==null)this.tn()},
@@ -79619,7 +79619,7 @@ m.d=new A.br(null,t.ku)
 B.b.K(r,s.XP(null,m))
 m.a.toString
 q=0
-for(;!1;++q){p=B.Iy[q]
+for(;!1;++q){p=B.Iz[q]
 r=m.c
 r.toString
 r=p.Hi(r)
@@ -80530,7 +80530,7 @@ a.dS(0,1,-1)
 c.aK(a,b)
 a.bR(0)
 break
-case B.au:a.cj(0)
+case B.av:a.cj(0)
 a.iL(0,1.5707963267948966)
 a.dS(0,1,-1)
 c.aK(a,new A.K(b.b,b.a))
@@ -81462,7 +81462,7 @@ r=n.gpy().a
 r=A.ah(0,r>>>16&255,r>>>8&255,r&255)
 q=n.gpy()
 p=t.IC.i("eV<aC.T>")
-o=A.aHX(!0,m,new A.aR(t.m.a(s),new A.eV(new A.h2(B.aw),new A.dD(r,q),p),p.i("aR<aC.T>")),n.gpz(),n.gze(),m)}else o=A.agl(!0,m,m,n.gpz(),m,n.gze(),m)
+o=A.aHX(!0,m,new A.aR(t.m.a(s),new A.eV(new A.h2(B.ax),new A.dD(r,q),p),p.i("aR<aC.T>")),n.gpz(),n.gze(),m)}else o=A.agl(!0,m,m,n.gpz(),m,n.gze(),m)
 return o},
 a5l(a){var s=this,r=null,q=s.p1
 return q==null?s.p1=A.bT(r,new A.xS(s,s.k2,A.n(s).i("xS<eE.T>")),!1,r,r,!1,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.QI,r,r,r,r):q},
@@ -81675,9 +81675,9 @@ gma(){return B.SJ},
 gvv(){return A.cA([B.aT,B.b_],t.B)},
 zm(a,b,c){var s=null
 switch(this.kJ(a)){case B.c_:case B.bc:case B.c0:return A.aYh(b,c.b,B.bi,s,s,A.JE(),B.x,s,s,s,s,B.dM,s)
-case B.aJ:case B.bZ:case B.aq:return b}},
+case B.aJ:case B.bZ:case B.ar:return b}},
 zl(a,b,c){var s
-switch(this.kJ(a)){case B.aq:case B.c_:case B.bc:case B.c0:s=1
+switch(this.kJ(a)){case B.ar:case B.c_:case B.bc:case B.c0:s=1
 break
 case B.aJ:s=2
 break
@@ -81689,10 +81689,10 @@ case 2:switch(1){case 1:break}if(2)c$1:for(;!0;)switch(2){case 1:return new A.ws
 case 2:s=3
 continue c$0}break c$0
 case 3:return new A.uI(c.a,B.k,b,null)}},
-BV(a){switch(this.kJ(a)){case B.aq:return new A.ald()
+BV(a){switch(this.kJ(a)){case B.ar:return new A.ald()
 case B.bc:return new A.ale()
 case B.aJ:case B.bZ:case B.c_:case B.c0:return new A.alf()}},
-on(a){switch(this.kJ(a)){case B.aq:return B.A6
+on(a){switch(this.kJ(a)){case B.ar:return B.A6
 case B.bc:return B.A7
 case B.aJ:case B.bZ:case B.c_:case B.c0:return B.C6}},
 KS(a){return!1},
@@ -83525,10 +83525,10 @@ q=g.Q
 r=r?q.gb6(q)+q.gba(q):q.gca()
 k=Math.min(f,o-r-2*g.w)
 f=g.dx
-f=f===B.D||f===B.au
+f=f===B.D||f===B.av
 r=g.db
 if((f?Math.max(r.ghT()-r.gdF(),0):Math.max(r.gdF()-r.ghU(),0))>0){f=g.dx
-f=f===B.D||f===B.au
+f=f===B.D||f===B.av
 r=g.db
 r=(f?Math.max(r.gdF()-r.ghU(),0):Math.max(r.ghT()-r.gdF(),0))>0
 f=r}else f=!1
@@ -83552,7 +83552,7 @@ r.toString
 h=A.J((r-q)/i,0,1)}else h=0
 r=g.dx
 q=r===B.D
-p=q||r===B.au?1-h:h
+p=q||r===B.av?1-h:h
 f=f.d
 f.toString
 r=r===B.B||q
@@ -83801,7 +83801,7 @@ p=s.Q
 p.toString
 h=A.J(h,q,p)
 break
-case B.aq:case B.aJ:break}s.ed(h)}},
+case B.ar:case B.aJ:break}s.ed(h)}},
 Ap(a,b){var s=this
 s.as=!1
 if(s.mK()==null)return
@@ -84181,7 +84181,7 @@ if(a.a===B.eq)return s.c===-1?s.OT(a,!0):s.Mg(a,!0)
 return s.d===-1?s.OT(a,!1):s.Mg(a,!1)},
 m(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gEG(),p=0;p<s.length;s.length===r||(0,A.L)(s),++p)J.aTb(s[p],q)
-o.b=B.IA
+o.b=B.IB
 o.y=!1
 o.dv()},
 hg(a,b){return a.zW(b)},
@@ -84612,10 +84612,10 @@ return new A.om(m,r.c2(l.t8(m)))},
 er(a,b,c,d){var s=this
 if(!s.O.r.gne())return s.wG(a,b,c,d)
 s.wG(a,null,c,A.aL8(a,b,c,s.O,d,s))},
-rq(){return this.er(B.aw,null,B.x,null)},
-mO(a){return this.er(B.aw,null,B.x,a)},
+rq(){return this.er(B.ax,null,B.x,null)},
+mO(a){return this.er(B.ax,null,B.x,a)},
 oB(a,b,c){return this.er(a,null,b,c)},
-mP(a,b){return this.er(B.aw,a,B.x,b)},
+mP(a,b){return this.er(B.ax,a,B.x,b)},
 Hs(a){var s,r=this,q=r.gPm(),p=r.O.at
 p.toString
 s=q-p
@@ -85078,7 +85078,7 @@ s=(r.length===0?s+"no children":s+A.i(r))+")"
 return s.charCodeAt(0)==0?s:s}}
 A.hw.prototype={}
 A.Ex.prototype={
-bO(a){return new A.a_H(B.IO,A.cO(t.u),this,B.T)},
+bO(a){return new A.a_H(B.IP,A.cO(t.u),this,B.T)},
 aJ(a){var s,r,q,p,o=this,n=o.c,m=n.length
 n=m!==0?n[0].c.length:0
 s=a.ab(t.I)
@@ -85087,7 +85087,7 @@ s=s.w
 r=A.yr(a,null)
 q=A.a([],t.up)
 p=A.hL(t.S,t.PA)
-n=new A.Dp(B.IN,n,m,p,o.e,s,o.r,r,o.w,null,q,A.aq(t.T))
+n=new A.Dp(B.IO,n,m,p,o.e,s,o.r,r,o.w,null,q,A.aq(t.T))
 n.aI()
 m=A.a([],t.iG)
 B.b.sp(m,n.O*n.Y)
@@ -85140,7 +85140,7 @@ n=new A.iM(p,new A.ayP(),A.a_(q).i("iM<1>"))
 m=A.a([],t.lD)
 for(q=b.c,l=c.p3,k=t.PN,j=0;j<q.length;++j){i=q[j]
 h=n.q()
-g=h?p.gJ(p).b:B.IP
+g=h?p.gJ(p).b:B.IQ
 h=i.c
 f=h.length
 e=A.a(new Array(f),k)
@@ -85534,7 +85534,7 @@ if(r===!0)s=s.b1(B.yZ)
 q=A.aEP(a)
 r=g.r
 if(r==null)r=e.x
-if(r==null)r=B.ar
+if(r==null)r=B.as
 p=g.w
 o=g.y
 if(o==null)o=e.y
@@ -86354,7 +86354,7 @@ case null:break}return
 case 4:case 3:case 5:h=h.gaq().gV()
 h.toString
 return h.gX().wf(B.ak,p.a8(0,r).a8(0,q),s)}}s=i.e
-if(s.a!==s.b)s=A.bM()!==B.aq&&A.bM()!==B.bc
+if(s.a!==s.b)s=A.bM()!==B.ar&&A.bM()!==B.bc
 else s=!0
 if(s)return i.p_(a.d,B.ak)
 s=h.gaq().gV()
@@ -86903,7 +86903,7 @@ r=n.Rq(n.cx)
 q=n.agK(n.cx)
 p=n.x
 if(p.F(0,n.cx))q=p.h(0,n.cx).YN()}else{s=B.Y
-r=B.ar
+r=B.as
 q=B.q}p=B.b.gbI(m).c
 if(p.length!==0){o=A.aFi(s,n.Pp(p,r),B.a_w)
 if(q.j(0,B.q))n.CZ(o)
@@ -86921,7 +86921,7 @@ k=l.c
 i=k!=null?A.en(k,!0,p):A.a([l],r)
 i.push(m.d)
 g.push(h.wX(h.Ps(i),b))}else g.push(m)}return g},
-Rq(a){switch(this.Sx(a).a){case 0:return B.ar
+Rq(a){switch(this.Sx(a).a){case 0:return B.as
 case 2:return B.c1
 case 1:return B.kn
 case 4:return B.ds
@@ -86965,7 +86965,7 @@ n=o.a
 s.push(A.cE(m,p.d,p.w,p.a,(l.charCodeAt(0)==0?l:l)+(n.charCodeAt(0)==0?n:n)))}else s.push(q)}return s.length===1?B.b.gL(s):A.cE(s,m,m,m,m)},
 wX(a,b){var s,r=null,q=this.c.P
 q.toString
-s=b==null?B.ar:b
+s=b==null?B.as:b
 return A.Rv(new A.kS(),r,r,B.bd,r,r,!0,r,a,s,r,r,q,B.a9)},
 Mu(a){return this.wX(a,null)}}
 A.afj.prototype={
@@ -87172,7 +87172,7 @@ l.toString
 p=l}if(q!==1)p=A.ah(B.d.bv(255*((p.gn(p)>>>24&255)/255*q)),p.gn(p)>>>16&255,p.gn(p)>>>8&255,p.gn(p)&255)
 l=this.c
 o=A.bD(l.a)
-n=A.Rv(m,m,m,B.yV,m,m,!0,m,A.cE(m,m,m,A.eS(m,m,p,m,m,m,m,m,l.b,m,m,this.d,m,m,m,m,m,!1,m,m,m,m,l.c,m,m,m),o),B.ar,s,m,1,B.a9)
+n=A.Rv(m,m,m,B.yV,m,m,!0,m,A.cE(m,m,m,A.eS(m,m,p,m,m,m,m,m,l.b,m,m,this.d,m,m,m,m,m,!1,m,m,m,m,l.c,m,m,m),o),B.as,s,m,1,B.a9)
 if(l.d)switch(s.a){case 0:l=new A.bh(new Float64Array(16))
 l.du()
 l.iQ(0,-1,1,1)
@@ -87925,7 +87925,7 @@ A.NV.prototype={
 k(a){return"GSheetsException: "+this.a},
 $ibH:1}
 A.abK.prototype={
-gTm(a){var s=A.aE5(null,null,this.b,B.J3)
+gTm(a){var s=A.aE5(null,null,this.b,B.J4)
 this.e=s
 s.toString
 return s},
@@ -91090,7 +91090,7 @@ if(r!=null)r.G(0,s.gdz())
 s.av$=null
 s.aM()}}
 A.tW.prototype={
-H(a){var s=this,r=null,q=A.cm(r,r,B.m,r,r,new A.bW(r,A.aUJ(B.Aj,new A.qL(s.c,1,r),r),r,A.eK(20),r,r,B.N),r,r,r,B.EV,r,r,50),p=A.jz(B.aY,B.ax,14,s.d)
+H(a){var s=this,r=null,q=A.cm(r,r,B.m,r,r,new A.bW(r,A.aUJ(B.Aj,new A.qL(s.c,1,r),r),r,A.eK(20),r,r,B.N),r,r,r,B.EV,r,r,50),p=A.jz(B.aY,B.ao,14,s.d)
 return A.aJV(B.EO,r,q,A.jz(B.bx,B.y,12,s.e),p,A.jz(B.n,B.bT,16,s.f),B.kF)}}
 A.Ns.prototype={
 W8(){var s=this
@@ -91228,11 +91228,11 @@ this.a.c.j(0,a.c)},
 a7G(){var s,r=this
 if(r.r.a){s=r.d.Q
 s===$&&A.b()
-s=B.b.u(B.J2,s)}else s=!1
+s=B.b.u(B.J3,s)}else s=!1
 if(s)r.d.bF(0)
 else{if(!r.r.a){s=r.d.Q
 s===$&&A.b()
-s=B.b.u(B.Iw,s)}else s=!1
+s=B.b.u(B.Ix,s)}else s=!1
 if(s)r.d.d9(0)}},
 bi(){var s,r,q=this
 q.cX()
@@ -91462,7 +91462,7 @@ return new A.vl(s.w,this.b,this.c,s.as,null)},
 $S:591}
 A.vl.prototype={
 H(a){var s=null,r=A.aP(a,s,t.w).w
-return A.cm(s,A.dM(A.a([B.QN,A.apw(!1,B.aM,!0,s,A.aGJ(),s,s,s,B.en,2,B.Gv,!0,!0,!0,s,!1,s,s,s,s,s,s,s,1,s,s,!1,"\u2022",s,s,new A.ago(this,a),s,s,!1,s,s,B.fg,s,s,s,s,s,s,B.Wk,B.ar,s,B.hu,s,s,s)],t.p),B.aG,B.A,B.aj),B.m,s,s,s,s,s,new A.az(0,0,0,r.e.d),B.iK,s,s,17976931348623157e292)}}
+return A.cm(s,A.dM(A.a([B.QN,A.apw(!1,B.aM,!0,s,A.aGJ(),s,s,s,B.en,2,B.Gv,!0,!0,!0,s,!1,s,s,s,s,s,s,s,1,s,s,!1,"\u2022",s,s,new A.ago(this,a),s,s,!1,s,s,B.fg,s,s,s,s,s,s,B.Wk,B.as,s,B.hu,s,s,s)],t.p),B.aG,B.A,B.aj),B.m,s,s,s,s,s,new A.az(0,0,0,r.e.d),B.iK,s,s,17976931348623157e292)}}
 A.ago.prototype={
 $1(a){var s=null,r=this.b
 A.iy(r,!1).o6(s)
@@ -91476,7 +91476,7 @@ A.qI.prototype={
 ai(){return new A.XJ(A.aVC(),A.a([":blush:",":smirk:",":kissing_closed_eyes:",":satisfied:",":stuck_out_tongue_winking_eye:",":kissing:",":sleeping:",":anguished:",":confused:",":unamused:",":disappointed_relieved:",":disappointed:",":cold_sweat:",":sob:",":scream:",":angry:",":sleepy:",":sunglasses:",":innocent:",":smiley:",":heart_eyes:",":flushed:",":grin:",":stuck_out_tongue_closed_eyes:",":kissing_smiling_eyes:",":worried:",":open_mouth:",":hushed:",":sweat_smile:",":weary:",":confounded:",":persevere:",":joy:",":rage:",":yum:",":dizzy_face:",":neutral_face:",":relaxed:",":kissing_heart:",":relieved:",":wink:",":grinning:",":stuck_out_tongue:",":frowning:",":grimacing:",":expressionless:",":sweat:",":pensive:",":fearful:",":cry:",":astonished:",":tired_face:",":triumph:",":mask:",":no_mouth:",":heart:",":broken_heart:",":star:",":star2:",":exclamation:",":question:",":fire:",":shit:",":thumbsup:",":thumbsdown:",":punch:",":raised_hands:",":clap:",":pray:",":ok_hand:",":muscle:",":dash:",":zzz:",":sweat_drops:",":wave:",":point_up:",":point_down:",":point_left:",":point_right:",":x:",":white_check_mark:",":negative_squared_cross_mark:",":100:"],t.s),B.j)}}
 A.XJ.prototype={
 H(a){var s=null,r=A.ze(B.fT,1),q=A.eK(10),p=t.p
-return new A.bv(B.iK,A.dM(A.a([B.Yd,B.yB,A.cm(s,A.e8(A.a([B.Fr,B.Tr,A.kh(A.apw(!0,B.aM,!1,s,A.aGJ(),s,s,s,s,2,B.Gu,!0,s,!0,s,!1,s,s,s,s,s,s,s,1,s,s,!1,"\u2022",new A.awq(this),s,s,s,s,!1,s,s,B.fg,s,s,s,s,s,s,s,B.ar,s,B.hu,s,s,s),1)],p),B.Q,B.A,B.V,s),B.m,s,s,new A.bW(s,s,r,q,s,s,B.N),s,s,s,B.F4,s,s,1/0),B.yB,new A.bv(new A.az(0,0,0,A.aP(a,s,t.w).w.e.d*0.2),this.acr(a),s)],p),B.aG,B.A,B.aj),s)},
+return new A.bv(B.iK,A.dM(A.a([B.Yd,B.yB,A.cm(s,A.e8(A.a([B.Fr,B.Tr,A.kh(A.apw(!0,B.aM,!1,s,A.aGJ(),s,s,s,s,2,B.Gu,!0,s,!0,s,!1,s,s,s,s,s,s,s,1,s,s,!1,"\u2022",new A.awq(this),s,s,s,s,!1,s,s,B.fg,s,s,s,s,s,s,s,B.as,s,B.hu,s,s,s),1)],p),B.Q,B.A,B.V,s),B.m,s,s,new A.bW(s,s,r,q,s,s,B.N),s,s,s,B.F4,s,s,1/0),B.yB,new A.bv(new A.az(0,0,0,A.aP(a,s,t.w).w.e.d*0.2),this.acr(a),s)],p),B.aG,B.A,B.aj),s)},
 acr(a){var s,r=null,q=A.aP(a,r,t.w).w,p=this.f
 p=new A.aF(p,new A.awn(this),A.a_(p).i("aF<1>"))
 p=p.gp(p)
@@ -91737,7 +91737,7 @@ r=s.c
 q=A.eK(30)
 p=A.eK(30)
 s=r.a.a.length!==0?A.jg(o,B.Gi,B.W,!1,o,o,o,o,o,o,o,o,o,o,o,s.e,o,o,o,o,o,o):o
-return A.cm(o,A.apw(!0,B.aM,!1,o,A.aGJ(),r,o,o,o,2,A.ae4(o,o,o,o,o,o,o,o,!0,new A.f7(4,q,B.lg),o,o,o,o,B.k,!0,o,o,o,o,new A.f7(4,p,B.lg),o,o,o,o,o,B.VP,"Search",o,B.k,o,o,!1,!0,o,o,o,o,B.Gd,o,o,o,o,o,o,s,o,o,o,o),!0,o,!0,o,!1,o,o,o,o,o,o,o,1,o,o,!1,"\u2022",o,o,new A.ay0(this),o,o,!1,o,o,B.fg,o,o,o,o,o,o,o,B.ar,o,B.hu,o,o,o),B.m,o,o,o,o,o,o,B.ET,o,o,n)}}
+return A.cm(o,A.apw(!0,B.aM,!1,o,A.aGJ(),r,o,o,o,2,A.ae4(o,o,o,o,o,o,o,o,!0,new A.f7(4,q,B.lg),o,o,o,o,B.k,!0,o,o,o,o,new A.f7(4,p,B.lg),o,o,o,o,o,B.VP,"Search",o,B.k,o,o,!1,!0,o,o,o,o,B.Gd,o,o,o,o,o,o,s,o,o,o,o),!0,o,!0,o,!1,o,o,o,o,o,o,o,1,o,o,!1,"\u2022",o,o,new A.ay0(this),o,o,!1,o,o,B.fg,o,o,o,o,o,o,o,B.as,o,B.hu,o,o,o),B.m,o,o,o,o,o,o,B.ET,o,o,n)}}
 A.ay0.prototype={
 $1(a){this.a.a.aom(a)},
 $S:14}
@@ -94908,7 +94908,7 @@ B.i7=new A.Ku(0,"disabled")
 B.D=new A.pt(0,"up")
 B.aL=new A.pt(1,"right")
 B.B=new A.pt(2,"down")
-B.au=new A.pt(3,"left")
+B.av=new A.pt(3,"left")
 B.a7=new A.z5(0,"horizontal")
 B.am=new A.z5(1,"vertical")
 B.zI=new A.z8(null,null,null,null,null,null,null,null)
@@ -95179,8 +95179,8 @@ B.b3=new A.OB()
 B.Bm=new A.OO()
 B.lv=new A.P1(A.a4("P1<@,@>"))
 B.Bn=new A.Pw()
-B.IC=A.a(s([]),t._m)
-B.a17=new A.o(0,{},B.IC,A.a4("o<k?,Ch>"))
+B.ID=A.a(s([]),t._m)
+B.a17=new A.o(0,{},B.ID,A.a4("o<k?,Ch>"))
 B.Bo=new A.Py()
 B.Bp=new A.ah8()
 B.Bq=new A.aha()
@@ -95192,11 +95192,11 @@ B.Bt=new A.CB()
 B.Bu=new A.PU()
 B.Bv=new A.PV()
 B.aJ=new A.dT(0,"android")
-B.aq=new A.dT(2,"iOS")
+B.ar=new A.dT(2,"iOS")
 B.bc=new A.dT(4,"macOS")
 B.lG=new A.TZ()
 B.lm=new A.M6()
-B.fR=new A.bC([B.aJ,B.lG,B.aq,B.lm,B.bc,B.lm],A.a4("bC<dT,lZ>"))
+B.fR=new A.bC([B.aJ,B.lG,B.ar,B.lm,B.bc,B.lm],A.a4("bC<dT,lZ>"))
 B.Bw=new A.PX()
 B.Bx=new A.Qb()
 B.ly=new A.CI()
@@ -95240,7 +95240,7 @@ B.F=new A.TG()
 B.cT=new A.TI()
 B.v=new A.y(0,0,0,0)
 B.eF=new A.TV(0,0,0,0)
-B.Iz=A.a(s([]),A.a4("x<a6W>"))
+B.IA=A.a(s([]),A.a4("x<a6W>"))
 B.lF=new A.TP()
 B.PB=new A.o(0,{},B.aM,t.li)
 B.a0W=new A.aqZ()
@@ -95261,7 +95261,7 @@ B.U=new A.GK()
 B.BY=new A.Xt()
 B.bQ=new A.awB()
 B.lK=new A.axy()
-B.av=new A.axC()
+B.aw=new A.axC()
 B.BZ=new A.axU()
 B.C_=new A.ZX()
 B.lL=new A.a_v()
@@ -95355,7 +95355,7 @@ B.mi=new A.e2(0.18,1,0.04,1)
 B.DR=new A.e2(0.215,0.61,0.355,1)
 B.mj=new A.e2(0,0,0.2,1)
 B.DS=new A.e2(0.05,0,0.133333,0.06)
-B.aw=new A.e2(0.25,0.1,0.25,1)
+B.ax=new A.e2(0.25,0.1,0.25,1)
 B.f9=new A.e2(0.42,0,1,1)
 B.mk=new A.e2(0.67,0.03,0.65,0.09)
 B.DU=new A.e2(0.075,0.82,0.165,1)
@@ -95608,9 +95608,9 @@ B.fn=new A.lA(1,"traditional")
 B.a13=new A.NM(0,"automatic")
 B.mU=new A.AV(0,"normal")
 B.mV=new A.AV(1,"italic")
-B.mW=new A.ik(1)
+B.mW=new A.ik(2)
 B.y=new A.ik(3)
-B.ax=new A.ik(4)
+B.ao=new A.ik(4)
 B.j0=new A.ik(5)
 B.bT=new A.ik(6)
 B.cW=new A.ik(7)
@@ -95682,8 +95682,8 @@ B.j2=new A.ql(0,"repeat")
 B.n6=new A.ql(1,"repeatX")
 B.n7=new A.ql(2,"repeatY")
 B.cx=new A.ql(3,"noRepeat")
-B.ao=A.a(s([]),t.oU)
-B.Gs=new A.lJ("\ufffc",null,null,!0,!0,B.ao)
+B.ap=A.a(s([]),t.oU)
+B.Gs=new A.lJ("\ufffc",null,null,!0,!0,B.ap)
 B.A1=new A.c4(B.aY,0.6,B.a4,-1)
 B.jV=new A.f7(4,B.eT,B.A1)
 B.D6=new A.v(4292269782)
@@ -95709,7 +95709,7 @@ B.GD=new A.di(0.25,0.5,B.U)
 B.Gz=new A.di(0.6,1,B.U)
 B.GC=new A.di(0.75,1,B.U)
 B.GE=new A.di(0.72,1,B.a_)
-B.n8=new A.di(0.5,1,B.aw)
+B.n8=new A.di(0.5,1,B.ax)
 B.GF=new A.di(0.2075,0.4175,B.U)
 B.GG=new A.di(0.4,1,B.U)
 B.GI=new A.di(0,0.5,B.a_)
@@ -95789,16 +95789,16 @@ B.Fg=new A.us(1,B.dT,B.Ft,null)
 B.Fu=new A.q0("Answer Preview",null)
 B.Fh=new A.us(1,B.dT,B.Fu,null)
 B.H2=A.a(s([B.Fg,B.Fh]),t.p)
-B.Iq=A.a(s([137,80,78,71,13,10,26,10]),t.Z)
-B.Gm=new A.lI(B.Iq,"image/png")
+B.Ir=A.a(s([137,80,78,71,13,10,26,10]),t.Z)
+B.Gm=new A.lI(B.Ir,"image/png")
 B.Ho=A.a(s([71,73,70,56,55,97]),t.Z)
 B.Gq=new A.lI(B.Ho,"image/gif")
 B.Hp=A.a(s([71,73,70,56,57,97]),t.Z)
 B.Gr=new A.lI(B.Hp,"image/gif")
 B.H1=A.a(s([255,216,255]),t.Z)
 B.Gn=new A.lI(B.H1,"image/jpeg")
-B.HN=A.a(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
-B.Gp=new A.lI(B.HN,"image/webp")
+B.HO=A.a(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
+B.Gp=new A.lI(B.HO,"image/webp")
 B.HC=A.a(s([66,77]),t.Z)
 B.Go=new A.lI(B.HC,"image/bmp")
 B.Hq=A.a(s([B.Gm,B.Gq,B.Gr,B.Gn,B.Gp,B.Go]),A.a4("x<lI>"))
@@ -95807,9 +95807,9 @@ B.d_=A.a(s([0,0,65498,45055,65535,34815,65534,18431]),t.t)
 B.HA=A.a(s([65533]),t.t)
 B.HD=A.a(s(["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]),t.ee)
 B.bf=new A.jP(0,"label")
-B.as=new A.jP(1,"avatar")
+B.at=new A.jP(1,"avatar")
 B.bN=new A.jP(2,"deleteIcon")
-B.HE=A.a(s([B.bf,B.as,B.bN]),A.a4("x<jP>"))
+B.HE=A.a(s([B.bf,B.at,B.bN]),A.a4("x<jP>"))
 B.ne=A.a(s([B.j3,B.fw,B.dZ,B.fz,B.fD,B.cZ,B.nd,B.je,B.b9,B.fE,B.cA,B.dW,B.dX,B.fx,B.dY,B.j4,B.ci,B.j5,B.j6,B.nb,B.b8,B.fy,B.e_,B.e0,B.j7,B.j8,B.j9,B.ja,B.nc,B.jb,B.jc,B.fA,B.e1,B.e2,B.jd,B.fB,B.fC]),A.a4("x<bL>"))
 B.jj=A.a(s(["name","topic","questions","imgUrl"]),t.s)
 B.Lu=new A.o(4,{name:"Atharv Patil",topic:"Data Engineer",questions:11,imgUrl:"https://i.postimg.cc/1XxGN7J4/photo-1529665253569-6d01c0eaf7b6.jpg"},B.jj,t.M)
@@ -95835,121 +95835,29 @@ B.HJ=A.a(s(["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","D
 B.HK=A.a(s(["BC","AD"]),t.s)
 B.ng=A.a(s([0,4,12,1,5,13,3,7,15]),t.t)
 B.HL=A.a(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
-B.nh=A.a(s(["January","February","March","April","May","June","July","August","September","October","November","December"]),t.s)
-B.HS=A.a(s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298]),t.t)
-B.HT=A.a(s([0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0]),t.up)
-B.ni=A.a(s(["J","F","M","A","M","J","J","A","S","O","N","D"]),t.s)
-B.jf=A.a(s(["p","h1","h2","h3","h4","h5","h6","li","blockquote","pre","ol","ul","hr","table","thead","tbody","tr"]),t.s)
-B.fF=A.a(s(["Junior","Senior","Lead"]),t.s)
-B.Jw=new A.nV("en","US")
-B.nj=A.a(s([B.Jw]),t.ss)
-B.fG=A.a(s([0,0,24576,1023,65534,34815,65534,18431]),t.t)
-B.nk=A.a(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
-B.nl=A.a(s(["Android","Web Frontend","Web Backend","Machine Learning","Data Engineer","Java"]),t.s)
-B.I8=A.a(s(["S","M","T","W","T","F","S"]),t.s)
-B.nm=A.a(s(["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]),t.s)
-B.I9=A.a(s([0,0,32722,12287,65534,34815,65534,18431]),t.t)
-B.j_=new A.ik(0)
-B.Fz=new A.ik(2)
-B.fo=new A.ik(8)
-B.Ia=A.a(s([B.j_,B.mW,B.Fz,B.y,B.ax,B.j0,B.bT,B.cW,B.fo]),A.a4("x<ik>"))
-B.a6=new A.wC(0,"upstream")
-B.Ik=A.a(s([B.a6,B.l]),A.a4("x<wC>"))
-B.a0=new A.jI(0,"rtl")
-B.r=new A.jI(1,"ltr")
-B.no=A.a(s([B.a0,B.r]),A.a4("x<jI>"))
-B.ze=new A.rX(0,"topLeft")
-B.zh=new A.rX(3,"bottomRight")
-B.a_G=new A.mA(B.ze,B.zh)
-B.a_J=new A.mA(B.zh,B.ze)
-B.zf=new A.rX(1,"topRight")
-B.zg=new A.rX(2,"bottomLeft")
-B.a_H=new A.mA(B.zf,B.zg)
-B.a_I=new A.mA(B.zg,B.zf)
-B.Il=A.a(s([B.a_G,B.a_J,B.a_H,B.a_I]),A.a4("x<mA>"))
-B.AW=new A.n0()
-B.hb=new A.DJ(1,"page")
-B.hc=new A.f9(B.B,B.hb)
-B.Im=A.a(s([B.AW,B.hc]),A.a4("x<b8>"))
-B.np=A.a(s(["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]),t.s)
-B.nq=A.a(s(["assets/android.png","assets/frontend.png","assets/backend.png","assets/ml.png","assets/database.png","assets/java.png"]),t.s)
-B.In=A.a(s(["ad_activeview","ad_click","ad_exposure","ad_query","ad_reward","adunit_exposure","app_background","app_clear_data","app_exception","app_remove","app_store_refund","app_store_subscription_cancel","app_store_subscription_convert","app_store_subscription_renew","app_uninstall","app_update","app_upgrade","dynamic_link_app_open","dynamic_link_app_update","dynamic_link_first_open","error","first_open","first_visit","in_app_purchase","notification_dismiss","notification_foreground","notification_open","notification_receive","os_update","session_start","session_start_with_rollout","user_engagement"]),t.s)
-B.Io=A.a(s([0,0,32722,12287,65535,34815,65534,18431]),t.t)
-B.nr=A.a(s([0,0,65490,12287,65535,34815,65534,18431]),t.t)
-B.ns=A.a(s([0,0,32776,33792,1,10240,0,0]),t.t)
-B.ab=new A.ey(0,"icon")
-B.aB=new A.ey(1,"input")
-B.a1=new A.ey(2,"label")
-B.aK=new A.ey(3,"hint")
-B.aC=new A.ey(4,"prefix")
-B.aD=new A.ey(5,"suffix")
-B.ac=new A.ey(6,"prefixIcon")
-B.aE=new A.ey(7,"suffixIcon")
-B.at=new A.ey(8,"helperError")
-B.ah=new A.ey(9,"counter")
-B.c4=new A.ey(10,"container")
-B.Is=A.a(s([B.ab,B.aB,B.a1,B.aK,B.aC,B.aD,B.ac,B.aE,B.at,B.ah,B.c4]),A.a4("x<ey>"))
-B.It=A.a(s(["click","scroll"]),t.s)
-B.lV=new A.v(419430400)
-B.i=new A.j(0,0)
-B.As=new A.bu(0.2,B.E,B.lV,B.i,11)
-B.Iu=A.a(s([B.As]),t.E)
-B.Iw=A.a(s([B.H,B.al]),t.fB)
-B.Ix=A.a(s([0,0,32754,11263,65534,34815,65534,18431]),t.t)
-B.nu=A.a(s([]),A.a4("x<b5p>"))
-B.IP=A.a(s([]),t.lX)
-B.IM=A.a(s([]),t.fJ)
-B.IB=A.a(s([]),t.Zb)
-B.a15=A.a(s([]),t.ss)
-B.e3=A.a(s([]),t.f)
-B.nx=A.a(s([]),t.wi)
-B.Iy=A.a(s([]),A.a4("x<aEz<@>>"))
-B.IA=A.a(s([]),t.D1)
-B.jh=A.a(s([]),t.QF)
-B.a16=A.a(s([]),t.nk)
-B.ID=A.a(s([]),t.Lx)
-B.IL=A.a(s([]),t.fm)
-B.ji=A.a(s([]),t.p)
-B.IO=A.a(s([]),t.lD)
-B.nv=A.a(s([]),t.up)
-B.e4=A.a(s([]),t.t)
-B.jg=A.a(s([]),t.ee)
-B.IN=A.a(s([]),t.iG)
-B.fX=new A.j(0,2)
-B.Ar=new A.bu(0.75,B.E,B.lV,B.fX,1.5)
-B.IT=A.a(s([B.Ar]),t.E)
-B.dr=new A.kP(0,"left")
-B.eC=new A.kP(1,"right")
-B.c1=new A.kP(2,"center")
-B.ds=new A.kP(3,"justify")
-B.ar=new A.kP(4,"start")
-B.kn=new A.kP(5,"end")
-B.J1=A.a(s([B.dr,B.eC,B.c1,B.ds,B.ar,B.kn]),A.a4("x<kP>"))
-B.J2=A.a(s([B.w,B.aa]),t.fB)
-B.J3=A.a(s(["https://www.googleapis.com/auth/spreadsheets","https://www.googleapis.com/auth/drive"]),t.s)
-B.Ij=A.a(s(["id","question","answer","category","topic","level","uploader","sociallink","profileImage"]),t.s)
-B.Lp=new A.o(9,{id:1,question:"What is a manifest file?",answer:'It is a configuration file for an Android app. The manifest file is  **where you can declare what components, mention permissions your app requires**, and thus, which types of devices your app is compatible with. It also describes the entry points to your app (using intent-filter)\n\n> **Tip:** You can also mention about **manifestPlaceholders** \n\nIt allows you to create something like variables that can be used in the app\u2019s `AndroidManifest.xml` file. For example, we want to have different app labels for different build types. Let\u2019s say the app label should have a \u2018debug\u2019 suffix for `debug` build types. For this, we need to add the next code in our app `build.gradle` in the `buildTypes` section.\n\n`manifestPlaceholders = [appLabel: "AwesomeApp debug"]`\n\nNow we can use `appLabel` placeholder in our Manifest to change the app\u2019s label according to selected `buildType`!\n\n`<application  \nandroid:label=\u201d\\${appLabel}\u201d ...  >`',category:"Android",topic:"Basics",level:0,uploader:"Oleksandr",sociallink:"https://medium.com/@zephyr.ventum",profileImage:"https://i.pinimg.com/originals/1d/17/81/1d178185467d1f0a43cee643db985c36.jpg"},B.Ij,t.M)
+B.Ik=A.a(s(["id","question","answer","category","topic","level","uploader","sociallink","profileImage"]),t.s)
+B.Lp=new A.o(9,{id:1,question:"What is a manifest file?",answer:'It is a configuration file for an Android app. The manifest file is  **where you can declare what components, mention permissions your app requires**, and thus, which types of devices your app is compatible with. It also describes the entry points to your app (using intent-filter)\n\n> **Tip:** You can also mention about **manifestPlaceholders** \n\nIt allows you to create something like variables that can be used in the app\u2019s `AndroidManifest.xml` file. For example, we want to have different app labels for different build types. Let\u2019s say the app label should have a \u2018debug\u2019 suffix for `debug` build types. For this, we need to add the next code in our app `build.gradle` in the `buildTypes` section.\n\n`manifestPlaceholders = [appLabel: "AwesomeApp debug"]`\n\nNow we can use `appLabel` placeholder in our Manifest to change the app\u2019s label according to selected `buildType`!\n\n`<application  \nandroid:label=\u201d\\${appLabel}\u201d ...  >`',category:"Android",topic:"Basics",level:0,uploader:"Oleksandr",sociallink:"https://medium.com/@zephyr.ventum",profileImage:"https://i.pinimg.com/originals/1d/17/81/1d178185467d1f0a43cee643db985c36.jpg"},B.Ik,t.M)
 B.e=A.a(s(["id","question","answer","category","topic","level","uploader"]),t.s)
-B.MS=new A.o(7,{id:1678182597827,question:"Paytm Interview Experience | Senior Android Developer",answer:"\nSenior android Developer\n\n- **Coding Round:**\n1. [Spirally traversing a matrix](https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix/0)\n2. [Longest Increasing Subsequence](http://longest%20increasing%20subsequence/)\n\n\n- **First Round:**\n\n1. find \u201clongest line\u201d of 1\u2019s in array. Hoizontal and Vertical. Array is made only of 0\u2019s and 1\u2019s, and looks for example like this:\n4 4\n0 1 1 1\n0 1 0 1\n0 1 1 0\n1 0 1 0\n\n2. 2D Array is made only of 0\u2019s and 1\u2019s, you have to find [Number of Island](https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1)\n\n\n- **Second Round:**\n1. Some Android question / Some java questions basic\n2. [Sort an array of 0s, 1s and 2s](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0)\n3. [Check if string are palindrome](https://practice.geeksforgeeks.org/problems/palindrome-string/0)\n\n\n- **Third Round:**\n\n1. Design the architecture of Paytm market place.\n2. Some random questions on Java like threading, collections, hashmap etc.\n3. Why HashTable not allow NULL but Hashmap allow.\n4. Array question of finding mission number. etc\n\n- **Fourth Round:**\n1. Singleton patterns\n2. Design your own Arraylist.\n3. Sorting of linkedlist.\n4. [Program for array rotation](https://practice.geeksforgeeks.org/problems/rotate-and-delete/0)\n5. [LRU cache](https://practice.geeksforgeeks.org/problems/lru-cache/1)\n6. Recycler view vs list view.\n7. Services, Fragment, app optimization, retainInstance() in fragment, 8. Asynctaskrotation problem etc\n8. Graph traversal for circular loop example.\n9. Find max of Stack optimize way.\n",category:"Android",topic:"Interview Experiences",level:1,uploader:"Anonymous"},B.e,t.M)
+B.LN=new A.o(7,{id:1678182597827,question:"Paytm Interview Experience | Senior Android Developer",answer:"\n- **Coding Round:**\n1. [Spirally traversing a matrix](https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix/0)\n2. [Longest Increasing Subsequence](http://longest%20increasing%20subsequence/)\n\n\n- **First Round:**\n\n1. find \u201clongest line\u201d of 1\u2019s in array. Hoizontal and Vertical. Array is made only of 0\u2019s and 1\u2019s, and looks for example like this:\n4 4\n0 1 1 1\n0 1 0 1\n0 1 1 0\n1 0 1 0\n\n2. 2D Array is made only of 0\u2019s and 1\u2019s, you have to find [Number of Island](https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1)\n\n\n- **Second Round:**\n1. Some Android question / Some java questions basic\n2. [Sort an array of 0s, 1s and 2s](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0)\n3. [Check if string are palindrome](https://practice.geeksforgeeks.org/problems/palindrome-string/0)\n\n\n- **Third Round:**\n\n1. Design the architecture of Paytm market place.\n2. Some random questions on Java like threading, collections, hashmap etc.\n3. Why HashTable not allow NULL but Hashmap allow.\n4. Array question of finding mission number. etc\n\n- **Fourth Round:**\n1. Singleton patterns\n2. Design your own Arraylist.\n3. Sorting of linkedlist.\n4. [Program for array rotation](https://practice.geeksforgeeks.org/problems/rotate-and-delete/0)\n5. [LRU cache](https://practice.geeksforgeeks.org/problems/lru-cache/1)\n6. Recycler view vs list view.\n7. Services, Fragment, app optimization, retainInstance() in fragment, 8. Asynctaskrotation problem etc\n8. Graph traversal for circular loop example.\n9. Find max of Stack optimize way.\n",category:"Android",topic:"Interview Experiences",level:1,uploader:"Anonymous"},B.e,t.M)
 B.Oc=new A.o(7,{id:1678183194675,question:"Booking.com | Android Developer | Amsterdam\n",answer:"\nStatus: Experienced, 5 Years of Android/Java Experience\n\nPosition: Android Developer\n\nLocation: Amsterdam\n\nDate: 16th Feb\n\n**Interview Process:**\nI applied via HackerRank. Received an email notification from HackerRank for the Booking HackerRank coding test.\nHackerRank coding Test:\n\n1. Implement findViewById method\n2. Given a list of words as input, output another list of strings, each containing words that are mutual anagrams.\n3. Identify whether four sides (given by four integers) can form a square, a rectangle or neither.\n4. Output a delta encoding for the sequence. In a delta encoding, the first element is reproduced as-is. Each subsequent element is represented as the numeric difference from the element before it.\nP.S: To pass the test, you need to pass all test cases in all the questions\n\nAfter test submission, I received an email from Booking HR, inviting for an introductory call.\n\n**HR Telephonic:**\nIt was more about introduing Booking and the role. Talked about my experience & expectations. A generic HR call.\n\nAfter few days I received an invite for live code-pair round.\n\nCode-Pair:\nThere was 2 questions.\n\n**Data Structure:** Three integer arrays are given with duplicate numbers. Find the common elements among three arrays.\n\n\n**Android:** Complete two classes to download and display an image on a ImageView.\n\nAfter few days I received an invite to travel to Amsterdam for the onsite interviews.\nBooking arranged flight and stay. Visa was taken care by me.\n\nOnsite Interviews:\nTotal Interviews - 3\nAndroid & Java:\n\n1. Twisted question related to ConcurrentModificationException in an ArrayList\n2. How do you implement a hotel list and detail screen. Discuss what all APIs You will create how the layout will be.\n3. Fragments & their lifecycle, Activity lifecycle, Views, Layouts\n4. Background task in Android - Asynctask, service, intent services etc\n\n**Data Structure:**\n\n1. Given dates and number of check-in and check-out on those dates. Find the busiest day of the hotel. [Merge Array interval type question]\n\n**Team Fit:**\n\n1. Generic question about the team work, relationship with leader.\n2. Business knowledge of Booking and competition. How booking makes money. Differenece between Expedia & Booking in terms of nature of business.\n\n",category:"Android",topic:"Interview Experiences",level:1,uploader:"Anonymous"},B.e,t.M)
 B.Nv=new A.o(7,{id:1678183752131,question:"Uber | L5 | Android - Mobile | Bangalore | Nov 2020 \n",answer:"\n**Background :** 8 Years of experience, Post Grad, mostly in Android, currently in one of the startups in Bangalore\n\n**Round 1:** Android Coding Round : Interviewer shared a zip file containing some boilerplate code for a weather app.\nI was asked to look at couple of files and do a code review based on that. Code will have both language files (aka Java & Kotlin). You can make a choice right there. Explained the code review points or problems.\nAfter that was asked to correct all those points mentioned in code review and make the application work. There are 2 objectives you need to complete.\na. Make the application work ( correct API call happening on main thread types)\nb. Display the waether country-city wise.\nc. Additional task will be click handling on the city.\n\n**Round 2:** Coding Round: Was given a LC Medium type of question. It was a variation of Number of Islands. Was able to write the code in given time. Missed one edge case. Interviewer asked me to write test cases to cover all edge cases. Overall went fine.\n\n**Round 3:** System Design: This system design was more oriented towards mobile ( or say Android). Interviewer asked me to design a photo sync service i.e soemthing like Google Photos. Discussed problem with interviewer first in standard format\n\nFunctional requirements\nNon Functional requirements\nWhen/How the sync will trigger\nKey for system design for mobile interviews is to concentrate on things that matters i.e\n\nYour App HLD\nAPI contracts\nPersistence at device\nDo not go into deep in backend sytstem (even if you know by heart how the backend will work). Asked the interviewer everytime do you want me to discuss/Elaborate more on this?\nI did well in this one.\n\n**Round 4:** Bar Raiser: This was an easy one for me. We discussed about my projects, went really deep techinical on some of the challenges I faced and solutions I did. This was a mix bag of those behavioural and technical interviews. He asked many behavioural questions - I use the same STAR method. For some of the answers we also went into technical solutions also. Overall went well.\n\n**Round 5:** Coding Round: I think it happens due to some confusion. Recruiter also didn't even inform me what kind of coding round it will be. Was exhausted so went without even asking.\nInterviewer asked me to design an Event bus library and than use the same in a sample Android app. It was also an open ended question. Clarified what we want to build. Expectation was event bus has to be generic, thread options etc etc.\nStarted with a simple approach and modified it accordinly solving one requirement at a time. Overall went good.\n\n**Round 6:** Hiring Manager: Nothing special, same casual projects, aspirations etc etc.\n\n**Round 7:** Another Hiring Manager: I don't know why, but maybe because multiple teams were hiring at that time at Uber.\nSame as Round 6.\n\nAfter 2 weeks got the confimation with both team options and offer.\n",category:"Android",topic:"Interview Experiences",level:2,uploader:"Anonymous"},B.e,t.M)
 B.Nd=new A.o(7,{id:1678183921503,question:"CRED | SDE | June 2022 ",answer:"\n**Education :** B.Tech (Fresher 2022 passout).\n\n**Experience :** 2+ years of Internship experience at MNCs and Startups. Both as Android + Backend developer. Currently interning at unicorn startup.\n\n**Role :** SDE (Android Developer)\n\n**Job Posting :** Seen an opening on linkedin jobs and applied there. Got a call back in a day and started with the assignment after a short discussion.\n\nHiring Process:\n\n**Round 1 - Assignment :**\n\nJust after the call from HR. In no time I got an assignment which should be fininshed and codebase should be shared in 24hrs.\nThe asignment is on developing POC on Animation heavy feature using Android native following all the Clean Arcitecture practices.\nIts a full on project including handling API calls and view persistence\n\n\n**Round 2 **- DSA & Puzzles : (1.5hrs)\nJust after my assignment submission in no time my next interview is scheduled for following day.\n\nThis was on DSA and Puzzle solving\nStarted with the basics and later moved to various data structures. Most of them are on Medium Level.\nCode will be written in google docs and not in any IDE. So they check your approach and the way you go with explaining your solution.\n\n\n**Round 3** - Core Android : (2.5hrs)\nAgain no time is given, with in a day gap the next round is scheduled.\n\nThis is completely on Core Android Fundamentals.\nStarting from basic lifecycle based questions to grilling on Clean Architecture, they covered every part. There is also a part where you need to do a HLD for an app, and questions will be again asked based on your approach.\nThis round went more of like a discussion instead of 1 on 1 QnA session. So what they see is how well you can pick things and move forward as they add up more and more complexities to the same situation.\n\n\n**Round 4** - System Design + Managerial : (1.5hrs)\nThis happened with Head of Engineering Mobile. More of like a cultural fit round, but can expect a technical touch.\n\nA good discussion on past experience. How I was handling stuff at each of the workplaces and how did they differ based on scale they operate. Basically to understand the roles I played apart from just being a software developer.\nThen took up a mobile system design problem. Where I was asked to build Analytics SDK. You need to speak out loud on what you are thinking and interviewer will add questions in between.\nLater it was on self awareness and other stuff to understand the career goals. Which looks simple but actually the hardest part of whole interview process. Questions were around, reason for moving to android from backend and things which I work on, apart from tech.\nLater with in a day I got the confirmation from the HR that I am selected.\n\nOverall, the hiring process is unique in itself. All the rounds tests your development skills rather than just grilling on DSA. For every round there are two interviewers in the panel and they made sure it was a discussion rather than just a QnA session.\n\n\n\n",category:"Android",topic:"Interview Experiences",level:0,uploader:"Anonymous"},B.e,t.M)
 B.nt=A.a(s(["id","question","answer","category","topic","level","uploader","sociallink"]),t.s)
 B.Pq=new A.o(8,{id:2,question:"What are launch modes in android?",answer:"There are four types of launch modes:\n**Standard , Single top, Single task, Single instance**\n\n### 1. Standard\nWhen you don't specify any launch mode,  `standard`  is the default one. It creates a new instance of the activity every time you start it. Suppose A, B, C, D, etc. are activities. It works as follows:\n\nThe task with activities:  \n\n```\nA -> B -> C -> D\n```\n\nStart new activity E:  \n```\nA -> B -> C -> D -> E\n```\n\nStart activity B again:  \n\n```\nA -> B -> C -> D -> E -> B\n```\n### 2. Single top\nIn this launch mode, if an activity is at the top of the task and you create its instance again, then a new instance will not be created. Instead  `onNewIntent()`  will be called with updated data. If activity is not on top, a new instance will be pushed. See with examples:\n\nThe task with activities:  \n\n```\nA -> B -> C -> D\n```\n\nLaunch activity B. As B is not on top, a new instance will be created:  \n\n```\nA -> B -> C -> D -> B\n```\n\nLaunch activity B again. As B is on top,  `onNewIntent()`  on B will be called:  \n\n```\nA -> B -> C -> D -> B\n```\n\n### 3. Single task\n\nIn this launch mode, if the activity doesn't exist in the task, a new instance is created otherwise  `onNewIntent()`  is called. Additionally, activities above it get destroyed. Let's understand this with examples:\n\nThe task with activities:  \n```\nA -> B -> C -> D\n```\n\nStart activity E with launch mode single task:  \n\n```\nA -> B -> C -> D -> E\n```\n\nStart activity B with launch mode single task:  \n\n```\nA -> B\n```\n\nNow you can see that B is already there. So a new instance is not created. The  `onNewIntent()`  of B is called. Also, C, D, and E which are above B were destroyed.\n\n### 4. Single instance\n\nFor an activity that has a single instance launch mode, a new task is created. First, see the example, then we can explain it.\n\nThe task with activities:  \n\n```\nA -> B -> C -> D\n```\n\nLaunch E with launch mode single instance:  \n\n```\nTask-1: A -> B -> C -> D\n```\n\n```\nTask-2: E\n```\n\nIf you launch E again, it will not create a new task. In the same instance of E, the  `onNewIntent()`  method will be called.\n\n\nLaunch mode can be set from  `AndroidManifest.xml`  like this:  \n\n```\n<activity android:name=\u201d.MainActivity\u201d\n          android:launchMode=\u201dsingleTop\u201d />\n```\n\nor Java/Kotlin code using flags like this:  \n\n```\nval intent = Intent(activity, HomeGenericActivity::class.java).apply { \n            addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP)\n        }\n```",category:"Android",topic:"Basics",level:0,uploader:"Mohit Rajput",sociallink:"https://dev.to/mohitrajput987"},B.nt,t.M)
-B.Mf=new A.o(7,{id:3,question:"What is a wake lock?",answer:"Android device if kept idle for a certain period, will first dim, then turn off the screen & ultimately turn off the CPU. Certain applications like games, movies app require to be awake so use WakeLock to keep the device Awake. \n\n`getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);`\n\n If you need to keep the CPU on, you use PowerManager using getSystemService() and get WakeLock instance. acquire() and release() to get or remove lock; [Requires WakeLock permission]",category:"Android",topic:"Basics",level:1,uploader:"Rohan Patil"},B.e,t.M)
-B.MO=new A.o(7,{id:4,question:"What is context? What\u2019s application context?",answer:"\nIt is the context of the current/active state of the application. It helps access resources, interact with different components throughout the application. For ex- sharedprefs getDefaultSharedPref(this)\n\nApplication Context is tied to the Lifecycle of an Application. Mainly it is an instance that is a singleton and can be accessed via ****getApplicationContext()***\n\n##### Application context used for:\n    \n-   Load Resource Values\n-   Start a Service\n-   Bind to a Service OR getSystemService(applicationContext)\n-   Send a Broadcast\n-   Register BroadcastReceiver\n#####  Activity context used for: \n-   Layout Inflation\n-   Start an Activity\n-   Show a Dialog",category:"Android",topic:"Basics",level:0,uploader:"Admin"},B.e,t.M)
+B.Mg=new A.o(7,{id:3,question:"What is a wake lock?",answer:"Android device if kept idle for a certain period, will first dim, then turn off the screen & ultimately turn off the CPU. Certain applications like games, movies app require to be awake so use WakeLock to keep the device Awake. \n\n`getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);`\n\n If you need to keep the CPU on, you use PowerManager using getSystemService() and get WakeLock instance. acquire() and release() to get or remove lock; [Requires WakeLock permission]",category:"Android",topic:"Basics",level:1,uploader:"Rohan Patil"},B.e,t.M)
+B.MP=new A.o(7,{id:4,question:"What is context? What\u2019s application context?",answer:"\nIt is the context of the current/active state of the application. It helps access resources, interact with different components throughout the application. For ex- sharedprefs getDefaultSharedPref(this)\n\nApplication Context is tied to the Lifecycle of an Application. Mainly it is an instance that is a singleton and can be accessed via ****getApplicationContext()***\n\n##### Application context used for:\n    \n-   Load Resource Values\n-   Start a Service\n-   Bind to a Service OR getSystemService(applicationContext)\n-   Send a Broadcast\n-   Register BroadcastReceiver\n#####  Activity context used for: \n-   Layout Inflation\n-   Start an Activity\n-   Show a Dialog",category:"Android",topic:"Basics",level:0,uploader:"Admin"},B.e,t.M)
 B.NU=new A.o(7,{id:5,question:"What is compileSDK, targetSDK, minSDK versions?",answer:"\n- The `compileSdkVersion` is the version of the API the app is compiled against. This means you can use Android API features upto that version of the API . If you try and use API 16 features but set compileSdkVersion to 15, you will get a compilation error. If you set compileSdkVersionto 16 you can still run the app on a API 15 devices.\n-  The `targetSdkVersion` has nothing to do with how your app is compiled or what APIs you can use. The `targetSdkVersion` is supposed to indicate that you have tested your app on (presumably up to and including) the version you specify. This is more like a certification or sign off you are giving the Android OS as a hint to how it should handle your app in terms of OS features.\n-  `minSdkVersion` means the lowest device Api level app can run on.",category:"Android",topic:"Basics",level:0,uploader:"Admin"},B.e,t.M)
 B.OB=new A.o(7,{id:6,question:"What is an Intent?",answer:"An `intent` is an abstract description of an operation to be performed. It can be used with startActivity to launch an Activity, broadcastIntent to send it to any interested BroadcastReceiver components, and Context.startService(Intent) or Context.bindService(Intent, ServiceConnection, int) to communicate with a background Service.\n\n#### Intent Structure\nThe primary pieces of information in an intent are:\n\n- ***action*** - The general action to be performed, such as ACTION_VIEW, ACTION_EDIT, ACTION_MAIN, etc.\n\n- **data** -- The data to operate on, such as a person record in the contacts database, expressed as a Uri.",category:"Android",topic:"Intent",level:0,uploader:"Admin"},B.e,t.M)
 B.Oq=new A.o(7,{id:7,question:"What are types of Intent?",answer:" **Implicit**- We do not name a specific component, but instead declare a general action to perform, which allows a component from another app to handle it. \n\n **Explicit**- specify which application will satisfy the intent, by supplying either the target app's package name (google maps directions to a place) or a fully-qualified component class name.",category:"Android",topic:"Intent",level:0,uploader:"Admin"},B.e,t.M)
-B.Mc=new A.o(7,{id:8,question:"What is Pending Intent?",answer:"`Pending Intent` is an intent which you want to trigger at some time in future, even when your application is not alive. This intent can be used by other application which allows it to execute that intent with the same permissions as of our application. It is a reference to a token maintained by the system. Application A can pass a PendingIntent to application B in order to allow application B to execute predefined actions on behalf of application A; regardless of whether application A is still alive.",category:"Android",topic:"Intent",level:1,uploader:"Admin"},B.e,t.M)
+B.Md=new A.o(7,{id:8,question:"What is Pending Intent?",answer:"`Pending Intent` is an intent which you want to trigger at some time in future, even when your application is not alive. This intent can be used by other application which allows it to execute that intent with the same permissions as of our application. It is a reference to a token maintained by the system. Application A can pass a PendingIntent to application B in order to allow application B to execute predefined actions on behalf of application A; regardless of whether application A is still alive.",category:"Android",topic:"Intent",level:1,uploader:"Admin"},B.e,t.M)
 B.Nf=new A.o(7,{id:9,question:"What are Baseline Profiles?",answer:"Baseline Profiles are a list of classes and methods that are ahead of time compiled and installed with your app. This means that your code does not need to be interpreted using the just-in-time (JIT) compiler when the app is used. This translates into startup time improvements, reduced jank, and overall improved runtime performance for end users.\nIt is a way for the app to provide what is important to the app at run time which can be used for startup, etc. because we are now telling what to optimize ahead of time. \n- Rules for Ahead of Time Compilation \n- Improve Performance \n- Ship with app",category:"Android",topic:"Tools & Concepts",level:2,uploader:"Martin741"},B.e,t.M)
-B.M1=new A.o(7,{id:10,question:"What do know about RxJava?",answer:"\nRxJava is **a JVM library that uses observable sequences to perform asynchronous and event-based programming**. Its primary building blocks are triple O's, which stand for Operator, Observer, and Observables.\n\nEverything in terms of Stream of Data. `Observable` - Can be observed for any changes. For eg. `button.clicks().subscribe{ }` `Observer` - Observes/subscribes the observable onSubscribed() - on first time you subscribed\n\n```\nonNext() - we will get new data here each time\nonError() - on error\nonComplete() - on finish\n```\n\n`Operator` - To manipulate stream of data \n\nFor eg- `button.clicks().throttleFirst(1500, Time.IN_MILLIS).subscribe{ }` It will ignore for 1500 ms once clicked",category:"Android",topic:"Tools & Concepts",level:1,uploader:"Admin"},B.e,t.M)
+B.M2=new A.o(7,{id:10,question:"What do know about RxJava?",answer:"\nRxJava is **a JVM library that uses observable sequences to perform asynchronous and event-based programming**. Its primary building blocks are triple O's, which stand for Operator, Observer, and Observables.\n\nEverything in terms of Stream of Data. `Observable` - Can be observed for any changes. For eg. `button.clicks().subscribe{ }` `Observer` - Observes/subscribes the observable onSubscribed() - on first time you subscribed\n\n```\nonNext() - we will get new data here each time\nonError() - on error\nonComplete() - on finish\n```\n\n`Operator` - To manipulate stream of data \n\nFor eg- `button.clicks().throttleFirst(1500, Time.IN_MILLIS).subscribe{ }` It will ignore for 1500 ms once clicked",category:"Android",topic:"Tools & Concepts",level:1,uploader:"Admin"},B.e,t.M)
 B.N0=new A.o(7,{id:11,question:"What is Proguard & R8?",answer:"`ProGuard` is an open source command-line tool that shrinks, optimizes and obfuscates Java code.\n`R8` uses proguard rules to optimize. It will remove unused code from your app, the libraries you are using. \n- Remove unused resources, unused if..else statement & shrink code. \n- obfuscate code, rename your variables, functions to short unreadable names for release so it can't be reverse engineering. \n- minifyEnabled true, shrinkResources true, proguard files <rules file> \n- To keep/ignore some imp classes like data class : -keep class com.hello.world.data_models.*;  \n- In app/build/outputs/mapping/release/mapping.txt This is a mapping file android uses in order to send error messages to map obfuscate names - original name",category:"Android",topic:"Tools & Concepts",level:1,uploader:"Martin741"},B.e,t.M)
 B.LC=new A.o(7,{id:1674208840927,question:"What are fragments? Describe its lifecycle.",answer:"    \n### Definition\n___\n\n**A Fragment represents a reusable portion of your app's UI**. A fragment defines and manages its own layout, has its own lifecycle, and can handle its own input events. Fragments cannot live on their own--they must be hosted by an activity or another fragment.\n\n    \n\n### Lifecyle\n___\n\n![fragment lifecyle](https://i.postimg.cc/kGhLFwvg/fragment-view-lifecycle.png)\n\n> **Tip:** This question is very common & will most likely be asked in an Android interview.\n\n    ",category:"Android",topic:"Fragments",level:1,uploader:"Kartik Sharma"},B.e,t.M)
 B.OZ=new A.o(7,{id:1674209998332,question:"How fragment communicate with activity & other fragments?\n",answer:"    \n### Communicating Fragment with Activity\n\n- To allow a Fragment to communicate up to its Activity, **you can define an interface in the Fragment class and implement it within the Activity**. The Fragment captures the interface implementation during its `` onAttach() `` lifecycle method and can then call the Interface methods to communicate with the Activity.\n\n\n\n### Communicating Fragment with Activity & other Fragments\n\n- We can create a **Shared ViewModel**  with its LiveData variables for the Fragment to share its state with the Activity.\n\n\n\n    ",category:"Android",topic:"Fragments",level:0,uploader:"Kartik Sharma"},B.e,t.M)
 B.Nt=new A.o(7,{id:1674210285117,question:"Difference between adding and replace fragment in backstack?",answer:"\xb7 **replace** removes the existing fragment and adds a new fragment. This means when you press the back button the fragment that got replaced will be created with its onCreateView being invoked.\n\n\xb7 **add** retains the existing fragments and adds a new fragment which means the existing fragment will be active and they won't be in a \u2018paused\u2019 state hence when a back button is pressed onCreateView is not called for the existing fragment(the fragment which was there before new fragment was added).\n\n    ",category:"Android",topic:"Fragments",level:0,uploader:"Kartik Sharma"},B.e,t.M)
 B.Pp=new A.o(8,{id:1674210831972,question:"Suppose an activity has 2 fragments (Fragment1 & Fragment2) and we use FragmentManager to replace with addToBackstack each fragment to a layout in activity\ni) Lifecycle when Fragment1 is opened (using replace)?\nii) Lifecycle when Fragment2 is opened from Fragment1 (using replace)?\niii) Lifecycle when pop Fragment2?\niv) Lifecycle when pop Fragment1?",answer:"### i) Lifecycle: Fragment1 is opened (using replace):\n\n\n![answer part 1](https://miro.medium.com/max/468/1*QfFTEA2KKDCSJ4JSvONruA.webp)\n\n___\n\n### ii) Lifecycle: Fragment2 is opened from Fragment1 (using replace):\n\n![answer part 2](https://miro.medium.com/max/966/1*eG_fYFMyhlWEq4YlVSJfgw.webp)\n\n\n___\n\n### iii) Lifecycle: pop Fragment2:\n\n![answer part 3](https://miro.medium.com/max/966/1*VWAECT2VBxzVDGOQabGXIw.webp)\n\n\n___\n\n\n### iv) Lifecycle: pop Fragment1:\n\n![answer part 4](https://miro.medium.com/max/468/1*U7xTRRDcaXYMbE_gK8aRSQ.webp)\n\n\n    ",category:"Android",topic:"Fragments",level:1,uploader:"Zayed Noor",sociallink:"https://medium.com/@zayed007"},B.nt,t.M)
-B.MM=new A.o(7,{id:1674211667178,question:"What are Coroutines?",answer:" A **Coroutine** can be thought of as a worker that performs some long-running/memory-intensive operations asynchronously. The asynchronous nature of a coroutine ensures that any long-running/memory-intensive operations do not block the main thread of execution. In essence, it takes a block of code and runs it on a particular thread.\n\n\n    ",category:"Android",topic:"Coroutines",level:0,uploader:"Kartik Sharma"},B.e,t.M)
+B.MN=new A.o(7,{id:1674211667178,question:"What are Coroutines?",answer:" A **Coroutine** can be thought of as a worker that performs some long-running/memory-intensive operations asynchronously. The asynchronous nature of a coroutine ensures that any long-running/memory-intensive operations do not block the main thread of execution. In essence, it takes a block of code and runs it on a particular thread.\n\n\n    ",category:"Android",topic:"Coroutines",level:0,uploader:"Kartik Sharma"},B.e,t.M)
 B.P6=new A.o(7,{id:1674211758467,question:"How are Coroutines different from Threads?",answer:"**Coroutines may be thought of as lightweight threads**. They are called so because multiple coroutines can be scheduled to be executed on the same thread. So, the creation of 100,000 threads results in the creation of 100,000 threads. Whereas, the creation of 100,000 coroutines doesn\u2019t necessarily mean that 100,000 threads get created. Since the resources of a single thread are shared by multiple coroutines, they are much lighter when compared to creating raw threads.",category:"Android",topic:"Coroutines",level:0,uploader:"Kartik Sharma"},B.e,t.M)
 B.NX=new A.o(7,{id:1674212018746,question:"Why Coroutines are preferred?",answer:"Coroutines are memory efficient & solves many problems related to concurrency. They simplify the process of writing asynchronous code.\n\n**Elimination of chaining callbacks** : Also refered as \u201cCallback hell\u201d, the infamous practice of nesting callback functions. There are a lot of scenarios wherein callback functions need to be nested. This results in the nesting of callback functions making the code extremely difficult to read and debug. The sequential nature of coroutines precludes the need for using nested callbacks, making the code much more readable and maintainable.\n\n\n**Exception handling and cancellation**\ncan be difficult to manage in a concurrent environment. They make it very easy to handle exceptions. They not only provide methods of propagating and handling exceptions but also allow us to define the cancellation behavior. This feature allows us to write safe concurrent code.\n\n**Sequential Execution** makes concurrent code easy to read and debug\nEach operation within a coroutine executes sequentially. For example, if there is a network call to fetch the details of a product followed by another network call to fetch the image of the product, then, the second request doesn\u2019t execute unless the first request was successfully executed. This has several benefits. First and foremost, it allows us to skip unnecessary network calls. In this example, if a fetch operation to fetch the details of an invalid product is made, then, the fetch operation to get the image of the product can be completely skipped. Secondly, it also makes debugging very easy, since asynchronous code is represented synchronously. Now, this doesn\u2019t mean that it is not possible to execute more than one network call at the same time. The async{} block provided by the coroutines library can be used to achieve concurrent execution.\n\n**Scoped Execution** prevent inefficient use of resources\nAll coroutines must be started in a coroutine scope. If the scope gets canceled, then all coroutines that were started within that scope get canceled. This helps to prevent unnecessary use of resources. Especially in Android, where lifecycles are involved, canceling un-necessary background tasks is of paramount importance. Moreover, in the context of Android development, many jetpack libraries such as room and datastore, provide built-in coroutine scope. This is a big advantage because the users of these libraries do not need to think of when to start and stop the execution of coroutines. We just define what we have to execute and the library will take care of stopping/canceling/restarting the coroutines. This helps to utilize the resources in a very efficient manner.\n",category:"Android",topic:"Coroutines",level:1,uploader:"Kartik Sharma"},B.e,t.M)
 B.Pc=new A.o(7,{id:1674212221622,question:"What are dispatchers? Explain their types.",answer:"**A dispatcher allows us to specify which pool of threads the coroutines are executed.** The dispatcher can be specified as a part of the coroutine context. There are 5 types of dispatchers that are available for use:\n\n**Default** \u2014 The default dispatcher is used to schedule coroutines that perform CPU-intensive operations such as filtering a large list.\n\n**IO** \u2014 This is the most common dispatcher. It is used to run coroutines that perform I/O operations such as making network requests and fetching data from the local database.\n\n**Main** \u2014 The main dispatcher is used to execute coroutines on the main thread. It generally doesn\u2019t block the main thread, but, if several coroutines containing long-running operations get executed in the context of this dispatcher, then the main thread has a possibility of getting blocked. This is mainly used in conjunction with the withContext(){} method to switch the context of execution to the main thread. This comes in handy if it is required to perform some operation on a background thread and switching the context of execution to the main thread to update the UI. Since touching the UI from a background thread is not permitted in Android, this allows us to switch the context of execution to the main thread before updating the UI.\n\n**Unconfined** \u2014 This dispatcher is very rarely used. Coroutines scheduled to run on this dispatcher run on the thread that they are started/resumed. When they are first called, they get executed in the thread that they are called in. When they resume, they get resumed in the thread that they are resumed in. In summary, they are not confined to any thread pool.\n\n**Immediate**\u2014 The immediate dispatcher is a recently introduced dispatcher. It is used to reduce the cost of re-dispatching the coroutine to the main thread. There is a slight cost associated when switching the dispatcher using the withContext{} block. Using the Immediate dispatcher ensures the following.\n\n- If a coroutine is already executing in the main dispatcher, then the coroutine wouldn\u2019t be re-dispatched, therefore removing the cost associated with switching dispatchers.\n- If there is a queue of coroutines waiting to get executed in the main dispatcher, the immediate dispatcher ensures that the coroutine will be executed as immediately as possible.",category:"Android",topic:"Coroutines",level:1,uploader:"Kartik Sharma"},B.e,t.M)
@@ -95958,8 +95866,8 @@ B.OX=new A.o(7,{id:1674212371773,question:"What are suspend functions?",answer:"
 B.NR=new A.o(7,{id:1675245568629,question:"What is the difference between Interfaces vs Abstract Class?",answer:"        \n**abstract class**\n- You extend abstract class\n- You can only extend **ONE** abstract class\n- You can have normal methods & properties\n\n**interface**\n- You implement interface\n- You can implement multiple interfaces\n- You can have properties but they will be STATIC & FINAL\n\n\n\n    ",category:"Android",topic:"Java",level:0,uploader:"Kartik Sharma"},B.e,t.M)
 B.Pf=new A.o(7,{id:1675245875054,question:"What is the difference between Serializable and Parcelable? Which is preferred?",answer:"**Serializable**\n- It is a standard Java interface. In this approach, you simply mark a class Serializable by implementing the interface and java will automatically serialize it.\n- Reflection is used during the process and many additional objects are created. This leads to plenty of garbage collection and poor performance.\n\n\n**Parcelable**\n- It is an Android-specific interface. In this approach, you implement the serialization yourself.\n- Reflection is not used during this process and hence no garbage is created.\n- Parcelable is far more efficient than Serializable since it gets around some problems with the default Java serialization scheme. Also, it is faster because it is optimized for usage on the development of Android, and shows better results.\n\n\n\n    ",category:"Android",topic:"Java",level:0,uploader:"Kartik Sharma"},B.e,t.M)
 B.NZ=new A.o(7,{id:1675246220645,question:"Explain about java classes related to the use of sensors on Android.",answer:"Android sensor API provides many classes and interface for the use of sensors on Android. The important classes and interfaces of sensor API are given below:\n\n- **Sensor class:** This class helps you to create an instance of a specific sensor. It provides methods that let you determine a sensor\u2019s capabilities.\n- **SensorManager class:** This class is used to create an instance of the sensor service. It provides methods to access and list sensors, to register and unregister sensor listeners, etc.\n- **SensorEvent class:** This Java class is used to create a sensor event object. It provides information about the sensor event including raw sensor data, the accuracy of data, type of sensor, timestamp of event, etc.\n- **SensorEventListener interface:** This interface is used to create two callback methods that receive sensor event notifications when sensor value changes or when sensor accuracy changes. Those two methods are ``void onAccuracyChanged(Sensor sensor, int accuracy)`` which is called when sensor accuracy is changed and\n``void onSensorChanged(SensorEvent event)`` which is called when sensor values are changed.",category:"Android",topic:"Tools & Concepts",level:1,uploader:"Rohan Patil"},B.e,t.M)
-B.M5=new A.o(7,{id:1675246435403,question:"What is JobScheduler?",answer:"The JobSchedular API is used for scheduling different types of jobs against the framework that will be executed in your app\u2019s own process. This allows your application to perform the given task while being considerate of the device\u2019s battery at the cost of timing control.\n\nThe JobScheduler supports batch scheduling of jobs. The Android system can combine jobs for reducing battery consumption. JobManager automatically handles the network unreliability so it makes handling uploads easier.\n\nHere is some example of the situation where you would use this job scheduler-\n\n- Tasks that should be done when the device is connected to a power supply.\n- Tasks that require a Wi-Fi connection or network access.\n- Tasks that should run on a regular basis as batch where the timing is not critical.",category:"Android",topic:"Services",level:0,uploader:"Rohan Patil"},B.e,t.M)
-B.LV=new A.o(7,{id:1675246602985,question:"Difference between Companion object vs Object?",answer:"A\xa0Companion object\xa0is initialized when the class is loaded (typically the first time it's referenced by other code that is being executed) whereas\xa0Object\xa0declarations are initialized lazily, when accessed for the first time.",category:"Android",topic:"Kotlin",level:0,uploader:"Kartik Sharma"},B.e,t.M)
+B.M6=new A.o(7,{id:1675246435403,question:"What is JobScheduler?",answer:"The JobSchedular API is used for scheduling different types of jobs against the framework that will be executed in your app\u2019s own process. This allows your application to perform the given task while being considerate of the device\u2019s battery at the cost of timing control.\n\nThe JobScheduler supports batch scheduling of jobs. The Android system can combine jobs for reducing battery consumption. JobManager automatically handles the network unreliability so it makes handling uploads easier.\n\nHere is some example of the situation where you would use this job scheduler-\n\n- Tasks that should be done when the device is connected to a power supply.\n- Tasks that require a Wi-Fi connection or network access.\n- Tasks that should run on a regular basis as batch where the timing is not critical.",category:"Android",topic:"Services",level:0,uploader:"Rohan Patil"},B.e,t.M)
+B.LW=new A.o(7,{id:1675246602985,question:"Difference between Companion object vs Object?",answer:"A\xa0Companion object\xa0is initialized when the class is loaded (typically the first time it's referenced by other code that is being executed) whereas\xa0Object\xa0declarations are initialized lazily, when accessed for the first time.",category:"Android",topic:"Kotlin",level:0,uploader:"Kartik Sharma"},B.e,t.M)
 B.Nj=new A.o(7,{id:1675246793467,question:"What is @JvmStatic, @JvmOverloads, @JvmField ?",answer:"These are used mainly when we are calling Kotlin code in Java code or vice-versa that is for interoperability.\n\n1. **@JvmStatic** - When you have stuff in ``object{}`` or ``companion object{}`` and now you want to access those in Java you have to do this ClassName.INSTANCE.stuff() or ClassName.Companion.stuff() respectively. To avoid the INSTANCE & Companion, we put \u201c@JvmStatic \u201d so in java we can directly do ClassName.stuff()\n\n2. **@JvmOverload** - When in data class you have some param with default values, so if you use in kotlin, the params are optional. But in Java, it will be required! So if we say while in making ``data class \u2192 data class User @JvmOverloads constructor (\u2026fields)`` so then in Java we can see those fields as optional.\n\n3. **@JvmField** -  To avoid using getter & setters in JAVA provide field in data class with this. [Internally this makes a static field]\n",category:"Android",topic:"Kotlin",level:0,uploader:"Rohan Patil"},B.e,t.M)
 B.tu=new A.o(7,{id:1675445098755,question:"What is Testing? Explain types.",answer:'  \n **Testing** \n\nTesting small piece of code in isolation. This helps in maintaining bug-free & modular code when new features are added.\n\n#### - Types\n- **Unit Testing**: Pure Java/Kotlin code test using `JUnit`. If the testcase fails, it means some incremental changes caused this.\n\n```\n\nmain code : Utils-> boolean isPalindrome() \n\ntest code: \n\nclass UtilsTest{\n       lateinit var utils : Utils\n       \n\n       //Runs before every testcase in UtilsTest     \n       @Before\n       fun setUp(){\n          utils = Utils()\n        }\n        \n\n       //Runs after every testcase     \n       @After\n       fun tearDown(){}\n        \n        //TestCase\n        @Test\n         fun isPalindrome_input_racecar_expectedTrue(){\n           val result = utils.isPalindrome("racecar")\n           assertEquals( true,  result )\n                    //(expected, actual)\n        }\n}\n\n```\n\n- **Instrumentation Testing**: Test which are Android specifics, it will require android concepts like context, etc. For exapmple, Reading json file from asset folder\n       \n     1.  **Non-UI**: (Similar to JUnit) It uses android classes like context, assetManager.\n\n     2.  **UI (Espresso)**: Here UI will be mocked and tested, For example clicking on views\n\n\n\n> **Tip:** Testing questions will be mostly around its importance, type & examples.\n',category:"Android",topic:"Testing",level:1,uploader:"Kartik Sharma"},B.e,t.M)
 B.tv=new A.o(7,{id:1675447318685,question:"What is a Service in android? Explain types.",answer:"        \n**Services**\n\nIt is an android component that runs on the background to perform long running task.\n\n#### Types -\n- **Background**: It is a service that runs only when the app is running. It is terminated when the app is terminated. You can use **startService()** to start the service.\n\n- **Foreground**: It is a service that stays alive even when the app is terminated. It is mandatory to show a notification to keep running this service in background. You have to use **startForegroundService()**\n\n- **Bound**: A bound service is the server in a client-server interface. It allows components (such as activities) to bind to the service, send requests, receive responses. A bound service typically lives only while it serves another application component and does not run in the background indefinitely.\n\n[Documentation for more details](https://developer.android.com/guide/components/services)\n\n\n\n    ",category:"Android",topic:"Services",level:0,uploader:"Rohan Patil"},B.e,t.M)
@@ -95973,59 +95881,59 @@ B.OQ=new A.o(7,{id:1675704857476,question:"Do you know about JAX-RS?",answer:u.N
 B.Ov=new A.o(7,{id:1675705419575,question:u.L,answer:"#### Here is a compilation of all the http requests & status code\n![http-reqiests.png](https://i.postimg.cc/jj4ghKHj/http-reqiests.png)\n\n![status-codes.png](https://i.postimg.cc/zDyf4fV4/status-codes.png)\n\nSource: interviewbit.com\n    ",category:"Web Frontend",topic:"REST",level:0,uploader:"Pankaj Venkata"},B.e,t.M)
 B.Nk=new A.o(7,{id:1675705566564,question:"SOAP vs REST",answer:u.J,category:"Web Frontend",topic:"REST",level:1,uploader:"Pankaj Venkata"},B.e,t.M)
 B.Ol=new A.o(7,{id:1675766541874,question:"What is ClickJacking?",answer:"- **ClickJacking** is a security attack where the user is fooled to click on something while they assume they are clicking another thing. \n- The attack mostly happens by the HTML frames. ClickJacking is also regarded as the user interface redressing. \n- It lets the user think that they are utilising a normal UI in the web page, but in actuality, there is an unseen UI in control; you can think of it as the user interface being redressed.\n-  When users click on one thing, assuming it to be secure and safe, the hidden UI executes another action.\n\n",category:"Web Frontend",topic:"Web Basics",level:0,uploader:"Pankaj Venkata"},B.e,t.M)
-B.MP=new A.o(7,{id:1675766651378,question:"Mention three ways to decrease page load time?",answer:"There are numerous things accountable for lowering page load time. Let us look at the three best ways to reduce its loading time:\n\n- **Image Optimization**: It is always advised to scale your videos and pictures before uploading them to a page.\n- **Browser Cache**: The utilization of cache will boost speed for pages that you have visited already.\n- **Optimize and compress content**: Compressing the content of a website decreases the load time of a page to a great extent.\n- **StyleSheet Reference on Top**: Setting stylesheet reference to the header of a doc allows your page to load quickly.\n",category:"Web Frontend",topic:"Web Basics",level:0,uploader:"Pankaj Venkata"},B.e,t.M)
-B.Mv=new A.o(7,{id:1675766805669,question:"Tell me when and why should I make use of Webpack?",answer:"- While creating a complicated front-end application with tons of non-code static possessions, for instance, CSS, fonts, images, etc, then, of course, you should make use of Webpack since it has a lot of amazing benefits.\n\n- If you have a small application that doesn't have a lot of static resources and you only have to create one file of JavaScript to help the customers, then Webpack should be more overhead than needed.\n",category:"Web Frontend",topic:"Web Basics",level:0,uploader:"Pankaj Venkata"},B.e,t.M)
-B.Mr=new A.o(7,{id:1675766887809,question:"How does the server hanger the page in which content is present in several languages?",answer:'- When an HTTP request is sent to the server by the user, the user browser also sends a chunk of additional information regarding the language preference as the Accept-Language header. \n- Then the server reads the HTTP request with the Accept-Language header and sends the document version back along with the right language and declares the language attribute Lang in the HTML tag.\n\n```\n<html lang = "hi">...</html>\n```\n\n',category:"Web Frontend",topic:"Web Basics",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
+B.MQ=new A.o(7,{id:1675766651378,question:"Mention three ways to decrease page load time?",answer:"There are numerous things accountable for lowering page load time. Let us look at the three best ways to reduce its loading time:\n\n- **Image Optimization**: It is always advised to scale your videos and pictures before uploading them to a page.\n- **Browser Cache**: The utilization of cache will boost speed for pages that you have visited already.\n- **Optimize and compress content**: Compressing the content of a website decreases the load time of a page to a great extent.\n- **StyleSheet Reference on Top**: Setting stylesheet reference to the header of a doc allows your page to load quickly.\n",category:"Web Frontend",topic:"Web Basics",level:0,uploader:"Pankaj Venkata"},B.e,t.M)
+B.Mw=new A.o(7,{id:1675766805669,question:"Tell me when and why should I make use of Webpack?",answer:"- While creating a complicated front-end application with tons of non-code static possessions, for instance, CSS, fonts, images, etc, then, of course, you should make use of Webpack since it has a lot of amazing benefits.\n\n- If you have a small application that doesn't have a lot of static resources and you only have to create one file of JavaScript to help the customers, then Webpack should be more overhead than needed.\n",category:"Web Frontend",topic:"Web Basics",level:0,uploader:"Pankaj Venkata"},B.e,t.M)
+B.Ms=new A.o(7,{id:1675766887809,question:"How does the server hanger the page in which content is present in several languages?",answer:'- When an HTTP request is sent to the server by the user, the user browser also sends a chunk of additional information regarding the language preference as the Accept-Language header. \n- Then the server reads the HTTP request with the Accept-Language header and sends the document version back along with the right language and declares the language attribute Lang in the HTML tag.\n\n```\n<html lang = "hi">...</html>\n```\n\n',category:"Web Frontend",topic:"Web Basics",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
 B.Pm=new A.o(7,{id:1675768992514,question:"State all the elements of the CSS Box Model.",answer:"        \nIn its BOX model, CSS comprises 4 elements:\n\n**Padding** \u2013 This area encircles the content.\n\n**Margin** \u2013 Margin is the area outside the border.\n\n**Border** \u2013 The border is the padding's outer layer.\n\n**Content** \u2013 Displays the main content and the text of the web page.\n\n\n![enter image description here](https://miro.medium.com/max/399/1*LCWYi8UVXqF24rgU-8sPHA.jpeg)\n\n\n\n    ",category:"Web Frontend",topic:"Web Basics",level:0,uploader:"Pankaj Venkata"},B.e,t.M)
 B.P5=new A.o(7,{id:1675770122708,question:"Suggest some ways on how to fix the browser-specific styling issue?",answer:"- We can make a distinctive stylesheet for various browsers making use of server-side rendering.\n- Utilizing a library such as Bootstrap, which already has the code to manage the browser-specific styling issue.\n- Reset or Normalize CSS can also be utilized. Multiple 3rd party plugins equip libraries for browser styling issues.\n",category:"Web Frontend",topic:"Web Basics",level:1,uploader:"Pankaj Venkata"},B.e,t.M)
 B.O1=new A.o(7,{id:1675770278187,question:"Suggest how can we optimize our front-end page.",answer:"- The consumption of resources can be reduced by the pages by enhancing the server response.\n- Utilize JavaScript and External CSS instead of internal or in-line.\n- Utilize the framework to ensure the front-end becomes more responsive to different devices.\n- Open-source libraries can be used to manage the browser-specific styling issue.\n- Make use of progressive loading like Lazy Loading to enhance the rendering of heavy elements, like videos and images.\n- Connect the style sheet in the header and script at the top of the HTML's body tag.\n- Utilize browser storage to keep user-specific private data.",category:"Web Frontend",topic:"Web Basics",level:1,uploader:"Gobind Sekhar"},B.e,t.M)
-B.LQ=new A.o(7,{id:1675770414425,question:"What is 'strict mode' in JavaScript?",answer:"Strict mode can be used to enforce the restricted variant of JavaScript along with non-strict mode code or alone. It can be applied to the entire script or individual functions and won't be applicable to block statements enclosed in { }.\n\nExample (strict mode for the entire script)\n```\n'use strict';\nconst name = 'devinterview';\n```\n\nExample (strict mode for a function)\n```\nfunction user(){\n    'use strict';\n    console.log(\"Strict mode\");\n}\n```\n",category:"Web Frontend",topic:"Javascript",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
+B.LR=new A.o(7,{id:1675770414425,question:"What is 'strict mode' in JavaScript?",answer:"Strict mode can be used to enforce the restricted variant of JavaScript along with non-strict mode code or alone. It can be applied to the entire script or individual functions and won't be applicable to block statements enclosed in { }.\n\nExample (strict mode for the entire script)\n```\n'use strict';\nconst name = 'devinterview';\n```\n\nExample (strict mode for a function)\n```\nfunction user(){\n    'use strict';\n    console.log(\"Strict mode\");\n}\n```\n",category:"Web Frontend",topic:"Javascript",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
 B.N5=new A.o(7,{id:1675770669817,question:"What is Object Destructuring in JavaScript?",answer:"Object Destructuring or destructuring assignment is an approach by which the properties from an object or values from an array can be directly unpacked to different variables.\n\nExample (Without Object Destructuring)\n```\nconst course = {\n    name: 'Introduction to JavaScript',\n    isPaid: true,\n    cost: {\n        amount: 999,\n        currency: 'INR'\n    }\n};\nconst name = course.name;\nconst isPaid = course.isPaid;\nconst cost = course.cost;\nconsole.log(name); // Introduction to JavaScript\nconsole.log(isPaid); // true\nconsole.log(cost); // { amount: 999, currency: 'INR' }\n```\n\nExample (With Object Destructuring)\n```\nconst course = {\n    name: 'Introduction to JavaScript',\n    isPaid: true,\n    cost: {\n        amount: 999,\n        currency: 'INR'\n    }\n};\nconst { name, isPaid, cost } = course; // destructuring is done here\nconsole.log(name); // Introduction to JavaScript\nconsole.log(isPaid); // true\nconsole.log(cost); // { amount: 999, currency: 'INR' }\nExample (With Object Destructuring and having alias for properties)\nconst course = {\n    name: 'Introduction to JavaScript',\n    isPaid: true,\n    cost: {\n        amount: 999,\n        currency: 'INR'\n    }\n};\nconst { name: courseName, isPaid, cost: courseCost } = course;\nconsole.log(courseName); // Introduction to JavaScript\nconsole.log(isPaid); // true\nconsole.log(courseCost); // { amount: 999, currency: 'INR' }\n```\nExample (Partial Object Destructuring)\n\n```\nconst course = {\n    name: 'Introduction to JavaScript',\n    website: 'devinterview.in',\n    isAwesome: true,\n    cost: 999\n};\nconst { name, cost, ...rest } = course;\nconsole.log(name); // Introduction to JavaScript\nconsole.log(cost); // 99\nconsole.log(rest); // { website: 'devinterview.in', isAwesome: true }\n```\nExample (Array Destructuring)\n```\nconst nums = [4, 5, 6, 7];\nconst [first, second, ...rest] = nums;\nconsole.log(first); // 4\nconsole.log(second); // 5\nconsole.log(rest); // [ 6, 7 ]\n```",category:"Web Frontend",topic:"Javascript",level:1,uploader:"Pankaj Venkata"},B.e,t.M)
 B.NI=new A.o(7,{id:1675770768570,question:"What is the difference between '==' and '===' in JavaScript?",answer:"The abstract equality operator (==) and strict equality operator (===) are both comparison operators. The '===' can be used to compare both values and types whereas '==' can be used to only compare values.\n\nExample\n```\nconst x = 0;\nconst y = '0';\n\nconsole.log(x === y);    // false\nconsole.log(x == y);     // true\n```",category:"Web Frontend",topic:"Javascript",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
 B.O2=new A.o(7,{id:1675770894337,question:"What are async functions in JavaScript?",answer:"Async functions are those functions using which asynchronous, promise-based behavior can be introduced without explicitly using a Promise.\n\nThe **await** expression is used along with the async functions. An async function can have zero or more await expressions. await is used to make the function appear to be synchronous until the promise is fulfilled or rejected.\n\nExample\n```\nfunction resolveAfter2Seconds() {\n  return new Promise(resolve => {\n    setTimeout(() => {\n      resolve('workattech');\n    }, 2000);\n  });\n}\n\nasync function asyncCall() {\n  const result = await resolveAfter2Seconds();\n  console.log(result);\n}\nasyncCall();     // calling the async function asyncCall() will output workattech after 2 seconds\n```",category:"Web Frontend",topic:"Javascript",level:0,uploader:"Mitchell Jonah"},B.e,t.M)
 B.Oo=new A.o(7,{id:1675771027862,question:"What is the difference between 'null' and 'undefined' in JavaScript?",answer:"**undefined** is a primitive value that is assigned to a variable before it is initialized. In other words, if you declare a variable but don't initialize the value, it will appear to be undefined during code execution.\n\nThe value **null** can be assigned to any variable. It represents that the variable has no value.\n\nExamples\n\n\nconst x = null;\n  console.log(x);    // null\n\n\nlet x;\nconsole.log(x);    // undefined\n",category:"Web Frontend",topic:"Javascript",level:0,uploader:"Mitchell Jonah"},B.e,t.M)
-B.ME=new A.o(7,{id:1675771814327,question:"What is NaN in JavaScript?",answer:"- **NaN (Not-a-Number)** is a JavaScript property used to represent values that are not proper numbers. NaN is returned by numerical operations where the operation is unable to resolve a numerical value.\n\n- Examples\n```\nparseInt(\"thedevinterview.in\");\nMath.sqrt(-1);\n\"thedevinterview.in\"/3\n```\n- The isNaN() function can be used to check whether a value is NaN or not. While using the isNaN() function, the value will be first converted to a Number type. Then a check would happen to find out whether it is NaN or not.\n\n- Examples\n```\nisNaN(123);    // false\nisNaN('workattech');    // true\nisNaN('123');    // false \u2192 '123' is converted to Number type (123) and hence it is NaN\nisNaN(undefined);    // true\nisNaN(true);    // false \u2192 true is corresponding to 1, which is converted to Number type and checked\nisNaN(false);   // false\n```",category:"Web Frontend",topic:"Javascript",level:0,uploader:"Mitchell Jonah"},B.e,t.M)
+B.MF=new A.o(7,{id:1675771814327,question:"What is NaN in JavaScript?",answer:"- **NaN (Not-a-Number)** is a JavaScript property used to represent values that are not proper numbers. NaN is returned by numerical operations where the operation is unable to resolve a numerical value.\n\n- Examples\n```\nparseInt(\"thedevinterview.in\");\nMath.sqrt(-1);\n\"thedevinterview.in\"/3\n```\n- The isNaN() function can be used to check whether a value is NaN or not. While using the isNaN() function, the value will be first converted to a Number type. Then a check would happen to find out whether it is NaN or not.\n\n- Examples\n```\nisNaN(123);    // false\nisNaN('workattech');    // true\nisNaN('123');    // false \u2192 '123' is converted to Number type (123) and hence it is NaN\nisNaN(undefined);    // true\nisNaN(true);    // false \u2192 true is corresponding to 1, which is converted to Number type and checked\nisNaN(false);   // false\n```",category:"Web Frontend",topic:"Javascript",level:0,uploader:"Mitchell Jonah"},B.e,t.M)
 B.OU=new A.o(7,{id:1675772015737,question:"What are var, const, let keywords in JavaScript?",answer:"- **var**, **const**, and **let** are the keywords that can be used to declare the variables in JavaScript.\n\n- **Scopes**:\n1. The 'var' keyword is globally and functionally scoped and it can be re-assigned.\n2. The 'let' keyword has functional and block scope and can also be re-assigned.\n3. The 'const' keyword also has functional and block scope but it cannot be re-assigned.\nNote that let can be used everywhere instead of const. A good practice to avoid bugs is to use const by default and use let when we are sure that the variable might get updated. Such bugs easily come up in large codebases.",category:"Web Frontend",topic:"Javascript",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
-B.MR=new A.o(7,{id:1675772235570,question:"What is the difference between map() and forEach() in JavaScript?",answer:"The **forEach()** method iterates over a list (or an array) and carries out some operations on each of the elements.\n\nExample\n```\nconst array = [1, 2, 3, 4, 5];\narray.forEach(element => {\n    console.log(element);\n});  // outputs every element of the array\n```\nThe **map()** method iterates over a list, applies some callback function to each element, and constructs an array from the results. It does not cause any change in the list on which it was called.\n\nExample\n```\nconst array = [1, 2, 3, 4, 5];\nconst map = array.map(element => element*element);\nconsole.log(map);  // outputs the square of each element as a new array\n```",category:"Web Frontend",topic:"Javascript",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
+B.MS=new A.o(7,{id:1675772235570,question:"What is the difference between map() and forEach() in JavaScript?",answer:"The **forEach()** method iterates over a list (or an array) and carries out some operations on each of the elements.\n\nExample\n```\nconst array = [1, 2, 3, 4, 5];\narray.forEach(element => {\n    console.log(element);\n});  // outputs every element of the array\n```\nThe **map()** method iterates over a list, applies some callback function to each element, and constructs an array from the results. It does not cause any change in the list on which it was called.\n\nExample\n```\nconst array = [1, 2, 3, 4, 5];\nconst map = array.map(element => element*element);\nconsole.log(map);  // outputs the square of each element as a new array\n```",category:"Web Frontend",topic:"Javascript",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
 B.Ox=new A.o(7,{id:1675772354457,question:"What is the purpose of the 'this' operator in JavaScript?",answer:"In JavaScript, the '**this**' keyword inside an object refers to that object itself. It is mainly used in functions and constructors to access the properties and functions of that object.\n\nExample\n```\nclass Person {\n    constructor(firstName, lastName) {\n        this.firstName = firstName;\n        this.lastName = lastName;\n    }\n    getFullName () {\n        return `${this.firstName} ${this.lastName}`;\n    }\n}\nconst person = new Person ('Elon', 'Musk');\nconsole.log(person.getFullName()); // Elon Musk\n\n```",category:"Web Frontend",topic:"Javascript",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
 B.OK=new A.o(7,{id:1675870884515,question:"What is JSX?",answer:"- **JSX** is a syntax extension of JavaScript. It is used with React to describe what the user interface should look like. \n- By using JSX, we can write HTML structures in the same file that contains JavaScript code.\n\n![JSX](https://www.simplilearn.com/ice9/free_resources_article_thumb/what-is-jsx.JPG)",category:"Web Frontend",topic:"React",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
 B.NT=new A.o(7,{id:1675870941178,question:"Can web browsers read JSX directly?",answer:"- Web browsers cannot read JSX directly. This is because they are built to only read regular JS objects and JSX is not a regular JavaScript object \n- For a web browser to read a JSX file, the file needs to be transformed into a regular JavaScript object. For this, we use Babel.\n![babel](https://www.simplilearn.com/ice9/free_resources_article_thumb/babel.JPG)",category:"Web Frontend",topic:"React",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
-B.Mh=new A.o(7,{id:1675871132982,question:"What is the virtual DOM?",answer:"- DOM stands for Document Object Model. The DOM represents an HTML document with a logical tree structure. Each branch of the tree ends in a node, and each node contains objects.\n\n![DOM](https://www.simplilearn.com/ice9/free_resources_article_thumb/virtualdom.JPG)\n- React keeps a lightweight representation of the real DOM in the memory, and that is known as the virtual DOM. \n- When the state of an object changes, the virtual DOM changes only that object in the real DOM, rather than updating all the objects. \n\n![virtual dom](https://www.simplilearn.com/ice9/free_resources_article_thumb/real-dom.JPG)\n\n> **Tip**: This question is frequenctly asked in interviews.",category:"Web Frontend",topic:"React",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
-B.ML=new A.o(7,{id:1675871627114,question:"What is the difference between the ES6 and ES5 standards?",answer:"These are the few instances where ES6 syntax has changed from ES5 syntax:\n\n- **Components and Function**\n\nES5\n```\nvar DevComponent = React.createClass({\n    \n     render: function() {\n          return(\n           <h1>TheDevInterview<h1>  \n          ); \n       }\n})\n```\n\n\n\nES6\n```\nclass DevComponent extends ReactComponent{\n    \n     render() {\n          return(\n           <h1>TheDevInterview<h1>  \n          ); \n       }\n}\n```\n\n\n- **require vs import**\n\nES5\n```\nvar React = require('react');\n```\n\nES6\n```\nimport React from 'react';\n```\n",category:"Web Frontend",topic:"React",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
+B.Mi=new A.o(7,{id:1675871132982,question:"What is the virtual DOM?",answer:"- DOM stands for Document Object Model. The DOM represents an HTML document with a logical tree structure. Each branch of the tree ends in a node, and each node contains objects.\n\n![DOM](https://www.simplilearn.com/ice9/free_resources_article_thumb/virtualdom.JPG)\n- React keeps a lightweight representation of the real DOM in the memory, and that is known as the virtual DOM. \n- When the state of an object changes, the virtual DOM changes only that object in the real DOM, rather than updating all the objects. \n\n![virtual dom](https://www.simplilearn.com/ice9/free_resources_article_thumb/real-dom.JPG)\n\n> **Tip**: This question is frequenctly asked in interviews.",category:"Web Frontend",topic:"React",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
+B.MM=new A.o(7,{id:1675871627114,question:"What is the difference between the ES6 and ES5 standards?",answer:"These are the few instances where ES6 syntax has changed from ES5 syntax:\n\n- **Components and Function**\n\nES5\n```\nvar DevComponent = React.createClass({\n    \n     render: function() {\n          return(\n           <h1>TheDevInterview<h1>  \n          ); \n       }\n})\n```\n\n\n\nES6\n```\nclass DevComponent extends ReactComponent{\n    \n     render() {\n          return(\n           <h1>TheDevInterview<h1>  \n          ); \n       }\n}\n```\n\n\n- **require vs import**\n\nES5\n```\nvar React = require('react');\n```\n\nES6\n```\nimport React from 'react';\n```\n",category:"Web Frontend",topic:"React",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
 B.OW=new A.o(7,{id:1675872296768,question:"What is Lambda Functions in Python? ",answer:"A **Lambda Function** is a small anonymous function. A lambda function can take any number of arguments, but can only have one expression.\n\n```\nx = lambda a : a + 1\nprint(x(5)) \n\nOutput: 6\n```\n",category:"Machine Learning",topic:"Python",level:0,uploader:"Abhijit"},B.e,t.M)
-B.MA=new A.o(7,{id:1675872440284,question:"What are the built-in types available In Python?",answer:"**Immutable type:**\n\n- numbers: int(), float(), complex()\n- immutable sequences: str(), tuple(), frozenset(), bytes()\n\n\n**Mutable type**:\n\n- mutable sequences: list(), bytearray()\n- set type: set()\n- mapping type: dict()\n- classes, class instances\n\n",category:"Machine Learning",topic:"Python",level:0,uploader:"Abhijit"},B.e,t.M)
+B.MB=new A.o(7,{id:1675872440284,question:"What are the built-in types available In Python?",answer:"**Immutable type:**\n\n- numbers: int(), float(), complex()\n- immutable sequences: str(), tuple(), frozenset(), bytes()\n\n\n**Mutable type**:\n\n- mutable sequences: list(), bytearray()\n- set type: set()\n- mapping type: dict()\n- classes, class instances\n\n",category:"Machine Learning",topic:"Python",level:0,uploader:"Abhijit"},B.e,t.M)
 B.N9=new A.o(7,{id:1675872520704,question:"When to use a tuple vs list vs dictionary in Python?",answer:"- **Tuple** to store a sequence of items that will not change.\n- **List** to store a sequence of items that may change.\n- **Dictionary** when you want to associate pairs of two items.",category:"Machine Learning",topic:"Python",level:0,uploader:"Abhijit"},B.e,t.M)
-B.Me=new A.o(7,{id:1675872702125,question:"What is Data Leakage and how do you avoid it in Scikit-Learn? ",answer:"**Data leakage** occurs when information that would not be available at prediction time is used when building the model. This results in overly optimistic performance estimates. To avoid this problem we should:\n\n- Always split the data into train and test subsets first, particularly before any preprocessing steps.\n\n- Never include test data when using the _fit_ and _fit_transform_ methods. Conversely, the transform method should be used on both train and test subsets as the same preprocessing should be applied to all the data. This can be achieved by using _fit_transform_ on the train subset and transform on the test subset.\n\n- Using _scikit-learn pipeline_ to ensure that the appropriate method is performed on the correct data subset.",category:"Machine Learning",topic:"Scikit-Learn",level:0,uploader:"Abhijit"},B.e,t.M)
-B.Mk=new A.o(7,{id:1675872817648,question:"How to obtain reproducible results across multiple program executions in Scikit-Learn?",answer:"- In order to obtain reproducible (i.e. constant) results across multiple program executions, we need to remove all uses of **random_state=None**, which is the default. \n- The recommended way is to declare a **rng** variable at the top of the program, and pass it down to any object that accepts a random_state parameter. For example,\n```\n>>> rng = np.random.RandomState(0)\n>>> X, y = make_classification(random_state=rng)\n>>> rf = RandomForestClassifier(random_state=rng)\nX_train, X_test, y_train, y_test = train_test_split(X, y random_state=rng)\n>>> rf.fit(X_train, y_train).score(X_test, y_test)\n0.84\n```\n- We are now guaranteed that the result of this script will always be **0.84**, no matter how many times we run it. Changing the global rng variable to a different value should affect the results, as expected.\n\n- It is also possible to declare the rng variable as an integer. This may however lead to less robust cross-validation results.",category:"Machine Learning",topic:"Scikit-Learn",level:0,uploader:"Abhijit"},B.e,t.M)
+B.Mf=new A.o(7,{id:1675872702125,question:"What is Data Leakage and how do you avoid it in Scikit-Learn? ",answer:"**Data leakage** occurs when information that would not be available at prediction time is used when building the model. This results in overly optimistic performance estimates. To avoid this problem we should:\n\n- Always split the data into train and test subsets first, particularly before any preprocessing steps.\n\n- Never include test data when using the _fit_ and _fit_transform_ methods. Conversely, the transform method should be used on both train and test subsets as the same preprocessing should be applied to all the data. This can be achieved by using _fit_transform_ on the train subset and transform on the test subset.\n\n- Using _scikit-learn pipeline_ to ensure that the appropriate method is performed on the correct data subset.",category:"Machine Learning",topic:"Scikit-Learn",level:0,uploader:"Abhijit"},B.e,t.M)
+B.Ml=new A.o(7,{id:1675872817648,question:"How to obtain reproducible results across multiple program executions in Scikit-Learn?",answer:"- In order to obtain reproducible (i.e. constant) results across multiple program executions, we need to remove all uses of **random_state=None**, which is the default. \n- The recommended way is to declare a **rng** variable at the top of the program, and pass it down to any object that accepts a random_state parameter. For example,\n```\n>>> rng = np.random.RandomState(0)\n>>> X, y = make_classification(random_state=rng)\n>>> rf = RandomForestClassifier(random_state=rng)\nX_train, X_test, y_train, y_test = train_test_split(X, y random_state=rng)\n>>> rf.fit(X_train, y_train).score(X_test, y_test)\n0.84\n```\n- We are now guaranteed that the result of this script will always be **0.84**, no matter how many times we run it. Changing the global rng variable to a different value should affect the results, as expected.\n\n- It is also possible to declare the rng variable as an integer. This may however lead to less robust cross-validation results.",category:"Machine Learning",topic:"Scikit-Learn",level:0,uploader:"Abhijit"},B.e,t.M)
 B.Oa=new A.o(7,{id:1675872981343,question:"What's the difference between GridSearchCV and RandomSearchCV? What is the advantage of each one?   ",answer:"- **GridSearchCV** creates a grid over the search space and evaluates the model for all of the possible hyperparameters in the space.\n- Using GridSearchCV can take a lot computational wise since it has to train your model for each combination, often including cross-validation. So for each combination, it would train on k folds. This can often explode your computation time tremendously. \n- The benefit however is that if you run it on a broad parameter space you will get the best parameter settings possible. For example, in the following scenario:\n```\nparams = {\n  epoch = [20, 30, 40, 50], #those numbers are only for example\n  dense_layer_size = [20, 30], \n  second_danse_layer = [30, 40]    \n}\n```\n\n- GridSearch will try all the combinations of your parameters, in this case: (4 * 2 * 2) = 16 total of parameters.\n\n- In **RandomSearchCV** not all parameter values are tried out, but rather a fixed number of parameter settings is sampled from the specified distributions. \n- The number of parameter settings that are tried is given by **n_iter**. In this case, we select n_iter number of combinations and try then. Is useful if you already have a general idea of which hyperparameters you want to tune but are not yet quite sure which values to use.",category:"Machine Learning",topic:"Scikit-Learn",level:0,uploader:"Abhijit"},B.e,t.M)
 B.LB=new A.o(7,{id:1675873123131,question:"How are iloc() and loc() different?",answer:"- **DataFrame.iloc** is a method used to retrieve data from a Data frame, and it is an integer position-based locator (from 0 to length-1 of the axis), but may also be used with a boolean array. \n- It takes input as integer, arrays of integers, a slice object, boolean array and functions.\n```\ndf.iloc[0]\n\ndf.iloc[-5:]\n\ndf.iloc[:, 2]    # the : in the first position indicates all rows\n\ndf.iloc[:3, :3] # The upper-left 3 X 3 entries (assuming df has 3+ rows and columns)\n```\n\n- **DataFrame.loc** gets rows (and/or columns) with particular labels. \n- It takes input as a single label, list of arrays and slice objects with labels.\n```\ndf = pd.DataFrame(index=['a', 'b', 'c'], columns=['time', 'date', 'name'])\ndf.loc['a']     # equivalent to df.iloc[0]\ndf.loc['b':, 'date']   # equivalent to df.iloc[1:, 1]\n```",category:"Machine Learning",topic:"Pandas",level:0,uploader:"Abhijit"},B.e,t.M)
 B.Pk=new A.o(7,{id:1675873246685,question:"How does the groupby() method works in Pandas?",answer:"   - In the first stage of the process, data contained in a pandas object, whether a Series, DataFrame, or otherwise, is split into groups based on one or more keys that we provide.\n\n- The splitting is performed on a particular axis of an object. For example, a DataFrame can be grouped on its rows (axis=0) or its columns (axis=1).\n\n- Once this is done, a function is applied to each group, producing a new value. Finally, the results of all those function applications are combined into a result object. The form of the resulting object will usually depend on what's being done to the data.\n\n- In the figure below, this process is illustrated for a simple group aggregation.\n\n![enter image description here](https://user-images.githubusercontent.com/53355899/144045594-1a5c3f78-4250-4ed8-9de3-ca3689fe08bf.png)\n\nSource: www.mlstack.cafe",category:"Machine Learning",topic:"Pandas",level:0,uploader:"Mandeep singh"},B.e,t.M)
-B.M9=new A.o(7,{id:1675873334299,question:"Why do should make a copy of a DataFrame in Pandas?",answer:"- In general, it is safer to work on copies than on original DataFrames, except when you know that you won't be needing the original anymore and want to proceed with the manipulated version.\n\n- This is because in Pandas, indexing a DataFrame returns a reference to the initial DataFrame. Thus, changing the subset will change the initial DataFrame. Thus, you'd want to use the copy if you want to make sure the initial DataFrame shouldn't change.\n\n- Normally, you would still have some use for the original data frame to compare with the manipulated version, etc. Therefore, depending on the case it's a good practice to work on copies and merge at the end.",category:"Machine Learning",topic:"Pandas",level:0,uploader:"Mandeep singh"},B.e,t.M)
+B.Ma=new A.o(7,{id:1675873334299,question:"Why do should make a copy of a DataFrame in Pandas?",answer:"- In general, it is safer to work on copies than on original DataFrames, except when you know that you won't be needing the original anymore and want to proceed with the manipulated version.\n\n- This is because in Pandas, indexing a DataFrame returns a reference to the initial DataFrame. Thus, changing the subset will change the initial DataFrame. Thus, you'd want to use the copy if you want to make sure the initial DataFrame shouldn't change.\n\n- Normally, you would still have some use for the original data frame to compare with the manipulated version, etc. Therefore, depending on the case it's a good practice to work on copies and merge at the end.",category:"Machine Learning",topic:"Pandas",level:0,uploader:"Mandeep singh"},B.e,t.M)
 B.O7=new A.o(7,{id:1675873412606,question:"What is the default method of variable initialisation in tf.get_variable()?",answer:"- If the initializer is **None**, the default initializer passed in the variable scope will be used. If that one is None too, a glorot_uniform_initializer will be used. \n- The **glorot_uniform_initializer** function, initializes values from a uniform distribution.",category:"Machine Learning",topic:"TensorFlow",level:0,uploader:"Mandeep singh"},B.e,t.M)
 B.NC=new A.o(7,{id:1675873489421,question:"What is the difference between Dataset.from_tensors and Dataset.from_tensor_slices and when would you use each one?  ",answer:'- **from_tensors** combines the input and returns a dataset with a single element; can be used to construct a larger dataset from several small datasets, i.e., the size (length) of the final dataset becomes larger;\n```\n>>> t = tf.constant([[1, 2], [3, 4]])\n>>> ds = tf.data.Dataset.from_tensors(t)\n>>> [x for x in ds]\n    [<tf.Tensor: shape=(2, 2), dtype=int32, numpy=\n    array([[1, 2],\n            [3, 4]], dtype=int32)>]\n\n```\n- **from_tensor_slices** create a dataset with a separate element for each row of the input tensor; can be used to combine different elements into one dataset, e.g., combine features and labels into one dataset. That is, the dataset becomes "wider".\n\n```\n>>> t = tf.constant([[1, 2], [3, 4]])\n>>> ds = tf.data.Dataset.from_tensor_slices(t)\n>>> [x for x in ds]\n    [<tf.Tensor: shape=(2,), dtype=int32, numpy=array([1, 2], dtype=int32)>,\n    <tf.Tensor: shape=(2,), dtype=int32, numpy=array([3, 4], dtype=int32)>]\n\n```',category:"Machine Learning",topic:"TensorFlow",level:0,uploader:"Mandeep singh"},B.e,t.M)
-B.Mm=new A.o(7,{id:1675873575454,question:"How would you save an entire model in tensorflow.keras?  ",answer:"To save a model's architecture, weights, and training configuration in a single file/folder we can use two different file formats: SavedModel and HDF5.\n\n- **SavedModel**: Models saved in this format can be restored using tf.keras.models.load_model and are compatible with TensorFlow Serving.\n```\n# Create and train a new model instance.\nmodel = create_model()\nmodel.fit(train_images, train_labels, epochs=5)\n\n# Save the entire model as a SavedModel.\n!mkdir -p saved_model\nmodel.save('saved_model/my_model')\n```\nThe SavedModel format is a directory containing a protobuf binary and a TensorFlow checkpoint.\n\n- **HDF5 format**: it's a save format using the HDF5 standard.\n```\n  # Create and train a new model instance.\n  model = create_model()\n  model.fit(train_images, train_labels, epochs=5)\n\n  # Save the entire model to a HDF5 file.\n  model.save('my_model.h5')\n```",category:"Machine Learning",topic:"TensorFlow",level:0,uploader:"Mandeep singh"},B.e,t.M)
+B.Mn=new A.o(7,{id:1675873575454,question:"How would you save an entire model in tensorflow.keras?  ",answer:"To save a model's architecture, weights, and training configuration in a single file/folder we can use two different file formats: SavedModel and HDF5.\n\n- **SavedModel**: Models saved in this format can be restored using tf.keras.models.load_model and are compatible with TensorFlow Serving.\n```\n# Create and train a new model instance.\nmodel = create_model()\nmodel.fit(train_images, train_labels, epochs=5)\n\n# Save the entire model as a SavedModel.\n!mkdir -p saved_model\nmodel.save('saved_model/my_model')\n```\nThe SavedModel format is a directory containing a protobuf binary and a TensorFlow checkpoint.\n\n- **HDF5 format**: it's a save format using the HDF5 standard.\n```\n  # Create and train a new model instance.\n  model = create_model()\n  model.fit(train_images, train_labels, epochs=5)\n\n  # Save the entire model to a HDF5 file.\n  model.save('my_model.h5')\n```",category:"Machine Learning",topic:"TensorFlow",level:0,uploader:"Mandeep singh"},B.e,t.M)
 B.Pi=new A.o(7,{id:1675664097939,question:"What is the difference between list and tuples in Python?",answer:"        \n\n **List**: \n- Lists are mutable i.e they can be edited.\t\n- Lists are slower than tuples.\t\n- Syntax: `` myList = [7, \u2018MSD\u2019, 183]\t ``\n\n\n **Tuples**: \n- Tuples are immutable (tuples are lists which can\u2019t be edited).\t\n- Tuples are faster than list.\n- Syntax: myTuple = (7, \u2018MSD\u2019, 183)\n\n\n\n    ",category:"Web Backend",topic:"Python",level:0,uploader:"Sacha Noam"},B.e,t.M)
 B.Oz=new A.o(7,{id:1675664178130,question:"What is slicing in Python?",answer:"Slicing is used to access parts of sequences like lists, tuples, and strings. The syntax of slicing is- ``[start:end:step]``. The step can be omitted as well. When we write ``[start:end]`` this returns all the elements of the sequence from the start (inclusive) till the end-1 element. If the start or end element is negative i, it means the ith element from the end. The step indicates the jump or how many elements have to be skipped. Eg. if there is a list- ``[1,2,3,4,5,6,7,8]``. Then ``[-1:2:2]`` will return elements starting from the last element till the third element by printing every second element.i.e. ``[8,6,4]``.",category:"Web Backend",topic:"Python",level:0,uploader:"Sacha Noam"},B.e,t.M)
-B.MB=new A.o(7,{id:1675664374613,question:"What are Decorators & Generators?",answer:"        \n\n**Decorators**\n- They are used to add some design patterns to a function without changing its structure. \n- Decorators generally are defined before the function they are enhancing. To apply a decorator we first define the decorator function. \n- Then we write the function it is applied to and simply add the decorator function above the function it has to be applied to. For this, we use the @ symbol before the decorator.\n\n**Generators**\n- Functions that return an iterable set of items are called generators.\n    ",category:"Web Backend",topic:"Python",level:0,uploader:"Zulfikar Jusuf"},B.e,t.M)
+B.MC=new A.o(7,{id:1675664374613,question:"What are Decorators & Generators?",answer:"        \n\n**Decorators**\n- They are used to add some design patterns to a function without changing its structure. \n- Decorators generally are defined before the function they are enhancing. To apply a decorator we first define the decorator function. \n- Then we write the function it is applied to and simply add the decorator function above the function it has to be applied to. For this, we use the @ symbol before the decorator.\n\n**Generators**\n- Functions that return an iterable set of items are called generators.\n    ",category:"Web Backend",topic:"Python",level:0,uploader:"Zulfikar Jusuf"},B.e,t.M)
 B.OD=new A.o(7,{id:1675664509413,question:"How is memory managed in Python?",answer:"Memory is managed in Python in the following ways:\n\n- Memory management in python is managed by **python private heap space**. All Python objects and data structures are located in a private heap. The programmer does not have access to this private heap. The python interpreter takes care of this instead.\n- The allocation of heap space for Python objects is done by Python\u2019s **memory manager**. The core API gives access to some tools for the programmer to code.\n- Python also has an inbuilt garbage collector, which recycles all the unused memory and so that it can be made available to the heap space.",category:"Web Backend",topic:"Python",level:1,uploader:"Rohan Patil"},B.e,t.M)
 B.OG=new A.o(7,{id:1675664675574,question:"What are Dict and List comprehensions?",answer:"Dictionary and list comprehensions are just another concise way to define dictionaries and lists.\n\nExample of list comprehension is-\n\n```\nx = [i for i in range(5)]\n```\nThe above code creates a list as below-\n```\n[0,1,2,3,4]\n```\n\nExample of dictionary comprehension is-\n\n```\nx = [i : i+2 for i in range(5)]\n```\nThe above code creates a list as below-\n```\n[0: 2, 1: 3, 2: 4, 3: 5, 4: 6]\n```\n",category:"Web Backend",topic:"Python",level:0,uploader:"Zulfikar Jusuf"},B.e,t.M)
-B.M8=new A.o(7,{id:1675664889007,question:"What is a typical workflow for implementing a new feature on the backend?  ",answer:"Workflows for implementing features on the backend can vary depending on the company and the technology stack. However, a typical workflow would involve discussing the feature with the stakeholders, designing and prototyping the feature, writing the code, and doing Quality Assurance (QA) testing. In most cases, the backend developer will work with the front-end developer to ensure that data is correctly transmitted between the client and server. It's also essential to ensure that any new features are backward compatible with previous versions of the application.",category:"Web Backend",topic:"Web Fundamentals",level:0,uploader:"Sandeep Jain"},B.e,t.M)
+B.M9=new A.o(7,{id:1675664889007,question:"What is a typical workflow for implementing a new feature on the backend?  ",answer:"Workflows for implementing features on the backend can vary depending on the company and the technology stack. However, a typical workflow would involve discussing the feature with the stakeholders, designing and prototyping the feature, writing the code, and doing Quality Assurance (QA) testing. In most cases, the backend developer will work with the front-end developer to ensure that data is correctly transmitted between the client and server. It's also essential to ensure that any new features are backward compatible with previous versions of the application.",category:"Web Backend",topic:"Web Fundamentals",level:0,uploader:"Sandeep Jain"},B.e,t.M)
 B.Ly=new A.o(7,{id:1675664974401,question:"How would you select a cache strategy (e.g., LRU, FIFO)?",answer:"- Selecting a cache strategy depends on the application's specific needs. \n- For example, **LRU** (Least Recently Used) is a good choice for applications where frequently accessed data is also likely to be reaccessed. **FIFO** (First In, First Out) is a good choice for an application where data expires after a particular time.\n\n",category:"Web Backend",topic:"Web Fundamentals",level:0,uploader:"Zulfikar Jusuf"},B.e,t.M)
 B.P0=new A.o(7,{id:1675665041396,question:"What is the difference between promises and callbacks?",answer:"- **Promise** is an object that represents the result of an asynchronous operation. \n- **Callback** is a function that is invoked when an asynchronous operation completes.",category:"Web Backend",topic:"Web Fundamentals",level:0,uploader:"Zulfikar Jusuf"},B.e,t.M)
 B.LD=new A.o(7,{id:1675665168470,question:"What are the tradeoffs of client-side rendering vs. server-side rendering?",answer:"There are a few tradeoffs when deciding between client-side rendering and server-side rendering.\n\n- **Client-side** rendering can be more complex to set up because the application needs to be able to run in a browser. Meaning the code must be transpiled from a higher-level language (such as JavaScript) to a lower-level language (such as HTML). In addition, client-side rendering can be slower because the application needs to download all of the necessary resources before it can start rendering.\n\n- On the other hand, **Server-side** rendering is typically easier to set up because developers can use any language capable of generating HTML. In addition, server-side rendering can be faster because the HTML can be generated on the server and then sent to the client.",category:"Web Backend",topic:"Web Fundamentals",level:1,uploader:"Zulfikar Jusuf"},B.e,t.M)
 B.MT=new A.o(7,{id:1675665244118,question:"What is a microservice?",answer:"- **Microservice** is a small, independent component of a more extensive application. Each microservice has its own functionality and can be deployed independently.\n\n- Microservices often build into large, complex applications that are easy to maintain and scale. One of the benefits of using microservices is that they can be written in different programming languages and deployed on different servers.\n\n- Common examples of microservices include user authentication, payment processing, and image manipulation.\n\n",category:"Web Backend",topic:"Web Fundamentals",level:0,uploader:"Zulfikar Jusuf"},B.e,t.M)
 B.Ng=new A.o(7,{id:1675665322198,question:"How would you implement authentication and authorization on a new project?",answer:"- There are many ways to implement authentication and authorization on a new project. One way would be to use an existing third-party service, such as Auth0 or Okta. Another way would be to roll out your solution using **JSON Web Tokens (JWTs)** or similar technology.\n\n- Regardless, you need to create a login page where users can enter their credentials. Once the user's credentials were verified, you would generate a JWT and send it back to the user. The user would then need to send the JWT with each authentication request.\n\n- You would also need to implement an authorization system to check if the user has the correct permissions to access a particular resource. One way to do this would be to create roles and assign users to those roles. Then, you would use that to check the user's permissions when handling each request.",category:"Web Backend",topic:"Web Fundamentals",level:0,uploader:"Zulfikar Jusuf"},B.e,t.M)
-B.LU=new A.o(7,{id:1675665407954,question:"What is the difference between a cookie and a session?",answer:"- A cookie is a small piece of data stored on the user's browser.\n- A session is a server-side data structure that holds information about the user's current session.\n\n- Cookies store information such as the user's ID, language preference, or any other preferences. \n- Sessions store information from a series of requests, such as the user's shopping cart or other information that needs to persist across multiple requests.",category:"Web Backend",topic:"Web Fundamentals",level:0,uploader:"Zulfikar Jusuf"},B.e,t.M)
-B.M3=new A.o(7,{id:1675665495753,question:"How would you unit test a new feature?",answer:"1. When testing a new feature, you would first need to write a test covering the new feature's functionality. You should isolate these tests from any other code in the system. Once you write the test, you need to run it and verify that it passes.\n\n2. If the test fails, you need to debug the code and find the cause of the failure. Once you find the cause, you need to fix the code and re-run the test. If the test passes, you can then commit the code and move on to testing other features.",category:"Web Backend",topic:"Testing",level:0,uploader:"Rakesh Shah"},B.e,t.M)
-B.MH=new A.o(7,{id:1675665581536,question:"Why are TDD tests written before code?",answer:"- **TDD (Test-Driven Development)** is a development methodology in which you write before code. \n- The idea behind TDD is that by writing tests first, developers can ensure that their code meets the requirements. In addition, TDD can help to find bugs early and prevent them from being introduced into the code.\n- However, TDD can be time-consuming and requires a good understanding of testing principles.",category:"Web Backend",topic:"Testing",level:1,uploader:"Rakesh Shah"},B.e,t.M)
+B.LV=new A.o(7,{id:1675665407954,question:"What is the difference between a cookie and a session?",answer:"- A cookie is a small piece of data stored on the user's browser.\n- A session is a server-side data structure that holds information about the user's current session.\n\n- Cookies store information such as the user's ID, language preference, or any other preferences. \n- Sessions store information from a series of requests, such as the user's shopping cart or other information that needs to persist across multiple requests.",category:"Web Backend",topic:"Web Fundamentals",level:0,uploader:"Zulfikar Jusuf"},B.e,t.M)
+B.M4=new A.o(7,{id:1675665495753,question:"How would you unit test a new feature?",answer:"1. When testing a new feature, you would first need to write a test covering the new feature's functionality. You should isolate these tests from any other code in the system. Once you write the test, you need to run it and verify that it passes.\n\n2. If the test fails, you need to debug the code and find the cause of the failure. Once you find the cause, you need to fix the code and re-run the test. If the test passes, you can then commit the code and move on to testing other features.",category:"Web Backend",topic:"Testing",level:0,uploader:"Rakesh Shah"},B.e,t.M)
+B.MI=new A.o(7,{id:1675665581536,question:"Why are TDD tests written before code?",answer:"- **TDD (Test-Driven Development)** is a development methodology in which you write before code. \n- The idea behind TDD is that by writing tests first, developers can ensure that their code meets the requirements. In addition, TDD can help to find bugs early and prevent them from being introduced into the code.\n- However, TDD can be time-consuming and requires a good understanding of testing principles.",category:"Web Backend",topic:"Testing",level:1,uploader:"Rakesh Shah"},B.e,t.M)
 B.NY=new A.o(7,{id:1675665632942,question:"How would you integrate tests into your workflow?",answer:"- When integrating tests into your workflow, you need to create a testing environment that mirrors the production environment as closely as possible. You need to set up this environment with all the necessary dependencies and data.\n\n- Once you have set up the testing environment, you need to write tests covering the system's functionality. These tests should be run automatically whenever new code gets pushed to the repository. If any of the tests fail, the build should be marked as failed, and the developers notified.\n\n- You should also manually run tests before each release. This will ensure that all of the functionality is working as expected and that there are no regressions.\n\n",category:"Web Backend",topic:"Testing",level:1,uploader:"Rakesh Shah"},B.e,t.M)
 B.Pd=new A.o(7,{id:1675665753954,question:"How would you deploy a new version of an application?",answer:"There are many ways to deploy a new version of an application. One way would be to use a tool like **Ansible** or **Chef** to automate the process. Another way would be to run the necessary scripts on each server manually.\n\nIf you use a tool like Ansible or Chef, you need to update the configuration files and run the tool. This process deploys the new code to all of the servers in the environment.\n\nIf you deploy the code manually, you must log in to each server and run the necessary scripts. Doing this updates the code on each server individually.\n\nOnce the new code gets deployed, you need to run your tests to ensure everything is working as expected. If there are any issues, you must roll back the changes and fix the problem, then redeploy the code.\n\n",category:"Web Backend",topic:"Deployment",level:0,uploader:"Rakesh Shah"},B.e,t.M)
-B.Mq=new A.o(7,{id:1675665826602,question:"How would you roll back a failed deployment?",answer:"- If a deployment fails, you must roll back the changes and fix the problem. \n- Once the problem is fixed, you can then redeploy the code.\n- To roll back a failed deployment, you need to undo any changes made during the deployment. \n- This process could include reverting code changes, restarting services, or rolling back database changes. Once the changes are back, you can redeploy the code.",category:"Web Backend",topic:"Deployment",level:0,uploader:"Rakesh Shah"},B.e,t.M)
+B.Mr=new A.o(7,{id:1675665826602,question:"How would you roll back a failed deployment?",answer:"- If a deployment fails, you must roll back the changes and fix the problem. \n- Once the problem is fixed, you can then redeploy the code.\n- To roll back a failed deployment, you need to undo any changes made during the deployment. \n- This process could include reverting code changes, restarting services, or rolling back database changes. Once the changes are back, you can redeploy the code.",category:"Web Backend",topic:"Deployment",level:0,uploader:"Rakesh Shah"},B.e,t.M)
 B.O9=new A.o(7,{id:1675665980063,question:"What are NoSQL databases? What are the different types of NoSQL databases?",answer:"A **NoSQL** database provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases (like SQL, Oracle, etc.).\n\nTypes of NoSQL databases:\n\n- Document Oriented\n- Key Value\n- Graph\n- Column Oriented\n",category:"Web Backend",topic:"Database",level:0,uploader:"Kiran Mahavir"},B.e,t.M)
-B.MG=new A.o(7,{id:1675666086162,question:"What is SQL injection?",answer:"**Injection attacks** stem from a lack of strict separation between program instructions (i.e., code) and user-provided (or external) input. This allows an attacker to inject malicious code into a data snippet.\n\n**SQL injection** is one of the most common types of injection attack. To carry it out, an attacker provides malicious SQL statements through the application.\n\nHow to prevent:\n- Prepared statements with parameterized queries\n- Stored procedures\n- Input validation - blacklist validation and whitelist validation\n- Principle of least privilege - Application accounts shouldn\u2019t assign DBA or admin type access onto the database server. This ensures that if an application is compromised, an attacker won\u2019t have the rights to the database through the compromised application.\n",category:"Web Backend",topic:"Database",level:0,uploader:"Kiran Mahavir"},B.e,t.M)
+B.MH=new A.o(7,{id:1675666086162,question:"What is SQL injection?",answer:"**Injection attacks** stem from a lack of strict separation between program instructions (i.e., code) and user-provided (or external) input. This allows an attacker to inject malicious code into a data snippet.\n\n**SQL injection** is one of the most common types of injection attack. To carry it out, an attacker provides malicious SQL statements through the application.\n\nHow to prevent:\n- Prepared statements with parameterized queries\n- Stored procedures\n- Input validation - blacklist validation and whitelist validation\n- Principle of least privilege - Application accounts shouldn\u2019t assign DBA or admin type access onto the database server. This ensures that if an application is compromised, an attacker won\u2019t have the rights to the database through the compromised application.\n",category:"Web Backend",topic:"Database",level:0,uploader:"Kiran Mahavir"},B.e,t.M)
 B.Of=new A.o(7,{id:1675666160963,question:"Name some performance testing steps.",answer:"Some of the performance testing steps are:\n\n- Identify the testing environment\n- Identify performance metrics\n- Plan and design performance tests\n- Configure the test environment\n- Implement your test design\n- Execute tests\n- Analyze, report, retest\n",category:"Web Backend",topic:"Testing",level:0,uploader:"Rakesh Shah"},B.e,t.M)
 B.Nn=new A.o(7,{id:1675666278250,question:"How to mitigate the SQL Injection risks?",answer:"To mitigate SQL injection:\n\n- **Prepared Statements with Parameterized Queries**: Always ensure that your SQL interpreter always able to differentiate between code and data. Never use dynamic queries which fail to find the difference between code and data. Instead, use static SQL query and then pass in the external input as a parameter to query.  Use of Prepared Statements (with Parameterized Queries) force developer to first define all the SQL code, and then pass in each parameter to the query later.\n- **Use of Stored Procedures**: Stored Procedure is like a function in C where database administrator call it whenever he/she need it. It is not completely mitigated SQL injection but definitely helps in reducing risks of SQL injection by avoiding dynamic SQL generation inside.\n- **White List Input Validation**: Always use white list input validation and allow only preapproved input by the developer. Never use blacklist approach as it is less secure than whitelist approach.\n- **Escaping All User Supplied Input**\n- **Enforcing Least Privilege**\n",category:"Web Backend",topic:"Database",level:1,uploader:"Rakesh Shah"},B.e,t.M)
-B.Ms=new A.o(7,{id:1675666338102,question:"What is the difference between Acceptance Test and Functional Test?",answer:"- **Functional testing**: This is a verification activity; did we build a correctly working product? Does the software meet the business requirements? A functional test verifies that the product actually works as you (the developer) think it does.\n\n- **Acceptance testing**: This is a validation activity; did we build the right thing? Is this what the customer really needs? Acceptance tests verify the product actually solves the problem it was made to solve. This can best be done by the user (customer), for instance performing his/her tasks that the software assists with.\n\n",category:"Web Backend",topic:"Testing",level:1,uploader:"Kiran Mahavir"},B.e,t.M)
+B.Mt=new A.o(7,{id:1675666338102,question:"What is the difference between Acceptance Test and Functional Test?",answer:"- **Functional testing**: This is a verification activity; did we build a correctly working product? Does the software meet the business requirements? A functional test verifies that the product actually works as you (the developer) think it does.\n\n- **Acceptance testing**: This is a validation activity; did we build the right thing? Is this what the customer really needs? Acceptance tests verify the product actually solves the problem it was made to solve. This can best be done by the user (customer), for instance performing his/her tasks that the software assists with.\n\n",category:"Web Backend",topic:"Testing",level:1,uploader:"Kiran Mahavir"},B.e,t.M)
 B.Nr=new A.o(7,{id:1675666443592,question:"What Is ACID Property Of A System?",answer:"**ACID** is a acronym which is commonly used to define the properties of a relational database system, it stand for following terms\n\n- **_Atomicity_** - This property guarantees that if one part of the transaction fails, the entire transaction will fail, and the database state will be left unchanged.\n- **_Consistency_** - This property ensures that any transaction will bring the database from one valid state to another.\n- **_Isolation_** - This property ensures that the concurrent execution of transactions results in a system state that would be obtained if transactions were executed serially.\n- _**Durable**_ - means that once a transaction has been committed, it will remain so, even in the event of power loss.\n",category:"Web Backend",topic:"Database",level:0,uploader:"Rakesh Shah"},B.e,t.M)
 B.OP=new A.o(7,{id:1675666544952,question:'What Is Sticky Session Load Balancing? What Do You Mean By "Session Affinity"?',answer:"_Sticky session or a session affinity_ technique is another popular load balancing technique that requires a user session to be always served by an allocated machine.\n\nIn a load balanced server application where user information is stored in session it will be required to keep the session data available to all machines. This can be avoided by always serving a particular user session request from one machine. The machine is associated with a session as soon as the session is created. All the requests in a particular session are always redirected to the associated machine. This ensures the user data is only at one machine and load is also shared.\n\nThis is typically done by using SessionId cookie. The cookie is sent to the client for the first request and every subsequent request by client must be containing that same cookie to identify the session.",category:"Web Backend",topic:"Web Fundamentals",level:1,uploader:""},B.e,t.M)
 B.OE=new A.o(7,{id:1675666615633,question:"What Are The Issues With Sticky Session?",answer:"There are few issues that you may face with this approach\n\n\n- The client browser may not support cookies, and your load balancer will not be able to identify if a request belongs to a session. This may cause strange behavior for the users who use no cookie based browsers.\n- In case one of the machine fails or goes down, the user information (served by that machine) will be lost and there will be no way to recover user session.\n",category:"Web Backend",topic:"Web Fundamentals",level:0,uploader:"Rakesh Shah"},B.e,t.M)
@@ -96033,12 +95941,12 @@ B.Pj=new A.o(7,{id:1675666669242,question:"What are disadvantages of REST web se
 B.Pl=new A.o(7,{id:1675666765976,question:"What is the difference between JOIN and UNION?",answer:"**UNION** puts lines from queries after each other, while **JOIN** makes a cartesian product and subsets it -- completely different operations. Trivial example of UNION:\n```\nmysql> SELECT 23 AS bah\n    -> UNION\n    -> SELECT 45 AS bah;\n+-----+\n| bah |\n+-----+\n|  23 |\n|  45 |\n+-----+\n2 rows in set (0.00 sec)\n```\n\nsimilary trivial example of JOIN:\n\n```\nmysql> SELECT * FROM\n    -> (SELECT 23 AS bah) AS foo\n    -> JOIN\n    -> (SELECT 45 AS bah) AS bar\n    -> ON (33=33);\n+-----+-----+\n| foo | bar |\n+-----+-----+\n|  23 |  45 |\n+-----+-----+\n1 row in set (0.01 sec)\n```",category:"Web Backend",topic:"Database",level:0,uploader:"Rakesh Shah"},B.e,t.M)
 B.Op=new A.o(7,{id:1675666868165,question:"What are the differences between Continuous Integration, Continuous Delivery, and Continuous Deployment?",answer:"- Developers practicing **Continuous integration** merge their changes back to the main branch as often as possible. By doing so, you avoid the integration hell that usually happens when people wait for release day to merge their changes into the release branch.\n- **Continuous delivery** is an extension of continuous integration to make sure that you can release new changes to your customers quickly in a sustainable way. This means that on top of having automated your testing, you also have automated your release process and you can deploy your application at any point of time by clicking on a button.\n- **Continuous deployment** goes one step further than continuous delivery. With this practice, every change that passes all stages of your production pipeline is released to your customers. There's no human intervention, and only a failed test will prevent a new change to be deployed to production.",category:"Web Backend",topic:"Deployment",level:1,uploader:"Rakesh Shah"},B.e,t.M)
 B.NV=new A.o(7,{id:1675667141770,question:"What Is CAP Theorem?",answer:"The **CAP Theorem** for distributed computing was published by Eric Brewer. This states that it is not possible for a distributed computer system to simultaneously provide all three of the following guarantees:\n\n- Consistency (all nodes see the same data even at the same time with concurrent updates )\n- Availability (a guarantee that every request receives a response about whether it was successful or failed)\n- Partition tolerance (the system continues to operate despite arbitrary message loss or failure of part of the system)\n\nThe CAP acronym corresponds to these three guarantees. This theorem has created the base for modern distributed computing approaches. Worlds most high volume traffic companies (e.g. Amazon, Google, Facebook) use this as basis for deciding their application architecture. It's important to understand that only two of these three conditions can be guaranteed to be met by a system.",category:"Web Backend",topic:"Distributed Computing",level:0,uploader:"Imtiaz Naseem"},B.e,t.M)
-B.M2=new A.o(7,{id:1675667555704,question:"Differentiate between div and span?",answer:"        \n**DIV**\n- It is utilized for separating the elements that are block-line, line break before and after it.\n- It contains global attributes for the certain element in HTML documents.\n- At times para tag <P> is utilised for inner side of the <div> tag.\t\n- In div tag, we make use of borders with width height with specified color pixels to emphasize the front end document.\t\n\n**SPAN**\n- Span is utilized for grouping inline elements in the HTML doc.\n- It includes certain, global and event attributes.\n- In a paragraph, <span> tag is utilized to use a CSS style for certain words with the selected font sets.\n- In the Span tag, we utilize specified color coding to depict the front-end document. \n\n\n\n    ",category:"Web Frontend",topic:"Web Basics",level:0,uploader:"Imtiaz Naseem"},B.e,t.M)
-B.LX=new A.o(7,{id:1675667710796,question:"What is a Grid system in CSS?",answer:"CSS splits the page into grids and utilizes those grids to handle the HTML content. Utilizing the Grids, CSS can stack and highlight various elements in different parts of the grids.\n\n[W3 Schools Doc](https://www.w3schools.com/css/css_grid.asp)",category:"Web Frontend",topic:"Web Basics",level:0,uploader:"Imtiaz Naseem"},B.e,t.M)
+B.M3=new A.o(7,{id:1675667555704,question:"Differentiate between div and span?",answer:"        \n**DIV**\n- It is utilized for separating the elements that are block-line, line break before and after it.\n- It contains global attributes for the certain element in HTML documents.\n- At times para tag <P> is utilised for inner side of the <div> tag.\t\n- In div tag, we make use of borders with width height with specified color pixels to emphasize the front end document.\t\n\n**SPAN**\n- Span is utilized for grouping inline elements in the HTML doc.\n- It includes certain, global and event attributes.\n- In a paragraph, <span> tag is utilized to use a CSS style for certain words with the selected font sets.\n- In the Span tag, we utilize specified color coding to depict the front-end document. \n\n\n\n    ",category:"Web Frontend",topic:"Web Basics",level:0,uploader:"Imtiaz Naseem"},B.e,t.M)
+B.LY=new A.o(7,{id:1675667710796,question:"What is a Grid system in CSS?",answer:"CSS splits the page into grids and utilizes those grids to handle the HTML content. Utilizing the Grids, CSS can stack and highlight various elements in different parts of the grids.\n\n[W3 Schools Doc](https://www.w3schools.com/css/css_grid.asp)",category:"Web Frontend",topic:"Web Basics",level:0,uploader:"Imtiaz Naseem"},B.e,t.M)
 B.NH=new A.o(7,{id:1675667843607,question:"What is HTML DOM?",answer:"- The **Document Object Model** (DOM) represents the structure of a document with which the web pages can be connected to programming languages or scripts. \n- The document is represented with a logical tree. Each branch of the tree ends in a node and each node contains objects. \n- The structure, style, or content of the document can also be changed. The nodes can have event handlers attached to them that can respond to events. \n\n",category:"Web Frontend",topic:"Web Basics",level:0,uploader:"Jeffery Preston"},B.e,t.M)
 B.MW=new A.o(7,{id:1675668072337,question:"How browsers render the UI?",answer:"The primary responsibility of the rendering engine is to highlight the requested page on the browser\u2019s screen. Rendering engines can show XML and HTML images and documents. If you\u2019re utilising additional plugins, the engines can also exhibit various documents like PDF.\n\n- **Receives the requested document**: The contents of the requested document is obtained by the rendering engine from HTML\u2019s networking layer.\n- **Construct the DOM tree**: Parsed the HTML to the parsed tree and then set up the DOM tree, making use of it.\n- **Construct the CSSOM**: CSSOM stands for CSS Object Model. Post the construction of the DOM tree, it identifies a link tag in the head section, which references the external style.css CSS style sheet. So, it parsed the CSS file in CSSOM tree, something which the Browser can comprehend as the DOM tree.\n- **Construct the Render tree**: Utilise the HTML DOM tree coupled with the styling data of the CSSOM tree to set up a render tree. Render tree is the graphical depiction of the HTML, with the corresponding CSS. This tree enables painting the contents in their right order. Every node in the Render Tree is regarded as a renderer. The Render tree looks like this:\n- **Layout**: When the renderer is developed and incorporated into the tree, it does not have a size or position. Computing these values is defined as layout. We use the coordinates system to position the element, such as the position of the root renderer is 0,0. The layout continues recursively via a part of the entire renderer hierarchy, calculating geometric info for every renderer that needs it. Beginning the layout process _implies allowing every node the exact coordinates where it should show up on the screen._\n- **Painting of the Render Tree**: The renderer tree is traversed in this stage and the renderer\u2019s paint() method is hailed to exhibit the content on the screen. For good UX, the rendering engine will aim to exhibit the contents on the screen as soon as possible. It will not stand by until all the HTML is parsed to develop and layout the render tree.\n",category:"Web Frontend",topic:"Web Basics",level:1,uploader:""},B.e,t.M)
-B.M6=new A.o(7,{id:1675703794427,question:u.W,answer:u.E,category:"Web Frontend",topic:"REST",level:0,uploader:""},B.e,t.M)
-B.M7=new A.o(7,{id:1675704334329,question:"What is URI?",answer:u.l,category:"Web Frontend",topic:"REST",level:0,uploader:"Jeffery Preston"},B.e,t.M)
+B.M7=new A.o(7,{id:1675703794427,question:u.W,answer:u.E,category:"Web Frontend",topic:"REST",level:0,uploader:""},B.e,t.M)
+B.M8=new A.o(7,{id:1675704334329,question:"What is URI?",answer:u.l,category:"Web Frontend",topic:"REST",level:0,uploader:"Jeffery Preston"},B.e,t.M)
 B.OO=new A.o(7,{id:1675704773670,question:u.a,answer:"\n- The **REST architecture** is designed in such a way that the client state is not maintained on the server. This is known as statelessness. \n- The context is provided by the client to the server using which the server processes the client\u2019s request. The session on the server is identified by the session identifier sent by the client.\n\n![REST](https://i.postimg.cc/6Qt2NhC3/statelessness-in-REST.jpg)\n\n\n    ",category:"Web Frontend",topic:"REST",level:0,uploader:""},B.e,t.M)
 B.NB=new A.o(7,{id:1675704857476,question:"Do you know about JAX-RS?",answer:u.N,category:"Web Frontend",topic:"REST",level:0,uploader:""},B.e,t.M)
 B.N3=new A.o(7,{id:1675705419575,question:u.L,answer:"#### Here is a compilation of all the http requests & status code\n![http request](https://i.postimg.cc/jj4ghKHj/http-reqiests.png)\n\n![status codes](https://i.postimg.cc/zDyf4fV4/status-codes.png)\n\nSource: interviewbit.com\n    ",category:"Web Frontend",topic:"REST",level:0,uploader:"Jeffery Preston"},B.e,t.M)
@@ -96047,7 +95955,7 @@ B.Nm=new A.o(7,{id:1675874105069,question:"Explain all components of a Hadoop ap
 B.MY=new A.o(7,{id:1675874226928,question:"Do you have any experience in building data systems using the Hadoop framework?",answer:"- If you have experience with Hadoop, state your answer with a detailed explanation of the work you did to focus on your skills and tool's expertise. You can explain all the essential features of Hadoop\n- . For example, you can tell them you utilized the Hadoop framework because of its scalability and ability to increase the data processing speed while preserving the quality.\n\nSome features of Hadoop include: \n\n- It is Java-Based. Hence, there may be no additional training required for team members. Also, it is easy to use. \n- As the data is stored within Hadoop, it is accessible in the case of hardware failure from other paths, which makes it the best choice for handling big data. \n- In Hadoop, data is stored in a cluster, making it independent of all the other operations.\n\n> **Tip**: In case you have no experience with this tool, learn the necessary information about the tool's properties and attributes.",category:"Data Engineer",topic:"Hadoop",level:0,uploader:"Narayana Kailash"},B.e,t.M)
 B.Nu=new A.o(7,{id:1675874288433,question:"What is NameNode? What happens if NameNode crashes or comes to an end?\n",answer:"- It is the centre-piece or central node of the Hadoop Distributed File System(HDFS), and it does not store actual data. It stores metadata.\n-  For example, the data being stored in DataNodes on which rack and which DataNode the information is stored. \n- It tracks the different files present in clusters. Generally, there is one NameNode, so when it crashes, the system may not be available.",category:"Data Engineer",topic:"Hadoop",level:0,uploader:"Narayana Kailash"},B.e,t.M)
 B.Np=new A.o(7,{id:1675874759426,question:"Can you elaborate on Reducer in Hadoop MapReduce? Explain the core methods of Reducer?",answer:"**Reducer** is the second stage of data processing in the Hadoop Framework. The Reducer processes the data output of the mapper and produces a final output that is stored in HDFS. \n\nThe Reducer has 3 phases:\n\n- **Shuffle**: The output from the mappers is shuffled and acts as the input for Reducer.\n- **Sorting** is done simultaneously with shuffling, and the output from different mappers is sorted. \n\n- **Reduce**: in this step, Reduces aggregates the key-value pair and gives the required output, which is stored on HDFS and is not further sorted.\n\n\nThere are three core methods in Reducer:\n\n- **Setup** : it configures various parameters like input data size.\n- **Reduce** : It is the main operation of Reducer. In this method, a task is defined for the associated key.\n- **Cleanup**: This method cleans temporary files at the end of the task.\n",category:"Data Engineer",topic:"Hadoop",level:1,uploader:"Narayana Kailash"},B.e,t.M)
-B.MC=new A.o(7,{id:1675874843330,question:"How can you deploy a big data solution?",answer:"The steps involved are:\n\n- **Data Integration/Ingestion**: In this step, the extraction of data using data sources like RDBMS, Salesforce, SAP, MySQL is done.\n- **Data storage**: The extracted data would be stored in an HDFS or NoSQL database.\n- **Data processing**: the last step should be deploying the solution using processing frameworks like MapReduce, Pig, and Spark.\n",category:"Data Engineer",topic:"Big Data",level:0,uploader:"Mitul Aryan"},B.e,t.M)
+B.MD=new A.o(7,{id:1675874843330,question:"How can you deploy a big data solution?",answer:"The steps involved are:\n\n- **Data Integration/Ingestion**: In this step, the extraction of data using data sources like RDBMS, Salesforce, SAP, MySQL is done.\n- **Data storage**: The extracted data would be stored in an HDFS or NoSQL database.\n- **Data processing**: the last step should be deploying the solution using processing frameworks like MapReduce, Pig, and Spark.\n",category:"Data Engineer",topic:"Big Data",level:0,uploader:"Mitul Aryan"},B.e,t.M)
 B.Po=new A.o(7,{id:1675874929243,question:"What are the steps that occur when Block Scanner detects a corrupted data block?",answer:"Following are the steps that occur when Block Scanner find a corrupted data block:\n\n1) First of all, when Block Scanner find a corrupted data block, DataNode report to NameNode\n\n2) NameNode start the process of creating a new replica using a replica of the corrupted block.\n\n3) Replication count of the correct replicas tries to match with the replication factor. If the match found corrupted data block will not be deleted.",category:"Data Engineer",topic:"Hadoop",level:0,uploader:"Mitul Aryan"},B.e,t.M)
 B.Ow=new A.o(7,{id:1675874999944,question:"What are four V\u2019s of big data?",answer:"The four V\u2019s of big data are:\n\n- **Velocity**\n- **Variety**\n- **Volume**\n- **Veracity**",category:"Data Engineer",topic:"Big Data",level:0,uploader:"Mitul Aryan"},B.e,t.M)
 B.N_=new A.o(7,{id:1675875084441,question:"Explain the use of Hive in Hadoop eco-system.",answer:"- Hive provides an interface to manage data stored in Hadoop eco-system. \n- Hive is used for mapping and working with HBase tables.\n-  Hive queries are converted into MapReduce jobs in order to hide the complexity associated with creating and running MapReduce jobs.",category:"Data Engineer",topic:"Hive",level:0,uploader:"Mitul Aryan"},B.e,t.M)
@@ -96056,102 +95964,102 @@ B.LJ=new A.o(7,{id:1675875222365,question:"What is COSHH?",answer:"**Classificat
 B.Nw=new A.o(7,{id:1675875316968,question:"What are Skewed tables in Hive?",answer:"- Skewed tables are a type of table in which some values in a column appear more frequently than others.\n- The distribution is skewed as a result of this. \n- When a table is created in Hive with the SKEWED option, the skewed values are written to separate files, while the remaining data are written to another file.",category:"Data Engineer",topic:"Hive",level:0,uploader:"Mitul Aryan"},B.e,t.M)
 B.Nl=new A.o(7,{id:1677252383256,question:"What do you know about Big O notation?  ",answer:'        \n- Big-O notation also called as "asymptotic growth" notation is a relative representation of the complexity of an algorithm. \n- It shows how an algorithm scales based on input size. We use it to talk about how thing scale.\n - Big O complexity can be visualized with this graph-\n\n![BigO](https://i.postimg.cc/j5SGCg3Q/WcBRI.png)\n\n\n    ',category:"Machine Learning",topic:"Big-O notation",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.N8=new A.o(7,{id:1677252474601,question:"Why there was a need to use Big O notation to compare algorithms?",answer:"        \n- The fact is it's difficult to determine the exact runtime of an algorithm. \n- It depends on the speed of the computer processor. So instead of talking about the runtime directly, we use Big O Notation to talk about how quickly the runtime grows depending on input size.\n\n- With Big O Notation, we use the size of the input, which we call n. So we can say things like the runtime grows \u201con the order of the size of the input\u201d (O(n)) or \u201con the order of the square of the size of the input\u201d (O(n2)).\n- Our algorithm may have steps that seem expensive when n is small but are eclipsed eventually by other steps as n gets larger. \n- For Big O Notation analysis, we care more about the stuff that grows fastest as the input grows, because everything else is quickly eclipsed as n gets very large.\n\n\n    ",category:"Machine Learning",topic:"Big-O notation",level:0,uploader:"Kshitj Seth"},B.e,t.M)
-B.Mi=new A.o(7,{id:1677252804250,question:"Explain the difference between O(1) vs O(n) space complexities.",answer:"        \n- Let's consider a traversal algorithm for traversing a list.\n\n- O(1) denotes constant space use: the algorithm allocates the same number of pointers irrespective to the list size. \n- That will happen if we move (reuse) our pointer along the list.\nIn contrast, O(n) denotes linear space use: the algorithm space use grows together with respect to the input size n. \n- That will happen if let's say for some reason the algorithm needs to allocate 'N' pointers (or other variables) when traversing a list.\n\n    ",category:"Machine Learning",topic:"Big-O notation",level:0,uploader:"Kshitj Seth"},B.e,t.M)
+B.Mj=new A.o(7,{id:1677252804250,question:"Explain the difference between O(1) vs O(n) space complexities.",answer:"        \n- Let's consider a traversal algorithm for traversing a list.\n\n- O(1) denotes constant space use: the algorithm allocates the same number of pointers irrespective to the list size. \n- That will happen if we move (reuse) our pointer along the list.\nIn contrast, O(n) denotes linear space use: the algorithm space use grows together with respect to the input size n. \n- That will happen if let's say for some reason the algorithm needs to allocate 'N' pointers (or other variables) when traversing a list.\n\n    ",category:"Machine Learning",topic:"Big-O notation",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.O3=new A.o(7,{id:1677252953594,question:"Why is text preprocessing done in NLP?",answer:"        \n- Text preprocessing is done to transform a text into a more digestible form so that the machine learning algorithms can perform better.\n- It is found that in tasks such as sentiment analysis, performing some preprocessing such as removing stop-words helps improve the accuracy of the machine learning model.\n\n- Some common text preprocessing done are:\n1. removing HTML tags\n2. removing stop-words\n3. removing numbers\n4. lower casing all letters\n5. Lemmatization\n\n\n    ",category:"Machine Learning",topic:"NLP",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.MU=new A.o(7,{id:1677253054658,question:"What is the difference between Lemmatisation and Stemming? ",answer:"        \nStemming just removes the last few characters of a word, often leading to incorrect meanings and spellings.\n\nConsider:\n\n```\neating -> eat, Caring -> Car.\n```\nLemmatization considers the context and converts the word to its meaningful base form, which is called Lemma.\n\nConsider:\n```\nStripes -> Strip (verb) -or- Stripe (noun), better -> good\n```\n\n    ",category:"Machine Learning",topic:"NLP",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.NF=new A.o(7,{id:1677253107882,question:"What is the use of PoS (Part of Speech) tagging?  ",answer:"        \n- PoS tagging is used to classify each word into its part of speech.\n- Parts of speech can be used to find grammatical, or lexical patterns without specifying the word used.\n- In English especially, the same word can be different parts of speech, so hence, PoS tagging can be helpful to differentiate between them.\n\n\n    ",category:"Machine Learning",topic:"NLP",level:0,uploader:"Kshitj Seth"},B.e,t.M)
-B.M4=new A.o(7,{id:1677253158327,question:"What are some of the advantages of using the Bag-of-Words to extract features?",answer:"        \n- It identifies the occurrence of words in a document. It identifies the vocabulary and the presence of known words. Hence, it is very simple and flexible.\n- It is intuitive that documents consisting of similar content will be similar in other ways such as meaning too. So, the BoW process will create a simple and quick group of features that can be used.\n- The BoW model can be made as simple, and as complicated as possible. The main difference is how the vocabulary of words is maintained, and how the different words are scored.\n\n\n    ",category:"Machine Learning",topic:"NLP",level:0,uploader:"Kshitj Seth"},B.e,t.M)
+B.M5=new A.o(7,{id:1677253158327,question:"What are some of the advantages of using the Bag-of-Words to extract features?",answer:"        \n- It identifies the occurrence of words in a document. It identifies the vocabulary and the presence of known words. Hence, it is very simple and flexible.\n- It is intuitive that documents consisting of similar content will be similar in other ways such as meaning too. So, the BoW process will create a simple and quick group of features that can be used.\n- The BoW model can be made as simple, and as complicated as possible. The main difference is how the vocabulary of words is maintained, and how the different words are scored.\n\n\n    ",category:"Machine Learning",topic:"NLP",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.Nb=new A.o(7,{id:1677253444921,question:"What is a One-Hot Vector? How can they be used in Natural Language Processing?  ",answer:'        \n- A one-hot is a group of bits which only has one high 1 bit and all other bits are low 0.\n- In Natural Language Processing, the one-hot vector can be used to represent a sentence in the form of a matrix of 1 x N size where N is the number of individual words in the corpus.\n- For example, the sentence "Peter picked a piece of pickled pepper" can be transformed into a matrix of 1 x 7 where each word is represented by the 7 columns. Hence the output of the sentence is: [0000001, 0000010, 0000100, 0001000, 0010000, 0100000, 1000000]\n- An understandable representation of a one-hot vector is shown by the diagram below:\n\n![enter image description here](https://miro.medium.com/max/1225/0*QMGjp-fPYpPaE3eK)\n\n\n    ',category:"Machine Learning",topic:"NLP",level:1,uploader:"Kshitj Seth"},B.e,t.M)
 B.OC=new A.o(7,{id:1677253521018,question:"What are the different types of text Preprocessing?  ",answer:"        \nSteps of text preprocessing can be divided into 3 major types:\n\n- **Tokenization**: It is a process where a group of texts are divided into smaller pieces, or tokens. Paragraphs are tokenized into sentences, and sentences are tokenized into words.\n- **Normalization**: Database normalization is where the structure of the database is converted to a series of normal forms. What it achieves is the organization of the data to appear similar across all records and fields. Similarly, in the field of NLP, normalization can be the process of converting all the words to its lowercase. This makes all the sentences and tokens appear the same and does not complicate the machine learning algorithm.\n- **Noise Removal**: It is a process of cleaning up the text. Doing things such as removing characters which are not required, such as white spaces, numbers, special characters, etc.\n\n\n    ",category:"Machine Learning",topic:"NLP",level:1,uploader:"Kshitj Seth"},B.e,t.M)
-B.LR=new A.o(7,{id:1677253694082,question:"How do you choose the optimal k in k-NN?",answer:"        \nThere is not a rule of thumb to choose a standard optimal k. This value depends and varies from dataset to dataset, but as a general rule, the main goal is to keep it:\n\n- small enough to exclude the samples of the other classes but\n- large enough to minimize any noise in the data.\n\nA way to looking for this optimal parameter, commonly called the Elbow method, consist in creating a for loop that trains various KNN models with different k values, keeping track of the error for each of these models, and use the model with the k value that achieves the best accuracy.\n\n![knn](https://i.postimg.cc/kD3gK6Hc/ct2ie.jpg)\n    ",category:"Machine Learning",topic:"K-Nearest Neighbors",level:1,uploader:"Kshitj Seth"},B.e,t.M)
+B.LS=new A.o(7,{id:1677253694082,question:"How do you choose the optimal k in k-NN?",answer:"        \nThere is not a rule of thumb to choose a standard optimal k. This value depends and varies from dataset to dataset, but as a general rule, the main goal is to keep it:\n\n- small enough to exclude the samples of the other classes but\n- large enough to minimize any noise in the data.\n\nA way to looking for this optimal parameter, commonly called the Elbow method, consist in creating a for loop that trains various KNN models with different k values, keeping track of the error for each of these models, and use the model with the k value that achieves the best accuracy.\n\n![knn](https://i.postimg.cc/kD3gK6Hc/ct2ie.jpg)\n    ",category:"Machine Learning",topic:"K-Nearest Neighbors",level:1,uploader:"Kshitj Seth"},B.e,t.M)
 B.NL=new A.o(7,{id:1677253857709,question:"What's the difference between k-Nearest Neighbors and Radius Nearest Neighbors?",answer:"        \n**KNN**\n- The k-neighbors classification is a very commonly used technique and is widely applied in various scenarios.\nKNN implements learning based on the k nearest neighbors of each query point, where k is a hyperparameter of an integer value.\n- The optimal choice of the value k is highly data-dependent: in general, a larger k suppresses the effects of noise but makes the classification boundaries less distinct.\n\n**RNN**\n- The r-neighbors classification is used in cases where the data is not uniformly sampled or is sparse.\n- RNN implements learning based on the number of neighbors within a fixed radius r of each training point, where r is a hyperparameter of the type float.\n- The optimal fixed radius r is chosen such that points in sparser neighborhoods use fewer nearest neighbors for the classification.\n\n\n    ",category:"Machine Learning",topic:"K-Nearest Neighbors",level:0,uploader:"Kshitj Seth"},B.e,t.M)
-B.LN=new A.o(7,{id:1677254076369,question:"What is the main difference between k-Means and k-Nearest Neighbours?",answer:"        \n- **K-Means** is a clustering algorithm that tries to partition a set of points into k sets such that the points in each cluster tend to be near each other. It is unsupervised because the points have no external classification.\n\n![enter image description here](https://i.postimg.cc/RCfd5rRr/68747470733a2f2f7364732d706c6174666f726d2d707269766174652e73332d75732d656173742d322e616d617a6f6e6177.png)\n\n- **K-Nearest Neighbors** is a classification (or regression) algorithm that, in order to determine the classification of a point, combines the classification of the k nearest points. It is supervised because it is trying to classify a point based on the known classification of other points.\n\n![enter image description here](https://raw.githubusercontent.com/artifabrian/dynamic-knn-gpu/master/knn.png)\n\n    ",category:"Machine Learning",topic:"K-Nearest Neighbors",level:1,uploader:"Kshitj Seth"},B.e,t.M)
-B.MQ=new A.o(7,{id:1677254212378,question:"What is k-Nearest Neighbors algorithm?",answer:"        \n- **K-Nearest Neighbors** is a supervised machine learning algorithm that can be used to solve both classification and regression problems.\nIt assumes that similar things are closer to each other in certain feature spaces, in other words, similar things are in close proximity.\n\n![enter image description here](https://miro.medium.com/max/917/1*wW8O-0xVQUFhBGexx2B6hg.png)\n\n\n- The image above shows how similar points are closer to each other. KNN hinges on this assumption being true enough for the algorithm to be useful.\n- There are many different ways of calculating the distance between the points, however, the straight line distance (Euclidean distance) is a popular and familiar choice.\n\n    ",category:"Machine Learning",topic:"K-Nearest Neighbors",level:1,uploader:"Kshitj Seth"},B.e,t.M)
+B.LO=new A.o(7,{id:1677254076369,question:"What is the main difference between k-Means and k-Nearest Neighbours?",answer:"        \n- **K-Means** is a clustering algorithm that tries to partition a set of points into k sets such that the points in each cluster tend to be near each other. It is unsupervised because the points have no external classification.\n\n![enter image description here](https://i.postimg.cc/RCfd5rRr/68747470733a2f2f7364732d706c6174666f726d2d707269766174652e73332d75732d656173742d322e616d617a6f6e6177.png)\n\n- **K-Nearest Neighbors** is a classification (or regression) algorithm that, in order to determine the classification of a point, combines the classification of the k nearest points. It is supervised because it is trying to classify a point based on the known classification of other points.\n\n![enter image description here](https://raw.githubusercontent.com/artifabrian/dynamic-knn-gpu/master/knn.png)\n\n    ",category:"Machine Learning",topic:"K-Nearest Neighbors",level:1,uploader:"Kshitj Seth"},B.e,t.M)
+B.MR=new A.o(7,{id:1677254212378,question:"What is k-Nearest Neighbors algorithm?",answer:"        \n- **K-Nearest Neighbors** is a supervised machine learning algorithm that can be used to solve both classification and regression problems.\nIt assumes that similar things are closer to each other in certain feature spaces, in other words, similar things are in close proximity.\n\n![enter image description here](https://miro.medium.com/max/917/1*wW8O-0xVQUFhBGexx2B6hg.png)\n\n\n- The image above shows how similar points are closer to each other. KNN hinges on this assumption being true enough for the algorithm to be useful.\n- There are many different ways of calculating the distance between the points, however, the straight line distance (Euclidean distance) is a popular and familiar choice.\n\n    ",category:"Machine Learning",topic:"K-Nearest Neighbors",level:1,uploader:"Kshitj Seth"},B.e,t.M)
 B.Ne=new A.o(7,{id:1677331378952,question:"What is JVM ? Why is Java called the Platform Independent Programming Language?",answer:" \n- A Java virtual machine (JVM) is a process **virtual machine** that can execute Java **bytecode**. \n- Each Java source file is compiled\ninto a bytecode file, which is executed by the JVM. Java was designed to allow application programs to be built that could be\nrun on any platform, without having to be rewritten or recompiled by the programmer for each separate platform. \n- A Java virtual machine makes this possible, because it is aware of the specific instruction lengths and other particularities of the underlying\nhardware platform.\n\n\n    ",category:"Java",topic:"General",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.OL=new A.o(7,{id:1677331470463,question:"What is the Difference between JDK and JRE ?",answer:" - The **Java Runtime Environment** (JRE) is basically the Java Virtual Machine (JVM) where your Java programs are being executed.\n- It also includes browser plugins for applet execution. \n- The **Java Development Kit** (JDK) is the full featured Software Development\nKit for Java, including the JRE, the compilers and tools (like _JavaDoc_, and _Java Debugger_), in order for a user to develop, compile\nand execute Java applications.\n\n\n    ",category:"Java",topic:"General",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.Ou=new A.o(7,{id:1677331573726,question:"What does the \u201cstatic\u201d keyword mean ? Can you override private or static method in Java ?",answer:"- The **static** keyword denotes that a member variable or method can be accessed, without requiring an instantiation of the class to\nwhich it belongs.\n- A user cannot override static methods in Java, because method overriding is based upon dynamic binding at\nruntime and static methods are statically binded at compile time. \n- A static method is not associated with any instance of a class\nso the concept is not applicable.\n\n\n    ",category:"Java",topic:"General",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.LK=new A.o(7,{id:1677331630491,question:"Can you access non static variable in static context?",answer:"- A static variable in Java belongs to its class and its value remains the same for all its instances.\n- A static variable is initialized\nwhen the class is loaded by the JVM. If your code tries to access a non-static variable, without any instance, the compiler will\ncomplain, because those variables are not created yet and they are not associated with any instance.\n\n\n    ",category:"Java",topic:"General",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
-B.LY=new A.o(7,{id:1677331727860,question:"What are the Data Types supported by Java ? What is Autoboxing and Unboxing?",answer:"The eight primitive data types supported by the Java programming language are:\n\n\u2022 byte\n\n\u2022 short\n\n\u2022 int\n\n\u2022 long\n\n\u2022 float\n\n\u2022 double\n\n\u2022 boolean\n\n\u2022 char\n\n **Autoboxing** is the automatic conversion made by the Java compiler between the primitive types and their corresponding object\nwrapper classes. For example, the compiler converts an int to an Integer, a double to a Double, and so on. If the conversion goes\nthe other way, this operation is called **Unboxing**.\n\n\n    ",category:"Java",topic:"General",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
-B.Md=new A.o(7,{id:1677331796472,question:"What is Function Overriding and Overloading in Java?",answer:"- **Method overloading** in Java occurs when two or more methods in the same class have the exact same name, but different\nparameters. On the other hand, method overriding is defined as the case when a child class redefines the same method as a parent\nclass. \n- **Overridden methods** must have the same name, argument list, and return type. The overriding method may not limit the\naccess of the method it overrides.\n\n    ",category:"Java",topic:"General",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
+B.LZ=new A.o(7,{id:1677331727860,question:"What are the Data Types supported by Java ? What is Autoboxing and Unboxing?",answer:"The eight primitive data types supported by the Java programming language are:\n\n\u2022 byte\n\n\u2022 short\n\n\u2022 int\n\n\u2022 long\n\n\u2022 float\n\n\u2022 double\n\n\u2022 boolean\n\n\u2022 char\n\n **Autoboxing** is the automatic conversion made by the Java compiler between the primitive types and their corresponding object\nwrapper classes. For example, the compiler converts an int to an Integer, a double to a Double, and so on. If the conversion goes\nthe other way, this operation is called **Unboxing**.\n\n\n    ",category:"Java",topic:"General",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
+B.Me=new A.o(7,{id:1677331796472,question:"What is Function Overriding and Overloading in Java?",answer:"- **Method overloading** in Java occurs when two or more methods in the same class have the exact same name, but different\nparameters. On the other hand, method overriding is defined as the case when a child class redefines the same method as a parent\nclass. \n- **Overridden methods** must have the same name, argument list, and return type. The overriding method may not limit the\naccess of the method it overrides.\n\n    ",category:"Java",topic:"General",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.N6=new A.o(7,{id:1677332462430,question:"What is a Constructor, Constructor Overloading in Java and Copy-Constructor?",answer:"        \n- A constructor gets invoked when a new object is created. Every class has a constructor. In case the programmer does not provide\na constructor for a class, the Java compiler (Javac) creates a default constructor for that class. \n- The constructor overloading is\nsimilar to method overloading in Java. Different constructors can be created for a single class. \n- Each constructor must have its\nown unique parameter list. Finally, Java does support copy constructors like C++, but the difference lies in the fact that Java\ndoesn\u2019t create a default copy constructor if you don\u2019t write your own.\n    ",category:"Java",topic:"General",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.NS=new A.o(7,{id:1677332577527,question:"Does Java support multiple inheritance?",answer:"\n- No, Java does not support multiple inheritance.\n- Each class is able to extend only on one class, but is able to implement more than\none interfaces.\n\n\n    ",category:"Java",topic:"General",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
-B.Mg=new A.o(7,{id:1677332677692,question:"What is the difference between an Interface and an Abstract class?",answer:"        \nJava provides and supports the creation both of **abstract classes** and **interfaces**. Both implementations share some common\ncharacteristics, but they differ in the following features:\n\n\u2022 All methods in an interface are implicitly abstract. On the other hand, an abstract class may contain both abstract and nonabstract methods.\n\n\u2022 A class may implement a number of Interfaces, but can extend only one abstract class.\n\n\u2022 In order for a class to implement an interface, it must implement all its declared methods. However, a class may not implement\nall declared methods of an abstract class. Though, in this case, the sub-class must also be declared as abstract.\n\n\u2022 Abstract classes can implement interfaces without even providing the implementation of interface methods.\n\n\u2022 Variables declared in a Java interface is by default final. An abstract class may contain non-final variables.\n\n\u2022 Members of a Java interface are public by default. A member of an abstract class can either be private, protected or public.\n\n\u2022 An interface is absolutely abstract and cannot be instantiated. An abstract class also cannot be instantiated, but can be invoked\nif it contains a main method.\n    ",category:"Java",topic:"General",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
+B.Mh=new A.o(7,{id:1677332677692,question:"What is the difference between an Interface and an Abstract class?",answer:"        \nJava provides and supports the creation both of **abstract classes** and **interfaces**. Both implementations share some common\ncharacteristics, but they differ in the following features:\n\n\u2022 All methods in an interface are implicitly abstract. On the other hand, an abstract class may contain both abstract and nonabstract methods.\n\n\u2022 A class may implement a number of Interfaces, but can extend only one abstract class.\n\n\u2022 In order for a class to implement an interface, it must implement all its declared methods. However, a class may not implement\nall declared methods of an abstract class. Though, in this case, the sub-class must also be declared as abstract.\n\n\u2022 Abstract classes can implement interfaces without even providing the implementation of interface methods.\n\n\u2022 Variables declared in a Java interface is by default final. An abstract class may contain non-final variables.\n\n\u2022 Members of a Java interface are public by default. A member of an abstract class can either be private, protected or public.\n\n\u2022 An interface is absolutely abstract and cannot be instantiated. An abstract class also cannot be instantiated, but can be invoked\nif it contains a main method.\n    ",category:"Java",topic:"General",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.NW=new A.o(7,{id:1677332799006,question:"What is the difference between processes and threads?",answer:"- A process is an execution of a program, while a Thread is a single execution sequence within a process. \n- A process can contain multiple threads.\n- A Thread is sometimes called a lightweight process.\n\n\n    ",category:"Java",topic:"Threads",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.OA=new A.o(7,{id:1677333836498,question:"Explain different ways of creating a thread. Which one would you prefer and why?",answer:"There are three ways that can be used in order for a Thread to be created:\n\n\u2022 A class may extend the Thread class.\n\n\u2022 A class may implement the Runnable interface.\n\n\u2022 An application can use the Executor framework, in order to create a thread pool.\n\nThe **Runnable** interface is preferred, as it does not require an object to inherit the Thread class. In case your application design\nrequires multiple in\n\n\n    ",category:"Java",topic:"Threads",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
-B.Mz=new A.o(7,{id:1677334188616,question:" Explain the available thread states in a high-level.",answer:"        \nDuring its execution, a thread can reside in one of the following states:\n\n\u2022 **Runnable**: A thread becomes ready to run, but does not necessarily start running immediately.\n\n\u2022 **Running**: The processor is actively executing the thread code.\n\n\u2022 **Waiting**: A thread is in a blocked state waiting for some external processing to finish.\n\n\u2022 **Sleeping**: The thread is forced to sleep.\n\n\u2022 **Blocked on I/O**: Waiting for an I/O operation to complete.\n\n\u2022 **Blocked on Synchronization**: Waiting to acquire a lock.\n\n\u2022 **Dead**: The thread has finished its execution.\n\n    ",category:"Java",topic:"Threads",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
+B.MA=new A.o(7,{id:1677334188616,question:" Explain the available thread states in a high-level.",answer:"        \nDuring its execution, a thread can reside in one of the following states:\n\n\u2022 **Runnable**: A thread becomes ready to run, but does not necessarily start running immediately.\n\n\u2022 **Running**: The processor is actively executing the thread code.\n\n\u2022 **Waiting**: A thread is in a blocked state waiting for some external processing to finish.\n\n\u2022 **Sleeping**: The thread is forced to sleep.\n\n\u2022 **Blocked on I/O**: Waiting for an I/O operation to complete.\n\n\u2022 **Blocked on Synchronization**: Waiting to acquire a lock.\n\n\u2022 **Dead**: The thread has finished its execution.\n\n    ",category:"Java",topic:"Threads",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.P8=new A.o(7,{id:1677334504810,question:"What is the difference between a synchronized method and a synchronized block?",answer:"- In Java programming, each object has a lock. A thread can acquire the lock for an object by using the synchronized keyword.\n- The synchronized keyword can be applied in a method level (coarse grained lock) or block level of code (fine grained lock).\n\n\n    ",category:"Java",topic:"Threads",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.NK=new A.o(7,{id:1677334708349,question:"What are the basic interfaces of Java Collections Framework?",answer:"\n**Java Collections Framework** provides a well designed set of interfaces and classes that support operations on a collections of\nobjects. \n\nThe most basic interfaces that reside in the Java Collections Framework are:\n\n\u2022 **Collection**: which represents a group of objects known as its elements.\n\n\u2022 **Set**: which is a collection that cannot contain duplicate elements.\n\n\u2022 **List**: which is an ordered collection and can contain duplicate elements.\n\n\u2022 **Map**: which is an object that maps keys to values and cannot contain duplicate keys\n\n\n    ",category:"Java",topic:"Collections",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.LL=new A.o(7,{id:1677334939822,question:"Why Collection doesn\u2019t extend Cloneable and Serializable interfaces?",answer:"- The Collection interface specifies groups of objects known as elements. \n- Each concrete implementation of a Collection can choose\nits own way of how to maintain and order its elements. \n- Some collections allow duplicate keys, while some other collections don\u2019t.\nThe semantics and the implications of either cloning or serialization come into play when dealing with actual implementations.\n- Thus, the concrete implementations of collections should decide how they can be cloned or serialized.\n    ",category:"Java",topic:"Collections",level:1,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.Ns=new A.o(7,{id:1677335270583,question:"What differences exist between Iterator and ListIterator?",answer:"The differences of these elements are listed below:\n\n\u2022 An Iterator can be used to traverse the Set and List collections, while the ListIterator can be used to iterate only over Lists.\n\n\u2022 The Iterator can traverse a collection only in forward direction, while the ListIterator can traverse a List in both directions.\n\n\u2022 The ListIterator implements the Iterator interface and contains extra functionality, such as adding an element, replacing an\nelement, getting the index position for previous and next elements, etc.\n\n\n    ",category:"Java",topic:"Collections",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.NP=new A.o(7,{id:1677335435778,question:"How HashMap works in Java?",answer:" - A HashMap in Java stores key-value pairs. \n- The HashMap requires a hash function and uses hashCode and equals methods,\nin order to put and retrieve elements to and from the collection respectively. \n- When the put method is invoked, the HashMap\ncalculates the hash value of the key and stores the pair in the appropriate index inside the collection. \n- If the key exists, its value\nis updated with the new value. \n- Some important characteristics of a HashMap are its capacity, its load factor and the thresholdresizing.\n\n\n    ",category:"Java",topic:"Collections",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
-B.MI=new A.o(7,{id:1677335518321,question:"What is the importance of hashCode() and equals() methods?",answer:"- In Java, a **HashMap** uses the hashCode and equals methods to determine the index of the key-value pair and to detect duplicates.\n- More specifically, the hashCode method is used in order to determine where the specified key will be stored. \n- Since different keys\nmay produce the same hash value, the equals method is used, in order to determine whether the specified key actually exists in\nthe collection or not. \n- Therefore, the implementation of both methods is crucial to the accuracy and efficiency of the HashMap.\n\n\n    ",category:"Java",topic:"Collections",level:1,uploader:"Jayesh Thakkar"},B.e,t.M)
-B.MF=new A.o(7,{id:1677335638325,question:"What differences exist between HashMap and Hashtable?",answer:" Both the HashMap and Hashtable classes implement the Map interface and thus, have very similar characteristics. However, they\ndiffer in the following features:\n\n\u2022 A HashMap allows the existence of null keys and values, while a Hashtable doesn\u2019t allow neither null keys, nor null values.\n\n\u2022 A Hashtable is synchronized, while a HashMap is not. Thus, HashMap is preferred in single-threaded environments, while a\nHashtable is suitable for multi-threaded environments.\n\n\u2022 A HashMap provides its set of keys and a Java application can iterate over them. Thus, a HashMap is fail-fast. On the other\nhand, a Hashtable provides an Enumeration of its keys.\n\n\u2022 The Hashtable class is considered to be a legacy class\n\n\n    ",category:"Java",topic:"Collections",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
+B.MJ=new A.o(7,{id:1677335518321,question:"What is the importance of hashCode() and equals() methods?",answer:"- In Java, a **HashMap** uses the hashCode and equals methods to determine the index of the key-value pair and to detect duplicates.\n- More specifically, the hashCode method is used in order to determine where the specified key will be stored. \n- Since different keys\nmay produce the same hash value, the equals method is used, in order to determine whether the specified key actually exists in\nthe collection or not. \n- Therefore, the implementation of both methods is crucial to the accuracy and efficiency of the HashMap.\n\n\n    ",category:"Java",topic:"Collections",level:1,uploader:"Jayesh Thakkar"},B.e,t.M)
+B.MG=new A.o(7,{id:1677335638325,question:"What differences exist between HashMap and Hashtable?",answer:" Both the HashMap and Hashtable classes implement the Map interface and thus, have very similar characteristics. However, they\ndiffer in the following features:\n\n\u2022 A HashMap allows the existence of null keys and values, while a Hashtable doesn\u2019t allow neither null keys, nor null values.\n\n\u2022 A Hashtable is synchronized, while a HashMap is not. Thus, HashMap is preferred in single-threaded environments, while a\nHashtable is suitable for multi-threaded environments.\n\n\u2022 A HashMap provides its set of keys and a Java application can iterate over them. Thus, a HashMap is fail-fast. On the other\nhand, a Hashtable provides an Enumeration of its keys.\n\n\u2022 The Hashtable class is considered to be a legacy class\n\n\n    ",category:"Java",topic:"Collections",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.NN=new A.o(7,{id:1677335716741,question:"What is difference between Array and ArrayList ? When will you use Array over ArrayList?",answer:"The Array and ArrayList classes differ on the following features:\n\n\u2022 Arrays can contain primitive or objects, while an ArrayList can contain only objects.\n\n\u2022 Arrays have fixed size, while an ArrayList is dynamic.\n\n\u2022 An ArrayList provides more methods and features, such as addAll, removeAll, iterator, etc.\n\n\u2022 For a list of primitive data types, the collections use autoboxing to reduce the coding effort. However, this approach makes\nthem slower when working on fixed size primitive data types.\n\n\n    ",category:"Java",topic:"Collections",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.LH=new A.o(7,{id:1677335813905,question:"What is difference between ArrayList and LinkedList?",answer:"Both the **ArrayList** and **LinkedList** classes implement the List interface, but they differ on the following features:\n\n\u2022 An ArrayList is an index based data structure backed by an Array. It provides random access to its elements with a performance\nequal to O(1). On the other hand, a LinkedList stores its data as list of elements and every element is linked to its previous and\nnext element. In this case, the search operation for an element has execution time equal to O(n).\n\n\u2022 The Insertion, addition and removal operations of an element are faster in a LinkedList compared to an ArrayList, because\nthere is no need of resizing an array or updating the index when an element is added in some arbitrary position inside the\ncollection.\n\n\u2022 A LinkedList consumes more memory than an ArrayList, because every node in a LinkedList stores two references, one for its\nprevious element and one for its next element\n\n\n    ",category:"Java",topic:"Collections",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.On=new A.o(7,{id:1677335904121,question:"What do you know about the big-O notation and can you give some examples with respect to different data structures ?",answer:"- The **Big-O notation** simply describes how well an algorithm scales or performs in the worst case scenario as the number of elements in a data structure increases. \n- The Big-O notation can also be used to describe other behavior such as memory consumption.\n- Since the collection classes are actually data structures, we usually use the Big-O notation to chose the best implementation to\nuse, based on time, memory and performance. \n- Big-O notation can give a good indication about performance for large amounts\nof data.\n\n\n    ",category:"Java",topic:"Collections",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
-B.LZ=new A.o(7,{id:1677336011303,question:"What is the tradeoff between using an unordered array versus an ordered array?",answer:"- The major advantage of an ordered array is that the search times have time complexity of O(log n), compared to that of an\nunordered array, which is O (n). \n- The disadvantage of an ordered array is that the insertion operation has a time complexity of\nO(n), because the elements with higher values must be moved to make room for the new element. \n- Instead, the insertion operation for an unordered array takes constant time of O(1).\n\n\n    ",category:"Java",topic:"Collections",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
+B.M_=new A.o(7,{id:1677336011303,question:"What is the tradeoff between using an unordered array versus an ordered array?",answer:"- The major advantage of an ordered array is that the search times have time complexity of O(log n), compared to that of an\nunordered array, which is O (n). \n- The disadvantage of an ordered array is that the insertion operation has a time complexity of\nO(n), because the elements with higher values must be moved to make room for the new element. \n- Instead, the insertion operation for an unordered array takes constant time of O(1).\n\n\n    ",category:"Java",topic:"Collections",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.Od=new A.o(7,{id:1677336086785,question:"What is the difference between HashSet and TreeSet?",answer:"- The HashSet is Implemented using a hash table and thus, its elements are not ordered. \n- The add, remove, and contains methods of\na HashSet have constant time complexity O(1). \n- On the other hand, a TreeSet is implemented using a tree structure. \n- The elements\nin a TreeSet are sorted, and thus, the add, remove, and contains methods have time complexity of O(logn).\n\n\n    ",category:"Java",topic:"Collections",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
-B.Mp=new A.o(7,{id:1677343275162,question:"What is the purpose of garbage collection in Java, and when is it used?",answer:"The purpose of garbage collection is to **identify** and **discard** those objects that are no longer needed by the application, in order\nfor the resources to be reclaimed and reused.\n\n\n    ",category:"Java",topic:"Garbage Collectors",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
-B.Mb=new A.o(7,{id:1677343331892,question:"What does System.gc() and Runtime.gc() methods do?",answer:"- These methods can be used as a hint to the JVM, in order to start a garbage collection. \n\n- However, this it is up to the Java Virtual\nMachine (JVM) to start the garbage collection immediately or later in time.\n\n\n    ",category:"Java",topic:"Garbage Collectors",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
-B.LT=new A.o(7,{id:1677343401257,question:"What is structure of Java Heap ? What is Perm Gen space in Heap?",answer:"- The JVM has a heap that is the runtime data area from which memory for all class instances and arrays is allocated. \n- It is created\nat the JVM start-up. Heap memory for objects is reclaimed by an automatic memory management system which is known as a\ngarbage collector. \n- Heap memory consists of live and dead objects. Live objects are accessible by the application and will not\nbe a subject of garbage collection. \n- Dead objects are those which will never be accessible by the application, but have not been\ncollected by the garbage collector yet.\n- Such objects occupy the heap memory space until they are eventually collected by the\ngarbage collector.\n\n\n    ",category:"Java",topic:"Garbage Collectors",level:1,uploader:"Jayesh Thakkar"},B.e,t.M)
+B.Mq=new A.o(7,{id:1677343275162,question:"What is the purpose of garbage collection in Java, and when is it used?",answer:"The purpose of garbage collection is to **identify** and **discard** those objects that are no longer needed by the application, in order\nfor the resources to be reclaimed and reused.\n\n\n    ",category:"Java",topic:"Garbage Collectors",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
+B.Mc=new A.o(7,{id:1677343331892,question:"What does System.gc() and Runtime.gc() methods do?",answer:"- These methods can be used as a hint to the JVM, in order to start a garbage collection. \n\n- However, this it is up to the Java Virtual\nMachine (JVM) to start the garbage collection immediately or later in time.\n\n\n    ",category:"Java",topic:"Garbage Collectors",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
+B.LU=new A.o(7,{id:1677343401257,question:"What is structure of Java Heap ? What is Perm Gen space in Heap?",answer:"- The JVM has a heap that is the runtime data area from which memory for all class instances and arrays is allocated. \n- It is created\nat the JVM start-up. Heap memory for objects is reclaimed by an automatic memory management system which is known as a\ngarbage collector. \n- Heap memory consists of live and dead objects. Live objects are accessible by the application and will not\nbe a subject of garbage collection. \n- Dead objects are those which will never be accessible by the application, but have not been\ncollected by the garbage collector yet.\n- Such objects occupy the heap memory space until they are eventually collected by the\ngarbage collector.\n\n\n    ",category:"Java",topic:"Garbage Collectors",level:1,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.N7=new A.o(7,{id:1677343456764,question:"What is the difference between Serial and Throughput Garbage collector?",answer:"- The throughput garbage collector uses a parallel version of the young generation collector and is meant to be used with applications that have medium to large data sets.\n-  On the other hand, the serial collector is usually adequate for most small applications\n(those requiring heaps of up to approximately 100MB on modern processors)\n\n\n    ",category:"Java",topic:"Garbage Collectors",level:1,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.OS=new A.o(7,{id:1677343492582,question:"When does an Object becomes eligible for Garbage collection in Java?",answer:"A Java object is subject to garbage collection when it becomes unreachable to the program in which it is currently used.",category:"Java",topic:"Garbage Collectors",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.NA=new A.o(7,{id:1677343542969,question:"Does Garbage collection occur in permanent generation space in JVM ?",answer:"- Garbage Collection does occur in PermGen space and if PermGen space is full or cross a threshold, it can trigger a full garbage\ncollection.\n-  If you look carefully at the output of the garbage collector, you will find that PermGen space is also garbage collected.\n- This is the reason why correct sizing of PermGen space is important to avoid frequent full garbage collections. Also check our\narticle Java 8: PermGen to Metaspace.\n\n\n    ",category:"Java",topic:"Garbage Collectors",level:1,uploader:"Jayesh Thakkar"},B.e,t.M)
-B.Ml=new A.o(7,{id:1677343691326,question:"What are the two types of Exceptions in Java ? Which are the differences between them?",answer:"        \n- Java has two types of exceptions: checked exceptions and unchecked exceptions. \n- Unchecked exceptions do not need to be\ndeclared in a method or a constructor\u2019s throws clause, if they can be thrown by the execution of the method or the constructor,\nand propagate outside the method or constructor boundary. \n- On the other hand, checked exceptions must be declared in a method\nor a constructor\u2019s throws clause. See here for tips on Java exception handling\n\n    ",category:"Java",topic:"Exception Handling",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
+B.Mm=new A.o(7,{id:1677343691326,question:"What are the two types of Exceptions in Java ? Which are the differences between them?",answer:"        \n- Java has two types of exceptions: checked exceptions and unchecked exceptions. \n- Unchecked exceptions do not need to be\ndeclared in a method or a constructor\u2019s throws clause, if they can be thrown by the execution of the method or the constructor,\nand propagate outside the method or constructor boundary. \n- On the other hand, checked exceptions must be declared in a method\nor a constructor\u2019s throws clause. See here for tips on Java exception handling\n\n    ",category:"Java",topic:"Exception Handling",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.O6=new A.o(7,{id:1677343760644,question:"What is the difference between Exception and Error in Java?",answer:"        \n- **Exception** and **Error** classes are both subclasses of the Throwable class. \n- The Exception class is used for exceptional conditions\nthat a user\u2019s program should catch.\n- The Error class defines exceptions that are not excepted to be caught by the user program.\n\n    ",category:"Java",topic:"Exception Handling",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.Lz=new A.o(7,{id:1677343811781,question:"What is the difference between throw and throws?",answer:"        \n- The throw keyword is used to explicitly raise a exception within the program.\n-  On the contrary, the throws clause is used to\nindicate those exceptions that are not handled by a method. \n- Each method must explicitly specify which exceptions does not\nhandle, so the callers of that method can guard against possible exceptions. \n- Finally, multiple exceptions are separated by a\ncomma.\n\n    ",category:"Java",topic:"Garbage Collectors",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.NG=new A.o(7,{id:1677343954432,question:"What is the importance of finally block in exception handling?",answer:"        \n- A finally block will always be executed, whether or not an exception is actually thrown. \n- Even in the case where the catch\nstatement is missing and an exception is thrown, the finally block will still be executed. \n- Last thing to mention is that the finally\nblock is used to release resources like I/O buffers, database connections, etc.\n\n    ",category:"Java",topic:"Garbage Collectors",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.P3=new A.o(7,{id:1677344024413,question:"What is an Applet in Java?",answer:"        \n- A Java applet is program that can be included in a HTML page and be executed in a java enabled client browser.\n- Applets are used\nfor creating dynamic and interactive web applications.\n\n    ",category:"Java",topic:"Applets",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.Ot=new A.o(7,{id:1677344073991,question:" Explain the life cycle of an Applet.",answer:"        \nAn applet may undergo the following states:\n\n\u2022 **Init**: An applet is initialized each time is loaded.\n\n\u2022 **Start**: Begin the execution of an applet.\n\n\u2022 **Stop**: Stop the execution of an applet.\n\n\u2022 **Destroy**: Perform a final cleanup, before unloading the applet.\n\n    ",category:"Java",topic:"Applets",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.P_=new A.o(7,{id:1677344150415,question:"What are the restrictions imposed on Java applets?",answer:"        \nMostly due to security reasons, the following restrictions are imposed on Java applets:\n\n- An applet cannot load libraries or define native methods.\n\n- An applet cannot ordinarily read or write files on the execution host.\n\n- An applet cannot read certain system properties.\n\n- An applet cannot make network connections except to the host that it came from.\n\n- An applet cannot start any program on the host that\u2019s executing it.\n\n    ",category:"Java",topic:"Applets",level:0,uploader:"Kshitj Seth"},B.e,t.M)
-B.MJ=new A.o(7,{id:1677344211390,question:"What is the difference between applets loaded over the internet and applets loaded via the file system?",answer:"        \n- Regarding the case where an applet is loaded over the internet, the applet is loaded by the applet classloader and is subject to the\nrestrictions enforced by the applet security manager. \n- Regarding the case where an applet is loaded from the client\u2019s local disk,\nthe applet is loaded by the file system loader. \n- Applets loaded via the file system are allowed to read files, write files and to load\nlibraries on the client. \n- Also, applets loaded via the file system are allowed to execute processes and finally, applets loaded via the file system are not passed through the byte code verifier.\n\n    ",category:"Java",topic:"Applets",level:0,uploader:"Kshitj Seth"},B.e,t.M)
-B.MN=new A.o(7,{id:1677344293106,question:"What is the applet class loader, and what does it provide?",answer:"        \n- When an applet is loaded over the internet, the applet is loaded by the applet classloader. \n- The class loader enforces the Java name\nspace hierarchy. \n- Also, the class loader guarantees that a unique namespace exists for classes that come from the local file system,\nand that a unique namespace exists for each network source. \n- When a browser loads an applet over the net, that applet\u2019s classes\nare placed in a private namespace associated with the applet\u2019s origin. \n- Then, those classes loaded by the class loader are passed\nthrough the verifier.The verifier checks that the class file conforms to the Java language specification. \n- Among other things, the\nverifier ensures that there are no stack overflows or underflows and that the parameters to all bytecode instructions are correct.\n\n    ",category:"Java",topic:"Applets",level:1,uploader:"Kshitj Seth"},B.e,t.M)
+B.MK=new A.o(7,{id:1677344211390,question:"What is the difference between applets loaded over the internet and applets loaded via the file system?",answer:"        \n- Regarding the case where an applet is loaded over the internet, the applet is loaded by the applet classloader and is subject to the\nrestrictions enforced by the applet security manager. \n- Regarding the case where an applet is loaded from the client\u2019s local disk,\nthe applet is loaded by the file system loader. \n- Applets loaded via the file system are allowed to read files, write files and to load\nlibraries on the client. \n- Also, applets loaded via the file system are allowed to execute processes and finally, applets loaded via the file system are not passed through the byte code verifier.\n\n    ",category:"Java",topic:"Applets",level:0,uploader:"Kshitj Seth"},B.e,t.M)
+B.MO=new A.o(7,{id:1677344293106,question:"What is the applet class loader, and what does it provide?",answer:"        \n- When an applet is loaded over the internet, the applet is loaded by the applet classloader. \n- The class loader enforces the Java name\nspace hierarchy. \n- Also, the class loader guarantees that a unique namespace exists for classes that come from the local file system,\nand that a unique namespace exists for each network source. \n- When a browser loads an applet over the net, that applet\u2019s classes\nare placed in a private namespace associated with the applet\u2019s origin. \n- Then, those classes loaded by the class loader are passed\nthrough the verifier.The verifier checks that the class file conforms to the Java language specification. \n- Among other things, the\nverifier ensures that there are no stack overflows or underflows and that the parameters to all bytecode instructions are correct.\n\n    ",category:"Java",topic:"Applets",level:1,uploader:"Kshitj Seth"},B.e,t.M)
 B.OI=new A.o(7,{id:1677344350319,question:"What is the applet security manager, and what does it provide?",answer:"        \n- The applet security manager is a mechanism to impose restrictions on Java applets. \n- A browser may only have one security\nmanager. \n- The security manager is established at startup, and it cannot thereafter be replaced, overloaded, overridden, or extended.\n\n    ",category:"Java",topic:"Applets",level:0,uploader:"Kshitj Seth"},B.e,t.M)
-B.MK=new A.o(7,{id:1677344426771,question:"What is the difference between a Choice and a List?",answer:"        \n- A Choice is displayed in a compact form that must be pulled down, in order for a user to be able to see the list of all available\nchoices. \n- Only one item may be selected from a Choice. \n- A List may be displayed in such a way that several List items are visible.\n- A List supports the selection of one or more List items.\n\n    ",category:"Java",topic:"Swing",level:0,uploader:"Kshitj Seth"},B.e,t.M)
+B.ML=new A.o(7,{id:1677344426771,question:"What is the difference between a Choice and a List?",answer:"        \n- A Choice is displayed in a compact form that must be pulled down, in order for a user to be able to see the list of all available\nchoices. \n- Only one item may be selected from a Choice. \n- A List may be displayed in such a way that several List items are visible.\n- A List supports the selection of one or more List items.\n\n    ",category:"Java",topic:"Swing",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.Oy=new A.o(7,{id:1677344499243,question:"What is the difference between a Scrollbar and a JScrollPane?",answer:"        \n- A **Scrollbar** is a Component, but not a Container. \n- A **ScrollPane** is a Container. \n- A ScrollPane handles its own events and performs\nits own scrolling.\n\n    ",category:"Java",topic:"Swing",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.N2=new A.o(7,{id:1677344545527,question:"What is the relationship between clipping and repainting?",answer:"\n- When a window is repainted by the AWT painting thread, it sets the clipping regions to the area of the window that requires\nrepainting.\n",category:"Java",topic:"Swing",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.MX=new A.o(7,{id:1677344584794,question:"What is the relationship between an event-listener interface and an eventadapter class?",answer:"\n- An event-listener interface defines the methods that must be implemented by an event handler for a particular event. \n- An event\nadapter provides a default implementation of an event-listener interface.\n",category:"Java",topic:"Swing",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.Nh=new A.o(7,{id:1677344621098,question:"What advantage do Java\u2019s layout managers provide over traditional windowing systems?",answer:"\n- Java uses layout managers to lay out components in a consistent manner, across all windowing platforms. \n- Since layout managers aren\u2019t tied to absolute sizing and positioning, they are able to accomodate platform-specific differences among windowing\nsystems.\n",category:"Java",topic:"Swing",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.OH=new A.o(7,{id:1677344741504,question:"What is JDBC? Explain the role of Driver in JDBC.",answer:"**JDBC**\n- It is an abstraction layer that allows users to choose between databases. \n- JDBC enables developers to write database applications in Java, without having to concern themselves with the underlying details of a particular database\n\n**Role of Driver**\n- The JDBC Driver provides vendor-specific implementations of the abstract classes provided by the JDBC API. \n- Each driver\nmust provide implementations for the following classes of the java.sql package:Connection, Statement, PreparedStatement,\nCallableStatement, ResultSet and Driver.\n",category:"Java",topic:"JDBC",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.LE=new A.o(7,{id:1677344849281,question:"What is the purpose Class.forName method?",answer:"\nThis method is used to method is used to load the driver that will establish a connection to the database.\n",category:"Java",topic:"JDBC",level:0,uploader:"Kshitj Seth"},B.e,t.M)
-B.Mo=new A.o(7,{id:1677344901730,question:"What is the advantage of PreparedStatement over Statement?",answer:"\n- PreparedStatements are precompiled and thus, their performance is much better. \n- Also, PreparedStatement objects can be reused\nwith different input values to their queries.\n",category:"Java",topic:"JDBC",level:0,uploader:"Kshitj Seth"},B.e,t.M)
-B.M0=new A.o(7,{id:1677344975438,question:"What is the use of CallableStatement ? Name the method, which is used to prepare a CallableStatement.",answer:"\n- A CallableStatement is used to execute stored procedures. \n- Stored procedures are stored and offered by a database. \n- Stored procedures may take input values from the user and may return a result. \n- The usage of stored procedures is highly encouraged,\nbecause it offers security and modularity.\n- The method that prepares a CallableStatement is the following: \n```\nCallableStament.prepareCall();\n```",category:"Java",topic:"JDBC",level:0,uploader:"Kshitj Seth"},B.e,t.M)
+B.Mp=new A.o(7,{id:1677344901730,question:"What is the advantage of PreparedStatement over Statement?",answer:"\n- PreparedStatements are precompiled and thus, their performance is much better. \n- Also, PreparedStatement objects can be reused\nwith different input values to their queries.\n",category:"Java",topic:"JDBC",level:0,uploader:"Kshitj Seth"},B.e,t.M)
+B.M1=new A.o(7,{id:1677344975438,question:"What is the use of CallableStatement ? Name the method, which is used to prepare a CallableStatement.",answer:"\n- A CallableStatement is used to execute stored procedures. \n- Stored procedures are stored and offered by a database. \n- Stored procedures may take input values from the user and may return a result. \n- The usage of stored procedures is highly encouraged,\nbecause it offers security and modularity.\n- The method that prepares a CallableStatement is the following: \n```\nCallableStament.prepareCall();\n```",category:"Java",topic:"JDBC",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.N1=new A.o(7,{id:1677345031826,question:"What does Connection pooling mean?",answer:"\n- The interaction with a database can be costly, regarding the opening and closing of database connections. \n- Especially, when the\nnumber of database clients increases, this cost is very high and a large number of resources is consumed.\n- A pool of database\nconnections is obtained at start up by the application server and is maintained in a pool. \n- A request for a connection is served by a\nconnection residing in the pool. \n- In the end of the connection, the request is returned to the pool and can be used to satisfy future\nrequests.\n",category:"Java",topic:"JDBC",level:1,uploader:"Kshitj Seth"},B.e,t.M)
-B.Mt=new A.o(7,{id:1677345326472,question:"What is RMI?",answer:"\n- The Java Remote Method Invocation (Java RMI) is a Java API that performs the object-oriented equivalent of remote procedure\ncalls (RPC), with support for direct transfer of serialized Java classes and distributed garbage collection. \n- Remote Method Invocation (RMI) can also be seen as the process of activating a method on a remotely running object. \n- RMI offers location transparency\nbecause a user feels that a method is executed on a locally running object. C\n",category:"Java",topic:"Remote Method Invocation",level:0,uploader:"Kshitj Seth"},B.e,t.M)
-B.MD=new A.o(7,{id:1677345367674,question:"What is the basic principle of RMI architecture?",answer:"\n- The RMI architecture is based on a very important principle which states that the definition of the behavior and the implementation of that behavior, are separate concepts. \n- RMI allows the code that defines the behavior and the code that implements the\nbehavior to remain separate and to run on separate JVMs\n",category:"Java",topic:"Remote Method Invocation",level:0,uploader:"Kshitj Seth"},B.e,t.M)
+B.Mu=new A.o(7,{id:1677345326472,question:"What is RMI?",answer:"\n- The Java Remote Method Invocation (Java RMI) is a Java API that performs the object-oriented equivalent of remote procedure\ncalls (RPC), with support for direct transfer of serialized Java classes and distributed garbage collection. \n- Remote Method Invocation (RMI) can also be seen as the process of activating a method on a remotely running object. \n- RMI offers location transparency\nbecause a user feels that a method is executed on a locally running object. C\n",category:"Java",topic:"Remote Method Invocation",level:0,uploader:"Kshitj Seth"},B.e,t.M)
+B.ME=new A.o(7,{id:1677345367674,question:"What is the basic principle of RMI architecture?",answer:"\n- The RMI architecture is based on a very important principle which states that the definition of the behavior and the implementation of that behavior, are separate concepts. \n- RMI allows the code that defines the behavior and the code that implements the\nbehavior to remain separate and to run on separate JVMs\n",category:"Java",topic:"Remote Method Invocation",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.Oj=new A.o(7,{id:1677345423440,question:"What are the layers of RMI Architecture?",answer:"\nThe RMI architecture consists of the following layers:\n\n\u2022 **Stub and Skeleton layer**: This layer lies just beneath the view of the developer. This layer is responsible for intercepting\nmethod calls made by the client to the interface and redirect these calls to a remote RMI Service.\n\n\u2022 **Remote Reference Layer**: The second layer of the RMI architecture deals with the interpretation of references made from\nthe client to the server\u2019s remote objects. This layer interprets and manages references made from clients to the remote service\nobjects. The connection is a one-to-one (unicast) link.\n\n\u2022 **Transport layer**: This layer is responsible for connecting the two JVM participating in the service. This layer is based on\nTCP/IP connections between machines in a network. It provides basic connectivity, as well as some firewall penetration\nstrategies.\n",category:"Android",topic:"Remote Method Invocation",level:1,uploader:"Kshitj Seth"},B.e,t.M)
 B.OR=new A.o(7,{id:1677345478968,question:"What is the role of Remote Interface in RMI?",answer:"\n- The Remote interface serves to identify interfaces whose methods may be invoked from a non-local virtual machine. \n- Any object\nthat is a remote object must directly or indirectly implement this interface. \n- A class that implements a remote interface should\ndeclare the remote interfaces being implemented, define the constructor for each remote object and provide an implementation\nfor each remote method in all remote interfaces.\n",category:"Java",topic:"Remote Method Invocation",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.Pb=new A.o(7,{id:1677345533950,question:"What is the difference between using bind() and rebind() methods of Naming Class?",answer:"\n- The bind method bind is responsible for binding the specified name to a remote object, while the rebind method is responsible\nfor rebinding the specified name to a new remote object. \n- In case a binding exists for that name, the binding is replaced.\n",category:"Java",topic:"Remote Method Invocation",level:0,uploader:"Kshitj Seth"},B.e,t.M)
 B.O0=new A.o(7,{id:1677345592169,question:"What are the steps involved to make work a RMI program?",answer:"\nThe following steps must be involved in order for a RMI program to work properly:\n\n\u2022 Compilation of all source files.\n\n\u2022 Generatation of the stubs using rmic.\n\n\u2022 Start the rmiregistry.\n\n\u2022 Start the RMIServer.\n\n\u2022 Run the client program.\n",category:"Java",topic:"Remote Method Invocation",level:0,uploader:"Kshitj Seth"},B.e,t.M)
-B.LO=new A.o(7,{id:1677345676190,question:"What is the role of stub in RMI?",answer:"\nA stub for a remote object acts as a client\u2019s local representative or proxy for the remote object. The caller invokes a method on\nthe local stub, which is responsible for executing the method on the remote object. When a stub\u2019s method is invoked, it undergoes\nthe following steps:\n\n\u2022 It initiates a connection to the remote JVM containing the remote object.\n\n\u2022 It marshals the parameters to the remote JVM.\n\n\u2022 It waits for the result of the method invocation and execution.\n\n\u2022 It unmarshals the return value or an exception if the method has not been successfully \nexecuted.\n\n\u2022 It returns the value to the caller\n",category:"Java",topic:"Remote Method Invocation",level:1,uploader:"Kshitj Seth"},B.e,t.M)
+B.LP=new A.o(7,{id:1677345676190,question:"What is the role of stub in RMI?",answer:"\nA stub for a remote object acts as a client\u2019s local representative or proxy for the remote object. The caller invokes a method on\nthe local stub, which is responsible for executing the method on the remote object. When a stub\u2019s method is invoked, it undergoes\nthe following steps:\n\n\u2022 It initiates a connection to the remote JVM containing the remote object.\n\n\u2022 It marshals the parameters to the remote JVM.\n\n\u2022 It waits for the result of the method invocation and execution.\n\n\u2022 It unmarshals the return value or an exception if the method has not been successfully \nexecuted.\n\n\u2022 It returns the value to the caller\n",category:"Java",topic:"Remote Method Invocation",level:1,uploader:"Kshitj Seth"},B.e,t.M)
 B.Ni=new A.o(7,{id:1677345731608,question:"What is DGC? And how does it work?",answer:"\n- DGC stands for Distributed Garbage Collection. Remote Method Invocation (RMI) uses DGC for automatic garbage collection.\n- Since RMI involves remote object references across JVM\u2019s, garbage collection can be quite difficult. \n- DGC uses a reference\ncounting algorithm to provide automatic memory management for remote objects.\n",category:"Java",topic:"Remote Method Invocation",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.No=new A.o(7,{id:1677345779811,question:"What is the purpose of using RMISecurityManager in RMI?",answer:"\n- RMISecurityManager provides a security manager that can be used by RMI applications, which use downloaded code. \n- The class\nloader of RMI will not download any classes from remote locations, if the security manager has not been set.\n",category:"Java",topic:"Remote Method Invocation",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.Ok=new A.o(7,{id:1677345831996,question:"Explain Marshalling and demarshalling.",answer:"\n- When an application wants to pass its memory objects across a network to another host or persist it to storage, the in-memory\nrepresentation must be converted to a suitable format. \n- This process is called marshalling and the revert operation is called\ndemarshalling.\n",category:"Java",topic:"Remote Method Invocation",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
-B.Ma=new A.o(7,{id:1677345884121,question:"Explain Serialization and Deserialization.",answer:"\n- Java provides a mechanism, called object serialization where an object can be represented as a sequence of bytes and includes\nthe object\u2019s data, as well as information about the object\u2019s type, and the types of data stored in the object. \n- Thus, serialization can\nbe seen as a way of flattening objects, in order to be stored on disk, and later, read back and reconstituted. \n- Deserialisation is the\nreverse process of converting an object from its flattened state to a live object.\n",category:"Java",topic:"Remote Method Invocation",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
+B.Mb=new A.o(7,{id:1677345884121,question:"Explain Serialization and Deserialization.",answer:"\n- Java provides a mechanism, called object serialization where an object can be represented as a sequence of bytes and includes\nthe object\u2019s data, as well as information about the object\u2019s type, and the types of data stored in the object. \n- Thus, serialization can\nbe seen as a way of flattening objects, in order to be stored on disk, and later, read back and reconstituted. \n- Deserialisation is the\nreverse process of converting an object from its flattened state to a live object.\n",category:"Java",topic:"Remote Method Invocation",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.LG=new A.o(7,{id:1677346023513,question:"What is a Servlet? Explain the architecture of a Servlet.",answer:"**Servlets**\n\n- The servlet is a Java programming language class used to process client requests and generate dynamic web content. \n- Servlets are\nmostly used to process or store data submitted by an HTML form, provide dynamic content and manage state information that\ndoes not exist in the stateless HTTP protocol.\n\n**Architecture**\n\n- The core abstraction that must be implemented by all servlets is the javax.servlet.Servlet interface. \n- Each servlet must implement\nit either directly or indirectly, either by extending javax.servlet.GenericServlet or javax.servlet.http.HTTPServlet. \n- Finally, each\nservlet is able to serve multiple requests in parallel using multithreading.\n",category:"Java",topic:"Servlets",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.Og=new A.o(7,{id:1677398116602,question:"What is the difference between an Applet and a Servlet?",answer:"\n- An Applet is a client side java program that runs within a Web browser on the client machine. - On the other hand, a servlet is a server side component that runs on the web server.\n- An applet can use the user interface classes, while a servlet does not have a user interface. \n- Instead, a servlet waits for client\u2019s HTTP requests and generates a response in every request.        \n\n\n    ",category:"Java",topic:"Servlets",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
-B.Mj=new A.o(7,{id:1677398188669,question:"What is the difference between GenericServlet and HttpServlet?",answer:"        \n- GenericServlet is a generalized and protocol-independent servlet that implements the Servlet and ServletConfig interfaces. \n- Those servlets extending the GenericServlet class shall override the service method. \n- Finally, in order to develop an HTTP servlet for use on the Web that serves requests using the HTTP protocol, your servlet must extend the HttpServlet instead.\n\n    ",category:"Java",topic:"Servlets",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
+B.Mk=new A.o(7,{id:1677398188669,question:"What is the difference between GenericServlet and HttpServlet?",answer:"        \n- GenericServlet is a generalized and protocol-independent servlet that implements the Servlet and ServletConfig interfaces. \n- Those servlets extending the GenericServlet class shall override the service method. \n- Finally, in order to develop an HTTP servlet for use on the Web that serves requests using the HTTP protocol, your servlet must extend the HttpServlet instead.\n\n    ",category:"Java",topic:"Servlets",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.Pg=new A.o(7,{id:1677398295857,question:"Explain the life cycle of a Servlet.",answer:"        \n- On every client\u2019s request, the Servlet Engine loads the servlets and invokes its init methods, in order for the servlet to be initialized. \n- Then, the Servlet object handles all subsequent requests coming from that client, by invoking the service method for each request separately. \n- Finally, the servlet is removed by calling the server\u2019s destroy method.\n\n    ",category:"Java",topic:"Servlets",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
-B.Mx=new A.o(7,{id:1677398405803,question:"What is the difference between doGet() and doPost()?",answer:"        \n**doGET**: The GET method appends the name-value pairs on the request\u2019s URL. Thus, there is a limit on the number of characters and subsequently on the number of values that can be used in a client\u2019s request. Furthermore, the values of the request are made visible and thus, sensitive information must not be passed in that way.\n\n**doPOST**: The POST method overcomes the limit imposed by the GET request, by sending the values of the request inside its body. Also, there is no limitations on the number of values to be sent across. Finally, the sensitive information passed through a POST request is not visible to an external client.\n\n    ",category:"Java",topic:"Servlets",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
+B.My=new A.o(7,{id:1677398405803,question:"What is the difference between doGet() and doPost()?",answer:"        \n**doGET**: The GET method appends the name-value pairs on the request\u2019s URL. Thus, there is a limit on the number of characters and subsequently on the number of values that can be used in a client\u2019s request. Furthermore, the values of the request are made visible and thus, sensitive information must not be passed in that way.\n\n**doPOST**: The POST method overcomes the limit imposed by the GET request, by sending the values of the request inside its body. Also, there is no limitations on the number of values to be sent across. Finally, the sensitive information passed through a POST request is not visible to an external client.\n\n    ",category:"Java",topic:"Servlets",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.NQ=new A.o(7,{id:1677398490341,question:"What is the structure of the HTTP response?",answer:"        \nThe HTTP response consists of three parts:\n\n\u2022 **Status Code**: describes the status of the response. It can be used to check if the request has been successfully completed. In case the request failed, the status code can be used to find out the reason behind the failure. If your servlet does not return a status code, the success status code, HttpServletResponse.SC_OK, is returned by default.\n\n\u2022 **HTTP Headers**: they contain more information about the response. For example, the headers may specify the date/time after which the response is considered stale, or the form of encoding used to safely transfer the entity to the user.\n\n\u2022 **Body**: it contains the content of the response. The body may contain HTML code, an image, etc. The body consists of the data bytes transmitted in an HTTP transaction message immediately following the headers.\n\n    ",category:"Java",topic:"Servlets",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.N4=new A.o(7,{id:1677398568933,question:"What is a cookie? What is the difference between session and cookie?",answer:"        \n\nA cookie is a bit of information that the Web server sends to the browser. The browser stores the cookies for each Web server in a local file. In a future request, the browser, along with the request, sends all stored cookies for that specific Web server.The differences between session and a cookie are the following:\n\n\u2022 The session should work, regardless of the settings on the client browser. The client may have chosen to disable cookies. However, the sessions still work, as the client has no ability to disable them in the server side.\n\n\u2022 The session and cookies also differ in the amount of information the can store. The HTTP session is capable of storing any Java object, while a cookie can only store String objects\n\n    ",category:"Java",topic:"Servlets",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.OV=new A.o(7,{id:1677398641874,question:"What\u2019s the difference between sendRedirect and forward methods?",answer:"        \n- The sendRedirect method creates a new request, while the forward method just forwards a request to a new target. \n- The previous request scope objects are not available after a redirect, because it results in a new request. \n- On the other hand, the previous request scope objects are available after forwarding.\n-  FInally, in general, the sendRedirect method is considered to be slower compare to the forward method.\n\n    ",category:"Java",topic:"Servlets",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.Pa=new A.o(7,{id:1677398837295,question:"What is a JSP Page? ",answer:"        \n- A Java Server Page (JSP) is a text document that contains two types of text: static data and JSP elements. \n- Static data can be expressed in any text-based format, such as HTML or XML. JSP is a technology that mixes static content with dynamically- generated content.\n\n    ",category:"Java",topic:"JSP",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.NO=new A.o(7,{id:1677398898406,question:"What are the advantages of JSP?",answer:"        \nThe advantages of using the JSP technology are shown below:\n\n\u2022 JSP pages are dynamically compiled into servlets and thus, the developers can easily make updates to presentation code.\n\n\u2022 JSP pages can be pre-compiled.\n\n\u2022 JSP pages can be easily combined to static templates, including HTML or XML fragments, with code that generates dynamic content.\n\n\u2022 Developers can offer customized JSP tag libraries that page authors access using an XML-like syntax.\n\n\u2022Developerscanmakelogicchangesatthecomponentlevel,withouteditingtheindividualpagesthatusetheapplication\u2019slogic.\n\n    ",category:"Java",topic:"JSP",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
-B.My=new A.o(7,{id:1677399114748,question:"What are Directives? What are the different types of Directives available in JSP?",answer:"\n- Directives are instructions that are processed by the JSP engine, when the page is compiled to a servlet. \n- Directives are used to setpage-level instructions,insert data from external files, and specify custom tag libraries.\n- Directives are defined between < %@ and % >.\n- The different types of directives are shown below:\n\n- Include directive: it is used to include a file and merges the content of the file with the current page. \n\n- Page directive: it is used to define specific attributes in the JSP page, like error page and buffer.\n\n- Taglib: it is used to declare a custom tag library which is used in the page.\n",category:"Java",topic:"JSP",level:1,uploader:"Jayesh Thakkar"},B.e,t.M)
+B.Mz=new A.o(7,{id:1677399114748,question:"What are Directives? What are the different types of Directives available in JSP?",answer:"\n- Directives are instructions that are processed by the JSP engine, when the page is compiled to a servlet. \n- Directives are used to setpage-level instructions,insert data from external files, and specify custom tag libraries.\n- Directives are defined between < %@ and % >.\n- The different types of directives are shown below:\n\n- Include directive: it is used to include a file and merges the content of the file with the current page. \n\n- Page directive: it is used to define specific attributes in the JSP page, like error page and buffer.\n\n- Taglib: it is used to declare a custom tag library which is used in the page.\n",category:"Java",topic:"JSP",level:1,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.Nz=new A.o(7,{id:1677399190029,question:"What are JSP actions?",answer:"        \nJSP actions use constructs in XML syntax to control the behavior of the servlet engine. JSP actions are executed when a JSP page is requested. \n\nThey can be dynamically inserted into a file, re-use JavaBeans components, forward the user to another page, or generate HTML for the Java plugin.\nSome of the available actions are listed below:\n\n\u2022 jsp:include - includes a file, when the JSP page is requested. \n\n\u2022 jsp:useBean - finds or instantiates a JavaBean.\n\n\u2022 jsp:setProperty - sets the property of a JavaBean.\n\n\u2022 jsp:getProperty - gets the property of a JavaBean.\n\n\u2022 jsp:forward - forwards the requester to a new page. \n\n\u2022 jsp:plugin - generates browser-specific code.\n\n    ",category:"Java",topic:"JSP",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.Pn=new A.o(7,{id:1677399386872,question:"Explain Scriptlets, Decalarations, Expressions.",answer:"      \n**Scriptlets-**  In Java Server Pages (JSP) technology, a scriptlet is a piece of Java-code embedded in a JSP page. The scriptlet is everything inside the tags. Between these tags, a user can add any valid scriplet.\n\n**Decalarations-**\nDeclarations are similar to variable declarations in Java. Declarations are used to declare variables for subsequent use in expres- sions or scriptlets. To add a declaration, you must use the sequences to enclose your declarations.\n\n**Expressions-**\nA JSP expression is used to insert the value of a scripting language expression, converted into a string, into the data stream returned to the client, by the webserver. Expressions are defined between < %  = and % > tags.\n\n    ",category:"Java",topic:"JSP",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
 B.OT=new A.o(7,{id:1677399468998,question:"What is meant by implicit objects and what are they?",answer:"        \nJSP implicit objects are those Java objects that the JSP Container makes available to developers in each page. \n\nA developer can call them directly, without being explicitly declared. JSP Implicit Objects are also called pre-defined variables.The following objects are considered implicit in a JSP page:\n\n\u2022 application \n\n\u2022 page\n\n\u2022 request\n\n\u2022 response    \n\n\u2022 session\n\n\u2022 exception\n\n\u2022 out\n\n\u2022 config\n\n\u2022 pageContext",category:"Java",topic:"JSP",level:0,uploader:"Jayesh Thakkar"},B.e,t.M)
-B.Mu=new A.o(7,{id:1677482745582,question:"What is debouncing and throttling in JavaScript?",answer:"        \nDebouncing and Throttling are programming concepts that can be used to optimize performance in JavaScript. In case multiple events of the same type are occurring, debouncing and throttling allow us to reduce the number of times the event handlers are triggered.\n\n**Debouncing**\n\nDebouncing works by grouping function calls and calling them only after a predefined amount of time has passed since the last call.\n\nExample\nIf a page is scrolled, instead of calling the scroll event handler for every scroll event, debounce can help group these calls and call it once after, let's say, 50 milliseconds since the last scroll event. This would keep the scroll smooth without getting affected by the handler.\n\n\n**Throttling**\n\nThrottling is a similar concept to debouncing. Throttling works by not allowing any function call for a predefined amount of time after a function call.\n\nExample\nIf a button is pressed 10 times in a single second, we would not want the event handler to be triggered 10 times as the handling might be expensive. We can use throttling to restrict the event handler from getting triggered for 1 second since the previous trigger.\n\nDebouncing vs Throttling\nThe major difference between Debouncing and Throttling is that in the case of debouncing the function call would happen only after the last event whereas in the case of throttling the function call can happen after every X milliseconds if continuous events are happening.\n\n\n\n    ",category:"Web Frontend",topic:"Javascript",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
+B.Mv=new A.o(7,{id:1677482745582,question:"What is debouncing and throttling in JavaScript?",answer:"        \nDebouncing and Throttling are programming concepts that can be used to optimize performance in JavaScript. In case multiple events of the same type are occurring, debouncing and throttling allow us to reduce the number of times the event handlers are triggered.\n\n**Debouncing**\n\nDebouncing works by grouping function calls and calling them only after a predefined amount of time has passed since the last call.\n\nExample\nIf a page is scrolled, instead of calling the scroll event handler for every scroll event, debounce can help group these calls and call it once after, let's say, 50 milliseconds since the last scroll event. This would keep the scroll smooth without getting affected by the handler.\n\n\n**Throttling**\n\nThrottling is a similar concept to debouncing. Throttling works by not allowing any function call for a predefined amount of time after a function call.\n\nExample\nIf a button is pressed 10 times in a single second, we would not want the event handler to be triggered 10 times as the handling might be expensive. We can use throttling to restrict the event handler from getting triggered for 1 second since the previous trigger.\n\nDebouncing vs Throttling\nThe major difference between Debouncing and Throttling is that in the case of debouncing the function call would happen only after the last event whereas in the case of throttling the function call can happen after every X milliseconds if continuous events are happening.\n\n\n\n    ",category:"Web Frontend",topic:"Javascript",level:0,uploader:"Gobind Sekhar"},B.e,t.M)
 B.ND=new A.o(7,{id:1677483453735,question:"What are the different scopes in JavaScript?",answer:"\nIn JavaScript, scope gives the context about the accessibility of a variable or function in the code. There are three types of scope based on which a function or a variable can be accessed. They are:\n\n- Global Scope\n- Function/Local Scope\n- Block Scope\n\n**Global Scope**\n\nThe variables or functions that are declared in the global scope can be accessed anywhere in the code.\n\nExample\n```\nconst name = 'thedevinterview';\nfunction printName() {\n    console.log(name);\n}\nprintName();\n```\n ",category:"Web Frontend",topic:"Javascript",level:0,uploader:"Rohan Patil"},B.e,t.M)
 B.Oe=new A.o(7,{id:1677484115468,question:"What are call(), apply() and bind() methods in JavaScript?",answer:'\n**call() Method**\n\nThe call() is a method in JavaScript that helps us to call a function with a given object as the \'this\' value. The call() method takes all the arguments individually.\n\nSyntax\n```\nfunctionName.call(thisArgument, ...functionArgs);\n```\nExample\n```\nconst personOne = {\n  firstName : "Elon",\n  secondName : "Musk"\n}\n\nconst getFullName = function(company, country) {\n  console.log(this.firstName + " " + this.secondName + ", " + company + ", " + country);\n}\n\nconst personTwo = {\n  firstName : "Mark",\n  secondName : "Zuckerburg"\n}\n\ngetFullName.call(personOne, "Tesla", "United States");    // outputs Elon Musk, Tesla, United States\ngetFullName.call(personTwo, "Facebook", "United States");    // outputs Mark Zuckerberg, Facebook, United States\n```\n\n**apply() Method**\n\nThe apply() method is similar to the call() method. The only difference is that the apply() method takes an array as the argument whereas they were taken individually as arguments in the case of the call() method.\n\nSyntax\n```\nfunctionName.apply(thisArgument, functionArgsArray);\n```\nExample\n```\nconst personOne = {\n  firstName : "Elon",\n  secondName : "Musk"\n}\n\nconst getFullName = function(company, country) {\n  console.log(this.firstName + " " + this.secondName + ", " + company + ", " + country);\n}\n\nconst personTwo = {\n  firstName : "Mark",\n  secondName : "Zuckerburg"\n}\n\ngetFullName.apply(personOne, ["Tesla", "United States"]);    // outputs Elon Musk, Tesla, United States\ngetFullName.apply(personTwo, ["Facebook", "United States"]);    // outputs Mark Zuckerberg, Facebook, United States\n```\n\nIn the above example, the company and country parameters were passed as a single array. It was passed individually in the case of the call() method. \n\n**bind() Method**\n\nThe bind() method is used to create a new function from another function with a given object as the this argument. It creates a copy of the function and then binds it to the object for which it was called. It does not immediately invoke the function and the new copy needs to be invoked separately. \n\nExample\n\n```\nconst personOne = {\n  firstName : "Elon",\n  secondName : "Musk"\n}\n\nconst getFullName = function(company, country) {\n  console.log(this.firstName + " " + this.secondName + ", " + company + ", " + country);\n}\n\nconst getPersonOneDetails = getFullName.bind(personOne, ["Tesla", "United States"]); \ngetPersonOneDetails();    // outputs Elon Musk, Tesla, United States\n```\nIn the above example, calling the bind method on \'getFullName\' creates a copy of it, which is assigned to \'getPersonOneDetails\'. When the \'getPersonOneDetails\' is called separately, we will get the desired output.\n',category:"Web Frontend",topic:"Javascript",level:0,uploader:"Rohan Patil"},B.e,t.M)
 B.OY=new A.o(7,{id:1677666896916,question:"Compare Splunk with Spark.",answer:"![enter image description here](https://i.postimg.cc/C5h6W6Y0/Screenshot-2023-03-01-at-4-04-00-PM.png)\n\n",category:"Data Engineer",topic:"Splunk",level:0,uploader:"Atharv Patil"},B.e,t.M)
 B.P4=new A.o(7,{id:1677667031808,question:"What is Splunk? What are the common port numbers used by Splunk?",answer:"\n- Splunk is \u2018Google\u2019 for our machine-generated data. \n- It\u2019s a software/engine that can be used for searching, visualizing, monitoring, reporting, etc. of our enterprise data. \n- Splunk takes valuable machine data and turns it into powerful operational intelligence by providing real-time insights into our data through charts, alerts, reports, etc.\n\n![ports](https://i.postimg.cc/D0SYv4Wp/Screenshot-2023-03-01-at-4-05-38-PM.png)\n",category:"Data Engineer",topic:"Splunk",level:0,uploader:"Atharv Patil"},B.e,t.M)
-B.LW=new A.o(7,{id:1677667105552,question:"What is a Splunk Forwarder? What are the types of Splunk Forwarders?\n",answer:"\nThere are two types of Splunk Forwarders as below:\n\n**Universal Forwarder (UF)**: The Splunk agent installed on a non-Splunk system to gather data locally; it can\u2019t parse or index data.\n\n**Heavyweight Forwarder (HWF)**: A full instance of Splunk with advanced functionalities.\nIt generally works as a remote collector, intermediate forwarder, and possible data filter, and since it parses data, it is not recommended for production systems.\n\n\n",category:"Data Engineer",topic:"Splunk",level:0,uploader:"Atharv Patil"},B.e,t.M)
+B.LX=new A.o(7,{id:1677667105552,question:"What is a Splunk Forwarder? What are the types of Splunk Forwarders?\n",answer:"\nThere are two types of Splunk Forwarders as below:\n\n**Universal Forwarder (UF)**: The Splunk agent installed on a non-Splunk system to gather data locally; it can\u2019t parse or index data.\n\n**Heavyweight Forwarder (HWF)**: A full instance of Splunk with advanced functionalities.\nIt generally works as a remote collector, intermediate forwarder, and possible data filter, and since it parses data, it is not recommended for production systems.\n\n\n",category:"Data Engineer",topic:"Splunk",level:0,uploader:"Atharv Patil"},B.e,t.M)
 B.LA=new A.o(7,{id:1677667196488,question:"Name some important configuration files in Splunk.",answer:"They are as follows: \n- props.conf\n- indexes.conf\n- inputs.conf\n- transforms.conf\n- server.conf\n",category:"Data Engineer",topic:"Splunk",level:0,uploader:"Atharv Patil"},B.e,t.M)
 B.NM=new A.o(7,{id:1677667235178,question:"What is Summary Index in Splunk?",answer:"\nA summary index is the default Splunk index (the index that Splunk Enterprise uses if we do not indicate another one).\n\nIf we plan to run a variety of summary index reports, we may need to create additional summary indexes.\n",category:"Data Engineer",topic:"Splunk",level:0,uploader:"Atharv Patil"},B.e,t.M)
 B.ON=new A.o(7,{id:1677667292381,question:"Can you write down a general regular expression for extracting the IP address from logs?",answer:'\nThere are multiple ways in which we can extract the IP address from logs. Below are a few examples:\n\nBy using a regular expression:\n```\nrex field=_raw  "(?<ip_address>\\d+\\.\\d+\\.\\d+\\.\\d+)"\n```\nOR\n```\nrex field=_raw  "(?<ip_address>([0-9]{1,3}[\\.]){3}[0-9]{1,3})"\n```',category:"Data Engineer",topic:"Splunk",level:1,uploader:"Atharv Patil"},B.e,t.M)
-B.M_=new A.o(7,{id:1677667359449,question:"Explain Stats vs Transaction commands.",answer:"\nThis is another frequently asked interview question on Splunk which will test Developer or Engineers knowledge. The transaction command is the most useful in two specific cases:\n\n- When the unique ID (from one or more fields) alone is not sufficient to discriminate between two transactions. This is the case when the identifier is reused, for example, web sessions identified by a cookie/client IP. In this case, the time span or pauses are also used to segment the data into transactions.\n- When an identifier is reused, say in DHCP logs, a particular message identifies the beginning or end of a transaction.\n- When it is desirable to see the raw text of events combined rather than an analysis of the constituent fields of the events.\n\nIn other cases, it\u2019s usually better to use stats.\n\n- As the performance of the stats command is higher, it can be used especially in a distributed search environment\n\nIf there is a unique ID, the stats command can be used\n",category:"Data Engineer",topic:"Splunk",level:1,uploader:"Atharv Patil"},B.e,t.M)
+B.M0=new A.o(7,{id:1677667359449,question:"Explain Stats vs Transaction commands.",answer:"\nThis is another frequently asked interview question on Splunk which will test Developer or Engineers knowledge. The transaction command is the most useful in two specific cases:\n\n- When the unique ID (from one or more fields) alone is not sufficient to discriminate between two transactions. This is the case when the identifier is reused, for example, web sessions identified by a cookie/client IP. In this case, the time span or pauses are also used to segment the data into transactions.\n- When an identifier is reused, say in DHCP logs, a particular message identifies the beginning or end of a transaction.\n- When it is desirable to see the raw text of events combined rather than an analysis of the constituent fields of the events.\n\nIn other cases, it\u2019s usually better to use stats.\n\n- As the performance of the stats command is higher, it can be used especially in a distributed search environment\n\nIf there is a unique ID, the stats command can be used\n",category:"Data Engineer",topic:"Splunk",level:1,uploader:"Atharv Patil"},B.e,t.M)
 B.Ob=new A.o(7,{id:1677667433328,question:"How to troubleshoot Splunk performance issues?",answer:"\nThe answer to this question would be very wide, but mostly an interviewer would be looking for the following keywords:\n\n- Check splunkd.log for errors\n- Check server performance issues, i.e., CPU, memory usage, disk I/O, etc.\n- Install the SOS (Splunk on Splunk) app and check for warnings and errors in its dashboard\n- Check the number of saved searches currently running and their consumption of system resources\n- Install and enable Firebug, a Firefox extension. Log into Splunk (using Firefox) and open Firebug\u2019s panels. Then, switch to the \u2018Net\u2019 panel (we will have to enable it). The Net panel will show us the HTTP requests and responses, along with the time spent in each. This will give us a lot of information quickly such as which requests are hanging Splunk, which requests are blameless, etc.\n",category:"Data Engineer",topic:"Splunk",level:1,uploader:"Atharv Patil"},B.e,t.M)
 B.Om=new A.o(7,{id:1677667523345,question:"What are Buckets? Explain Splunk Bucket Lifecycle.",answer:"\nSplunk places indexed data in directories, called \u2018buckets.\u2019 It is physically a directory containing events of a certain period.\n\nA bucket moves through several stages as it ages. Below are the various stages it goes through:\n\n- **Hot**: A hot bucket contains newly indexed data. It is open for writing. There can be one or more hot buckets for each index.\nWarm: A warm bucket consists of data rolled out from a hot bucket. There are many warm buckets.\n- **Cold**: A cold bucket has data that is rolled out from a warm bucket. There are many cold buckets.\n- **Frozen**: A frozen bucket is comprised of data rolled out from a cold bucket. The indexer deletes frozen data by default, but we can archive it. Archived data can later be thawed (data in a frozen bucket is not searchable).\nBy default, the buckets are located in:\n```\n$SPLUNK_HOME/var/lib/splunk/defaultdb/db\n```\nWe should see the hot-db there, and any warm buckets we have. By default, Splunk sets the bucket size to 10 GB for 64-bit systems and 750 MB for 32-bit systems.\n",category:"Data Engineer",topic:"Splunk",level:1,uploader:"Atharv Patil"},B.e,t.M)
 B.Pe=new A.o(7,{id:1677667735886,question:"How to reset Splunk Admin password?",answer:"\nResetting the Splunk Admin password depends on the version of Splunk. If we are using Splunk 7.1 and above, then we have to follow the below steps:\n\n- First, we have to stop our Splunk Enterprise\n- Now, we need to find the \u2018passwd\u2019 file and rename it to \u2018passwd.bk\u2019\n- Then, we have to create a file named \u2018user-seed.conf\u2019 in the below directory:\n```\n$SPLUNK_HOME/etc/system/local/\n```\nIn the file, we will have to use the following command (here, in the place of \u2018NEW_PASSWORD\u2019, we will add our own new password):\n\n```\n[user_info]\nPASSWORD = NEW_PASSWORD\n```\nAfter that, we can just restart the Splunk Enterprise and use the new password to log in\nNow, if we are using the versions prior to 7.1, we will follow the below steps:\n\n- First, stop the Splunk Enterprise\n- Find the passwd file and rename it to \u2018passw.bk\u2019\n- Start Splunk Enterprise and log in using the default credentials of admin/changeme\n- Here, when asked to enter a new password for our admin account, we will follow the instructions\nNote: In case we have created other users earlier and know their login details, copy and paste their credentials from the passwd.bk file into the passwd file and restart Splunk.\n\n\n",category:"Data Engineer",topic:"Splunk",level:2,uploader:"Atharv Patil"},B.e,t.M)
@@ -96164,22 +96072,114 @@ B.Ph=new A.o(7,{id:1677671819688,question:"Distinguish between Kafka and Flume?"
 B.OF=new A.o(7,{id:1677671872113,question:"What major role does a Kafka Producer API play?",answer:"\n- It is responsible for covering two producers: kafka.producer.SyncProducer and kafka.producer.async.AsyncProducer. \n- Kafka Producer API mainly provides all producer performance to its clients through a single API.\n",category:"Data Engineer",topic:"Kafka",level:1,uploader:"Narayana Kailash"},B.e,t.M)
 B.P7=new A.o(7,{id:1677671908559,question:"Describe partitioning key.",answer:"\nIts role is to specify the target divider of the memo within the producer. Usually, a hash-oriented divider concludes the divider ID according to the given factors. Consumers also use tailored partitions.\n\n\n",category:"Data Engineer",topic:"Kafka",level:0,uploader:"Narayana Kailash"},B.e,t.M)
 B.MV=new A.o(7,{id:1677673020559,question:"Explain the architecture of Kafka.",answer:"\n- In Kafka, a cluster contains multiple brokers since it is a distributed system. \n- Topic in the system will get divided into multiple partitions, and each broker stores one or more of those partitions so that multiple producers and consumers can publish and retrieve messages at the same time.\n\n**Data Ecosystem**: Several applications that use Apache Kafka forms an ecosystem. This ecosystem is built for data processing. It takes inputs in the form of applications that create data, and outputs are defined in the form of metrics, reports, etc.\n\n**Kafka Cluster**: A Kafka cluster is a system that comprises of different brokers, topics, and their respective partitions. Data is written to the topic within the cluster and read by the cluster itself.\n\n\n**Producers**: A producer sends or writes data/messages to the topic within the cluster. In order to store a huge amount of data, different producers within an application send data to the Kafka cluster.\n\n\n**Consumers**: A consumer is the one that reads or consumes messages from the Kafka cluster. There can be several consumers consuming different types of data form the cluster. The beauty of Kafka is that each consumer knows from where it needs to consume the data.\nBrokers: A Kafka server is known as a broker. A broker is a bridge between producers and consumers. If a producer wishes to write data to the cluster, it is sent to the Kafka server. All brokers lie within a Kafka cluster itself. Also, there can be multiple brokers.\n\n\n**Topics**: It is a common name or a heading given to represent a similar type of data. In Apache Kafka, there can be multiple topics in a cluster. Each topic specifies different types of messages.\n\n\n**Partitions**: The data or message is divided into small subparts, known as partitions. Each partition carries data within it having an offset value. The data is always written in a sequential manner. We can have an infinite number of partitions with infinite offset values. However, it is not guaranteed that to which partition the message will be written.\n\n\n**ZooKeeper**: A ZooKeeper is used to store information about the Kafka cluster and details of the consumer clients. It manages brokers by maintaining a list of them. Also, a ZooKeeper is responsible for choosing a leader for the partitions. If any changes like a broker die, new topics, etc., occurs, the ZooKeeper sends notifications to Apache Kafka. A ZooKeeper is designed to operate with an odd number of Kafka servers. Zookeeper has a leader server that handles all the writes, and rest of the servers are the followers who handle all the reads. However, a user does not directly interact with the Zookeeper, but via brokers. No Kafka server can run without a zookeeper server. It is mandatory to run the zookeeper server.\n\n\n![enter image description here](https://i.postimg.cc/W385c4Cd/apache-kafka-architecture3.png)",category:"Data Engineer",topic:"Kafka",level:1,uploader:"Narayana Kailash"},B.e,t.M)
-B.Mn=new A.o(7,{id:1677673105123,question:"What is MapReduce?",answer:"\nReferred as the core of Hadoop, MapReduce is a programming framework to process large sets of data or big data across thousands of servers in a Hadoop Cluster. The concept of MapReduce is similar to the cluster scale-out data processing systems. The term MapReduce refers to two important processes of Hadoop program operates.\n\nFirst is the map() job, which converts a set of data into another breaking down individual elements into key/value pairs (tuples). Then comes reduce() job into play, wherein the output from the map, i.e. the tuples serve as the input and are combined into smaller set of tuples. As the name suggests, the map job every time occurs before the reduce one.\n",category:"Data Engineer",topic:"Map Reduce",level:0,uploader:"Atharv Patil"},B.e,t.M)
+B.Mo=new A.o(7,{id:1677673105123,question:"What is MapReduce?",answer:"\nReferred as the core of Hadoop, MapReduce is a programming framework to process large sets of data or big data across thousands of servers in a Hadoop Cluster. The concept of MapReduce is similar to the cluster scale-out data processing systems. The term MapReduce refers to two important processes of Hadoop program operates.\n\nFirst is the map() job, which converts a set of data into another breaking down individual elements into key/value pairs (tuples). Then comes reduce() job into play, wherein the output from the map, i.e. the tuples serve as the input and are combined into smaller set of tuples. As the name suggests, the map job every time occurs before the reduce one.\n",category:"Data Engineer",topic:"Map Reduce",level:0,uploader:"Atharv Patil"},B.e,t.M)
 B.OJ=new A.o(7,{id:1677673161748,question:"What are the main components of MapReduce Job?",answer:"\nMain Driver Class: providing job configuration parameters\nMapper Class: must extend org.apache.hadoop.mapreduce.Mapper class and performs execution of\n\n```\nmap() method\nReducer Class: must extend org.apache.hadoop.mapreduce.Reducer class\n```",category:"Data Engineer",topic:"Map Reduce",level:0,uploader:"Atharv Patil"},B.e,t.M)
-B.Mw=new A.o(7,{id:1677673196713,question:"What is Shuffling and Sorting in MapReduce?",answer:"\nShuffling and Sorting are two major processes operating simultaneously during the working of mapper and reducer.\n\nThe process of transferring data from Mapper to reducer is Shuffling. It is a mandatory operation for reducers to proceed their jobs further as the shuffling process serves as input for the reduce tasks.\n\nIn MapReduce, the output key-value pairs between the map and reduce phases (after the mapper) are automatically sorted before moving to the Reducer. This feature is helpful in programs where you need sorting at some stages. It also saves the programmer\u2019s overall time.\n",category:"Data Engineer",topic:"Map Reduce",level:0,uploader:"Atharv Patil"},B.e,t.M)
+B.Mx=new A.o(7,{id:1677673196713,question:"What is Shuffling and Sorting in MapReduce?",answer:"\nShuffling and Sorting are two major processes operating simultaneously during the working of mapper and reducer.\n\nThe process of transferring data from Mapper to reducer is Shuffling. It is a mandatory operation for reducers to proceed their jobs further as the shuffling process serves as input for the reduce tasks.\n\nIn MapReduce, the output key-value pairs between the map and reduce phases (after the mapper) are automatically sorted before moving to the Reducer. This feature is helpful in programs where you need sorting at some stages. It also saves the programmer\u2019s overall time.\n",category:"Data Engineer",topic:"Map Reduce",level:0,uploader:"Atharv Patil"},B.e,t.M)
 B.LI=new A.o(7,{id:1677673236160,question:"What is Partitioner and its usage?",answer:"\nPartitioner is yet another important phase that controls the partitioning of the intermediate map-reduce output keys using a hash function. The process of partitioning determines in what reducer, a key-value pair (of the map output) is sent. The number of partitions is equal to the total number of reduce jobs for the process.\n\nHash Partitioner is the default class available in Hadoop , which implements the following function.int getPartition(K key, V value, int numReduceTasks)\nThe function returns the partition number using the numReduceTasks is the number of fixed reducers.\n\n\n",category:"Data Engineer",topic:"Map Reduce",level:0,uploader:"Atharv Patil"},B.e,t.M)
 B.MZ=new A.o(7,{id:1677673267826,question:"What is Identity Mapper and Chain Mapper?",answer:"\nIdentity Mapper is the default Mapper class provided by Hadoop. when no other Mapper class is defined, Identify will be executed. It only writes the input data into output and do not perform and computations and calculations on the input data.\n\nThe class name is org.apache.hadoop.mapred.lib.IdentityMapper.\n\nChain Mapper is the implementation of simple Mapper class through chain operations across a set of Mapper classes, within a single map task. In this, the output from the first mapper becomes the input for second mapper and second mapper\u2019s output the input for third mapper and so on until the last mapper.\n\nThe class name is org.apache.hadoop.mapreduce.lib.ChainMapper.\n",category:"Data Engineer",topic:"Map Reduce",level:0,uploader:"Atharv Patil"},B.e,t.M)
 B.LM=new A.o(7,{id:1677673307525,question:"What main configuration parameters are specified in MapReduce?",answer:"\nThe MapReduce programmers need to specify following configuration parameters to perform the map and reduce jobs:\n\n- The input location of the job in HDFs.\n- The output location of the job in HDFS.\n- The input\u2019s and output\u2019s format.\n- The classes containing map and reduce functions, respectively.\n- The .jar file for mapper, reducer and driver classes\n",category:"Data Engineer",topic:"Map Reduce",level:0,uploader:"Atharv Patil"},B.e,t.M)
-B.LS=new A.o(7,{id:1677673343804,question:"What is InputFormat in Hadoop?",answer:"\nAnother important feature in MapReduce programming, InputFormat defines the input specifications for a job. It performs the following functions:\n\nValidates the input-specification of job.\nSplit the input file(s) into logical instances called InputSplit. Each of these split files are then assigned to individual Mapper.\nProvides implementation of RecordReader to extract input records from the above instances for further Mapper processing\n",category:"Data Engineer",topic:"Map Reduce",level:0,uploader:"Ramesh Chauhan"},B.e,t.M)
+B.LT=new A.o(7,{id:1677673343804,question:"What is InputFormat in Hadoop?",answer:"\nAnother important feature in MapReduce programming, InputFormat defines the input specifications for a job. It performs the following functions:\n\nValidates the input-specification of job.\nSplit the input file(s) into logical instances called InputSplit. Each of these split files are then assigned to individual Mapper.\nProvides implementation of RecordReader to extract input records from the above instances for further Mapper processing\n",category:"Data Engineer",topic:"Map Reduce",level:0,uploader:"Ramesh Chauhan"},B.e,t.M)
 B.P2=new A.o(7,{id:1677673414737,question:"What is the difference between HDFS block and InputSplit?",answer:"\n- An HDFS block splits data into physical divisions while InputSplit in MapReduce splits input files logically.\n\n- While InputSplit is used to control number of mappers, the size of splits is user defined. On the contrary, the HDFS block size is fixed to 64 MB, i.e. for 1GB data , it will be **1GB/64MB = 16 splits/blocks.**\n-  However, if input split size is not defined by user, it takes the HDFS default block size.\n",category:"Data Engineer",topic:"Map Reduce",level:1,uploader:"Ramesh Chauhan"},B.e,t.M)
 B.O_=new A.o(7,{id:1677673473227,question:"What is Text Input Format?",answer:"\n- It is the default InputFormat for plain text files in a given job having input files with .gz extension. \n- In TextInputFormat, files are broken into lines, wherein key is position in the file and value refers to the line of text.\n- Programmers can write their own InputFormat.\nThe hierarchy is:\n\n```\njava.lang.Object\norg.apache.hadoop.mapreduce.InputFormat<K,V>\norg.apache.hadoop.mapreduce.lib.input.FileInputFormat<LongWritable,Text>\norg.apache.hadoop.mapreduce.lib.input.TextInputFormat\n```",category:"Data Engineer",topic:"Map Reduce",level:0,uploader:"Ramesh Chauhan"},B.e,t.M)
 B.O4=new A.o(7,{id:1677673518519,question:"Explain JobConf in MapReduce.",answer:"- It is a primary interface to define a map-reduce job in the Hadoop for job execution. \n- JobConf specifies mapper, Combiner, partitioner, Reducer,InputFormat , OutputFormat implementations and other advanced job faets liek Comparators.",category:"Data Engineer",topic:"Map Reduce",level:1,uploader:"Ramesh Chauhan"},B.e,t.M)
 B.NE=new A.o(7,{id:1677673569337,question:"Define Writable data types in MapReduce.",answer:"\n- Hadoop reads and writes data in a serialized form in writable interface. \n- The Writable interface has several classes like Text (storing String data), IntWritable, LongWriatble, FloatWritable, BooleanWritable. users are free to define their personal Writable classes as well.\n\n\n",category:"Data Engineer",topic:"Map Reduce",level:1,uploader:"Ramesh Chauhan"},B.e,t.M)
-B.LP=new A.o(7,{id:1677673614816,question:"What is OutputCommitter?",answer:"\nOutPutCommitter describes the commit of MapReduce task. FileOutputCommitter is the default available class available for OutputCommitter in MapReduce. It performs the following operations:\n\n- Create temporary output directory for the job during initialization.\n- Then, it cleans the job as in removes temporary output directory post job completion.\n- Sets up the task temporary output.\n- Identifies whether a task needs commit. The commit is applied if required.\n- JobSetup, JobCleanup and TaskCleanup are important tasks during output commit.\n\n",category:"Data Engineer",topic:"Map Reduce",level:2,uploader:"Atharv Patil"},B.e,t.M)
+B.LQ=new A.o(7,{id:1677673614816,question:"What is OutputCommitter?",answer:"\nOutPutCommitter describes the commit of MapReduce task. FileOutputCommitter is the default available class available for OutputCommitter in MapReduce. It performs the following operations:\n\n- Create temporary output directory for the job during initialization.\n- Then, it cleans the job as in removes temporary output directory post job completion.\n- Sets up the task temporary output.\n- Identifies whether a task needs commit. The commit is applied if required.\n- JobSetup, JobCleanup and TaskCleanup are important tasks during output commit.\n\n",category:"Data Engineer",topic:"Map Reduce",level:2,uploader:"Atharv Patil"},B.e,t.M)
 B.P9=new A.o(7,{id:1677673671030,question:"What are the parameters of mappers and reducers?",answer:"\nThe four parameters for mappers are:\n\n- LongWritable (input)\n- text (input)\n- text (intermediate output)\n- IntWritable (intermediate output)\n\n\nThe four parameters for reducers are:\n\n- Text (intermediate output)\n- IntWritable (intermediate output)\n- Text (final output)\n- IntWritable (final output)\n",category:"Data Engineer",topic:"Map Reduce",level:2,uploader:"Atharv Patil"},B.e,t.M)
 B.Nc=new A.o(7,{id:1677673727039,question:"What are the key differences between Pig vs MapReduce?",answer:"\nPIG is a data flow language, the key focus of Pig is manage the flow of data from input source to output store. As part of managing this data flow it moves data feeding it to\n\n**process 1:** taking output and feeding it to\n\n**process 2:** The core features are preventing execution of subsequent stages if previous stage fails, manages temporary storage of data and most importantly compresses and rearranges processing steps for faster processing. While this can be done for any kind of processing tasks Pig is written specifically for managing data flow of Map reduce type of jobs. Most if not all jobs in a Pig are map reduce jobs or data movement jobs. Pig allows for custom functions to be added which can be used for processing in Pig, some default ones are like ordering, grouping, distinct, count etc.\n\nMapreduce on the other hand is a data processing paradigm, it is a framework for application developers to write code in so that its easily scaled to PB of tasks, this creates a separation between the developer that writes the application vs the developer that scales the application. Not all applications can be migrated to Map reduce but good few can be including complex ones like k-means to simple ones like counting uniques in a dataset.\n",category:"Data Engineer",topic:"Map Reduce",level:2,uploader:"Atharv Patil"},B.e,t.M)
 B.OM=new A.o(7,{id:1678183607428,question:"NAVI  | SDE-1  |  Bangalore  |  November 2021 ",answer:'\nAbout :Navi Technologies (erstwhile known as BACQ) is founded by Sachin Bansal & Ankit Agarwal to build consumer-centric and technology-driven businesses in the BFSI (Banking, Financial Services & Insurance) space.\n\nCompensation is quite good.\nLocation is Bangalore.\n\nNavi came to our campus for the role of SDE1. It was also open for placed students having offers with less than a particular CTC.\n\n**Round 1:** Online Test 48 questions,\nTime : 2 hours\n- Aptitude (20 questions ): profit Loss, mixtures, ratios and identities, series completion etc\n\n- Maths and Aptitude (25 questions): Aptitude question with similar difficulty.\nSection A, B had a total of 45 questions, and 40 minutes were given to complete.\n\nCoding Level A: \n\nTime: 50 minutes 2 question\n\n- 2 Questions. Both of them were easy. Implementation was a bit tricky for one of them.\n\nCoding Level B: \nTime: 30 Minutes\nGiven some numbers. Choose exactly k pairs and find the maximum abs of difference of the two numbers in every pair.N~ 10^3 afair.\nI did it through DP.\n\nCoding Questions were easy-medium. Time was very limited for aptitude/maths questions.\n\nPIs, platfrom was google meet.\n\n**Round 2:** Problem solving and Data structures\nAround 20 student shortlisted, 45 mins round\n\nInterviewer was very friendly person having total 5 YOE with 5 months in NAVI. First he introduce himself then took my introduction.\nThen asked my favourite DS. I told, I was not specific but let\u2019s go with arrays. He said if trees okay? I said yes. He asked me, what is complete tree. Donot know what I said but I was not confident. Then, I told him that there are complete,full and perfect binary trees coudlnot remember their details, this took a lot of time around 7-8 minutes. He said okay and said that I have total 35 mins mor(total 45) and will ask 2 ques if time permits then 3.\n\nHe, made a tree on google docs and,\nQ1. Find all node at k distance from root node.\nI took some time, did some clarification on output sequence and values of k. and told my dfs approach and its TC & SC. Then, he told me to write whole implementable code including making a tree in any IDE. Code gave wrong results initially. Figuring out and resolving 2 bugs, it satisfied him.\n\nQ2. How can I sort a linked list.\nI said, in naive way, I will store data in array sort it then assign it. Then I said marge sort is good. He said why not earlier one. Then I also introduce quick sort into the scene. Discussion became very confusing, he was asking about merge & quick sort on array & LL, then their TC and SC. I was taking time in giving answers, but I was clearly on the backfoot.\n\nQ3. Add 2 LL representing numbers.\n```\n// 1 -> 9 -> 9\n// 4 -> 5 -> 6 -> 7\n// 5 -> 4 -> 6 -> 8\n```\nI told im my approach and started coding.\nCode was good but made a very big blunder. Time was 12:43. He said me to take 3-4 more and modify. I removed a bug but he said that blinder was somewhere else.\n\nCorrect code is: ( Interview code had some bugs which I corrected here)\n```\nstruct  Node{\n\n  Node*next;\n  int data;\n\n  Node(int val)\n  {\n    next=NULL;;\n    data=val;\n  }\n\n};\nNode*addUtill(Node*head1,Node*head2,int carry)\n{\n  if(!head1 && !head2)\n  {\n    if(carry)\n      return new Node(carry);\n    else\n      return NULL;\n  }\n  int sum=0;\n  if(head1)\n    sum+=head1->data;\n  if(head2)\n    sum+=head2->data;\n  sum+=carry;\n\n  Node* cur= new Node(sum%10);\n\n  cur->next= addUtill(head1?head1->next:NULL,head2?head2->next:NULL,sum/10);\n\n  return cur;\n}\nNode* add(Node*head1,Node*head2)\n{\n    int sum=0,carry=0;\n    if(head1)\n      sum+=head1->data;\n    if(head2)\n      sum+=head2->data;\n    sum+=carry;\n\n    Node* cur= new Node(sum%10);\n\n    cur->next= addUtill(head1?head1->next:NULL,head2?head2->next:NULL,sum/10);\n    return cur;\n}\n\n\nint main() {\n  init_code();\n\n  Node*head1= new Node(1);\n  head1->next= new Node(9);\n  head1->next->next= new Node(9);\n\n  Node*head2= new Node(9);\n  head2->next= new Node(9);\n  head2->next->next= new Node(9);\n  head2->next->next->next= new Node(9);\n\n  Node* root= add(head1,head2);\n\n  Node*t=root;\n\n  while(t)\n  {\n    cout<<t->data<<" ";\n    t=t->next;\n  }\n\n   return 0;\n}\n```\nThen, he said that I had worked on mysql DB in intern, what DB I know. I said Oracle, SQL. He said, if I know about NoSQL DB. He asked me the difference. I told that data is stored in form of tables and relations in SQL DB while in form of key-value par(can store docs, objects, files) in NoSQL DB. He said what is difference bwn tables and relations ( I was behind weeket keeper now). Then said to write a SQL query.\n\nQ4. Find name of employee getting highest salary from an EMP table.\nSelect Name from EMP\nWhere salary=(select max(salary)from EMP);\nThen said, find 3r heighest. I gave him logic to find heighest then remove it from all salaries, do this one more time and then find heighest salary. He told what if 5th highest or even more. I was clean bowled but was not giving up and thinking.\n\nHe said that\u2019s it and if I had any question.\n\nI asked was round supposed to be only of DSA. He said yes, but he extended it in my case. He keep on insisting me to ask more questions. It made me remind of one of my earlier interviews where similar thing happed and last verdict was rejected. I think he had got my nerves at this point that what I was thinking. By still I asked very enthusiastically.\n\n**Round 3:** Hiring manager Round, 45 mins. Around 12 students shortlisted\nSome students had already give this round and quesions asked to them were: Multi-level caching, B,B+ Trees, Design Google forms, Twitter ER Diagram, sharding, How search happens in SQL, internships, projects\u2026 From previous interviews it was estimated that a Design question would be asked. Design part was difficult for everyone and one could pass it then, through prayers only, I guess xD.\n\nInterviewer read my resume in front of me. Asked my comfortable language to code and why I had choosen it. I said C++ and honestly said because first langage was C and C++ syntax was similar to it. Said if I have read OOPs and asked overloading. I took my proper time to thing(5-8 secs) then explaned with an example. Then asked Overriding.\nAsked about Normalization. I quickely told it and wrote\n\nNF 1,2,3,BCNF,4,5\n\nI was explaining NF1, he told okay. Then asked De-normaliztion. I said opposited of normaliztion. After normlization for query, sometimes we need to join tables and then perfom operations again and again. Thus to prevent that we do De-normalization to save that time.\nThis time I was giving quick answers and was wrapping them up so that there would be no time issues and out of range cross questions be there.\n\nHe moved on to DSA.\nQ.Reverse a linked list.\nI gave stack approach, its TC & SC and explained it. He asked to code it. I was like (ohh no, I knew a better and easy approach to code but coding this approach. No no). Then donot know how confidently within 10 secs of dry run I explained my approach very well and quickly coded it and then dry run it also. He said okay and told to reduce SC to O(1).\n\nI told him I cannot reduct TC below O(N), but SC can be reduced to O(N^0.5) or O(1) so on. He said, do it in O(1).\nI said I had studied a simlar algo earlier that can be used here then perfoming some avaerage peice of my oscar award wining acting I presented my approach. Then quickly coded it. He was satisfied and said, that;s it from his side and if I had any questions for him. I said, (wait, time is 4:58, only 28 minutes and he has said all done) yes. I took few seconds, then asked about the NAVI culture and qualities a fresher should have.\n\nMy code then(correct)\n```\nclass shapes{\npublic:\n  int area(int r)\n  {\n    return pi*r*r;\n  }\n  int area(int a,int b)\n  {\n    return a*b;\n  }\n};\nNF 1,2,3,BCN,4,5\n\nNode* reversLL(Node*head)\n{\n  if(!head || !head->next)\n    return head;\n\n  stack<Node*>stck;\n  \n\n  while(head)\n  {\n    stck.push(head);\n    head=head->next;\n    stck.top()->next=NULL;\n  }\n\n  Node*resh=NULL;\n  Node*temp=NULL;\n\n  reshh=stck.top();\n  stck.pop();\n  temp=resh;\n\n  while(!stck.empty())\n  {\n    temp->next=stck.top();\n    stck.pop();\n    temp=temp->next;\n  }\n\n  return resh;\n}\n\nNode* reversLL(Node*head)\n{\n  if(!head || !head->next)\n    return head;\n\n  Node*prev,*cur,*next;\n  prev=NULL;\n  cur=head;\n\n  while(cur!=NULL)\n  {\n    next=cur->next;\n    cur->next=prev;\n    prev=cur;\n    cur=next;\n  }\n\n  return prev;\n}\n```\nNo Round 4. Total 8 students were selected and I was one of them.\n\nOther question asked from other interviewees were:\n\nFind Kth largest element\nDetect Loop in a linked list\nbuzz-fizz question\nSQL queris\nMake a DB schema for Resume\nDesign google form supporting features for Single correct, Text box and one more type answers. Seeing the complexity later it was reduced to design only for Single correct answer type questions.\nThe interview process clearly focused on DSA, DBMS and Design problems.\n\nSome wwere asked about their projects and intern works also.\n\nNotes:\nI had prepared DS well, but still did blunders in R1. Multiples times I was on backfoot, but every time I thought no worries let\u2019s do the rest good. This could be happed because similar thing had happed with me in past and I for this time I had decided to not give up at anytime even for a second. You will be up and low in interview, but make sure to have a mentality that let\u2019s do the rest good.\nNo Design question was asked from me.(little luckier).\n\nHard work of 2 years paid off well. But remember, Never Settle.\n\n',category:"Data Engineer",topic:"Interview Experiences",level:0,uploader:"Anonymous"},B.e,t.M)
-B.J4=A.a(s([B.Lp,B.MS,B.Oc,B.Nv,B.Nd,B.Pq,B.Mf,B.MO,B.NU,B.OB,B.Oq,B.Mc,B.Nf,B.M1,B.N0,B.LC,B.OZ,B.Nt,B.Pp,B.MM,B.P6,B.NX,B.Pc,B.O8,B.OX,B.NR,B.Pf,B.NZ,B.M5,B.LV,B.Nj,B.tu,B.tv,B.tw,B.Na,B.tu,B.tv,B.tw,B.P1,B.Oi,B.Nx,B.Oh,B.OQ,B.Ov,B.Nk,B.Ol,B.MP,B.Mv,B.Mr,B.Pm,B.P5,B.O1,B.LQ,B.N5,B.NI,B.O2,B.Oo,B.ME,B.OU,B.MR,B.Ox,B.OK,B.NT,B.Mh,B.ML,B.OW,B.MA,B.N9,B.Me,B.Mk,B.Oa,B.LB,B.Pk,B.M9,B.O7,B.NC,B.Mm,B.Pi,B.Oz,B.MB,B.OD,B.OG,B.M8,B.Ly,B.P0,B.LD,B.MT,B.Ng,B.LU,B.M3,B.MH,B.NY,B.Pd,B.Mq,B.O9,B.MG,B.Of,B.Nn,B.Ms,B.Nr,B.OP,B.OE,B.Pj,B.Pl,B.Op,B.NV,B.M2,B.LX,B.NH,B.MW,B.M6,B.M7,B.OO,B.NB,B.N3,B.Nq,B.Nm,B.MY,B.Nu,B.Np,B.MC,B.Po,B.Ow,B.N_,B.Os,B.LJ,B.Nw,B.Nl,B.N8,B.Mi,B.O3,B.MU,B.NF,B.M4,B.Nb,B.OC,B.LR,B.NL,B.LN,B.MQ,B.Ne,B.OL,B.Ou,B.LK,B.LY,B.Md,B.N6,B.NS,B.Mg,B.NW,B.OA,B.Mz,B.P8,B.NK,B.LL,B.Ns,B.NP,B.MI,B.MF,B.NN,B.LH,B.On,B.LZ,B.Od,B.Mp,B.Mb,B.LT,B.N7,B.OS,B.NA,B.Ml,B.O6,B.Lz,B.NG,B.P3,B.Ot,B.P_,B.MJ,B.MN,B.OI,B.MK,B.Oy,B.N2,B.MX,B.Nh,B.OH,B.LE,B.Mo,B.M0,B.N1,B.Mt,B.MD,B.Oj,B.OR,B.Pb,B.O0,B.LO,B.Ni,B.No,B.Ok,B.Ma,B.LG,B.Og,B.Mj,B.Pg,B.Mx,B.NQ,B.N4,B.OV,B.Pa,B.NO,B.My,B.Nz,B.Pn,B.OT,B.Mu,B.ND,B.Oe,B.OY,B.P4,B.LW,B.LA,B.NM,B.ON,B.M_,B.Ob,B.Om,B.Pe,B.O5,B.Or,B.Ny,B.LF,B.NJ,B.Ph,B.OF,B.P7,B.MV,B.Mn,B.OJ,B.Mw,B.LI,B.MZ,B.LM,B.LS,B.P2,B.O_,B.O4,B.NE,B.LP,B.P9,B.Nc,B.OM]),t.Mq)
+B.HM=A.a(s([B.Lp,B.LN,B.Oc,B.Nv,B.Nd,B.Pq,B.Mg,B.MP,B.NU,B.OB,B.Oq,B.Md,B.Nf,B.M2,B.N0,B.LC,B.OZ,B.Nt,B.Pp,B.MN,B.P6,B.NX,B.Pc,B.O8,B.OX,B.NR,B.Pf,B.NZ,B.M6,B.LW,B.Nj,B.tu,B.tv,B.tw,B.Na,B.tu,B.tv,B.tw,B.P1,B.Oi,B.Nx,B.Oh,B.OQ,B.Ov,B.Nk,B.Ol,B.MQ,B.Mw,B.Ms,B.Pm,B.P5,B.O1,B.LR,B.N5,B.NI,B.O2,B.Oo,B.MF,B.OU,B.MS,B.Ox,B.OK,B.NT,B.Mi,B.MM,B.OW,B.MB,B.N9,B.Mf,B.Ml,B.Oa,B.LB,B.Pk,B.Ma,B.O7,B.NC,B.Mn,B.Pi,B.Oz,B.MC,B.OD,B.OG,B.M9,B.Ly,B.P0,B.LD,B.MT,B.Ng,B.LV,B.M4,B.MI,B.NY,B.Pd,B.Mr,B.O9,B.MH,B.Of,B.Nn,B.Mt,B.Nr,B.OP,B.OE,B.Pj,B.Pl,B.Op,B.NV,B.M3,B.LY,B.NH,B.MW,B.M7,B.M8,B.OO,B.NB,B.N3,B.Nq,B.Nm,B.MY,B.Nu,B.Np,B.MD,B.Po,B.Ow,B.N_,B.Os,B.LJ,B.Nw,B.Nl,B.N8,B.Mj,B.O3,B.MU,B.NF,B.M5,B.Nb,B.OC,B.LS,B.NL,B.LO,B.MR,B.Ne,B.OL,B.Ou,B.LK,B.LZ,B.Me,B.N6,B.NS,B.Mh,B.NW,B.OA,B.MA,B.P8,B.NK,B.LL,B.Ns,B.NP,B.MJ,B.MG,B.NN,B.LH,B.On,B.M_,B.Od,B.Mq,B.Mc,B.LU,B.N7,B.OS,B.NA,B.Mm,B.O6,B.Lz,B.NG,B.P3,B.Ot,B.P_,B.MK,B.MO,B.OI,B.ML,B.Oy,B.N2,B.MX,B.Nh,B.OH,B.LE,B.Mp,B.M1,B.N1,B.Mu,B.ME,B.Oj,B.OR,B.Pb,B.O0,B.LP,B.Ni,B.No,B.Ok,B.Mb,B.LG,B.Og,B.Mk,B.Pg,B.My,B.NQ,B.N4,B.OV,B.Pa,B.NO,B.Mz,B.Nz,B.Pn,B.OT,B.Mv,B.ND,B.Oe,B.OY,B.P4,B.LX,B.LA,B.NM,B.ON,B.M0,B.Ob,B.Om,B.Pe,B.O5,B.Or,B.Ny,B.LF,B.NJ,B.Ph,B.OF,B.P7,B.MV,B.Mo,B.OJ,B.Mx,B.LI,B.MZ,B.LM,B.LT,B.P2,B.O_,B.O4,B.NE,B.LQ,B.P9,B.Nc,B.OM]),t.Mq)
+B.nh=A.a(s(["January","February","March","April","May","June","July","August","September","October","November","December"]),t.s)
+B.HT=A.a(s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298]),t.t)
+B.HU=A.a(s([0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0]),t.up)
+B.ni=A.a(s(["J","F","M","A","M","J","J","A","S","O","N","D"]),t.s)
+B.jf=A.a(s(["p","h1","h2","h3","h4","h5","h6","li","blockquote","pre","ol","ul","hr","table","thead","tbody","tr"]),t.s)
+B.fF=A.a(s(["Junior","Senior","Lead"]),t.s)
+B.Jw=new A.nV("en","US")
+B.nj=A.a(s([B.Jw]),t.ss)
+B.fG=A.a(s([0,0,24576,1023,65534,34815,65534,18431]),t.t)
+B.nk=A.a(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
+B.nl=A.a(s(["Android","Web Frontend","Web Backend","Machine Learning","Data Engineer","Java"]),t.s)
+B.I9=A.a(s(["S","M","T","W","T","F","S"]),t.s)
+B.nm=A.a(s(["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]),t.s)
+B.Ia=A.a(s([0,0,32722,12287,65534,34815,65534,18431]),t.t)
+B.j_=new A.ik(0)
+B.Fz=new A.ik(1)
+B.fo=new A.ik(8)
+B.Ib=A.a(s([B.j_,B.Fz,B.mW,B.y,B.ao,B.j0,B.bT,B.cW,B.fo]),A.a4("x<ik>"))
+B.a6=new A.wC(0,"upstream")
+B.Il=A.a(s([B.a6,B.l]),A.a4("x<wC>"))
+B.a0=new A.jI(0,"rtl")
+B.r=new A.jI(1,"ltr")
+B.no=A.a(s([B.a0,B.r]),A.a4("x<jI>"))
+B.ze=new A.rX(0,"topLeft")
+B.zh=new A.rX(3,"bottomRight")
+B.a_G=new A.mA(B.ze,B.zh)
+B.a_J=new A.mA(B.zh,B.ze)
+B.zf=new A.rX(1,"topRight")
+B.zg=new A.rX(2,"bottomLeft")
+B.a_H=new A.mA(B.zf,B.zg)
+B.a_I=new A.mA(B.zg,B.zf)
+B.Im=A.a(s([B.a_G,B.a_J,B.a_H,B.a_I]),A.a4("x<mA>"))
+B.AW=new A.n0()
+B.hb=new A.DJ(1,"page")
+B.hc=new A.f9(B.B,B.hb)
+B.In=A.a(s([B.AW,B.hc]),A.a4("x<b8>"))
+B.np=A.a(s(["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]),t.s)
+B.nq=A.a(s(["assets/android.png","assets/frontend.png","assets/backend.png","assets/ml.png","assets/database.png","assets/java.png"]),t.s)
+B.Io=A.a(s(["ad_activeview","ad_click","ad_exposure","ad_query","ad_reward","adunit_exposure","app_background","app_clear_data","app_exception","app_remove","app_store_refund","app_store_subscription_cancel","app_store_subscription_convert","app_store_subscription_renew","app_uninstall","app_update","app_upgrade","dynamic_link_app_open","dynamic_link_app_update","dynamic_link_first_open","error","first_open","first_visit","in_app_purchase","notification_dismiss","notification_foreground","notification_open","notification_receive","os_update","session_start","session_start_with_rollout","user_engagement"]),t.s)
+B.Ip=A.a(s([0,0,32722,12287,65535,34815,65534,18431]),t.t)
+B.nr=A.a(s([0,0,65490,12287,65535,34815,65534,18431]),t.t)
+B.ns=A.a(s([0,0,32776,33792,1,10240,0,0]),t.t)
+B.ab=new A.ey(0,"icon")
+B.aB=new A.ey(1,"input")
+B.a1=new A.ey(2,"label")
+B.aK=new A.ey(3,"hint")
+B.aC=new A.ey(4,"prefix")
+B.aD=new A.ey(5,"suffix")
+B.ac=new A.ey(6,"prefixIcon")
+B.aE=new A.ey(7,"suffixIcon")
+B.au=new A.ey(8,"helperError")
+B.ah=new A.ey(9,"counter")
+B.c4=new A.ey(10,"container")
+B.It=A.a(s([B.ab,B.aB,B.a1,B.aK,B.aC,B.aD,B.ac,B.aE,B.au,B.ah,B.c4]),A.a4("x<ey>"))
+B.Iu=A.a(s(["click","scroll"]),t.s)
+B.lV=new A.v(419430400)
+B.i=new A.j(0,0)
+B.As=new A.bu(0.2,B.E,B.lV,B.i,11)
+B.Iv=A.a(s([B.As]),t.E)
+B.Ix=A.a(s([B.H,B.al]),t.fB)
+B.Iy=A.a(s([0,0,32754,11263,65534,34815,65534,18431]),t.t)
+B.nu=A.a(s([]),A.a4("x<b5p>"))
+B.IQ=A.a(s([]),t.lX)
+B.IN=A.a(s([]),t.fJ)
+B.IC=A.a(s([]),t.Zb)
+B.a15=A.a(s([]),t.ss)
+B.e3=A.a(s([]),t.f)
+B.nx=A.a(s([]),t.wi)
+B.Iz=A.a(s([]),A.a4("x<aEz<@>>"))
+B.IB=A.a(s([]),t.D1)
+B.jh=A.a(s([]),t.QF)
+B.a16=A.a(s([]),t.nk)
+B.IE=A.a(s([]),t.Lx)
+B.IM=A.a(s([]),t.fm)
+B.ji=A.a(s([]),t.p)
+B.IP=A.a(s([]),t.lD)
+B.nv=A.a(s([]),t.up)
+B.e4=A.a(s([]),t.t)
+B.jg=A.a(s([]),t.ee)
+B.IO=A.a(s([]),t.iG)
+B.fX=new A.j(0,2)
+B.Ar=new A.bu(0.75,B.E,B.lV,B.fX,1.5)
+B.IU=A.a(s([B.Ar]),t.E)
+B.dr=new A.kP(0,"left")
+B.eC=new A.kP(1,"right")
+B.c1=new A.kP(2,"center")
+B.ds=new A.kP(3,"justify")
+B.as=new A.kP(4,"start")
+B.kn=new A.kP(5,"end")
+B.J2=A.a(s([B.dr,B.eC,B.c1,B.ds,B.as,B.kn]),A.a4("x<kP>"))
+B.J3=A.a(s([B.w,B.aa]),t.fB)
+B.J4=A.a(s(["https://www.googleapis.com/auth/spreadsheets","https://www.googleapis.com/auth/drive"]),t.s)
 B.d7=new A.j(1,0)
 B.Qo=new A.j(1,1)
 B.bn=new A.j(0,1)
@@ -96208,7 +96208,7 @@ B.Jk=A.a(s([6,9,96,134,72,1,101,3,4,2,1]),t.t)
 B.bZ=new A.dT(1,"fuchsia")
 B.c_=new A.dT(3,"linux")
 B.c0=new A.dT(5,"windows")
-B.Jl=A.a(s([B.aJ,B.bZ,B.aq,B.c_,B.bc,B.c0]),t.r6)
+B.Jl=A.a(s([B.aJ,B.bZ,B.ar,B.c_,B.bc,B.c0]),t.r6)
 B.jl=A.a(s([!0,!1]),t.HZ)
 B.nB=A.a(s(["ul","ol"]),t.s)
 B.Jo=A.a(s(["ul","ol","p","br"]),t.s)
@@ -96543,10 +96543,10 @@ B.xs=new A.r(787101)
 B.xt=new A.r(787103)
 B.L5=new A.bC([16,B.u2,17,B.u3,18,B.ei,19,B.u4,20,B.u5,21,B.u6,22,B.u7,23,B.u8,24,B.u9,65666,B.wV,65667,B.wW,65717,B.wX,392961,B.ua,392962,B.ub,392963,B.uc,392964,B.ud,392965,B.ue,392966,B.uf,392967,B.ug,392968,B.uh,392969,B.ui,392970,B.uj,392971,B.uk,392972,B.ul,392973,B.um,392974,B.un,392975,B.uo,392976,B.up,392977,B.uq,392978,B.ur,392979,B.us,392980,B.ut,392981,B.uu,392982,B.uv,392983,B.uw,392984,B.ux,392985,B.uy,392986,B.uz,392987,B.uA,392988,B.uB,392989,B.uC,392990,B.uD,392991,B.uE,458752,B.QU,458753,B.QV,458754,B.QW,458755,B.QX,458756,B.uF,458757,B.uG,458758,B.uH,458759,B.uI,458760,B.uJ,458761,B.uK,458762,B.uL,458763,B.uM,458764,B.uN,458765,B.uO,458766,B.uP,458767,B.uQ,458768,B.uR,458769,B.uS,458770,B.uT,458771,B.uU,458772,B.uV,458773,B.uW,458774,B.uX,458775,B.uY,458776,B.uZ,458777,B.v_,458778,B.v0,458779,B.v1,458780,B.v2,458781,B.v3,458782,B.v4,458783,B.v5,458784,B.v6,458785,B.v7,458786,B.v8,458787,B.v9,458788,B.va,458789,B.vb,458790,B.vc,458791,B.vd,458792,B.ve,458793,B.jW,458794,B.vf,458795,B.vg,458796,B.vh,458797,B.vi,458798,B.vj,458799,B.vk,458800,B.vl,458801,B.vm,458803,B.vn,458804,B.vo,458805,B.vp,458806,B.vq,458807,B.vr,458808,B.vs,458809,B.cG,458810,B.vt,458811,B.vu,458812,B.vv,458813,B.vw,458814,B.vx,458815,B.vy,458816,B.vz,458817,B.vA,458818,B.vB,458819,B.vC,458820,B.vD,458821,B.vE,458822,B.vF,458823,B.h1,458824,B.vG,458825,B.vH,458826,B.vI,458827,B.vJ,458828,B.vK,458829,B.vL,458830,B.vM,458831,B.vN,458832,B.vO,458833,B.vP,458834,B.vQ,458835,B.h2,458836,B.vR,458837,B.vS,458838,B.vT,458839,B.vU,458840,B.vV,458841,B.vW,458842,B.vX,458843,B.vY,458844,B.vZ,458845,B.w_,458846,B.w0,458847,B.w1,458848,B.w2,458849,B.w3,458850,B.w4,458851,B.w5,458852,B.w6,458853,B.w7,458854,B.w8,458855,B.w9,458856,B.wa,458857,B.wb,458858,B.wc,458859,B.wd,458860,B.we,458861,B.wf,458862,B.wg,458863,B.wh,458864,B.wi,458865,B.wj,458866,B.wk,458867,B.wl,458868,B.wm,458869,B.wn,458871,B.wo,458873,B.wp,458874,B.wq,458875,B.wr,458876,B.ws,458877,B.wt,458878,B.wu,458879,B.wv,458880,B.ww,458881,B.wx,458885,B.wy,458887,B.wz,458888,B.wA,458889,B.wB,458890,B.wC,458891,B.wD,458896,B.wE,458897,B.wF,458898,B.wG,458899,B.wH,458900,B.wI,458907,B.wJ,458915,B.wK,458934,B.wL,458935,B.wM,458939,B.wN,458960,B.wO,458961,B.wP,458962,B.wQ,458963,B.wR,458964,B.wS,458967,B.QY,458968,B.wT,458969,B.wU,458976,B.da,458977,B.db,458978,B.dc,458979,B.dd,458980,B.ej,458981,B.ek,458982,B.de,458983,B.el,786528,B.QZ,786529,B.R_,786543,B.wY,786544,B.wZ,786546,B.R0,786547,B.R1,786548,B.R2,786549,B.R3,786553,B.R4,786554,B.R5,786563,B.R6,786572,B.R7,786573,B.R8,786580,B.R9,786588,B.Ra,786589,B.Rb,786608,B.x_,786609,B.x0,786610,B.x1,786611,B.x2,786612,B.x3,786613,B.x4,786614,B.x5,786615,B.x6,786616,B.x7,786637,B.x8,786639,B.Rc,786661,B.Rd,786819,B.x9,786820,B.Re,786822,B.Rf,786826,B.xa,786829,B.Rg,786830,B.Rh,786834,B.xb,786836,B.xc,786838,B.Ri,786844,B.Rj,786846,B.Rk,786847,B.xd,786850,B.xe,786855,B.Rl,786859,B.Rm,786862,B.Rn,786865,B.xf,786871,B.Ro,786891,B.xg,786945,B.Rp,786947,B.Rq,786951,B.Rr,786952,B.Rs,786977,B.xh,786979,B.xi,786980,B.xj,786981,B.xk,786982,B.xl,786983,B.xm,786986,B.xn,786989,B.Rt,786990,B.Ru,786994,B.xo,787065,B.Rv,787081,B.xp,787083,B.xq,787084,B.xr,787101,B.xs,787103,B.xt],A.a4("bC<l,r>"))
 B.L7=new A.bC([0,"FontWeight.w100",1,"FontWeight.w200",2,"FontWeight.w300",3,"FontWeight.w400",4,"FontWeight.w500",5,"FontWeight.w600",6,"FontWeight.w700",7,"FontWeight.w800",8,"FontWeight.w900"],A.a4("bC<l,k>"))
-B.HV=A.a(s(["BU","DD","FX","TP","YD","ZR"]),t.s)
-B.bW=new A.o(6,{BU:"MM",DD:"DE",FX:"FR",TP:"TL",YD:"YE",ZR:"CD"},B.HV,t.li)
-B.HW=A.a(s(["alias","allScroll","basic","cell","click","contextMenu","copy","forbidden","grab","grabbing","help","move","none","noDrop","precise","progress","text","resizeColumn","resizeDown","resizeDownLeft","resizeDownRight","resizeLeft","resizeLeftRight","resizeRight","resizeRow","resizeUp","resizeUpDown","resizeUpLeft","resizeUpRight","resizeUpLeftDownRight","resizeUpRightDownLeft","verticalText","wait","zoomIn","zoomOut"]),t.s)
-B.Lf=new A.o(35,{alias:"alias",allScroll:"all-scroll",basic:"default",cell:"cell",click:"pointer",contextMenu:"context-menu",copy:"copy",forbidden:"not-allowed",grab:"grab",grabbing:"grabbing",help:"help",move:"move",none:"none",noDrop:"no-drop",precise:"crosshair",progress:"progress",text:"text",resizeColumn:"col-resize",resizeDown:"s-resize",resizeDownLeft:"sw-resize",resizeDownRight:"se-resize",resizeLeft:"w-resize",resizeLeftRight:"ew-resize",resizeRight:"e-resize",resizeRow:"row-resize",resizeUp:"n-resize",resizeUpDown:"ns-resize",resizeUpLeft:"nw-resize",resizeUpRight:"ne-resize",resizeUpLeftDownRight:"nwse-resize",resizeUpRightDownLeft:"nesw-resize",verticalText:"vertical-text",wait:"wait",zoomIn:"zoom-in",zoomOut:"zoom-out"},B.HW,t.li)
+B.HW=A.a(s(["BU","DD","FX","TP","YD","ZR"]),t.s)
+B.bW=new A.o(6,{BU:"MM",DD:"DE",FX:"FR",TP:"TL",YD:"YE",ZR:"CD"},B.HW,t.li)
+B.HX=A.a(s(["alias","allScroll","basic","cell","click","contextMenu","copy","forbidden","grab","grabbing","help","move","none","noDrop","precise","progress","text","resizeColumn","resizeDown","resizeDownLeft","resizeDownRight","resizeLeft","resizeLeftRight","resizeRight","resizeRow","resizeUp","resizeUpDown","resizeUpLeft","resizeUpRight","resizeUpLeftDownRight","resizeUpRightDownLeft","verticalText","wait","zoomIn","zoomOut"]),t.s)
+B.Lf=new A.o(35,{alias:"alias",allScroll:"all-scroll",basic:"default",cell:"cell",click:"pointer",contextMenu:"context-menu",copy:"copy",forbidden:"not-allowed",grab:"grab",grabbing:"grabbing",help:"help",move:"move",none:"none",noDrop:"no-drop",precise:"crosshair",progress:"progress",text:"text",resizeColumn:"col-resize",resizeDown:"s-resize",resizeDownLeft:"sw-resize",resizeDownRight:"se-resize",resizeLeft:"w-resize",resizeLeftRight:"ew-resize",resizeRight:"e-resize",resizeRow:"row-resize",resizeUp:"n-resize",resizeUpDown:"ns-resize",resizeUpLeft:"nw-resize",resizeUpRight:"ne-resize",resizeUpLeftDownRight:"nwse-resize",resizeUpRightDownLeft:"nesw-resize",verticalText:"vertical-text",wait:"wait",zoomIn:"zoom-in",zoomOut:"zoom-out"},B.HX,t.li)
 B.Jn=A.a(s(["type"]),t.s)
 B.Lh=new A.o(1,{type:"line"},B.Jn,t.li)
 B.nn=A.a(s(["AVRInput","AVRPower","Accel","Accept","Again","AllCandidates","Alphanumeric","AltGraph","AppSwitch","ArrowDown","ArrowLeft","ArrowRight","ArrowUp","Attn","AudioBalanceLeft","AudioBalanceRight","AudioBassBoostDown","AudioBassBoostToggle","AudioBassBoostUp","AudioFaderFront","AudioFaderRear","AudioSurroundModeNext","AudioTrebleDown","AudioTrebleUp","AudioVolumeDown","AudioVolumeMute","AudioVolumeUp","Backspace","BrightnessDown","BrightnessUp","BrowserBack","BrowserFavorites","BrowserForward","BrowserHome","BrowserRefresh","BrowserSearch","BrowserStop","Call","Camera","CameraFocus","Cancel","CapsLock","ChannelDown","ChannelUp","Clear","Close","ClosedCaptionToggle","CodeInput","ColorF0Red","ColorF1Green","ColorF2Yellow","ColorF3Blue","ColorF4Grey","ColorF5Brown","Compose","ContextMenu","Convert","Copy","CrSel","Cut","DVR","Delete","Dimmer","DisplaySwap","Eisu","Eject","End","EndCall","Enter","EraseEof","Esc","Escape","ExSel","Execute","Exit","F1","F10","F11","F12","F13","F14","F15","F16","F17","F18","F19","F2","F20","F21","F22","F23","F24","F3","F4","F5","F6","F7","F8","F9","FavoriteClear0","FavoriteClear1","FavoriteClear2","FavoriteClear3","FavoriteRecall0","FavoriteRecall1","FavoriteRecall2","FavoriteRecall3","FavoriteStore0","FavoriteStore1","FavoriteStore2","FavoriteStore3","FinalMode","Find","Fn","FnLock","GoBack","GoHome","GroupFirst","GroupLast","GroupNext","GroupPrevious","Guide","GuideNextDay","GuidePreviousDay","HangulMode","HanjaMode","Hankaku","HeadsetHook","Help","Hibernate","Hiragana","HiraganaKatakana","Home","Hyper","Info","Insert","InstantReplay","JunjaMode","KanaMode","KanjiMode","Katakana","Key11","Key12","LastNumberRedial","LaunchApplication1","LaunchApplication2","LaunchAssistant","LaunchCalendar","LaunchContacts","LaunchControlPanel","LaunchMail","LaunchMediaPlayer","LaunchMusicPlayer","LaunchPhone","LaunchScreenSaver","LaunchSpreadsheet","LaunchWebBrowser","LaunchWebCam","LaunchWordProcessor","Link","ListProgram","LiveContent","Lock","LogOff","MailForward","MailReply","MailSend","MannerMode","MediaApps","MediaAudioTrack","MediaClose","MediaFastForward","MediaLast","MediaPause","MediaPlay","MediaPlayPause","MediaRecord","MediaRewind","MediaSkip","MediaSkipBackward","MediaSkipForward","MediaStepBackward","MediaStepForward","MediaStop","MediaTopMenu","MediaTrackNext","MediaTrackPrevious","MicrophoneToggle","MicrophoneVolumeDown","MicrophoneVolumeMute","MicrophoneVolumeUp","ModeChange","NavigateIn","NavigateNext","NavigateOut","NavigatePrevious","New","NextCandidate","NextFavoriteChannel","NextUserProfile","NonConvert","Notification","NumLock","OnDemand","Open","PageDown","PageUp","Pairing","Paste","Pause","PinPDown","PinPMove","PinPToggle","PinPUp","Play","PlaySpeedDown","PlaySpeedReset","PlaySpeedUp","Power","PowerOff","PreviousCandidate","Print","PrintScreen","Process","Props","RandomToggle","RcLowBattery","RecordSpeedNext","Redo","RfBypass","Romaji","STBInput","STBPower","Save","ScanChannelsToggle","ScreenModeNext","ScrollLock","Select","Settings","ShiftLevel5","SingleCandidate","Soft1","Soft2","Soft3","Soft4","Soft5","Soft6","Soft7","Soft8","SpeechCorrectionList","SpeechInputToggle","SpellCheck","SplitScreenToggle","Standby","Subtitle","Super","Symbol","SymbolLock","TV","TV3DMode","TVAntennaCable","TVAudioDescription","TVAudioDescriptionMixDown","TVAudioDescriptionMixUp","TVContentsMenu","TVDataService","TVInput","TVInputComponent1","TVInputComponent2","TVInputComposite1","TVInputComposite2","TVInputHDMI1","TVInputHDMI2","TVInputHDMI3","TVInputHDMI4","TVInputVGA1","TVMediaContext","TVNetwork","TVNumberEntry","TVPower","TVRadioService","TVSatellite","TVSatelliteBS","TVSatelliteCS","TVSatelliteToggle","TVTerrestrialAnalog","TVTerrestrialDigital","TVTimer","Tab","Teletext","Undo","Unidentified","VideoModeNext","VoiceDial","WakeUp","Wink","Zenkaku","ZenkakuHankaku","ZoomIn","ZoomOut","ZoomToggle"]),t.s)
@@ -96852,16 +96852,16 @@ B.El=new A.nn(B.Yr)
 B.z3=new A.oI(0,"up")
 B.Ek=new A.nn(B.z3)
 B.Lm=new A.bC([B.eA,B.El,B.ez,B.Ek],t.Fp)
-B.Ib=A.a(s(["Abort","Again","AltLeft","AltRight","ArrowDown","ArrowLeft","ArrowRight","ArrowUp","AudioVolumeDown","AudioVolumeMute","AudioVolumeUp","Backquote","Backslash","Backspace","BracketLeft","BracketRight","BrightnessDown","BrightnessUp","BrowserBack","BrowserFavorites","BrowserForward","BrowserHome","BrowserRefresh","BrowserSearch","BrowserStop","CapsLock","Comma","ContextMenu","ControlLeft","ControlRight","Convert","Copy","Cut","Delete","Digit0","Digit1","Digit2","Digit3","Digit4","Digit5","Digit6","Digit7","Digit8","Digit9","DisplayToggleIntExt","Eject","End","Enter","Equal","Esc","Escape","F1","F10","F11","F12","F13","F14","F15","F16","F17","F18","F19","F2","F20","F21","F22","F23","F24","F3","F4","F5","F6","F7","F8","F9","Find","Fn","FnLock","GameButton1","GameButton10","GameButton11","GameButton12","GameButton13","GameButton14","GameButton15","GameButton16","GameButton2","GameButton3","GameButton4","GameButton5","GameButton6","GameButton7","GameButton8","GameButton9","GameButtonA","GameButtonB","GameButtonC","GameButtonLeft1","GameButtonLeft2","GameButtonMode","GameButtonRight1","GameButtonRight2","GameButtonSelect","GameButtonStart","GameButtonThumbLeft","GameButtonThumbRight","GameButtonX","GameButtonY","GameButtonZ","Help","Home","Hyper","Insert","IntlBackslash","IntlRo","IntlYen","KanaMode","KeyA","KeyB","KeyC","KeyD","KeyE","KeyF","KeyG","KeyH","KeyI","KeyJ","KeyK","KeyL","KeyM","KeyN","KeyO","KeyP","KeyQ","KeyR","KeyS","KeyT","KeyU","KeyV","KeyW","KeyX","KeyY","KeyZ","KeyboardLayoutSelect","Lang1","Lang2","Lang3","Lang4","Lang5","LaunchApp1","LaunchApp2","LaunchAssistant","LaunchControlPanel","LaunchMail","LaunchScreenSaver","MailForward","MailReply","MailSend","MediaFastForward","MediaPause","MediaPlay","MediaPlayPause","MediaRecord","MediaRewind","MediaSelect","MediaStop","MediaTrackNext","MediaTrackPrevious","MetaLeft","MetaRight","MicrophoneMuteToggle","Minus","NonConvert","NumLock","Numpad0","Numpad1","Numpad2","Numpad3","Numpad4","Numpad5","Numpad6","Numpad7","Numpad8","Numpad9","NumpadAdd","NumpadBackspace","NumpadClear","NumpadClearEntry","NumpadComma","NumpadDecimal","NumpadDivide","NumpadEnter","NumpadEqual","NumpadMemoryAdd","NumpadMemoryClear","NumpadMemoryRecall","NumpadMemoryStore","NumpadMemorySubtract","NumpadMultiply","NumpadParenLeft","NumpadParenRight","NumpadSubtract","Open","PageDown","PageUp","Paste","Pause","Period","Power","PrintScreen","PrivacyScreenToggle","Props","Quote","Resume","ScrollLock","Select","SelectTask","Semicolon","ShiftLeft","ShiftRight","ShowAllWindows","Slash","Sleep","Space","Super","Suspend","Tab","Turbo","Undo","WakeUp","ZoomToggle"]),t.s)
-B.Ln=new A.o(231,{Abort:458907,Again:458873,AltLeft:458978,AltRight:458982,ArrowDown:458833,ArrowLeft:458832,ArrowRight:458831,ArrowUp:458834,AudioVolumeDown:458881,AudioVolumeMute:458879,AudioVolumeUp:458880,Backquote:458805,Backslash:458801,Backspace:458794,BracketLeft:458799,BracketRight:458800,BrightnessDown:786544,BrightnessUp:786543,BrowserBack:786980,BrowserFavorites:786986,BrowserForward:786981,BrowserHome:786979,BrowserRefresh:786983,BrowserSearch:786977,BrowserStop:786982,CapsLock:458809,Comma:458806,ContextMenu:458853,ControlLeft:458976,ControlRight:458980,Convert:458890,Copy:458876,Cut:458875,Delete:458828,Digit0:458791,Digit1:458782,Digit2:458783,Digit3:458784,Digit4:458785,Digit5:458786,Digit6:458787,Digit7:458788,Digit8:458789,Digit9:458790,DisplayToggleIntExt:65717,Eject:786616,End:458829,Enter:458792,Equal:458798,Esc:458793,Escape:458793,F1:458810,F10:458819,F11:458820,F12:458821,F13:458856,F14:458857,F15:458858,F16:458859,F17:458860,F18:458861,F19:458862,F2:458811,F20:458863,F21:458864,F22:458865,F23:458866,F24:458867,F3:458812,F4:458813,F5:458814,F6:458815,F7:458816,F8:458817,F9:458818,Find:458878,Fn:18,FnLock:19,GameButton1:392961,GameButton10:392970,GameButton11:392971,GameButton12:392972,GameButton13:392973,GameButton14:392974,GameButton15:392975,GameButton16:392976,GameButton2:392962,GameButton3:392963,GameButton4:392964,GameButton5:392965,GameButton6:392966,GameButton7:392967,GameButton8:392968,GameButton9:392969,GameButtonA:392977,GameButtonB:392978,GameButtonC:392979,GameButtonLeft1:392980,GameButtonLeft2:392981,GameButtonMode:392982,GameButtonRight1:392983,GameButtonRight2:392984,GameButtonSelect:392985,GameButtonStart:392986,GameButtonThumbLeft:392987,GameButtonThumbRight:392988,GameButtonX:392989,GameButtonY:392990,GameButtonZ:392991,Help:458869,Home:458826,Hyper:16,Insert:458825,IntlBackslash:458852,IntlRo:458887,IntlYen:458889,KanaMode:458888,KeyA:458756,KeyB:458757,KeyC:458758,KeyD:458759,KeyE:458760,KeyF:458761,KeyG:458762,KeyH:458763,KeyI:458764,KeyJ:458765,KeyK:458766,KeyL:458767,KeyM:458768,KeyN:458769,KeyO:458770,KeyP:458771,KeyQ:458772,KeyR:458773,KeyS:458774,KeyT:458775,KeyU:458776,KeyV:458777,KeyW:458778,KeyX:458779,KeyY:458780,KeyZ:458781,KeyboardLayoutSelect:787101,Lang1:458896,Lang2:458897,Lang3:458898,Lang4:458899,Lang5:458900,LaunchApp1:786836,LaunchApp2:786834,LaunchAssistant:786891,LaunchControlPanel:786847,LaunchMail:786826,LaunchScreenSaver:786865,MailForward:787083,MailReply:787081,MailSend:787084,MediaFastForward:786611,MediaPause:786609,MediaPlay:786608,MediaPlayPause:786637,MediaRecord:786610,MediaRewind:786612,MediaSelect:786819,MediaStop:786615,MediaTrackNext:786613,MediaTrackPrevious:786614,MetaLeft:458979,MetaRight:458983,MicrophoneMuteToggle:24,Minus:458797,NonConvert:458891,NumLock:458835,Numpad0:458850,Numpad1:458841,Numpad2:458842,Numpad3:458843,Numpad4:458844,Numpad5:458845,Numpad6:458846,Numpad7:458847,Numpad8:458848,Numpad9:458849,NumpadAdd:458839,NumpadBackspace:458939,NumpadClear:458968,NumpadClearEntry:458969,NumpadComma:458885,NumpadDecimal:458851,NumpadDivide:458836,NumpadEnter:458840,NumpadEqual:458855,NumpadMemoryAdd:458963,NumpadMemoryClear:458962,NumpadMemoryRecall:458961,NumpadMemoryStore:458960,NumpadMemorySubtract:458964,NumpadMultiply:458837,NumpadParenLeft:458934,NumpadParenRight:458935,NumpadSubtract:458838,Open:458868,PageDown:458830,PageUp:458827,Paste:458877,Pause:458824,Period:458807,Power:458854,PrintScreen:458822,PrivacyScreenToggle:23,Props:458915,Quote:458804,Resume:21,ScrollLock:458823,Select:458871,SelectTask:786850,Semicolon:458803,ShiftLeft:458977,ShiftRight:458981,ShowAllWindows:787103,Slash:458808,Sleep:65666,Space:458796,Super:17,Suspend:20,Tab:458795,Turbo:22,Undo:458874,WakeUp:65667,ZoomToggle:786994},B.Ib,t.eL)
-B.Ic=A.a(s(["deleteBackward:","deleteWordBackward:","deleteToBeginningOfLine:","deleteForward:","deleteWordForward:","deleteToEndOfLine:","moveLeft:","moveRight:","moveForward:","moveBackward:","moveUp:","moveDown:","moveLeftAndModifySelection:","moveRightAndModifySelection:","moveUpAndModifySelection:","moveDownAndModifySelection:","moveWordLeft:","moveWordRight:","moveToBeginningOfParagraph:","moveToEndOfParagraph:","moveWordLeftAndModifySelection:","moveWordRightAndModifySelection:","moveParagraphBackwardAndModifySelection:","moveParagraphForwardAndModifySelection:","moveToLeftEndOfLine:","moveToRightEndOfLine:","moveToBeginningOfDocument:","moveToEndOfDocument:","moveToLeftEndOfLineAndModifySelection:","moveToRightEndOfLineAndModifySelection:","moveToBeginningOfDocumentAndModifySelection:","moveToEndOfDocumentAndModifySelection:","transpose:","scrollToBeginningOfDocument:","scrollToEndOfDocument:","scrollPageUp:","scrollPageDown:","pageUpAndModifySelection:","pageDownAndModifySelection:","cancelOperation:","insertTab:","insertBacktab:"]),t.s)
+B.Ic=A.a(s(["Abort","Again","AltLeft","AltRight","ArrowDown","ArrowLeft","ArrowRight","ArrowUp","AudioVolumeDown","AudioVolumeMute","AudioVolumeUp","Backquote","Backslash","Backspace","BracketLeft","BracketRight","BrightnessDown","BrightnessUp","BrowserBack","BrowserFavorites","BrowserForward","BrowserHome","BrowserRefresh","BrowserSearch","BrowserStop","CapsLock","Comma","ContextMenu","ControlLeft","ControlRight","Convert","Copy","Cut","Delete","Digit0","Digit1","Digit2","Digit3","Digit4","Digit5","Digit6","Digit7","Digit8","Digit9","DisplayToggleIntExt","Eject","End","Enter","Equal","Esc","Escape","F1","F10","F11","F12","F13","F14","F15","F16","F17","F18","F19","F2","F20","F21","F22","F23","F24","F3","F4","F5","F6","F7","F8","F9","Find","Fn","FnLock","GameButton1","GameButton10","GameButton11","GameButton12","GameButton13","GameButton14","GameButton15","GameButton16","GameButton2","GameButton3","GameButton4","GameButton5","GameButton6","GameButton7","GameButton8","GameButton9","GameButtonA","GameButtonB","GameButtonC","GameButtonLeft1","GameButtonLeft2","GameButtonMode","GameButtonRight1","GameButtonRight2","GameButtonSelect","GameButtonStart","GameButtonThumbLeft","GameButtonThumbRight","GameButtonX","GameButtonY","GameButtonZ","Help","Home","Hyper","Insert","IntlBackslash","IntlRo","IntlYen","KanaMode","KeyA","KeyB","KeyC","KeyD","KeyE","KeyF","KeyG","KeyH","KeyI","KeyJ","KeyK","KeyL","KeyM","KeyN","KeyO","KeyP","KeyQ","KeyR","KeyS","KeyT","KeyU","KeyV","KeyW","KeyX","KeyY","KeyZ","KeyboardLayoutSelect","Lang1","Lang2","Lang3","Lang4","Lang5","LaunchApp1","LaunchApp2","LaunchAssistant","LaunchControlPanel","LaunchMail","LaunchScreenSaver","MailForward","MailReply","MailSend","MediaFastForward","MediaPause","MediaPlay","MediaPlayPause","MediaRecord","MediaRewind","MediaSelect","MediaStop","MediaTrackNext","MediaTrackPrevious","MetaLeft","MetaRight","MicrophoneMuteToggle","Minus","NonConvert","NumLock","Numpad0","Numpad1","Numpad2","Numpad3","Numpad4","Numpad5","Numpad6","Numpad7","Numpad8","Numpad9","NumpadAdd","NumpadBackspace","NumpadClear","NumpadClearEntry","NumpadComma","NumpadDecimal","NumpadDivide","NumpadEnter","NumpadEqual","NumpadMemoryAdd","NumpadMemoryClear","NumpadMemoryRecall","NumpadMemoryStore","NumpadMemorySubtract","NumpadMultiply","NumpadParenLeft","NumpadParenRight","NumpadSubtract","Open","PageDown","PageUp","Paste","Pause","Period","Power","PrintScreen","PrivacyScreenToggle","Props","Quote","Resume","ScrollLock","Select","SelectTask","Semicolon","ShiftLeft","ShiftRight","ShowAllWindows","Slash","Sleep","Space","Super","Suspend","Tab","Turbo","Undo","WakeUp","ZoomToggle"]),t.s)
+B.Ln=new A.o(231,{Abort:458907,Again:458873,AltLeft:458978,AltRight:458982,ArrowDown:458833,ArrowLeft:458832,ArrowRight:458831,ArrowUp:458834,AudioVolumeDown:458881,AudioVolumeMute:458879,AudioVolumeUp:458880,Backquote:458805,Backslash:458801,Backspace:458794,BracketLeft:458799,BracketRight:458800,BrightnessDown:786544,BrightnessUp:786543,BrowserBack:786980,BrowserFavorites:786986,BrowserForward:786981,BrowserHome:786979,BrowserRefresh:786983,BrowserSearch:786977,BrowserStop:786982,CapsLock:458809,Comma:458806,ContextMenu:458853,ControlLeft:458976,ControlRight:458980,Convert:458890,Copy:458876,Cut:458875,Delete:458828,Digit0:458791,Digit1:458782,Digit2:458783,Digit3:458784,Digit4:458785,Digit5:458786,Digit6:458787,Digit7:458788,Digit8:458789,Digit9:458790,DisplayToggleIntExt:65717,Eject:786616,End:458829,Enter:458792,Equal:458798,Esc:458793,Escape:458793,F1:458810,F10:458819,F11:458820,F12:458821,F13:458856,F14:458857,F15:458858,F16:458859,F17:458860,F18:458861,F19:458862,F2:458811,F20:458863,F21:458864,F22:458865,F23:458866,F24:458867,F3:458812,F4:458813,F5:458814,F6:458815,F7:458816,F8:458817,F9:458818,Find:458878,Fn:18,FnLock:19,GameButton1:392961,GameButton10:392970,GameButton11:392971,GameButton12:392972,GameButton13:392973,GameButton14:392974,GameButton15:392975,GameButton16:392976,GameButton2:392962,GameButton3:392963,GameButton4:392964,GameButton5:392965,GameButton6:392966,GameButton7:392967,GameButton8:392968,GameButton9:392969,GameButtonA:392977,GameButtonB:392978,GameButtonC:392979,GameButtonLeft1:392980,GameButtonLeft2:392981,GameButtonMode:392982,GameButtonRight1:392983,GameButtonRight2:392984,GameButtonSelect:392985,GameButtonStart:392986,GameButtonThumbLeft:392987,GameButtonThumbRight:392988,GameButtonX:392989,GameButtonY:392990,GameButtonZ:392991,Help:458869,Home:458826,Hyper:16,Insert:458825,IntlBackslash:458852,IntlRo:458887,IntlYen:458889,KanaMode:458888,KeyA:458756,KeyB:458757,KeyC:458758,KeyD:458759,KeyE:458760,KeyF:458761,KeyG:458762,KeyH:458763,KeyI:458764,KeyJ:458765,KeyK:458766,KeyL:458767,KeyM:458768,KeyN:458769,KeyO:458770,KeyP:458771,KeyQ:458772,KeyR:458773,KeyS:458774,KeyT:458775,KeyU:458776,KeyV:458777,KeyW:458778,KeyX:458779,KeyY:458780,KeyZ:458781,KeyboardLayoutSelect:787101,Lang1:458896,Lang2:458897,Lang3:458898,Lang4:458899,Lang5:458900,LaunchApp1:786836,LaunchApp2:786834,LaunchAssistant:786891,LaunchControlPanel:786847,LaunchMail:786826,LaunchScreenSaver:786865,MailForward:787083,MailReply:787081,MailSend:787084,MediaFastForward:786611,MediaPause:786609,MediaPlay:786608,MediaPlayPause:786637,MediaRecord:786610,MediaRewind:786612,MediaSelect:786819,MediaStop:786615,MediaTrackNext:786613,MediaTrackPrevious:786614,MetaLeft:458979,MetaRight:458983,MicrophoneMuteToggle:24,Minus:458797,NonConvert:458891,NumLock:458835,Numpad0:458850,Numpad1:458841,Numpad2:458842,Numpad3:458843,Numpad4:458844,Numpad5:458845,Numpad6:458846,Numpad7:458847,Numpad8:458848,Numpad9:458849,NumpadAdd:458839,NumpadBackspace:458939,NumpadClear:458968,NumpadClearEntry:458969,NumpadComma:458885,NumpadDecimal:458851,NumpadDivide:458836,NumpadEnter:458840,NumpadEqual:458855,NumpadMemoryAdd:458963,NumpadMemoryClear:458962,NumpadMemoryRecall:458961,NumpadMemoryStore:458960,NumpadMemorySubtract:458964,NumpadMultiply:458837,NumpadParenLeft:458934,NumpadParenRight:458935,NumpadSubtract:458838,Open:458868,PageDown:458830,PageUp:458827,Paste:458877,Pause:458824,Period:458807,Power:458854,PrintScreen:458822,PrivacyScreenToggle:23,Props:458915,Quote:458804,Resume:21,ScrollLock:458823,Select:458871,SelectTask:786850,Semicolon:458803,ShiftLeft:458977,ShiftRight:458981,ShowAllWindows:787103,Slash:458808,Sleep:65666,Space:458796,Super:17,Suspend:20,Tab:458795,Turbo:22,Undo:458874,WakeUp:65667,ZoomToggle:786994},B.Ic,t.eL)
+B.Id=A.a(s(["deleteBackward:","deleteWordBackward:","deleteToBeginningOfLine:","deleteForward:","deleteWordForward:","deleteToEndOfLine:","moveLeft:","moveRight:","moveForward:","moveBackward:","moveUp:","moveDown:","moveLeftAndModifySelection:","moveRightAndModifySelection:","moveUpAndModifySelection:","moveDownAndModifySelection:","moveWordLeft:","moveWordRight:","moveToBeginningOfParagraph:","moveToEndOfParagraph:","moveWordLeftAndModifySelection:","moveWordRightAndModifySelection:","moveParagraphBackwardAndModifySelection:","moveParagraphForwardAndModifySelection:","moveToLeftEndOfLine:","moveToRightEndOfLine:","moveToBeginningOfDocument:","moveToEndOfDocument:","moveToLeftEndOfLineAndModifySelection:","moveToRightEndOfLineAndModifySelection:","moveToBeginningOfDocumentAndModifySelection:","moveToEndOfDocumentAndModifySelection:","transpose:","scrollToBeginningOfDocument:","scrollToEndOfDocument:","scrollPageUp:","scrollPageDown:","pageUpAndModifySelection:","pageDownAndModifySelection:","cancelOperation:","insertTab:","insertBacktab:"]),t.s)
 B.xO=new A.m8(!1)
 B.xP=new A.m8(!0)
 B.k6=new A.f9(B.D,B.hb)
 B.ln=new A.h4()
 B.lw=new A.qM()
 B.lA=new A.r2()
-B.Lo=new A.o(42,{"deleteBackward:":B.iy,"deleteWordBackward:":B.iC,"deleteToBeginningOfLine:":B.iA,"deleteForward:":B.iz,"deleteWordForward:":B.iD,"deleteToEndOfLine:":B.iB,"moveLeft:":B.dP,"moveRight:":B.dQ,"moveForward:":B.dQ,"moveBackward:":B.dP,"moveUp:":B.fk,"moveDown:":B.fl,"moveLeftAndModifySelection:":B.iP,"moveRightAndModifySelection:":B.iQ,"moveUpAndModifySelection:":B.iT,"moveDownAndModifySelection:":B.iU,"moveWordLeft:":B.iR,"moveWordRight:":B.iS,"moveToBeginningOfParagraph:":B.cs,"moveToEndOfParagraph:":B.ct,"moveWordLeftAndModifySelection:":B.mM,"moveWordRightAndModifySelection:":B.mN,"moveParagraphBackwardAndModifySelection:":B.mK,"moveParagraphForwardAndModifySelection:":B.mL,"moveToLeftEndOfLine:":B.cs,"moveToRightEndOfLine:":B.ct,"moveToBeginningOfDocument:":B.fi,"moveToEndOfDocument:":B.fj,"moveToLeftEndOfLineAndModifySelection:":B.mD,"moveToRightEndOfLineAndModifySelection:":B.mE,"moveToBeginningOfDocumentAndModifySelection:":B.iN,"moveToEndOfDocumentAndModifySelection:":B.iO,"transpose:":B.lD,"scrollToBeginningOfDocument:":B.xO,"scrollToEndOfDocument:":B.xP,"scrollPageUp:":B.k6,"scrollPageDown:":B.hc,"pageUpAndModifySelection:":B.iV,"pageDownAndModifySelection:":B.iW,"cancelOperation:":B.ln,"insertTab:":B.lw,"insertBacktab:":B.lA},B.Ic,A.a4("o<k,b8>"))
+B.Lo=new A.o(42,{"deleteBackward:":B.iy,"deleteWordBackward:":B.iC,"deleteToBeginningOfLine:":B.iA,"deleteForward:":B.iz,"deleteWordForward:":B.iD,"deleteToEndOfLine:":B.iB,"moveLeft:":B.dP,"moveRight:":B.dQ,"moveForward:":B.dQ,"moveBackward:":B.dP,"moveUp:":B.fk,"moveDown:":B.fl,"moveLeftAndModifySelection:":B.iP,"moveRightAndModifySelection:":B.iQ,"moveUpAndModifySelection:":B.iT,"moveDownAndModifySelection:":B.iU,"moveWordLeft:":B.iR,"moveWordRight:":B.iS,"moveToBeginningOfParagraph:":B.cs,"moveToEndOfParagraph:":B.ct,"moveWordLeftAndModifySelection:":B.mM,"moveWordRightAndModifySelection:":B.mN,"moveParagraphBackwardAndModifySelection:":B.mK,"moveParagraphForwardAndModifySelection:":B.mL,"moveToLeftEndOfLine:":B.cs,"moveToRightEndOfLine:":B.ct,"moveToBeginningOfDocument:":B.fi,"moveToEndOfDocument:":B.fj,"moveToLeftEndOfLineAndModifySelection:":B.mD,"moveToRightEndOfLineAndModifySelection:":B.mE,"moveToBeginningOfDocumentAndModifySelection:":B.iN,"moveToEndOfDocumentAndModifySelection:":B.iO,"transpose:":B.lD,"scrollToBeginningOfDocument:":B.xO,"scrollToEndOfDocument:":B.xP,"scrollPageUp:":B.k6,"scrollPageDown:":B.hc,"pageUpAndModifySelection:":B.iV,"pageDownAndModifySelection:":B.iW,"cancelOperation:":B.ln,"insertTab:":B.lw,"insertBacktab:":B.lA},B.Id,A.a4("o<k,b8>"))
 B.nJ=new A.h(32)
 B.hq=new A.aT(B.nJ,!1,!1,!1,!1)
 B.hj=new A.aT(B.fK,!1,!1,!1,!1)
@@ -96879,7 +96879,7 @@ B.ll=new A.n9()
 B.ha=new A.DJ(0,"line")
 B.S6=new A.f9(B.D,B.ha)
 B.S4=new A.f9(B.B,B.ha)
-B.S5=new A.f9(B.au,B.ha)
+B.S5=new A.f9(B.av,B.ha)
 B.S7=new A.f9(B.aL,B.ha)
 B.Lr=new A.bC([B.hq,B.BB,B.hj,B.ll,B.Th,B.ll,B.SX,B.ln,B.SY,B.lw,B.SZ,B.lA,B.ez,B.S6,B.eA,B.S4,B.ho,B.S5,B.hp,B.S7,B.ex,B.k6,B.ey,B.hc],t.Fp)
 B.JP=new A.h(33)
@@ -97017,19 +97017,19 @@ B.PX=new A.lS(2,"circle")
 B.jO=new A.lS(3,"button")
 B.d4=new A.lS(4,"transparency")
 B.Lx=new A.bC([B.cj,null,B.fV,B.eU,B.PX,null,B.jO,B.eU,B.d4,null],A.a4("bC<lS,cL?>"))
-B.IE=A.a(s([]),A.a4("x<hD>"))
-B.jH=new A.o(0,{},B.IE,A.a4("o<hD,a1>"))
+B.IF=A.a(s([]),A.a4("x<hD>"))
+B.jH=new A.o(0,{},B.IF,A.a4("o<hD,a1>"))
 B.tz=new A.o(0,{},B.e3,A.a4("o<H,xB>"))
-B.IF=A.a(s([]),t.cD)
-B.Py=new A.o(0,{},B.IF,A.a4("o<dH,dH>"))
-B.IG=A.a(s([]),A.a4("x<md>"))
-B.fS=new A.o(0,{},B.IG,A.a4("o<md,b8>"))
+B.IG=A.a(s([]),t.cD)
+B.Py=new A.o(0,{},B.IG,A.a4("o<dH,dH>"))
+B.IH=A.a(s([]),A.a4("x<md>"))
+B.fS=new A.o(0,{},B.IH,A.a4("o<md,b8>"))
 B.PD=new A.o(0,{},B.aM,A.a4("o<k,f(a0)>"))
 B.tB=new A.o(0,{},B.aM,A.a4("o<k,b6n>"))
 B.tC=new A.o(0,{},B.aM,A.a4("o<k,b6o>"))
 B.ty=new A.o(0,{},B.aM,A.a4("o<k,@>"))
-B.IH=A.a(s([]),A.a4("x<rv>"))
-B.tx=new A.o(0,{},B.IH,A.a4("o<rv,@>"))
+B.II=A.a(s([]),A.a4("x<rv>"))
+B.tx=new A.o(0,{},B.II,A.a4("o<rv,@>"))
 B.nw=A.a(s([]),A.a4("x<fR>"))
 B.Px=new A.o(0,{},B.nw,A.a4("o<fR,da>"))
 B.tA=new A.o(0,{},B.nw,A.a4("o<fR,q7<da>>"))
@@ -97061,7 +97061,7 @@ B.Jh=A.a(s(["in","iw","ji","jw","mo","aam","adp","aue","ayx","bgm","bjd","ccq","
 B.bF=new A.o(78,{in:"id",iw:"he",ji:"yi",jw:"jv",mo:"ro",aam:"aas",adp:"dz",aue:"ktz",ayx:"nun",bgm:"bcg",bjd:"drl",ccq:"rki",cjr:"mom",cka:"cmr",cmk:"xch",coy:"pij",cqu:"quh",drh:"khk",drw:"prs",gav:"dev",gfx:"vaj",ggn:"gvr",gti:"nyc",guv:"duz",hrr:"jal",ibi:"opa",ilw:"gal",jeg:"oyb",kgc:"tdf",kgh:"kml",koj:"kwv",krm:"bmf",ktr:"dtp",kvs:"gdj",kwq:"yam",kxe:"tvd",kzj:"dtp",kzt:"dtp",lii:"raq",lmm:"rmx",meg:"cir",mst:"mry",mwj:"vaj",myt:"mry",nad:"xny",ncp:"kdz",nnx:"ngv",nts:"pij",oun:"vaj",pcr:"adx",pmc:"huw",pmu:"phr",ppa:"bfy",ppr:"lcq",pry:"prt",puz:"pub",sca:"hle",skk:"oyb",tdu:"dtp",thc:"tpo",thx:"oyb",tie:"ras",tkk:"twm",tlw:"weo",tmp:"tyj",tne:"kak",tnf:"prs",tsf:"taj",uok:"ema",xba:"cax",xia:"acn",xkh:"waw",xsj:"suj",ybd:"rki",yma:"lrr",ymt:"mtm",yos:"zom",yuu:"yug"},B.Jh,t.li)
 B.Jj=A.a(s(["Abort","Again","AltLeft","AltRight","ArrowDown","ArrowLeft","ArrowRight","ArrowUp","AudioVolumeDown","AudioVolumeMute","AudioVolumeUp","Backquote","Backslash","Backspace","BracketLeft","BracketRight","BrightnessDown","BrightnessUp","BrowserBack","BrowserFavorites","BrowserForward","BrowserHome","BrowserRefresh","BrowserSearch","BrowserStop","CapsLock","Comma","ContextMenu","ControlLeft","ControlRight","Convert","Copy","Cut","Delete","Digit0","Digit1","Digit2","Digit3","Digit4","Digit5","Digit6","Digit7","Digit8","Digit9","DisplayToggleIntExt","Eject","End","Enter","Equal","Escape","Esc","F1","F10","F11","F12","F13","F14","F15","F16","F17","F18","F19","F2","F20","F21","F22","F23","F24","F3","F4","F5","F6","F7","F8","F9","Find","Fn","FnLock","GameButton1","GameButton10","GameButton11","GameButton12","GameButton13","GameButton14","GameButton15","GameButton16","GameButton2","GameButton3","GameButton4","GameButton5","GameButton6","GameButton7","GameButton8","GameButton9","GameButtonA","GameButtonB","GameButtonC","GameButtonLeft1","GameButtonLeft2","GameButtonMode","GameButtonRight1","GameButtonRight2","GameButtonSelect","GameButtonStart","GameButtonThumbLeft","GameButtonThumbRight","GameButtonX","GameButtonY","GameButtonZ","Help","Home","Hyper","Insert","IntlBackslash","IntlRo","IntlYen","KanaMode","KeyA","KeyB","KeyC","KeyD","KeyE","KeyF","KeyG","KeyH","KeyI","KeyJ","KeyK","KeyL","KeyM","KeyN","KeyO","KeyP","KeyQ","KeyR","KeyS","KeyT","KeyU","KeyV","KeyW","KeyX","KeyY","KeyZ","KeyboardLayoutSelect","Lang1","Lang2","Lang3","Lang4","Lang5","LaunchApp1","LaunchApp2","LaunchAssistant","LaunchControlPanel","LaunchMail","LaunchScreenSaver","MailForward","MailReply","MailSend","MediaFastForward","MediaPause","MediaPlay","MediaPlayPause","MediaRecord","MediaRewind","MediaSelect","MediaStop","MediaTrackNext","MediaTrackPrevious","MetaLeft","MetaRight","MicrophoneMuteToggle","Minus","NonConvert","NumLock","Numpad0","Numpad1","Numpad2","Numpad3","Numpad4","Numpad5","Numpad6","Numpad7","Numpad8","Numpad9","NumpadAdd","NumpadBackspace","NumpadClear","NumpadClearEntry","NumpadComma","NumpadDecimal","NumpadDivide","NumpadEnter","NumpadEqual","NumpadMemoryAdd","NumpadMemoryClear","NumpadMemoryRecall","NumpadMemoryStore","NumpadMemorySubtract","NumpadMultiply","NumpadParenLeft","NumpadParenRight","NumpadSubtract","Open","PageDown","PageUp","Paste","Pause","Period","Power","PrintScreen","PrivacyScreenToggle","Props","Quote","Resume","ScrollLock","Select","SelectTask","Semicolon","ShiftLeft","ShiftRight","ShowAllWindows","Slash","Sleep","Space","Super","Suspend","Tab","Turbo","Undo","WakeUp","ZoomToggle"]),t.s)
 B.tD=new A.o(231,{Abort:B.wJ,Again:B.wp,AltLeft:B.dc,AltRight:B.de,ArrowDown:B.vP,ArrowLeft:B.vO,ArrowRight:B.vN,ArrowUp:B.vQ,AudioVolumeDown:B.wx,AudioVolumeMute:B.wv,AudioVolumeUp:B.ww,Backquote:B.vp,Backslash:B.vm,Backspace:B.vf,BracketLeft:B.vk,BracketRight:B.vl,BrightnessDown:B.wZ,BrightnessUp:B.wY,BrowserBack:B.xj,BrowserFavorites:B.xn,BrowserForward:B.xk,BrowserHome:B.xi,BrowserRefresh:B.xm,BrowserSearch:B.xh,BrowserStop:B.xl,CapsLock:B.cG,Comma:B.vq,ContextMenu:B.w7,ControlLeft:B.da,ControlRight:B.ej,Convert:B.wC,Copy:B.ws,Cut:B.wr,Delete:B.vK,Digit0:B.vd,Digit1:B.v4,Digit2:B.v5,Digit3:B.v6,Digit4:B.v7,Digit5:B.v8,Digit6:B.v9,Digit7:B.va,Digit8:B.vb,Digit9:B.vc,DisplayToggleIntExt:B.wX,Eject:B.x7,End:B.vL,Enter:B.ve,Equal:B.vj,Escape:B.jW,Esc:B.jW,F1:B.vt,F10:B.vC,F11:B.vD,F12:B.vE,F13:B.wa,F14:B.wb,F15:B.wc,F16:B.wd,F17:B.we,F18:B.wf,F19:B.wg,F2:B.vu,F20:B.wh,F21:B.wi,F22:B.wj,F23:B.wk,F24:B.wl,F3:B.vv,F4:B.vw,F5:B.vx,F6:B.vy,F7:B.vz,F8:B.vA,F9:B.vB,Find:B.wu,Fn:B.ei,FnLock:B.u4,GameButton1:B.ua,GameButton10:B.uj,GameButton11:B.uk,GameButton12:B.ul,GameButton13:B.um,GameButton14:B.un,GameButton15:B.uo,GameButton16:B.up,GameButton2:B.ub,GameButton3:B.uc,GameButton4:B.ud,GameButton5:B.ue,GameButton6:B.uf,GameButton7:B.ug,GameButton8:B.uh,GameButton9:B.ui,GameButtonA:B.uq,GameButtonB:B.ur,GameButtonC:B.us,GameButtonLeft1:B.ut,GameButtonLeft2:B.uu,GameButtonMode:B.uv,GameButtonRight1:B.uw,GameButtonRight2:B.ux,GameButtonSelect:B.uy,GameButtonStart:B.uz,GameButtonThumbLeft:B.uA,GameButtonThumbRight:B.uB,GameButtonX:B.uC,GameButtonY:B.uD,GameButtonZ:B.uE,Help:B.wn,Home:B.vI,Hyper:B.u2,Insert:B.vH,IntlBackslash:B.w6,IntlRo:B.wz,IntlYen:B.wB,KanaMode:B.wA,KeyA:B.uF,KeyB:B.uG,KeyC:B.uH,KeyD:B.uI,KeyE:B.uJ,KeyF:B.uK,KeyG:B.uL,KeyH:B.uM,KeyI:B.uN,KeyJ:B.uO,KeyK:B.uP,KeyL:B.uQ,KeyM:B.uR,KeyN:B.uS,KeyO:B.uT,KeyP:B.uU,KeyQ:B.uV,KeyR:B.uW,KeyS:B.uX,KeyT:B.uY,KeyU:B.uZ,KeyV:B.v_,KeyW:B.v0,KeyX:B.v1,KeyY:B.v2,KeyZ:B.v3,KeyboardLayoutSelect:B.xs,Lang1:B.wE,Lang2:B.wF,Lang3:B.wG,Lang4:B.wH,Lang5:B.wI,LaunchApp1:B.xc,LaunchApp2:B.xb,LaunchAssistant:B.xg,LaunchControlPanel:B.xd,LaunchMail:B.xa,LaunchScreenSaver:B.xf,MailForward:B.xq,MailReply:B.xp,MailSend:B.xr,MediaFastForward:B.x2,MediaPause:B.x0,MediaPlay:B.x_,MediaPlayPause:B.x8,MediaRecord:B.x1,MediaRewind:B.x3,MediaSelect:B.x9,MediaStop:B.x6,MediaTrackNext:B.x4,MediaTrackPrevious:B.x5,MetaLeft:B.dd,MetaRight:B.el,MicrophoneMuteToggle:B.u9,Minus:B.vi,NonConvert:B.wD,NumLock:B.h2,Numpad0:B.w4,Numpad1:B.vW,Numpad2:B.vX,Numpad3:B.vY,Numpad4:B.vZ,Numpad5:B.w_,Numpad6:B.w0,Numpad7:B.w1,Numpad8:B.w2,Numpad9:B.w3,NumpadAdd:B.vU,NumpadBackspace:B.wN,NumpadClear:B.wT,NumpadClearEntry:B.wU,NumpadComma:B.wy,NumpadDecimal:B.w5,NumpadDivide:B.vR,NumpadEnter:B.vV,NumpadEqual:B.w9,NumpadMemoryAdd:B.wR,NumpadMemoryClear:B.wQ,NumpadMemoryRecall:B.wP,NumpadMemoryStore:B.wO,NumpadMemorySubtract:B.wS,NumpadMultiply:B.vS,NumpadParenLeft:B.wL,NumpadParenRight:B.wM,NumpadSubtract:B.vT,Open:B.wm,PageDown:B.vM,PageUp:B.vJ,Paste:B.wt,Pause:B.vG,Period:B.vr,Power:B.w8,PrintScreen:B.vF,PrivacyScreenToggle:B.u8,Props:B.wK,Quote:B.vo,Resume:B.u6,ScrollLock:B.h1,Select:B.wo,SelectTask:B.xe,Semicolon:B.vn,ShiftLeft:B.db,ShiftRight:B.ek,ShowAllWindows:B.xt,Slash:B.vs,Sleep:B.wV,Space:B.vh,Super:B.u3,Suspend:B.u5,Tab:B.vg,Turbo:B.u7,Undo:B.wq,WakeUp:B.wW,ZoomToggle:B.xo},B.Jj,A.a4("o<k,r>"))
-B.II=A.a(s([]),t.E)
+B.IJ=A.a(s([]),t.E)
 B.bA=new A.v(855638016)
 B.Am=new A.bu(-1,B.E,B.bA,B.fX,1)
 B.bz=new A.v(603979776)
@@ -97072,11 +97072,11 @@ B.d6=new A.j(0,3)
 B.AO=new A.bu(-2,B.E,B.bA,B.d6,1)
 B.Av=new A.bu(0,B.E,B.bz,B.fX,2)
 B.AF=new A.bu(0,B.E,B.bh,B.bn,5)
-B.IU=A.a(s([B.AO,B.Av,B.AF]),t.E)
+B.IV=A.a(s([B.AO,B.Av,B.AF]),t.E)
 B.AP=new A.bu(-2,B.E,B.bA,B.d6,3)
 B.AG=new A.bu(0,B.E,B.bz,B.d6,4)
 B.AH=new A.bu(0,B.E,B.bh,B.bn,8)
-B.IV=A.a(s([B.AP,B.AG,B.AH]),t.E)
+B.IW=A.a(s([B.AP,B.AG,B.AH]),t.E)
 B.An=new A.bu(-1,B.E,B.bA,B.fX,4)
 B.Ql=new A.j(0,4)
 B.AI=new A.bu(0,B.E,B.bz,B.Ql,5)
@@ -97092,30 +97092,30 @@ B.Ap=new A.bu(-3,B.E,B.bA,B.jS,5)
 B.jT=new A.j(0,8)
 B.AM=new A.bu(1,B.E,B.bz,B.jT,10)
 B.Aw=new A.bu(2,B.E,B.bh,B.d6,14)
-B.HX=A.a(s([B.Ap,B.AM,B.Aw]),t.E)
+B.HY=A.a(s([B.Ap,B.AM,B.Aw]),t.E)
 B.Aq=new A.bu(-3,B.E,B.bA,B.jS,6)
 B.tU=new A.j(0,9)
 B.Ax=new A.bu(1,B.E,B.bz,B.tU,12)
 B.Ay=new A.bu(2,B.E,B.bh,B.d6,16)
-B.HY=A.a(s([B.Aq,B.Ax,B.Ay]),t.E)
+B.HZ=A.a(s([B.Aq,B.Ax,B.Ay]),t.E)
 B.Qm=new A.j(0,7)
 B.Ak=new A.bu(-4,B.E,B.bA,B.Qm,8)
 B.Qg=new A.j(0,12)
 B.Az=new A.bu(2,B.E,B.bz,B.Qg,17)
 B.AA=new A.bu(4,B.E,B.bh,B.jS,22)
-B.Ip=A.a(s([B.Ak,B.Az,B.AA]),t.E)
+B.Iq=A.a(s([B.Ak,B.Az,B.AA]),t.E)
 B.Al=new A.bu(-5,B.E,B.bA,B.jT,10)
 B.Qh=new A.j(0,16)
 B.AB=new A.bu(2,B.E,B.bz,B.Qh,24)
 B.AC=new A.bu(5,B.E,B.bh,B.tT,30)
-B.J_=A.a(s([B.Al,B.AB,B.AC]),t.E)
+B.J0=A.a(s([B.Al,B.AB,B.AC]),t.E)
 B.Qf=new A.j(0,11)
 B.AN=new A.bu(-7,B.E,B.bA,B.Qf,15)
 B.Qj=new A.j(0,24)
 B.AD=new A.bu(3,B.E,B.bz,B.Qj,38)
 B.AE=new A.bu(8,B.E,B.bh,B.tU,46)
-B.Ir=A.a(s([B.AN,B.AD,B.AE]),t.E)
-B.PJ=new A.bC([0,B.II,1,B.Je,2,B.IU,3,B.IV,4,B.Jf,6,B.Jg,8,B.HX,9,B.HY,12,B.Ip,16,B.J_,24,B.Ir],A.a4("bC<l,u<bu>>"))
+B.Is=A.a(s([B.AN,B.AD,B.AE]),t.E)
+B.PJ=new A.bC([0,B.IJ,1,B.Je,2,B.IV,3,B.IW,4,B.Jf,6,B.Jg,8,B.HY,9,B.HZ,12,B.Iq,16,B.J0,24,B.Is],A.a4("bC<l,u<bu>>"))
 B.Jm=A.a(s(["KeyA","KeyB","KeyC","KeyD","KeyE","KeyF","KeyG","KeyH","KeyI","KeyJ","KeyK","KeyL","KeyM","KeyN","KeyO","KeyP","KeyQ","KeyR","KeyS","KeyT","KeyU","KeyV","KeyW","KeyX","KeyY","KeyZ","Digit1","Digit2","Digit3","Digit4","Digit5","Digit6","Digit7","Digit8","Digit9","Digit0","Minus","Equal","BracketLeft","BracketRight","Backslash","Semicolon","Quote","Backquote","Comma","Period","Slash"]),t.s)
 B.jI=new A.o(47,{KeyA:"a",KeyB:"b",KeyC:"c",KeyD:"d",KeyE:"e",KeyF:"f",KeyG:"g",KeyH:"h",KeyI:"i",KeyJ:"j",KeyK:"k",KeyL:"l",KeyM:"m",KeyN:"n",KeyO:"o",KeyP:"p",KeyQ:"q",KeyR:"r",KeyS:"s",KeyT:"t",KeyU:"u",KeyV:"v",KeyW:"w",KeyX:"x",KeyY:"y",KeyZ:"z",Digit1:"1",Digit2:"2",Digit3:"3",Digit4:"4",Digit5:"5",Digit6:"6",Digit7:"7",Digit8:"8",Digit9:"9",Digit0:"0",Minus:"-",Equal:"=",BracketLeft:"[",BracketRight:"]",Backslash:"\\",Semicolon:";",Quote:"'",Backquote:"`",Comma:",",Period:".",Slash:"/"},B.Jm,t.li)
 B.nC=A.a(s(["*","+","-",".","/","0","1","2","3","4","5","6","7","8","9","Alt","AltGraph","ArrowDown","ArrowLeft","ArrowRight","ArrowUp","Clear","Control","Delete","End","Enter","Home","Insert","Meta","PageDown","PageUp","Shift"]),t.s)
@@ -97134,57 +97134,57 @@ B.Hw=A.a(s([54,null,null,8589935158]),t.Z)
 B.Hx=A.a(s([55,null,null,8589935159]),t.Z)
 B.Hy=A.a(s([56,null,null,8589935160]),t.Z)
 B.Hz=A.a(s([57,null,null,8589935161]),t.Z)
-B.HO=A.a(s([8589934852,8589934852,8589934853,null]),t.Z)
+B.HP=A.a(s([8589934852,8589934852,8589934853,null]),t.Z)
 B.H5=A.a(s([4294967555,null,4294967555,null]),t.Z)
 B.H6=A.a(s([4294968065,null,null,8589935154]),t.Z)
 B.H7=A.a(s([4294968066,null,null,8589935156]),t.Z)
 B.H8=A.a(s([4294968067,null,null,8589935158]),t.Z)
 B.H9=A.a(s([4294968068,null,null,8589935160]),t.Z)
 B.He=A.a(s([4294968321,null,null,8589935157]),t.Z)
-B.HP=A.a(s([8589934848,8589934848,8589934849,null]),t.Z)
+B.HQ=A.a(s([8589934848,8589934848,8589934849,null]),t.Z)
 B.H4=A.a(s([4294967423,null,null,8589935150]),t.Z)
 B.Ha=A.a(s([4294968069,null,null,8589935153]),t.Z)
 B.H3=A.a(s([4294967309,null,null,8589935117]),t.Z)
 B.Hb=A.a(s([4294968070,null,null,8589935159]),t.Z)
 B.Hf=A.a(s([4294968327,null,null,8589935152]),t.Z)
-B.HQ=A.a(s([8589934854,8589934854,8589934855,null]),t.Z)
+B.HR=A.a(s([8589934854,8589934854,8589934855,null]),t.Z)
 B.Hc=A.a(s([4294968071,null,null,8589935155]),t.Z)
 B.Hd=A.a(s([4294968072,null,null,8589935161]),t.Z)
-B.HR=A.a(s([8589934850,8589934850,8589934851,null]),t.Z)
-B.tE=new A.o(32,{"*":B.Hg,"+":B.Hh,"-":B.Hi,".":B.Hj,"/":B.Hl,"0":B.Hm,"1":B.Hn,"2":B.Hs,"3":B.Ht,"4":B.Hu,"5":B.Hv,"6":B.Hw,"7":B.Hx,"8":B.Hy,"9":B.Hz,Alt:B.HO,AltGraph:B.H5,ArrowDown:B.H6,ArrowLeft:B.H7,ArrowRight:B.H8,ArrowUp:B.H9,Clear:B.He,Control:B.HP,Delete:B.H4,End:B.Ha,Enter:B.H3,Home:B.Hb,Insert:B.Hf,Meta:B.HQ,PageDown:B.Hc,PageUp:B.Hd,Shift:B.HR},B.nC,A.a4("o<k,u<l?>>"))
+B.HS=A.a(s([8589934850,8589934850,8589934851,null]),t.Z)
+B.tE=new A.o(32,{"*":B.Hg,"+":B.Hh,"-":B.Hi,".":B.Hj,"/":B.Hl,"0":B.Hm,"1":B.Hn,"2":B.Hs,"3":B.Ht,"4":B.Hu,"5":B.Hv,"6":B.Hw,"7":B.Hx,"8":B.Hy,"9":B.Hz,Alt:B.HP,AltGraph:B.H5,ArrowDown:B.H6,ArrowLeft:B.H7,ArrowRight:B.H8,ArrowUp:B.H9,Clear:B.He,Control:B.HQ,Delete:B.H4,End:B.Ha,Enter:B.H3,Home:B.Hb,Insert:B.Hf,Meta:B.HR,PageDown:B.Hc,PageUp:B.Hd,Shift:B.HS},B.nC,A.a4("o<k,u<l?>>"))
 B.J6=A.a(s([B.nK,null,null,B.tq]),t.L)
 B.J7=A.a(s([B.tc,null,null,B.tr]),t.L)
 B.J8=A.a(s([B.td,null,null,B.ts]),t.L)
 B.J9=A.a(s([B.te,null,null,B.js]),t.L)
 B.Ja=A.a(s([B.tf,null,null,B.tt]),t.L)
-B.HZ=A.a(s([B.tg,null,null,B.jt]),t.L)
-B.I_=A.a(s([B.th,null,null,B.ju]),t.L)
-B.I0=A.a(s([B.ti,null,null,B.jv]),t.L)
-B.I1=A.a(s([B.tj,null,null,B.jw]),t.L)
-B.I2=A.a(s([B.tk,null,null,B.jx]),t.L)
-B.I3=A.a(s([B.tl,null,null,B.jy]),t.L)
-B.I4=A.a(s([B.tm,null,null,B.jz]),t.L)
-B.I5=A.a(s([B.tn,null,null,B.jA]),t.L)
+B.I_=A.a(s([B.tg,null,null,B.jt]),t.L)
+B.I0=A.a(s([B.th,null,null,B.ju]),t.L)
+B.I1=A.a(s([B.ti,null,null,B.jv]),t.L)
+B.I2=A.a(s([B.tj,null,null,B.jw]),t.L)
+B.I3=A.a(s([B.tk,null,null,B.jx]),t.L)
+B.I4=A.a(s([B.tl,null,null,B.jy]),t.L)
+B.I5=A.a(s([B.tm,null,null,B.jz]),t.L)
+B.I6=A.a(s([B.tn,null,null,B.jA]),t.L)
 B.Js=A.a(s([B.to,null,null,B.jB]),t.L)
 B.Jt=A.a(s([B.tp,null,null,B.jC]),t.L)
-B.IW=A.a(s([B.cE,B.cE,B.d1,null]),t.L)
+B.IX=A.a(s([B.cE,B.cE,B.d1,null]),t.L)
 B.Ju=A.a(s([B.fL,null,B.fL,null]),t.L)
-B.Id=A.a(s([B.bD,null,null,B.jv]),t.L)
-B.Ie=A.a(s([B.bl,null,null,B.jx]),t.L)
-B.If=A.a(s([B.bm,null,null,B.jz]),t.L)
-B.Iv=A.a(s([B.bE,null,null,B.jB]),t.L)
-B.IQ=A.a(s([B.jp,null,null,B.jy]),t.L)
-B.IX=A.a(s([B.cD,B.cD,B.d0,null]),t.L)
-B.HU=A.a(s([B.aZ,null,null,B.js]),t.L)
-B.Ig=A.a(s([B.cB,null,null,B.ju]),t.L)
+B.Ie=A.a(s([B.bD,null,null,B.jv]),t.L)
+B.If=A.a(s([B.bl,null,null,B.jx]),t.L)
+B.Ig=A.a(s([B.bm,null,null,B.jz]),t.L)
+B.Iw=A.a(s([B.bE,null,null,B.jB]),t.L)
+B.IR=A.a(s([B.jp,null,null,B.jy]),t.L)
+B.IY=A.a(s([B.cD,B.cD,B.d0,null]),t.L)
+B.HV=A.a(s([B.aZ,null,null,B.js]),t.L)
+B.Ih=A.a(s([B.cB,null,null,B.ju]),t.L)
 B.Jc=A.a(s([B.fK,null,null,B.jr]),t.L)
-B.Ih=A.a(s([B.cC,null,null,B.jA]),t.L)
-B.IR=A.a(s([B.jq,null,null,B.jt]),t.L)
-B.IY=A.a(s([B.cF,B.cF,B.d2,null]),t.L)
-B.Ii=A.a(s([B.e8,null,null,B.jw]),t.L)
-B.IS=A.a(s([B.e9,null,null,B.jC]),t.L)
-B.IZ=A.a(s([B.aT,B.aT,B.b_,null]),t.L)
-B.PM=new A.o(32,{"*":B.J6,"+":B.J7,"-":B.J8,".":B.J9,"/":B.Ja,"0":B.HZ,"1":B.I_,"2":B.I0,"3":B.I1,"4":B.I2,"5":B.I3,"6":B.I4,"7":B.I5,"8":B.Js,"9":B.Jt,Alt:B.IW,AltGraph:B.Ju,ArrowDown:B.Id,ArrowLeft:B.Ie,ArrowRight:B.If,ArrowUp:B.Iv,Clear:B.IQ,Control:B.IX,Delete:B.HU,End:B.Ig,Enter:B.Jc,Home:B.Ih,Insert:B.IR,Meta:B.IY,PageDown:B.Ii,PageUp:B.IS,Shift:B.IZ},B.nC,A.a4("o<k,u<h?>>"))
+B.Ii=A.a(s([B.cC,null,null,B.jA]),t.L)
+B.IS=A.a(s([B.jq,null,null,B.jt]),t.L)
+B.IZ=A.a(s([B.cF,B.cF,B.d2,null]),t.L)
+B.Ij=A.a(s([B.e8,null,null,B.jw]),t.L)
+B.IT=A.a(s([B.e9,null,null,B.jC]),t.L)
+B.J_=A.a(s([B.aT,B.aT,B.b_,null]),t.L)
+B.PM=new A.o(32,{"*":B.J6,"+":B.J7,"-":B.J8,".":B.J9,"/":B.Ja,"0":B.I_,"1":B.I0,"2":B.I1,"3":B.I2,"4":B.I3,"5":B.I4,"6":B.I5,"7":B.I6,"8":B.Js,"9":B.Jt,Alt:B.IX,AltGraph:B.Ju,ArrowDown:B.Ie,ArrowLeft:B.If,ArrowRight:B.Ig,ArrowUp:B.Iw,Clear:B.IR,Control:B.IY,Delete:B.HV,End:B.Ih,Enter:B.Jc,Home:B.Ii,Insert:B.IS,Meta:B.IZ,PageDown:B.Ij,PageUp:B.IT,Shift:B.J_},B.nC,A.a4("o<k,u<h?>>"))
 B.tF=new A.BU(0,"baseline")
 B.PN=new A.BU(1,"start")
 B.PO=new A.nX(0,"material")
@@ -97263,7 +97263,7 @@ B.Cu=new A.v(4279983648)
 B.Lb=new A.bC([50,B.De,100,B.D3,200,B.CW,300,B.CS,400,B.CO,500,B.CI,600,B.CF,700,B.CD,800,B.CB,900,B.Cu],t.o)
 B.tJ=new A.kr(B.Lb,4283215696)
 B.aU=new A.cI(0,"hovered")
-B.ap=new A.cI(1,"focused")
+B.aq=new A.cI(1,"focused")
 B.aH=new A.cI(2,"pressed")
 B.tK=new A.cI(3,"dragged")
 B.fU=new A.cI(4,"selected")
@@ -97348,8 +97348,8 @@ B.c2=new A.Fd(1,"down")
 B.FZ=new A.eD(57491,"MaterialIcons",null,!0)
 B.Gh=new A.h7(B.FZ,12,B.n,null,null)
 B.RG=new A.kB(12,B.y,B.aY,"Back",null)
-B.I7=A.a(s([B.Gh,B.RG]),t.p)
-B.RW=new A.vZ(B.a7,B.A,B.aj,B.Q,null,B.c2,null,B.I7,null)
+B.I8=A.a(s([B.Gh,B.RG]),t.p)
+B.RW=new A.vZ(B.a7,B.A,B.aj,B.Q,null,B.c2,null,B.I8,null)
 B.QO=new A.bv(B.F8,B.RW,null)
 B.RF=new A.kB(12,B.y,B.aY,"Clear",null)
 B.Gj=new A.h7(B.n1,12,B.n,null,null)
@@ -97527,7 +97527,7 @@ B.y8=new A.mb("RenderViewport.twoPane")
 B.SF=new A.mb("RenderViewport.excludeFromScrolling")
 B.SG=new A.mb("_InputDecoratorState.prefix")
 B.SH=new A.mb("_InputDecoratorState.suffix")
-B.Lg=new A.bC([B.aJ,null,B.aq,null,B.bZ,null],A.a4("bC<dT,aM>"))
+B.Lg=new A.bC([B.aJ,null,B.ar,null,B.bZ,null],A.a4("bC<dT,aM>"))
 B.SI=new A.de(B.Lg,t.JP)
 B.PI=new A.bC([B.aN,null,B.ck,null,B.h3,null,B.bI,null,B.dg,null],A.a4("bC<iA,aM>"))
 B.SJ=new A.de(B.PI,A.a4("de<iA>"))
@@ -97538,29 +97538,29 @@ B.L4=new A.o(7,{click:null,keyup:null,keydown:null,mouseup:null,mousedown:null,p
 B.SL=new A.de(B.L4,t.XI)
 B.L3=new A.bC([32,null,8203,null],t.Si)
 B.SM=new A.de(B.L3,t.h7)
-B.J0=A.a(s(["click","touchstart","touchend","pointerdown","pointermove","pointerup"]),t.s)
-B.PE=new A.o(6,{click:null,touchstart:null,touchend:null,pointerdown:null,pointermove:null,pointerup:null},B.J0,t.uf)
+B.J1=A.a(s(["click","touchstart","touchend","pointerdown","pointermove","pointerup"]),t.s)
+B.PE=new A.o(6,{click:null,touchstart:null,touchend:null,pointerdown:null,pointermove:null,pointerup:null},B.J1,t.uf)
 B.SN=new A.de(B.PE,t.XI)
-B.L8=new A.bC([B.ap,null],t.sB)
+B.L8=new A.bC([B.aq,null],t.sB)
 B.SO=new A.de(B.L8,t.si)
 B.J5=A.a(s(["canvaskit.js"]),t.s)
 B.PG=new A.o(1,{"canvaskit.js":null},B.J5,t.uf)
 B.SP=new A.de(B.PG,t.XI)
 B.Lv=new A.bC([10,null,11,null,12,null,13,null,133,null,8232,null,8233,null],t.Si)
 B.SQ=new A.de(B.Lv,t.h7)
-B.IJ=A.a(s([]),A.a4("x<cI>"))
-B.Pz=new A.o(0,{},B.IJ,A.a4("o<cI,aM>"))
+B.IK=A.a(s([]),A.a4("x<cI>"))
+B.Pz=new A.o(0,{},B.IK,A.a4("o<cI,aM>"))
 B.SS=new A.de(B.Pz,t.si)
-B.IK=A.a(s([]),t.r6)
-B.PA=new A.o(0,{},B.IK,A.a4("o<dT,aM>"))
+B.IL=A.a(s([]),t.r6)
+B.PA=new A.o(0,{},B.IL,A.a4("o<dT,aM>"))
 B.SR=new A.de(B.PA,t.JP)
 B.Jd=A.a(s(["mailto","tel","sms"]),t.s)
 B.PK=new A.o(3,{mailto:null,tel:null,sms:null},B.Jd,t.uf)
 B.ST=new A.de(B.PK,t.XI)
 B.Lq=new A.bC([B.aH,null],t.sB)
 B.SU=new A.de(B.Lq,t.si)
-B.I6=A.a(s(["serif","sans-serif","monospace","cursive","fantasy","system-ui","math","emoji","fangsong"]),t.s)
-B.Li=new A.o(9,{serif:null,"sans-serif":null,monospace:null,cursive:null,fantasy:null,"system-ui":null,math:null,emoji:null,fangsong:null},B.I6,t.uf)
+B.I7=A.a(s(["serif","sans-serif","monospace","cursive","fantasy","system-ui","math","emoji","fangsong"]),t.s)
+B.Li=new A.o(9,{serif:null,"sans-serif":null,monospace:null,cursive:null,fantasy:null,"system-ui":null,math:null,emoji:null,fangsong:null},B.I7,t.uf)
 B.SV=new A.de(B.Li,t.XI)
 B.L6=new A.bC([B.bG,null,B.tX,null,B.tY,null],A.a4("bC<ju,aM>"))
 B.kb=new A.de(B.L6,A.a4("de<ju>"))
@@ -97780,13 +97780,13 @@ B.X_=new A.B(!1,null,null,null,null,null,45,B.y,null,null,null,B.aO,null,null,nu
 B.Vb=new A.B(!1,null,null,null,null,null,40,B.y,null,null,null,B.aO,null,null,null,null,null,null,null,null,null,"dense headlineLarge 2014",null,null,null,null)
 B.Xk=new A.B(!1,null,null,null,null,null,34,B.y,null,null,null,B.aO,null,null,null,null,null,null,null,null,null,"dense headlineMedium 2014",null,null,null,null)
 B.Vl=new A.B(!1,null,null,null,null,null,24,B.y,null,null,null,B.aO,null,null,null,null,null,null,null,null,null,"dense headlineSmall 2014",null,null,null,null)
-B.XJ=new A.B(!1,null,null,null,null,null,21,B.ax,null,null,null,B.aO,null,null,null,null,null,null,null,null,null,"dense titleLarge 2014",null,null,null,null)
+B.XJ=new A.B(!1,null,null,null,null,null,21,B.ao,null,null,null,B.aO,null,null,null,null,null,null,null,null,null,"dense titleLarge 2014",null,null,null,null)
 B.UU=new A.B(!1,null,null,null,null,null,17,B.y,null,null,null,B.aO,null,null,null,null,null,null,null,null,null,"dense titleMedium 2014",null,null,null,null)
-B.UW=new A.B(!1,null,null,null,null,null,15,B.ax,null,null,null,B.aO,null,null,null,null,null,null,null,null,null,"dense titleSmall 2014",null,null,null,null)
-B.W5=new A.B(!1,null,null,null,null,null,15,B.ax,null,null,null,B.aO,null,null,null,null,null,null,null,null,null,"dense bodyLarge 2014",null,null,null,null)
+B.UW=new A.B(!1,null,null,null,null,null,15,B.ao,null,null,null,B.aO,null,null,null,null,null,null,null,null,null,"dense titleSmall 2014",null,null,null,null)
+B.W5=new A.B(!1,null,null,null,null,null,15,B.ao,null,null,null,B.aO,null,null,null,null,null,null,null,null,null,"dense bodyLarge 2014",null,null,null,null)
 B.VR=new A.B(!1,null,null,null,null,null,15,B.y,null,null,null,B.aO,null,null,null,null,null,null,null,null,null,"dense bodyMedium 2014",null,null,null,null)
 B.Vx=new A.B(!1,null,null,null,null,null,13,B.y,null,null,null,B.aO,null,null,null,null,null,null,null,null,null,"dense bodySmall 2014",null,null,null,null)
-B.VD=new A.B(!1,null,null,null,null,null,15,B.ax,null,null,null,B.aO,null,null,null,null,null,null,null,null,null,"dense labelLarge 2014",null,null,null,null)
+B.VD=new A.B(!1,null,null,null,null,null,15,B.ao,null,null,null,B.aO,null,null,null,null,null,null,null,null,null,"dense labelLarge 2014",null,null,null,null)
 B.WM=new A.B(!1,null,null,null,null,null,12,B.y,null,null,null,B.aO,null,null,null,null,null,null,null,null,null,"dense labelMedium 2014",null,null,null,null)
 B.UL=new A.B(!1,null,null,null,null,null,11,B.y,null,null,null,B.aO,null,null,null,null,null,null,null,null,null,"dense labelSmall 2014",null,null,null,null)
 B.Y1=new A.eT(B.Wy,B.Vd,B.X_,B.Vb,B.Xk,B.Vl,B.XJ,B.UU,B.UW,B.W5,B.VR,B.Vx,B.VD,B.WM,B.UL)
@@ -97845,13 +97845,13 @@ B.Wq=new A.B(!1,null,null,null,null,null,45,B.y,null,null,null,B.L,null,null,nul
 B.Xc=new A.B(!1,null,null,null,null,null,40,B.y,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"englishLike headlineLarge 2014",null,null,null,null)
 B.WS=new A.B(!1,null,null,null,null,null,34,B.y,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"englishLike headlineMedium 2014",null,null,null,null)
 B.UR=new A.B(!1,null,null,null,null,null,24,B.y,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"englishLike headlineSmall 2014",null,null,null,null)
-B.VJ=new A.B(!1,null,null,null,null,null,20,B.ax,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"englishLike titleLarge 2014",null,null,null,null)
+B.VJ=new A.B(!1,null,null,null,null,null,20,B.ao,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"englishLike titleLarge 2014",null,null,null,null)
 B.V9=new A.B(!1,null,null,null,null,null,16,B.y,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"englishLike titleMedium 2014",null,null,null,null)
-B.WW=new A.B(!1,null,null,null,null,null,14,B.ax,null,0.1,null,B.L,null,null,null,null,null,null,null,null,null,"englishLike titleSmall 2014",null,null,null,null)
-B.WD=new A.B(!1,null,null,null,null,null,14,B.ax,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"englishLike bodyLarge 2014",null,null,null,null)
+B.WW=new A.B(!1,null,null,null,null,null,14,B.ao,null,0.1,null,B.L,null,null,null,null,null,null,null,null,null,"englishLike titleSmall 2014",null,null,null,null)
+B.WD=new A.B(!1,null,null,null,null,null,14,B.ao,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"englishLike bodyLarge 2014",null,null,null,null)
 B.WI=new A.B(!1,null,null,null,null,null,14,B.y,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"englishLike bodyMedium 2014",null,null,null,null)
 B.W6=new A.B(!1,null,null,null,null,null,12,B.y,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"englishLike bodySmall 2014",null,null,null,null)
-B.W9=new A.B(!1,null,null,null,null,null,14,B.ax,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"englishLike labelLarge 2014",null,null,null,null)
+B.W9=new A.B(!1,null,null,null,null,null,14,B.ao,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"englishLike labelLarge 2014",null,null,null,null)
 B.VT=new A.B(!1,null,null,null,null,null,12,B.y,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"englishLike labelMedium 2014",null,null,null,null)
 B.X6=new A.B(!1,null,null,null,null,null,10,B.y,null,1.5,null,B.L,null,null,null,null,null,null,null,null,null,"englishLike labelSmall 2014",null,null,null,null)
 B.Y5=new A.eT(B.V4,B.XQ,B.Wq,B.Xc,B.WS,B.UR,B.VJ,B.V9,B.WW,B.WD,B.WI,B.W6,B.W9,B.VT,B.X6)
@@ -97879,7 +97879,7 @@ B.Vz=new A.B(!1,null,null,null,null,null,34,B.y,null,null,null,B.L,null,null,nul
 B.Vu=new A.B(!1,null,null,null,null,null,24,B.y,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"tall headlineSmall 2014",null,null,null,null)
 B.XU=new A.B(!1,null,null,null,null,null,21,B.bT,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"tall titleLarge 2014",null,null,null,null)
 B.VF=new A.B(!1,null,null,null,null,null,17,B.y,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"tall titleMedium 2014",null,null,null,null)
-B.XY=new A.B(!1,null,null,null,null,null,15,B.ax,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"tall titleSmall 2014",null,null,null,null)
+B.XY=new A.B(!1,null,null,null,null,null,15,B.ao,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"tall titleSmall 2014",null,null,null,null)
 B.XO=new A.B(!1,null,null,null,null,null,15,B.bT,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"tall bodyLarge 2014",null,null,null,null)
 B.VU=new A.B(!1,null,null,null,null,null,15,B.y,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"tall bodyMedium 2014",null,null,null,null)
 B.X4=new A.B(!1,null,null,null,null,null,13,B.y,null,null,null,B.L,null,null,null,null,null,null,null,null,null,"tall bodySmall 2014",null,null,null,null)
@@ -98172,8 +98172,8 @@ B.a_A=new A.x5(0,"inside")
 B.a_B=new A.x5(1,"higher")
 B.a_C=new A.x5(2,"lower")
 B.DP=new A.v(67108864)
-B.HM=A.a(s([B.DP,B.P]),t.t_)
-B.a_D=new A.jQ(B.HM)
+B.HN=A.a(s([B.DP,B.P]),t.t_)
+B.a_D=new A.jQ(B.HN)
 B.a_E=new A.jQ(null)
 B.kM=new A.my(0,"backButton")
 B.kN=new A.my(1,"nextButton")
@@ -98374,7 +98374,7 @@ $.yn=null
 $.Jn=null
 $.Jo=null
 $.aG6=!1
-$.aj=B.av
+$.aj=B.aw
 $.th=A.a([],t.f)
 $.aMf=null
 $.aMg=null
@@ -98592,7 +98592,7 @@ s($,"b9S","aS6",()=>A.aX7($.aHn()))
 r($,"baz","dB",()=>A.aV9(A.aVh(self.window)))
 s($,"baJ","cd",()=>A.aVH(0,$.bj()))
 s($,"b5q","a2N",()=>A.aOF("_$dart_dartClosure"))
-s($,"bas","aD4",()=>B.av.h1(new A.aCj()))
+s($,"bas","aD4",()=>B.aw.h1(new A.aCj()))
 s($,"b7g","aQt",()=>A.mp(A.aqu({
 toString:function(){return"$receiver$"}})))
 s($,"b7h","aQu",()=>A.mp(A.aqu({$method$:null,
@@ -98685,9 +98685,9 @@ s($,"b84","aR_",()=>A.aUi(B.P,B.Cd))
 s($,"bab","aHt",()=>new A.VN())
 s($,"b88","aR1",()=>A.i5(0.75,1,t.i))
 s($,"b89","aR2",()=>A.h3(B.Yi))
-s($,"b6c","aPZ",()=>A.h3(B.aw))
+s($,"b6c","aPZ",()=>A.h3(B.ax))
 s($,"b6d","aQ_",()=>A.h3(B.Gz))
-r($,"b7d","aQq",()=>new A.T9(new A.aq3(),A.bM()===B.aq))
+r($,"b7d","aQq",()=>new A.T9(new A.aq3(),A.bM()===B.ar))
 s($,"b8m","aRc",()=>{var q=t.i
 return A.a([A.aLZ(A.i5(0,0.4,q).ip(A.h3(B.DS)),0.166666,q),A.aLZ(A.i5(0.4,1,q).ip(A.h3(B.DV)),0.833334,q)],A.a4("x<wS<a1>>"))})
 s($,"b8l","a2S",()=>A.aZz($.aRc(),t.i))
@@ -98897,7 +98897,7 @@ s($,"b9r","aRR",()=>A.at('"(?:[^"\\x00-\\x1F\\x7F]|\\\\.)*"',!0,!1,!1))
 s($,"b9q","aRQ",()=>A.at("\\\\(.)",!0,!1,!1))
 s($,"baq","aSj",()=>A.at('[()<>@,;:"\\\\/\\[\\]?={} \\t\\x00-\\x1F\\x7F]',!0,!1,!1))
 s($,"baI","aSp",()=>A.at("(?:"+$.aRP().a+")*",!0,!1,!1))
-r($,"bae","aSe",()=>new A.Mf("en_US",B.HK,B.Ji,B.ni,B.ni,B.nh,B.nh,B.nf,B.nf,B.np,B.np,B.nm,B.nm,B.I8,B.HH))
+r($,"bae","aSe",()=>new A.Mf("en_US",B.HK,B.Ji,B.ni,B.ni,B.nh,B.nh,B.nf,B.nf,B.np,B.np,B.nm,B.nm,B.I9,B.HH))
 r($,"b8E","aHa",()=>A.aM0("initializeDateFormatting(<locale>)",$.aSe(),A.a4("Mf")))
 r($,"ba9","aHs",()=>A.aM0("initializeDateFormatting(<locale>)",B.PH,t.GU))
 s($,"ba_","aHq",()=>48)
@@ -98941,7 +98941,7 @@ s($,"b4R","tm",()=>new A.a3u())
 r($,"b4S","a2M",()=>A.aVM(A.aVT()))
 r($,"b4T","aPr",()=>new A.AG($.a2M(),A.p(A.a4("eE<@>"),A.a4("cs<b6P>"))))
 s($,"b5i","aPH",()=>B.b.f8(B.HF,new A.a5T(),A.a4("pJ")).ci(0))
-s($,"b6E","yt",()=>B.b.f8(B.J4,new A.aiQ(),A.a4("iB")).ci(0))
+s($,"b6E","yt",()=>B.b.f8(B.HM,new A.aiQ(),A.a4("iB")).ci(0))
 s($,"b7t","aQE",()=>{var q,p,o,n,m,l=null,k=A.b3Y('  {\n  "type": "service_account",\n  "project_id": "myproject-273513",\n  "private_key_id": "9230698534b49016c0b43eafaf35280820926e90",\n  "private_key": "-----BEGIN PRIVATE KEY-----\\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQDNEl5Q3W5PVtMu\\nI6IqJY0HSao9TRBlwhB7XpgGVGyXX95Nq0K8ARHXil5zPiUB8biL4w7AxAricTDa\\n6B3amajKvkFNdsQ9aAe0fmDyScV6zXzktCD1DZqoSF+7dRSNwcA0uB4jGGM4v2Df\\nRQgR3fDarjn4ZEsOowPMY3ugevyzO61U6QRfg+Rl0OTQFaAni+kx4kIYCQoU9c3L\\nTErxyp7eEsg4gPXHd3FwY75ZcSFd7px2lX2IXZrtrb2i+CgvvKnCMw3aC/yaRn1P\\ntGndjUGy/+ERXrxvmNlDxE2fW4DTlkdk6xYZItUjO/XlZssF9jXIVfOcCLUcLvNK\\ngiMwc8N5AgMBAAECgf9VR0OGx+O3hUO3TC+Dl1oDoylIP2Pc7SGC1t4hbmTkuNlD\\n3emX2loGaA7JncOGAMndt5kgUGYLr0ZsbK+oLX4j0Y/BHEKUcU5toKBwISgeM+sG\\nsGGEMRlqIa6t0GJbu4FSaxPH7xGpPOyWlv5kGlyuk6/yZhf7COSWJPNO09Ys3Jro\\n6EwS3TeduHCCg/Fy0xZGH3/WzMDcB1BVXL9IE3Izw0Xo2J95pZ0p4h4WCMbv1B5s\\nRaeDTtbmmnt0Y64D5Z0eRggCwGSj3e1eXg67YP/2Ya8hB66b/6XNcZ6mm21WugUD\\neCN8es0WdvEJXdqFkFQyAStJ5RQ5bv3WzZgMLdECgYEA7V+MS1tFbUFPj/0aHiDn\\ntJrjfRuqnC48xwDckrP9R+7iVjLv9Vdv7VPvmXmf0XqGgX8a4HMoatSqRhlhUXSm\\njzGUDDzcJ6IXuybxWOtmpByuc8qJs37Fx2ivgh8jpRluZ06W5cfd9M543o0TDgs0\\nI6dfzo6R369FH5ScjOu1bpECgYEA3SnvT/TtTwL9PWz900Vr6QF/w/mLmICL7CuA\\n3BDwXJPo3Wr6bfrz9sozJHJwjS1lxGTatz/7VERvdWTTVZuKa+MnHPwxkOWFqqXm\\nNkfFROUOccKPWioz8StRgAa8h8sFDBjCo6ZARxHkyWPPV9mXcjHLSVHYJDF3le+A\\njOibymkCgYB39bGQ469SZ48t1Vs9nqN6Qkx1DWZLR5Kvf1/5Q7zcfX0k0tkxw95s\\nsd6EUVLTKniPOQz8ITZrxs3GX00vPSRveT64cIlR/ji//A48Qbq9dUE0g0bTz11k\\nSSNpPxNkfFWvH6hit38UGMQ8tE7M6hyPaCai3KobwRfNvezfyr8GAQKBgARFtRvE\\nTXlDQ4UWP+j+5FDB+KfegDXX9dwAEyMtKJeBO/RbBq9tM51G1qoTk90GTXr3v8ne\\ncIp2L/kCk5qJwKjI4I6MyKBV7rkXL1VJGaR1EExeR8qkGhDEl3RzrNyqrVRIfioP\\nIhq9W8AQL4cw6t4H3Dd0X0qDsh2xXLhcHfZRAoGBAL820CJ36L/B7U5quPjA+xMQ\\nCR4Tc931MEVhwIpiEtE+twJn2L+OGsLkdNMc0Xi+9vWssKw+cBWrLOgvk4qKntOI\\nGP8796R4m3RkiHjp2zxvnlY92Yf0vsqvmwh9jCcEKpKO75T09YeBfRMjHFPWBfOq\\ntv+h46mVT6bz5a3sn6I0\\n-----END PRIVATE KEY-----\\n",\n  "client_email": "thedevinterview@myproject-273513.iam.gserviceaccount.com",\n  "client_id": "108287788847660212976",\n  "auth_uri": "https://accounts.google.com/o/oauth2/auth",\n  "token_uri": "https://oauth2.googleapis.com/token",\n  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",\n  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/thedevinterview%40myproject-273513.iam.gserviceaccount.com"\n}\n  \n  ')
 if(!t.G.b(k))A.N(A.b7("json must be a Map or a String encoding a Map.",l))
 q=J.aa(k)
