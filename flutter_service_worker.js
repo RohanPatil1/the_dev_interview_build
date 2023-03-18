@@ -17,11 +17,11 @@ const RESOURCES = {
 "splash/style.css": "c7a4cbc4f9b4c51264c57bdffbb83f48",
 "safari-pinned-tab.svg": "e89975102df75fe39bf3dea260df71a4",
 "favicon.ico": "0806bf57a00de1e99aaf6fb80757cb09",
-"index.html": "856c8cded773333202695278c43f3947",
-"/": "856c8cded773333202695278c43f3947",
+"index.html": "9f8c1459476896fa6de4775ebf83236e",
+"/": "9f8c1459476896fa6de4775ebf83236e",
 "android-chrome-192x192.png": "ac95c0fa34df4965c5bad07babad6a8a",
 "apple-touch-icon.png": "7995031b019f754ce59893f159d5f23e",
-"main.dart.js": "cd4beb94cf0200150d16561205cfb2d3",
+"main.dart.js": "cc538c1fd36f0de98f19b0422422910a",
 "flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
 "android-chrome-512x512.png": "1d886144dbb209b1f4b857805a9063aa",
 "site.webmanifest": "16ce9348ed8042c80163269502e90f4f",
@@ -58,8 +58,6 @@ const RESOURCES = {
 "browserconfig.xml": "ee4194d2187c8df1a2601077fa52ff5e",
 "favicon-32x32.png": "ce5c9064e97fe3b59e7bb13aa547cf84",
 "canvaskit/canvaskit.js": "1338eccfe817956d34753284f2b1cdf6",
-"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
-"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
 "canvaskit/canvaskit.wasm": "78daff025a185d11c6a08349e295f9eb"
 };
 
